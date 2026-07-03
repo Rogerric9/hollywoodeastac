@@ -5,7 +5,8 @@ const inventory = [
     description: "A signed 8x10 B&W photo of Jimmy Stewart",
     price: "29.99",
     image_filename: "hea-0001.jpg",
-    product_page: "products/hea-0001.html"
+    product_page: "products/hea-0001.html",
+    status: ""
   },
   {
     product_id: "HEA-0002",
@@ -13,6 +14,7 @@ const inventory = [
     description: "A Bob Dylan signed crd mounted with color photo",
     price: "79.99",
     image_filename: "hea-0002.jpg",
-    product_page: "products/hea-0002.html"
+    product_page: "products/hea-0002.html",
+    status: ""
   }
 ];
