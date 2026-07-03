@@ -83,16 +83,23 @@ if (window.paypal) {
       });
     },
 
-    onApprove: function(data, actions) {
-      return actions.order.capture().then(function(details) {
-        alert("Payment completed. Thank you!");
+ onApprove: function(data, actions) {
+  console.log("PayPal payment approved.");
 
-        cart = [];
-        localStorage.setItem("cart", JSON.stringify(cart));
+  return actions.order.capture().then(function(details) {
+    console.log("PayPal payment captured.", details);
 
-        displayCart();
-      });
-    }
+    alert("Payment completed. Thank you!");
+
+    cart = [];
+    localStorage.removeItem("cart");
+
+    displayCart();
+
+    document.getElementById("paypal-button-container").innerHTML = "";
+  });
+}
+
   }).render("#paypal-button-container");
 } else {
   console.error("PayPal SDK did not load.");
