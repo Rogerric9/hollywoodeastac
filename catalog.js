@@ -64,10 +64,13 @@ availableProducts.forEach(product => {
       <img src="images/${product.image_filename}" alt="${product.name}">
       <h2>${product.name}</h2>
       <p>$${product.price}</p>
-      <a href="${product.product_page}">View Details</a>
-      <button class="add-to-cart" data-product-id="${product.product_id}">
+        <a class="view-button" href="${product.product_page}">
+        View Details
+        </a>
+
+        <button class="add-to-cart" data-product-id="${product.product_id}">
         Add to Cart
-      </button>
+        </button>
     </div>
   `;
 });

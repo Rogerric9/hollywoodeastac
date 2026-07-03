@@ -92,9 +92,20 @@ nav a:hover {
 
 /* Catalog shopping-cart display */
 
+.catalog-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.catalog-header-row h2 {
+  margin: 0;
+}
+
 .cart-display {
+  margin: 0;
   text-align: right;
-  padding-right: 20vw;
   box-sizing: border-box;
 }
 
@@ -193,4 +204,20 @@ nav a:hover {
     text-align: center;
     padding-right: 0;
   }
+}
+#additional-images-gallery {
+  margin-top: 24px;
+}
+
+.additional-product-image {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  background-color: #f5f5f5;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  margin: 8px;
+}
+.add-to-cart {
+  margin-top: 10px;
 }

@@ -13,7 +13,7 @@ const inventory = [
     product_id: "HEA-0002",
     name: "Bob Dylan Signed Card",
     category: "music",
-    description: "A Bob Dylan signed crd mounted with color photo",
+    description: "A Bob Dylan signed card mounted with color photo",
     price: "79.99",
     image_filename: "hea-0002.jpg",
     product_page: "products/hea-0002.html",

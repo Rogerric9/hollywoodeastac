@@ -2,6 +2,7 @@ let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 const cartItems = document.getElementById("cart-items");
 const cartTotal = document.getElementById("cart-total");
+const paypalButtonContainer = document.getElementById("paypal-button-container");
 
 function calculateCartTotal() {
   let total = 0;
@@ -20,13 +21,15 @@ function calculateCartTotal() {
 function displayCart() {
   cartItems.innerHTML = "";
 
-  if (cart.length === 0) {
-    cartItems.innerHTML = "<p>Your cart is empty.</p>";
-    cartTotal.textContent = "0.00";
+ if (cart.length === 0) {
+  cartItems.innerHTML = "<p>Your cart is empty.</p>";
+  cartTotal.textContent = "0.00";
+  paypalButtonContainer.style.display = "none";
 
-    return;
-  }
+  return;
+}
 
+paypalButtonContainer.style.display = "block";
   let total = 0;
 
   cart.forEach(productId => {
