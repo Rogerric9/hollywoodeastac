@@ -123,3 +123,8 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
 }
+.cart-display {
+  text-align: right;
+  padding-right: 20vw;
+  box-sizing: border-box;
+}
