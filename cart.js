@@ -81,6 +81,17 @@ if (window.paypal) {
           }
         ]
       });
+    },
+
+    onApprove: function(data, actions) {
+      return actions.order.capture().then(function(details) {
+        alert("Payment completed. Thank you!");
+
+        cart = [];
+        localStorage.setItem("cart", JSON.stringify(cart));
+
+        displayCart();
+      });
     }
   }).render("#paypal-button-container");
 } else {
