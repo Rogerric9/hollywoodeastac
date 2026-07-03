@@ -2,7 +2,20 @@ let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 const cartItems = document.getElementById("cart-items");
 const cartTotal = document.getElementById("cart-total");
-const checkoutButton = document.getElementById("checkout-button");
+
+function calculateCartTotal() {
+  let total = 0;
+
+  cart.forEach(productId => {
+    const product = inventory.find(item => item.product_id === productId);
+
+    if (product) {
+      total += Number(product.price);
+    }
+  });
+
+  return total;
+}
 
 function displayCart() {
   cartItems.innerHTML = "";
@@ -10,11 +23,9 @@ function displayCart() {
   if (cart.length === 0) {
     cartItems.innerHTML = "<p>Your cart is empty.</p>";
     cartTotal.textContent = "0.00";
-    checkoutButton.disabled = true;
+
     return;
   }
-
-  checkoutButton.disabled = false;
 
   let total = 0;
 
@@ -50,3 +61,28 @@ function displayCart() {
 }
 
 displayCart();
+
+if (window.paypal) {
+  paypal.Buttons({
+    createOrder: function(data, actions) {
+      const total = calculateCartTotal();
+
+      if (total <= 0) {
+        alert("Your cart is empty.");
+        return;
+      }
+
+      return actions.order.create({
+        purchase_units: [
+          {
+            amount: {
+              value: total.toFixed(2)
+            }
+          }
+        ]
+      });
+    }
+  }).render("#paypal-button-container");
+} else {
+  console.error("PayPal SDK did not load.");
+}
