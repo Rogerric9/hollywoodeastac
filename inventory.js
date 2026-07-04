@@ -1,6 +1,7 @@
 const inventory = [
   {
     product_id: "HEA-0001",
+    type: "autograph",
     name: "Jimmy Stewart Signed 8x10 Photo",
     category: "actor",
     description: "A signed 8x10 B&W photo of Jimmy Stewart",
@@ -11,6 +12,7 @@ const inventory = [
   },
   {
     product_id: "HEA-0002",
+    type: "autograph",
     name: "Bob Dylan Signed Card",
     category: "music",
     description: "A Bob Dylan signed card mounted with color photo",

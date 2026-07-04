@@ -6,8 +6,10 @@ inventory.forEach(product => {
   const category = product.category?.trim();
   const isAvailable =
     !product.status || product.status.trim().toLowerCase() !== "sold";
+  const isAutograph =
+    product.type && product.type.trim().toLowerCase() === "autograph";
 
-  if (category && isAvailable) {
+  if (category && isAvailable && isAutograph) {
     const key = category.toLowerCase();
 
     if (!categoryMap.has(key)) {
@@ -27,12 +29,12 @@ categories.sort((a, b) =>
 );
 
 categoryDropdown.innerHTML = `
-  <a href="catalog.html">All Categories</a>
+  <a href="catalog.html?type=autograph">All Autographs</a>
 `;
 
 categories.forEach(category => {
   categoryDropdown.innerHTML += `
-    <a href="catalog.html?category=${encodeURIComponent(category)}">
+    <a href="catalog.html?type=autograph&category=${encodeURIComponent(category)}">
       ${category}
     </a>
   `;
