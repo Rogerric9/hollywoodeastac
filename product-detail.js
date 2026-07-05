@@ -125,3 +125,4 @@ if (!product) {
 
     localStorage.setItem("cart", JSON.stringify(cart));
   });
+}
