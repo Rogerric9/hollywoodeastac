@@ -6,7 +6,7 @@ const inventory = [
     category: "actor",
     description: "A signed 8x10 B&W photo of Jimmy Stewart",
     price: "29.99",
-    product_page: "products/hea-0001.html",
+    product_page: "products/product.html?id=HEA-0001",
     status: ""
   },
   {
@@ -16,7 +16,7 @@ const inventory = [
     category: "music",
     description: "A Bob Dylan signed card mounted with color photo",
     price: "79.99",
-    product_page: "products/hea-0002.html",
+    product_page: "products/product.html?id=HEA-0002",
     status: ""
   },
   {
@@ -26,7 +26,7 @@ const inventory = [
   name: "Popeye Watch",
   description: "Official Fossil Limited Edition Popeye Watch",
   price: "20.00",
-  product_page: "products/hec-0001.html",
+  product_page: "products/product.html?id=HEC-0001",
   status: ""
 }
 ];

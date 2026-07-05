@@ -1,4 +1,5 @@
-const productId = document.body.dataset.productId;
+const urlParameters = new URLSearchParams(window.location.search);
+const productId = urlParameters.get("id") || document.body.dataset.productId;
 
 console.log("Product ID:", productId);
 
