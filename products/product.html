@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<body data-product-id="HEA-0001"></body>
+<body>
 
   <header>
     <h1>Hollywood East Autographs & Collectibles</h1>
@@ -21,45 +21,44 @@
   </header>
 
   <main>
-    <section class="product-detail">
-      <div class="product-image">
-        <img src="../images/hea-0001.jpg"
-             alt="Sample autographed photograph">
-      </div>
+  <section class="product-detail">
 
-      <div class="product-information">
-        <h2>Sample Signed Photograph</h2>
+    <div class="product-image-viewer">
+      <button id="previous-image" class="image-arrow" type="button">&#10094;</button>
 
-        <p class="product-number">Product No. HEA-0001</p>
+      <img id="main-product-image"
+           src=""
+           alt="Product image">
 
-        <p class="product-price">$49.95</p>
-        <div id="extra-product-details"></div>
-        <div id="additional-images-gallery"></div>
-       <div>
-        <style>.pp-BEUCDNTH8SXGU{text-align:center;border:none;border-radius:0.25rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-        <form action="https://www.paypal.com/ncp/payment/BEUCDNTH8SXGU" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-            <input class="pp-BEUCDNTH8SXGU" type="submit" value="Buy Now" />
-            <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" />
-            <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-        </form>
-        </div>
-        <p>
-          This is a temporary sample product used to develop the Hollywood East
-          autograph catalog.
-        </p>
+      <button id="next-image" class="image-arrow" type="button">&#10095;</button>
+    </div>
 
-        <p><strong>Item type:</strong> Signed photograph</p>
-        <p><strong>Size:</strong> 8 × 10 inches</p>
-        <p><strong>Condition:</strong> Very good</p>
-        <p><strong>Availability:</strong> Available</p>
+    <div class="product-information">
+      <h2 id="product-name"></h2>
 
-        <p>
-          <a class="back-link" href="../catalog.html">Return to Catalog</a>
-        </p>
-      </div>
-    </section>
-  </main>
+      <p id="product-number" class="product-number"></p>
 
+      <p id="product-price" class="product-price"></p>
+
+      <div id="product-description"></div>
+
+      <div id="product-authentication"></div>
+
+      <div id="product-condition"></div>
+
+      <div id="product-miscellaneous"></div>
+
+      <button id="add-to-cart-button" type="button">
+        Add to Cart
+      </button>
+
+      <p>
+        <a class="back-link" href="../catalog.html">Return to Catalog</a>
+      </p>
+    </div>
+
+  </section>
+</main>
   <footer>
     <p>&copy; 2026 Hollywood East Autographs & Collectibles</p>
   </footer>
