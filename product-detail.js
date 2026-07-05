@@ -90,3 +90,23 @@ if (details && details.full_description) {
     });
   }
 }
+if (details && details.authentication_info) {
+  extraDetails.innerHTML += `
+    <h3>Authentication</h3>
+    <p>${details.authentication_info}</p>
+  `;
+}
+
+if (details && details.condition_notes) {
+  extraDetails.innerHTML += `
+    <h3>Condition</h3>
+    <p>${details.condition_notes}</p>
+  `;
+}
+
+if (details && details.miscellaneous) {
+  extraDetails.innerHTML += `
+    <h3>Miscellaneous</h3>
+    <p>${details.miscellaneous}</p>
+  `;
+}

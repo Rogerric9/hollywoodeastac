@@ -12,16 +12,16 @@ const productDetails = [
         "This is the first temporary test paragraph for HEA-0001.",
         "This is the second temporary test paragraph. It shows how longer descriptions can be broken into readable sections."
     ],
-    authentication_info: "",
-    condition_notes: "",
+    authentication_info: "Beckett (pending)",
+    condition_notes: "Excellent condition",
     miscellaneous: ""
   },
   {
     product_id: "HEA-0002",
     product_images: ["images/hea-0002.jpg"],
     full_description: [],
-    authentication_info: "",
-    condition_notes: "",
+    authentication_info: "Steve Grad",
+    condition_notes: "Good",
     miscellaneous: ""
   },
   {
@@ -30,8 +30,8 @@ const productDetails = [
   full_description: [
     "This is a temporary test description for the collectible item."
   ],
-  authentication_info: "",
-  condition_notes: "",
-  miscellaneous: ""
+  authentication_info: "Toy Certifiers, Inc.",
+  condition_notes: "Acceptible",
+  miscellaneous: "Some"
 }
 ];
