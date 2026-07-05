@@ -4,6 +4,31 @@ const cartItems = document.getElementById("cart-items");
 const cartTotal = document.getElementById("cart-total");
 const paypalButtonContainer = document.getElementById("paypal-button-container");
 
+function normalizeCart() {
+  cart = cart
+    .map(cartItem => {
+      if (typeof cartItem === "string") {
+        const product = inventory.find(item => item.product_id === cartItem);
+
+        if (!product) {
+          return null;
+        }
+
+        return {
+          product_id: product.product_id,
+          name: product.name,
+          price: product.price,
+          quantity: 1
+        };
+      }
+
+      return cartItem;
+    })
+    .filter(cartItem => cartItem !== null);
+
+  localStorage.setItem("cart", JSON.stringify(cart));
+}
+
 function calculateCartTotal() {
   let total = 0;
 
@@ -15,6 +40,8 @@ function calculateCartTotal() {
 }
 
 function displayCart() {
+  normalizeCart();
+
   cartItems.innerHTML = "";
 
   if (cart.length === 0) {
@@ -27,21 +54,21 @@ function displayCart() {
   paypalButtonContainer.style.display = "block";
 
   cart.forEach(cartItem => {
-        cartItems.innerHTML += `
-        <div class="cart-item">
-            <p><strong>${cartItem.name}</strong></p>
+    cartItems.innerHTML += `
+      <div class="cart-item">
+        <p><strong>${cartItem.name}</strong></p>
 
-            <p>Product No. ${cartItem.product_id}</p>
+        <p>Product No. ${cartItem.product_id}</p>
 
-            <p>Price: $${cartItem.price}</p>
+        <p>Price: $${cartItem.price}</p>
 
-            <p>Quantity: ${cartItem.quantity}</p>
+        <p>Quantity: ${cartItem.quantity}</p>
 
-            <button class="remove-item" data-product-id="${cartItem.product_id}">
-            Remove
-            </button>
-        </div>
-        `;
+        <button class="remove-item" data-product-id="${cartItem.product_id}">
+          Remove
+        </button>
+      </div>
+    `;
   });
 
   cartTotal.textContent = calculateCartTotal().toFixed(2);
