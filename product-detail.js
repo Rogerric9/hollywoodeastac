@@ -100,10 +100,18 @@ if (!product) {
   addToCartButton.addEventListener("click", () => {
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
+    const quantityAvailable = product.quantity_available || 1;
+
     const existingCartItem = cart.find(item => item.product_id === product.product_id);
 
     if (existingCartItem) {
-      existingCartItem.quantity += 1;
+      if (existingCartItem.quantity < quantityAvailable) {
+        existingCartItem.quantity += 1;
+        alert(`${product.name} has been added to your cart.`);
+      } else {
+        alert("This item is already in your cart.");
+        return;
+      }
     } else {
       cart.push({
         product_id: product.product_id,
@@ -111,11 +119,9 @@ if (!product) {
         price: product.price,
         quantity: 1
       });
+
+      alert(`${product.name} has been added to your cart.`);
     }
 
     localStorage.setItem("cart", JSON.stringify(cart));
-
-    alert(`${product.name} has been added to your cart.`);
-
   });
-}
