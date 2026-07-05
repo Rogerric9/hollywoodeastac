@@ -98,7 +98,7 @@ if (!product) {
   }
 
   addToCartButton.addEventListener("click", () => {
-    let cart = JSON.parse(localStorage.getItem("hollywoodEastCart")) || [];
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
     const existingCartItem = cart.find(item => item.product_id === product.product_id);
 
@@ -113,9 +113,9 @@ if (!product) {
       });
     }
 
-    localStorage.setItem("hollywoodEastCart", JSON.stringify(cart));
+    localStorage.setItem("cart", JSON.stringify(cart));
 
     alert(`${product.name} has been added to your cart.`);
-    
+
   });
 }
