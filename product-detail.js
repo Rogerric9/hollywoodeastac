@@ -98,6 +98,24 @@ if (!product) {
   }
 
   addToCartButton.addEventListener("click", () => {
+    let cart = JSON.parse(localStorage.getItem("hollywoodEastCart")) || [];
+
+    const existingCartItem = cart.find(item => item.product_id === product.product_id);
+
+    if (existingCartItem) {
+      existingCartItem.quantity += 1;
+    } else {
+      cart.push({
+        product_id: product.product_id,
+        name: product.name,
+        price: product.price,
+        quantity: 1
+      });
+    }
+
+    localStorage.setItem("hollywoodEastCart", JSON.stringify(cart));
+
     alert(`${product.name} has been added to your cart.`);
+    
   });
 }
