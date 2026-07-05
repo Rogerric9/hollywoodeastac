@@ -27,16 +27,21 @@ function displayCart() {
   paypalButtonContainer.style.display = "block";
 
   cart.forEach(cartItem => {
-    cartItems.innerHTML += `
-      <p>
-        ${cartItem.name} — $${cartItem.price} 
-        Quantity: ${cartItem.quantity}
+        cartItems.innerHTML += `
+        <div class="cart-item">
+            <p><strong>${cartItem.name}</strong></p>
 
-        <button class="remove-item" data-product-id="${cartItem.product_id}">
-          Remove
-        </button>
-      </p>
-    `;
+            <p>Product No. ${cartItem.product_id}</p>
+
+            <p>Price: $${cartItem.price}</p>
+
+            <p>Quantity: ${cartItem.quantity}</p>
+
+            <button class="remove-item" data-product-id="${cartItem.product_id}">
+            Remove
+            </button>
+        </div>
+        `;
   });
 
   cartTotal.textContent = calculateCartTotal().toFixed(2);
