@@ -171,17 +171,18 @@ nav a:hover {
 }
 
 /* Individual product pages */
-
 .product-detail {
   display: grid;
-  grid-template-columns: minmax(250px, 45%) 1fr;
+  grid-template-columns: minmax(350px, 55%) 1fr;
   gap: 32px;
 }
 
 .product-image img {
   width: 100%;
-  max-height: 600px;
+  max-width: 700px;
+  max-height: 800px;
   object-fit: contain;
+  display: block;
 }
 
 .product-information h2 {

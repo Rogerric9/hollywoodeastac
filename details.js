@@ -18,5 +18,15 @@ const productDetails = [
     authentication_info: "",
     condition_notes: "",
     miscellaneous: ""
-  }
+  },
+  {
+  product_id: "HEC-0001",
+  additional_images: [],
+  full_description: [
+    "This is a temporary test description for the collectible item."
+  ],
+  authentication_info: "",
+  condition_notes: "",
+  miscellaneous: ""
+}
 ];

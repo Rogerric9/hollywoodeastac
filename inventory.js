@@ -20,5 +20,16 @@ const inventory = [
     image_filename: "hea-0002.jpg",
     product_page: "products/hea-0002.html",
     status: ""
-  }
+  },
+  {
+  product_id: "HEC-0001",
+  type: "collectible",
+  category: "toy",
+  name: "Popeye Watch",
+  description: "Official Fossil Limited Edition Popeye Watch",
+  price: "20.00",
+  image_filename: "hec-0001-PopeyeWatch.jpg",
+  product_page: "products/hec-0001.html",
+  status: ""
+}
 ];
