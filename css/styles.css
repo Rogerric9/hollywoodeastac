@@ -335,3 +335,24 @@ nav a:hover {
     max-width: 100%;
   }
 }
+/* Cart page item layout */
+
+.cart-item {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  border: 1px solid #cccccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: auto;
+  border: 1px solid #cccccc;
+}
+
+.cart-item-info {
+  flex: 1;
+}

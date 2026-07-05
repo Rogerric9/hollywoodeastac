@@ -54,19 +54,32 @@ function displayCart() {
   paypalButtonContainer.style.display = "block";
 
   cart.forEach(cartItem => {
+    const details = productDetails.find(item => item.product_id === cartItem.product_id);
+
+    const cartImage =
+      details &&
+      details.product_images &&
+      details.product_images.length > 0
+        ? details.product_images[0]
+        : "images/no-image-available.jpg";
+
     cartItems.innerHTML += `
       <div class="cart-item">
-        <p><strong>${cartItem.name}</strong></p>
+        <img class="cart-item-image" src="${cartImage}" alt="${cartItem.name}">
 
-        <p>Product No. ${cartItem.product_id}</p>
+        <div class="cart-item-info">
+          <p><strong>${cartItem.name}</strong></p>
 
-        <p>Price: $${cartItem.price}</p>
+          <p>Product No. ${cartItem.product_id}</p>
 
-        <p>Quantity: ${cartItem.quantity}</p>
+          <p>Price: $${cartItem.price}</p>
 
-        <button class="remove-item" data-product-id="${cartItem.product_id}">
-          Remove
-        </button>
+          <p>Quantity: ${cartItem.quantity}</p>
+
+          <button class="remove-item" data-product-id="${cartItem.product_id}">
+            Remove
+          </button>
+        </div>
       </div>
     `;
   });
