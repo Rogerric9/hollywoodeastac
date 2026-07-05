@@ -8,7 +8,70 @@ const details = productDetails.find(item => item.product_id === productId);
 console.log("Inventory record:", product);
 console.log("Detail record:", details);
 
+const productImageArea = document.querySelector(".product-image");
 const extraDetails = document.getElementById("extra-product-details");
+
+if (product) {
+    const photoList =
+    details &&
+    details.product_images &&
+    details.product_images.length > 0
+        ? details.product_images
+        : ["images/no-image-available.jpg"];
+
+  let currentPhotoIndex = 0;
+
+  function showCurrentPhoto() {
+    const currentPhoto = photoList[currentPhotoIndex];
+
+    productImageArea.innerHTML = `
+      <div class="photo-viewer">
+        <button id="previous-photo" class="photo-arrow photo-arrow-left">
+          &#10094;
+        </button>
+
+        <img src="../${currentPhoto}" alt="${product.name}" id="current-product-photo">
+
+        <button id="next-photo" class="photo-arrow photo-arrow-right">
+          &#10095;
+        </button>
+      </div>
+
+      <p class="photo-counter">
+        Photo ${currentPhotoIndex + 1} of ${photoList.length}
+      </p>
+    `;
+
+    const previousButton = document.getElementById("previous-photo");
+    const nextButton = document.getElementById("next-photo");
+
+    if (currentPhotoIndex === 0) {
+      previousButton.style.display = "none";
+    }
+
+    if (currentPhotoIndex === photoList.length - 1) {
+      nextButton.style.display = "none";
+    }
+
+    previousButton.addEventListener("click", () => {
+      if (currentPhotoIndex > 0) {
+        currentPhotoIndex--;
+        showCurrentPhoto();
+      }
+    });
+
+    nextButton.addEventListener("click", () => {
+      if (currentPhotoIndex < photoList.length - 1) {
+        currentPhotoIndex++;
+        showCurrentPhoto();
+      }
+    });
+  }
+
+  if (photoList.length > 0) {
+    showCurrentPhoto();
+  }
+}
 
 if (details && details.full_description) {
   const descriptionParagraphs = Array.isArray(details.full_description)
@@ -26,17 +89,4 @@ if (details && details.full_description) {
       `;
     });
   }
-}
-const additionalImagesGallery = document.getElementById("additional-images-gallery");
-
-if (details && details.additional_images && details.additional_images.length > 0) {
-  additionalImagesGallery.innerHTML = `
-    <h3>Additional Photos</h3>
-  `;
-
-  details.additional_images.forEach(imagePath => {
-    additionalImagesGallery.innerHTML += `
-      <img src="../${imagePath}" alt="${product.name}" class="additional-product-image">
-    `;
-  });
 }

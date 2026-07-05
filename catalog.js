@@ -98,25 +98,34 @@ const availableProducts = inventory.filter(product => {
         <p>No products are currently available in this section.</p>
     `;
     } else {
-    availableProducts.forEach(product => {
-        productGrid.innerHTML += `
-        <div class="product-card">
-            <img src="images/${product.image_filename}" alt="${product.name}">
+   availableProducts.forEach(product => {
+  const details = productDetails.find(item => item.product_id === product.product_id);
 
-            <h2>${product.name}</h2>
+    const mainImage =
+    details &&
+    details.product_images &&
+    details.product_images.length > 0
+        ? details.product_images[0]
+        : "images/no-image-available.jpg";
 
-            <p>$${product.price}</p>
+  productGrid.innerHTML += `
+    <div class="product-card">
+      <img src="${mainImage}" alt="${product.name}">
 
-            <a class="view-button" href="${product.product_page}">
-            View Details
-            </a>
+      <h2>${product.name}</h2>
 
-            <button class="add-to-cart" data-product-id="${product.product_id}">
-            Add to Cart
-            </button>
-        </div>
-        `;
-    });
+      <p>$${product.price}</p>
+
+      <a class="view-button" href="${product.product_page}">
+        View Details
+      </a>
+
+      <button class="add-to-cart" data-product-id="${product.product_id}">
+        Add to Cart
+      </button>
+    </div>
+  `;
+});
     }
 
 /* Shopping cart count and Add to Cart buttons */
