@@ -7,12 +7,8 @@ const paypalButtonContainer = document.getElementById("paypal-button-container")
 function calculateCartTotal() {
   let total = 0;
 
-  cart.forEach(productId => {
-    const product = inventory.find(item => item.product_id === productId);
-
-    if (product) {
-      total += Number(product.price);
-    }
+  cart.forEach(cartItem => {
+    total += Number(cartItem.price) * Number(cartItem.quantity);
   });
 
   return total;
@@ -21,41 +17,35 @@ function calculateCartTotal() {
 function displayCart() {
   cartItems.innerHTML = "";
 
- if (cart.length === 0) {
-  cartItems.innerHTML = "<p>Your cart is empty.</p>";
-  cartTotal.textContent = "0.00";
-  paypalButtonContainer.style.display = "none";
+  if (cart.length === 0) {
+    cartItems.innerHTML = "<p>Your cart is empty.</p>";
+    cartTotal.textContent = "0.00";
+    paypalButtonContainer.style.display = "none";
+    return;
+  }
 
-  return;
-}
+  paypalButtonContainer.style.display = "block";
 
-paypalButtonContainer.style.display = "block";
-  let total = 0;
+  cart.forEach(cartItem => {
+    cartItems.innerHTML += `
+      <p>
+        ${cartItem.name} — $${cartItem.price} 
+        Quantity: ${cartItem.quantity}
 
-  cart.forEach(productId => {
-    const product = inventory.find(item => item.product_id === productId);
-
-    if (product) {
-      cartItems.innerHTML += `
-        <p>
-          ${product.name} — $${product.price}
-          <button class="remove-item" data-product-id="${product.product_id}">
-            Remove
-          </button>
-        </p>
-      `;
-
-      total += Number(product.price);
-    }
+        <button class="remove-item" data-product-id="${cartItem.product_id}">
+          Remove
+        </button>
+      </p>
+    `;
   });
 
-  cartTotal.textContent = total.toFixed(2);
+  cartTotal.textContent = calculateCartTotal().toFixed(2);
 
   document.querySelectorAll(".remove-item").forEach(button => {
     button.addEventListener("click", () => {
       const productId = button.dataset.productId;
 
-      cart = cart.filter(id => id !== productId);
+      cart = cart.filter(cartItem => cartItem.product_id !== productId);
       localStorage.setItem("cart", JSON.stringify(cart));
 
       displayCart();
@@ -86,23 +76,22 @@ if (window.paypal) {
       });
     },
 
- onApprove: function(data, actions) {
-  console.log("PayPal payment approved.");
+    onApprove: function(data, actions) {
+      console.log("PayPal payment approved.");
 
-  return actions.order.capture().then(function(details) {
-    console.log("PayPal payment captured.", details);
+      return actions.order.capture().then(function(details) {
+        console.log("PayPal payment captured.", details);
 
-    alert("Payment completed. Thank you!");
+        alert("Payment completed. Thank you!");
 
-    cart = [];
-    localStorage.removeItem("cart");
+        cart = [];
+        localStorage.removeItem("cart");
 
-    displayCart();
+        displayCart();
 
-    document.getElementById("paypal-button-container").innerHTML = "";
-  });
-}
-
+        document.getElementById("paypal-button-container").innerHTML = "";
+      });
+    }
   }).render("#paypal-button-container");
 } else {
   console.error("PayPal SDK did not load.");
