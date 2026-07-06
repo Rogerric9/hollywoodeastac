@@ -162,6 +162,19 @@
   const categoryArrowLeft = document.getElementById("category-arrow-left");
   const categoryArrowRight = document.getElementById("category-arrow-right");
 
+  function getCategoryScrollAmount() {
+    const firstCard = featuredCategoryTrack.querySelector(".featured-category-card");
+
+    if (!firstCard) {
+      return 300;
+    }
+
+    const cardWidth = firstCard.offsetWidth;
+    const gap = 20;
+
+    return cardWidth + gap;
+  }
+
   function updateCategoryArrows() {
     if (!featuredCategoryTrack || !categoryArrowLeft || !categoryArrowRight) {
       return;
@@ -189,7 +202,7 @@
   if (featuredCategoryTrack && categoryArrowLeft && categoryArrowRight) {
     categoryArrowLeft.addEventListener("click", () => {
       featuredCategoryTrack.scrollBy({
-        left: -320,
+        left: -getCategoryScrollAmount(),
         behavior: "smooth"
       });
 
@@ -198,7 +211,7 @@
 
     categoryArrowRight.addEventListener("click", () => {
       featuredCategoryTrack.scrollBy({
-        left: 320,
+        left: getCategoryScrollAmount(),
         behavior: "smooth"
       });
 
@@ -212,6 +225,5 @@
     setTimeout(updateCategoryArrows, 500);
   }
 </script>
-
 </body>
 </html>

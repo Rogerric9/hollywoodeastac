@@ -367,6 +367,7 @@ nav a:hover {
   gap: 20px;
   overflow-x: auto;
   scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
   padding: 10px 5px 15px 5px;
   scrollbar-width: none;
 }
@@ -387,8 +388,8 @@ nav a:hover {
   border-radius: 8px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.18);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  scroll-snap-align: start;
 }
-
 .featured-category-card h3 {
   margin-top: 0;
   color: #5b1a1a;
