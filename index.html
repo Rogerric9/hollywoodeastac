@@ -156,7 +156,7 @@
   <script src="inventory.js"></script>
   <script src="menu.js"></script>
 
-  <script>
+ <script>
   const featuredCategoryTrack = document.getElementById("featured-category-track");
   const categoryArrowLeft = document.getElementById("category-arrow-left");
   const categoryArrowRight = document.getElementById("category-arrow-right");
@@ -166,23 +166,14 @@
       return;
     }
 
-    const hasOverflow =
-      featuredCategoryTrack.scrollWidth > featuredCategoryTrack.clientWidth + 5;
-
-    const atBeginning = featuredCategoryTrack.scrollLeft <= 0;
+    const atBeginning = featuredCategoryTrack.scrollLeft <= 2;
 
     const atEnd =
       featuredCategoryTrack.scrollLeft + featuredCategoryTrack.clientWidth >=
-      featuredCategoryTrack.scrollWidth - 5;
+      featuredCategoryTrack.scrollWidth - 2;
 
-    if (!hasOverflow) {
-      categoryArrowLeft.style.display = "none";
-      categoryArrowRight.style.display = "none";
-      return;
-    }
-
-    categoryArrowLeft.style.display = atBeginning ? "none" : "block";
-    categoryArrowRight.style.display = atEnd ? "none" : "block";
+    categoryArrowLeft.style.visibility = atBeginning ? "hidden" : "visible";
+    categoryArrowRight.style.visibility = atEnd ? "hidden" : "visible";
   }
 
   if (featuredCategoryTrack && categoryArrowLeft && categoryArrowRight) {
@@ -191,6 +182,8 @@
         left: -300,
         behavior: "smooth"
       });
+
+      setTimeout(updateCategoryArrows, 400);
     });
 
     categoryArrowRight.addEventListener("click", () => {
@@ -198,15 +191,16 @@
         left: 300,
         behavior: "smooth"
       });
+
+      setTimeout(updateCategoryArrows, 400);
     });
 
     featuredCategoryTrack.addEventListener("scroll", updateCategoryArrows);
     window.addEventListener("resize", updateCategoryArrows);
     window.addEventListener("load", updateCategoryArrows);
 
-    setTimeout(updateCategoryArrows, 100);
+    setTimeout(updateCategoryArrows, 300);
   }
 </script>
-
 </body>
 </html>
