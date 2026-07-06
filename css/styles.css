@@ -483,3 +483,29 @@ nav a:hover {
 .category-arrow.arrow-hidden {
   visibility: hidden;
 }
+/* Catalog search */
+
+.catalog-search-area {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f7f2ed;
+  border: 1px solid #cccccc;
+}
+
+.catalog-search-area label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#catalog-search {
+  padding: 8px;
+  font-size: 16px;
+  width: 260px;
+  max-width: 100%;
+}
+
+#catalog-search-button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
