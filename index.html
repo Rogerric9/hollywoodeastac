@@ -172,35 +172,45 @@
       featuredCategoryTrack.scrollLeft + featuredCategoryTrack.clientWidth >=
       featuredCategoryTrack.scrollWidth - 2;
 
-    categoryArrowLeft.style.visibility = atBeginning ? "hidden" : "visible";
-    categoryArrowRight.style.visibility = atEnd ? "hidden" : "visible";
+    if (atBeginning) {
+      categoryArrowLeft.classList.add("arrow-hidden");
+    } else {
+      categoryArrowLeft.classList.remove("arrow-hidden");
+    }
+
+    if (atEnd) {
+      categoryArrowRight.classList.add("arrow-hidden");
+    } else {
+      categoryArrowRight.classList.remove("arrow-hidden");
+    }
   }
 
   if (featuredCategoryTrack && categoryArrowLeft && categoryArrowRight) {
     categoryArrowLeft.addEventListener("click", () => {
       featuredCategoryTrack.scrollBy({
-        left: -300,
+        left: -320,
         behavior: "smooth"
       });
 
-      setTimeout(updateCategoryArrows, 400);
+      setTimeout(updateCategoryArrows, 500);
     });
 
     categoryArrowRight.addEventListener("click", () => {
       featuredCategoryTrack.scrollBy({
-        left: 300,
+        left: 320,
         behavior: "smooth"
       });
 
-      setTimeout(updateCategoryArrows, 400);
+      setTimeout(updateCategoryArrows, 500);
     });
 
     featuredCategoryTrack.addEventListener("scroll", updateCategoryArrows);
     window.addEventListener("resize", updateCategoryArrows);
     window.addEventListener("load", updateCategoryArrows);
 
-    setTimeout(updateCategoryArrows, 300);
+    setTimeout(updateCategoryArrows, 500);
   }
 </script>
+
 </body>
 </html>
