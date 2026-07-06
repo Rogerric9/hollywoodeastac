@@ -2,34 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hollywood East Autographs & Collectibles</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hollywood East Autographs & Collectibles</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-
   <header>
     <h1>Hollywood East Autographs & Collectibles</h1>
     <p>Authentic autographs from film, television, music, sports, and history</p>
-    
-  <nav>
-    <a href="index.html">Home</a>
 
-    <div class="catalog-menu">
-      <a href="catalog.html?type=autograph" id="catalog-menu-link">Autographs</a>
-      <div id="category-dropdown" class="category-dropdown"></div>
-    </div>
+    <nav>
+      <a href="index.html">Home</a>
 
-    <a href="catalog.html?type=collectible">Collectibles</a>
+      <div class="catalog-menu">
+        <a href="catalog.html?type=autograph" id="catalog-menu-link">Autographs</a>
+        <div id="category-dropdown" class="category-dropdown"></div>
+      </div>
 
-    <a href="cart.html">Cart</a>
+      <a href="catalog.html?type=collectible">Collectibles</a>
 
-    <a href="about.html">About Us</a>
-  </nav>
+      <a href="cart.html">Cart</a>
 
+      <a href="about.html">About Us</a>
+    </nav>
   </header>
 
   <section class="home-banner">
@@ -51,12 +49,7 @@
       </div>
     </section>
 
-      <section class="featured-categories">
-      <h2>Featured Categories</h2>
-
-      <div class="featured-category-grid">
-
-         <section class="featured-categories">
+    <section class="featured-categories">
       <h2>Featured Categories</h2>
 
       <div class="featured-category-carousel">
@@ -142,37 +135,52 @@
         available.
       </p>
     </section>
-
   </main>
 
   <footer>
     <p>&copy; 2026 Hollywood East Autographs & Collectibles</p>
   </footer>
 
-<script src="inventory.js"></script>
-<script src="menu.js"></script>
+  <script src="inventory.js"></script>
+  <script src="menu.js"></script>
 
-<script>
-  const featuredCategoryTrack = document.getElementById("featured-category-track");
-  const categoryArrowLeft = document.getElementById("category-arrow-left");
-  const categoryArrowRight = document.getElementById("category-arrow-right");
+  <script>
+    const featuredCategoryTrack = document.getElementById("featured-category-track");
+    const categoryArrowLeft = document.getElementById("category-arrow-left");
+    const categoryArrowRight = document.getElementById("category-arrow-right");
 
-  if (featuredCategoryTrack && categoryArrowLeft && categoryArrowRight) {
-    categoryArrowLeft.addEventListener("click", () => {
-      featuredCategoryTrack.scrollBy({
-        left: -300,
-        behavior: "smooth"
+    function updateCategoryArrows() {
+      const atBeginning = featuredCategoryTrack.scrollLeft <= 0;
+
+      const atEnd =
+        featuredCategoryTrack.scrollLeft + featuredCategoryTrack.clientWidth >=
+        featuredCategoryTrack.scrollWidth - 5;
+
+      categoryArrowLeft.style.display = atBeginning ? "none" : "block";
+      categoryArrowRight.style.display = atEnd ? "none" : "block";
+    }
+
+    if (featuredCategoryTrack && categoryArrowLeft && categoryArrowRight) {
+      updateCategoryArrows();
+
+      categoryArrowLeft.addEventListener("click", () => {
+        featuredCategoryTrack.scrollBy({
+          left: -300,
+          behavior: "smooth"
+        });
       });
-    });
 
-    categoryArrowRight.addEventListener("click", () => {
-      featuredCategoryTrack.scrollBy({
-        left: 300,
-        behavior: "smooth"
+      categoryArrowRight.addEventListener("click", () => {
+        featuredCategoryTrack.scrollBy({
+          left: 300,
+          behavior: "smooth"
+        });
       });
-    });
-  }
-</script>
+
+      featuredCategoryTrack.addEventListener("scroll", updateCategoryArrows);
+      window.addEventListener("resize", updateCategoryArrows);
+    }
+  </script>
 
 </body>
 </html>
