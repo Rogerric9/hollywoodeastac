@@ -387,3 +387,38 @@ nav a:hover {
   display: block;
   margin: 0 auto;
 }
+/* Home page intro sections */
+
+.home-intro,
+.home-trust {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+
+.home-intro h2,
+.home-trust h2 {
+  margin-top: 0;
+}
+
+.home-buttons {
+  margin-top: 25px;
+}
+
+.home-button {
+  display: inline-block;
+  margin: 8px;
+  padding: 12px 20px;
+  background-color: #5b1a1a;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.home-button:hover {
+  background-color: #7a2525;
+}
