@@ -519,3 +519,12 @@ nav a:hover {
   font-size: 34px;
   margin-bottom: 10px;
 }
+/* Hide Featured Categories carousel scrollbar */
+
+.featured-category-track {
+  scrollbar-width: none;
+}
+
+.featured-category-track::-webkit-scrollbar {
+  display: none;
+}
