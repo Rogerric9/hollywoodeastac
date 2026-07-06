@@ -371,3 +371,19 @@ nav a:hover {
   font-size: 20px;
   font-weight: bold;
 }
+/* Home page banner */
+
+.home-banner {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #111111;
+}
+
+.home-banner img {
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
