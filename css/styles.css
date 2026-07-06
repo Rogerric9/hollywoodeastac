@@ -457,12 +457,15 @@ nav a:hover {
 .featured-category-card {
   flex: 0 0 240px;
   display: block;
-  padding: 20px;
-  border: 1px solid #cccccc;
-  background-color: #f7f2ed;
+  padding: 22px 20px;
+  border: 1px solid #d6b98c;
+  background: linear-gradient(180deg, #fffaf3, #f3e4d3);
   color: #000000;
   text-decoration: none;
-  min-height: 140px;
+  min-height: 180px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.18);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .featured-category-card h3 {
@@ -471,8 +474,10 @@ nav a:hover {
 }
 
 .featured-category-card:hover {
-  background-color: #efe2d6;
+  background: linear-gradient(180deg, #fff3df, #ead2b8);
   border-color: #5b1a1a;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
 
 .category-arrow {
@@ -502,4 +507,8 @@ nav a:hover {
     font-size: 22px;
     padding: 10px 12px;
   }
+}
+.category-icon {
+  font-size: 34px;
+  margin-bottom: 10px;
 }
