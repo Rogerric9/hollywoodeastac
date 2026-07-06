@@ -444,14 +444,21 @@ nav a:hover {
   align-items: center;
   gap: 12px;
   margin-top: 25px;
+  width: 100%;
 }
 
 .featured-category-track {
+  flex: 1;
+  min-width: 0;
   display: flex;
   gap: 20px;
   overflow-x: auto;
   scroll-behavior: smooth;
   padding: 10px 5px 15px 5px;
+}
+
+.category-arrow {
+  flex: 0 0 auto;
 }
 
 .featured-category-card {
