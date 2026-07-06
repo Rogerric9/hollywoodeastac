@@ -1,297 +1,64 @@
-const productGrid = document.getElementById("product-grid");
-const categoryDropdown = document.getElementById("category-dropdown");
-const categoryHeading = document.getElementById("category-heading");
-const catalogDescription = document.getElementById("catalog-description");
-const catalogSearch = document.getElementById("catalog-search");
-const catalogSearchButton = document.getElementById("catalog-search-button");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalog | Hollywood East Autographs & Collectibles</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-let activeSearchText = "";
+<body>
 
-const urlParameters = new URLSearchParams(window.location.search);
-const selectedType = urlParameters.get("type") || "autograph";
-const selectedCategory = urlParameters.get("category");
+  <header>
+    <h1>Hollywood East Autographs & Collectibles</h1>
+    <p>Authentic autographs from film, television, music, sports, and history</p>
 
-const selectedTypeLower = selectedType.trim().toLowerCase();
+    <nav>
+      <a href="index.html">Home</a>
 
-const typeHeading =
-  selectedTypeLower === "collectible"
-    ? "Collectibles"
-    : "Autographs";
+      <div class="catalog-menu">
+        <a href="catalog.html?type=autograph" id="catalog-menu-link">Autographs</a>
+        <div id="category-dropdown" class="category-dropdown"></div>
+      </div>
 
-function getCategoryHeadingText() {
-  return selectedCategory
-    ? selectedCategory.replace(/\b\w/g, letter => letter.toUpperCase())
-    : `All ${typeHeading}`;
-}
+      <a href="catalog.html?type=collectible">Collectibles</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+      <a href="about.html">About Us</a>
+    </nav>
+  </header>
 
-categoryHeading.textContent = getCategoryHeadingText();
+  <main>
+    <section>
+      <h2 id="category-heading"></h2>
 
-catalogDescription.textContent =
-  selectedTypeLower === "collectible"
-    ? "Browse our growing selection of collectibles."
-    : "Browse our growing selection of authentic autographs.";
+      <p id="catalog-description"></p>
 
-/* Build category dropdown for autographs only */
+      <div class="catalog-search-area">
+        <label for="catalog-search">Search by name:</label>
 
-const categoryMap = new Map();
+        <input
+          type="text"
+          id="catalog-search"
+          placeholder="Example: Bob Dylan"
+        >
 
-inventory.forEach(product => {
-  const category = product.category?.trim();
-
-  const isAvailable =
-    !product.status || product.status.trim().toLowerCase() !== "sold";
-
-  const productType = product.type
-    ? product.type.trim().toLowerCase()
-    : "autograph";
-
-  const isAutograph = productType === "autograph";
-
-  if (category && isAvailable && isAutograph) {
-    const key = category.toLowerCase();
-
-    if (!categoryMap.has(key)) {
-      const displayCategory = category.replace(/\b\w/g, letter =>
-        letter.toUpperCase()
-      );
-
-      categoryMap.set(key, displayCategory);
-    }
-  }
-});
-
-const categories = [...categoryMap.values()];
-
-categories.sort((a, b) =>
-  a.localeCompare(b, undefined, { sensitivity: "base" })
-);
-
-categoryDropdown.innerHTML = `
-  <a href="catalog.html?type=autograph">All Autographs</a>
-`;
-
-categories.forEach(category => {
-  categoryDropdown.innerHTML += `
-    <a href="catalog.html?type=autograph&category=${encodeURIComponent(category)}">
-      ${category}
-    </a>
-  `;
-});
-
-/* Shopping cart helpers */
-
-let cart = JSON.parse(localStorage.getItem("cart")) || [];
-const cartCount = document.getElementById("cart-count");
-
-function normalizeCart() {
-  cart = cart
-    .map(cartItem => {
-      if (typeof cartItem === "string") {
-        const product = inventory.find(item => item.product_id === cartItem);
-
-        if (!product) {
-          return null;
-        }
-
-        return {
-          product_id: product.product_id,
-          name: product.name,
-          price: product.price,
-          quantity: 1
-        };
-      }
-
-      return cartItem;
-    })
-    .filter(cartItem => cartItem !== null);
-
-  localStorage.setItem("cart", JSON.stringify(cart));
-}
-
-function updateCartCount() {
-  if (cartCount) {
-    cartCount.textContent = cart.reduce((total, cartItem) => {
-      return total + Number(cartItem.quantity);
-    }, 0);
-  }
-}
-
-function updateAddToCartButtons() {
-  document.querySelectorAll(".add-to-cart").forEach(button => {
-    const productId = button.dataset.productId;
-    const product = inventory.find(item => item.product_id === productId);
-
-    if (!product) {
-      button.textContent = "Unavailable";
-      button.disabled = true;
-      return;
-    }
-
-    const quantityAvailable = product.quantity_available || 1;
-    const existingCartItem = cart.find(item => item.product_id === productId);
-
-    if (existingCartItem && existingCartItem.quantity >= quantityAvailable) {
-      button.textContent = "Already in Cart";
-      button.disabled = true;
-    } else {
-      button.textContent = "Add to Cart";
-      button.disabled = false;
-    }
-  });
-}
-
-function attachAddToCartButtons() {
-  document.querySelectorAll(".add-to-cart").forEach(button => {
-    button.addEventListener("click", () => {
-      const productId = button.dataset.productId;
-      const product = inventory.find(item => item.product_id === productId);
-
-      if (!product) {
-        alert("This product is unavailable.");
-        return;
-      }
-
-      const quantityAvailable = product.quantity_available || 1;
-      const existingCartItem = cart.find(item => item.product_id === productId);
-
-      if (existingCartItem) {
-        if (existingCartItem.quantity < quantityAvailable) {
-          existingCartItem.quantity += 1;
-          alert(`${product.name} has been added to your cart.`);
-        } else {
-          alert("This item is already in your cart.");
-          updateAddToCartButtons();
-          return;
-        }
-      } else {
-        cart.push({
-          product_id: product.product_id,
-          name: product.name,
-          price: product.price,
-          quantity: 1
-        });
-
-        alert(`${product.name} has been added to your cart.`);
-      }
-
-      localStorage.setItem("cart", JSON.stringify(cart));
-
-      updateCartCount();
-      updateAddToCartButtons();
-
-      console.log("Cart:", cart);
-    });
-  });
-}
-
-/* Product filtering and display */
-
-function getFilteredProducts() {
-  const searchText = activeSearchText.toLowerCase();
-
-  return inventory.filter(product => {
-    const isAvailable =
-      !product.status || product.status.trim().toLowerCase() !== "sold";
-
-    const productType = product.type
-      ? product.type.trim().toLowerCase()
-      : "autograph";
-
-    const matchesType = productType === selectedTypeLower;
-
-    const matchesCategory =
-      searchText ||
-      !selectedCategory ||
-      product.category?.trim().toLowerCase() ===
-        selectedCategory.trim().toLowerCase();
-
-    const matchesSearch =
-      !searchText ||
-      product.name.toLowerCase().includes(searchText);
-
-    return isAvailable && matchesType && matchesCategory && matchesSearch;
-  });
-}
-
-function displayProducts() {
-  const searchText = activeSearchText;
-
-  const availableProducts = getFilteredProducts();
-
-  productGrid.innerHTML = "";
-
-  if (searchText) {
-    categoryHeading.textContent = `Search Results for "${searchText}"`;
-  } else {
-    categoryHeading.textContent = getCategoryHeadingText();
-  }
-
-  if (availableProducts.length === 0) {
-    productGrid.innerHTML = `
-      <p>No matching products are currently available.</p>
-    `;
-    return;
-  }
-
-  availableProducts.forEach(product => {
-    const details = productDetails.find(item => item.product_id === product.product_id);
-
-    const mainImage =
-      details &&
-      details.product_images &&
-      details.product_images.length > 0
-        ? details.product_images[0]
-        : "images/no-image-available.jpg";
-
-    productGrid.innerHTML += `
-      <div class="product-card">
-        <img src="${mainImage}" alt="${product.name}">
-
-        <h2>${product.name}</h2>
-
-        <p class="product-number">Product No. ${product.product_id}</p>
-
-        <p class="product-price">$${product.price}</p>
-
-        <a class="view-button" href="${product.product_page}">
-          View Details
-        </a>
-
-        <button class="add-to-cart" data-product-id="${product.product_id}">
-          Add to Cart
+        <button id="catalog-search-button" type="button" aria-label="Search">
+          🔍
         </button>
       </div>
-    `;
-  });
 
-  attachAddToCartButtons();
-  updateAddToCartButtons();
-}
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+  </main>
 
-function runCatalogSearch() {
-  activeSearchText = catalogSearch
-    ? catalogSearch.value.trim()
-    : "";
+  <footer>
+    <p>&copy; 2026 Hollywood East Autographs & Collectibles</p>
+  </footer>
 
-  displayProducts();
-}
+  <script src="inventory.js"></script>
+  <script src="details.js"></script>
+  <script src="catalog.js"></script>
+  <script src="menu.js"></script>
 
-/* Start catalog page */
-
-normalizeCart();
-updateCartCount();
-displayProducts();
-
-if (catalogSearch) {
-  catalogSearch.addEventListener("keydown", event => {
-    if (event.key === "Enter") {
-      runCatalogSearch();
-    }
-  });
-}
-
-if (catalogSearchButton) {
-  catalogSearchButton.addEventListener("click", () => {
-    runCatalogSearch();
-  });
-}
+</body>
+</html>

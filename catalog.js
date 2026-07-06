@@ -2,6 +2,8 @@ const productGrid = document.getElementById("product-grid");
 const categoryDropdown = document.getElementById("category-dropdown");
 const categoryHeading = document.getElementById("category-heading");
 const catalogDescription = document.getElementById("catalog-description");
+const catalogSearchInput = document.getElementById("catalog-search");
+const catalogSearchButton = document.getElementById("catalog-search-button");
 
 const urlParameters = new URLSearchParams(window.location.search);
 const selectedType = urlParameters.get("type") || "autograph";
@@ -9,33 +11,27 @@ const selectedCategory = urlParameters.get("category");
 
 const selectedTypeLower = selectedType.trim().toLowerCase();
 
-const typeHeading =
+const typeHeading = selectedTypeLower === "collectible" ? "Collectibles" : "Autographs";
+
+let currentSearchText = "";
+
+/* Page heading and description */
+categoryHeading.textContent = selectedCategory
+  ? selectedCategory.replace(/\b\w/g, letter => letter.toUpperCase())
+  : `All ${typeHeading}`;
+
+catalogDescription.textContent =
   selectedTypeLower === "collectible"
-    ? "Collectibles"
-    : "Autographs";
+    ? "Browse our growing selection of collectibles."
+    : "Browse our growing selection of authentic autographs.";
 
-    categoryHeading.textContent = selectedCategory
-    ? selectedCategory.replace(/\b\w/g, letter => letter.toUpperCase())
-    : `All ${typeHeading}`;
-
-    catalogDescription.textContent =
-    selectedTypeLower === "collectible"
-        ? "Browse our growing selection of collectibles."
-        : "Browse our growing selection of authentic autographs.";
 /* Build category dropdown for autographs only */
-
 const categoryMap = new Map();
 
 inventory.forEach(product => {
   const category = product.category?.trim();
-
-  const isAvailable =
-    !product.status || product.status.trim().toLowerCase() !== "sold";
-
-  const productType = product.type
-    ? product.type.trim().toLowerCase()
-    : "autograph";
-
+  const isAvailable = !product.status || product.status.trim().toLowerCase() !== "sold";
+  const productType = product.type ? product.type.trim().toLowerCase() : "autograph";
   const isAutograph = productType === "autograph";
 
   if (category && isAvailable && isAutograph) {
@@ -69,67 +65,7 @@ categories.forEach(category => {
   `;
 });
 
-/* Filter products */
-
-const availableProducts = inventory.filter(product => {
-  const isAvailable =
-    !product.status || product.status.trim().toLowerCase() !== "sold";
-
-  const productType = product.type
-    ? product.type.trim().toLowerCase()
-    : "autograph";
-
-  const matchesType = productType === selectedTypeLower;
-
-  const matchesCategory =
-    !selectedCategory ||
-    product.category?.trim().toLowerCase() ===
-      selectedCategory.trim().toLowerCase();
-
-  return isAvailable && matchesType && matchesCategory;
-});
-
-/* Build product cards */
-
-    productGrid.innerHTML = "";
-
-    if (availableProducts.length === 0) {
-    productGrid.innerHTML = `
-        <p>No products are currently available in this section.</p>
-    `;
-    } else {
-   availableProducts.forEach(product => {
-  const details = productDetails.find(item => item.product_id === product.product_id);
-
-    const mainImage =
-    details &&
-    details.product_images &&
-    details.product_images.length > 0
-        ? details.product_images[0]
-        : "images/no-image-available.jpg";
-
-  productGrid.innerHTML += `
-    <div class="product-card">
-      <img src="${mainImage}" alt="${product.name}">
-
-      <h2>${product.name}</h2>
-
-      <p>$${product.price}</p>
-
-      <a class="view-button" href="${product.product_page}">
-        View Details
-      </a>
-
-      <button class="add-to-cart" data-product-id="${product.product_id}">
-        Add to Cart
-      </button>
-    </div>
-  `;
-});
-    }
-
 /* Shopping cart count and Add to Cart buttons */
-
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 const cartCount = document.getElementById("cart-count");
 
@@ -190,48 +126,148 @@ function updateAddToCartButtons() {
   });
 }
 
+/* Filter products */
+function getAvailableProducts() {
+  const searchTextLower = currentSearchText.trim().toLowerCase();
+
+  return inventory.filter(product => {
+    const isAvailable =
+      !product.status || product.status.trim().toLowerCase() !== "sold";
+
+    const productType = product.type
+      ? product.type.trim().toLowerCase()
+      : "autograph";
+
+    const matchesType = productType === selectedTypeLower;
+
+    const matchesCategory =
+      !selectedCategory ||
+      product.category?.trim().toLowerCase() === selectedCategory.trim().toLowerCase();
+
+    const productName = product.name ? product.name.trim().toLowerCase() : "";
+    const matchesSearch = productName.includes(searchTextLower);
+
+    if (searchTextLower) {
+      return isAvailable && matchesType && matchesSearch;
+    }
+
+    return isAvailable && matchesType && matchesCategory;
+  });
+}
+
+/* Build product cards */
+function displayProducts() {
+  const availableProducts = getAvailableProducts();
+
+  productGrid.innerHTML = "";
+
+  if (availableProducts.length === 0) {
+    productGrid.innerHTML = `
+      <p>No products are currently available in this section.</p>
+    `;
+
+    return;
+  }
+
+  availableProducts.forEach(product => {
+    const details = productDetails.find(
+      item => item.product_id === product.product_id
+    );
+
+    const mainImage =
+      details && details.product_images && details.product_images.length > 0
+        ? details.product_images[0]
+        : "images/no-image-available.jpg";
+
+    productGrid.innerHTML += `
+      <div class="product-card">
+        <img src="${mainImage}" alt="${product.name}">
+
+        <h3>${product.name}</h3>
+
+        <p class="product-number">${product.product_id}</p>
+
+        <p>${product.description}</p>
+
+        <p class="price">$${product.price}</p>
+
+        <a class="button" href="${product.product_page}?id=${product.product_id}">
+          View Details
+        </a>
+
+        <button class="add-to-cart" data-product-id="${product.product_id}">
+          Add to Cart
+        </button>
+      </div>
+    `;
+  });
+
+  updateAddToCartButtons();
+}
+
+/* Search controls */
+function runCatalogSearch() {
+  currentSearchText = catalogSearchInput.value;
+  displayProducts();
+}
+
+if (catalogSearchButton) {
+  catalogSearchButton.addEventListener("click", runCatalogSearch);
+}
+
+if (catalogSearchInput) {
+  catalogSearchInput.addEventListener("keydown", event => {
+    if (event.key === "Enter") {
+      runCatalogSearch();
+    }
+  });
+}
+
+/* Start page */
 normalizeCart();
 updateCartCount();
-updateAddToCartButtons();
+displayProducts();
 
-document.querySelectorAll(".add-to-cart").forEach(button => {
-  button.addEventListener("click", () => {
-    const productId = button.dataset.productId;
-    const product = inventory.find(item => item.product_id === productId);
+document.addEventListener("click", event => {
+  if (!event.target.classList.contains("add-to-cart")) {
+    return;
+  }
 
-    if (!product) {
-      alert("This product is unavailable.");
+  const button = event.target;
+  const productId = button.dataset.productId;
+  const product = inventory.find(item => item.product_id === productId);
+
+  if (!product) {
+    alert("This product is unavailable.");
+    return;
+  }
+
+  const quantityAvailable = product.quantity_available || 1;
+  const existingCartItem = cart.find(item => item.product_id === productId);
+
+  if (existingCartItem) {
+    if (existingCartItem.quantity < quantityAvailable) {
+      existingCartItem.quantity += 1;
+      alert(`${product.name} has been added to your cart.`);
+    } else {
+      alert("This item is already in your cart.");
+      updateAddToCartButtons();
       return;
     }
+  } else {
+    cart.push({
+      product_id: product.product_id,
+      name: product.name,
+      price: product.price,
+      quantity: 1
+    });
 
-    const quantityAvailable = product.quantity_available || 1;
-    const existingCartItem = cart.find(item => item.product_id === productId);
+    alert(`${product.name} has been added to your cart.`);
+  }
 
-    if (existingCartItem) {
-      if (existingCartItem.quantity < quantityAvailable) {
-        existingCartItem.quantity += 1;
-        alert(`${product.name} has been added to your cart.`);
-      } else {
-        alert("This item is already in your cart.");
-        updateAddToCartButtons();
-        return;
-      }
-    } else {
-      cart.push({
-        product_id: product.product_id,
-        name: product.name,
-        price: product.price,
-        quantity: 1
-      });
+  localStorage.setItem("cart", JSON.stringify(cart));
+  updateCartCount();
+  updateAddToCartButtons();
 
-      alert(`${product.name} has been added to your cart.`);
-    }
-
-    localStorage.setItem("cart", JSON.stringify(cart));
-
-    updateCartCount();
-    updateAddToCartButtons();
-
-    console.log("Cart:", cart);
-  });
+  console.log("Cart:", cart);
 });
