@@ -231,8 +231,8 @@ function displayProducts() {
 
         <p class="price">$${product.price}</p>
 
-        <a class="button" href="${product.product_page}?id=${product.product_id}">
-          View Details
+        <a class="button" href="${product.product_page}">
+            View Details
         </a>
 
         <button class="add-to-cart" data-product-id="${product.product_id}">

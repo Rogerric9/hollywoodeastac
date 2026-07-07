@@ -533,3 +533,33 @@ nav a:hover {
   font-size: 1rem;
   cursor: pointer;
 }
+.product-card a,
+.product-card button {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;box-sizing: border-box;
+  padding: 10px 14px;
+  margin-top: 10px;
+  background-color: #87CEFA;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #4FA3D1;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #4FA3D1;
+}
+
+.product-card a:hover,
+.product-card button:hover {
+  background-color: #6CB6E8;
+}
+
+.product-card a:active,
+.product-card button:active {
+  box-shadow: 0 1px 0 #4FA3D1;
+  transform: translateY(3px);
+}
