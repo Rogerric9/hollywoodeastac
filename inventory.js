@@ -33,7 +33,7 @@ const inventory = [
  {
     product_id: "HEA-0003",
     type: "autograph",
-    name: "ElvisPresley Signed 8x10 Photo",
+    name: "*** Test only - not for sale *** ElvisPresley Signed 8x10 Photo",
     category: "music",
     category2: "actor",
     description: "A signed 8x10 B&W photo of Elvis Presley",
