@@ -33,5 +33,13 @@ const productDetails = [
   authentication_info: "Toy Certifiers, Inc.",
   condition_notes: "Acceptible",
   miscellaneous: "Some"
+},
+ {
+  product_id: "HEA-0003",
+  product_images: ["images/hea-0003.png"],
+  full_description: "This is a temporary test Elvis description for the collectible item.",
+  authentication_info: "Beckett",
+  condition_notes: "Mint",
+  miscellaneous: ""
 }
 ];

@@ -1,5 +1,6 @@
 const productGrid = document.getElementById("product-grid");
-const categoryDropdown = document.getElementById("category-dropdown");
+
+const catalogCategoryDropdown = document.getElementById("category-dropdown");
 const categoryHeading = document.getElementById("category-heading");
 const catalogDescription = document.getElementById("catalog-description");
 const catalogSearchInput = document.getElementById("catalog-search");
@@ -10,40 +11,62 @@ const selectedType = urlParameters.get("type") || "autograph";
 const selectedCategory = urlParameters.get("category");
 
 const selectedTypeLower = selectedType.trim().toLowerCase();
+const selectedCategoryLower = selectedCategory
+  ? selectedCategory.trim().toLowerCase()
+  : "";
 
-const typeHeading = selectedTypeLower === "collectible" ? "Collectibles" : "Autographs";
+const typeHeading =
+  selectedTypeLower === "collectible" ? "Collectibles" : "Autographs";
 
 let currentSearchText = "";
 
 /* Page heading and description */
-categoryHeading.textContent = selectedCategory
-  ? selectedCategory.replace(/\b\w/g, letter => letter.toUpperCase())
-  : `All ${typeHeading}`;
+if (categoryHeading) {
+  categoryHeading.textContent = selectedCategory
+    ? selectedCategory.replace(/\b\w/g, letter => letter.toUpperCase())
+    : `All ${typeHeading}`;
+}
 
-catalogDescription.textContent =
-  selectedTypeLower === "collectible"
-    ? "Browse our growing selection of collectibles."
-    : "Browse our growing selection of authentic autographs.";
+if (catalogDescription) {
+  catalogDescription.textContent =
+    selectedTypeLower === "collectible"
+      ? "Browse our growing selection of collectibles."
+      : "Browse our growing selection of authentic autographs.";
+}
 
 /* Build category dropdown for autographs only */
 const categoryMap = new Map();
 
 inventory.forEach(product => {
-  const category = product.category?.trim();
-  const isAvailable = !product.status || product.status.trim().toLowerCase() !== "sold";
-  const productType = product.type ? product.type.trim().toLowerCase() : "autograph";
+  const isAvailable =
+    !product.status || product.status.trim().toLowerCase() !== "sold";
+
+  const productType = product.type
+    ? product.type.trim().toLowerCase()
+    : "autograph";
+
   const isAutograph = productType === "autograph";
 
-  if (category && isAvailable && isAutograph) {
-    const key = category.toLowerCase();
+  const categoryList = [
+    product.category,
+    product.category2
+  ]
+    .filter(category => category)
+    .map(category => category.trim())
+    .filter(category => category);
 
-    if (!categoryMap.has(key)) {
-      const displayCategory = category.replace(/\b\w/g, letter =>
-        letter.toUpperCase()
-      );
+  if (isAvailable && isAutograph) {
+    categoryList.forEach(category => {
+      const key = category.toLowerCase();
 
-      categoryMap.set(key, displayCategory);
-    }
+      if (!categoryMap.has(key)) {
+        const displayCategory = category.replace(/\b\w/g, letter =>
+          letter.toUpperCase()
+        );
+
+        categoryMap.set(key, displayCategory);
+      }
+    });
   }
 });
 
@@ -53,17 +76,19 @@ categories.sort((a, b) =>
   a.localeCompare(b, undefined, { sensitivity: "base" })
 );
 
-categoryDropdown.innerHTML = `
-  <a href="catalog.html?type=autograph">All Autographs</a>
-`;
-
-categories.forEach(category => {
-  categoryDropdown.innerHTML += `
-    <a href="catalog.html?type=autograph&category=${encodeURIComponent(category)}">
-      ${category}
-    </a>
+if (catalogCategoryDropdown) {
+  catalogCategoryDropdown.innerHTML = `
+    <a href="catalog.html?type=autograph">All Autographs</a>
   `;
-});
+
+  categories.forEach(category => {
+    catalogCategoryDropdown.innerHTML += `
+      <a href="catalog.html?type=autograph&category=${encodeURIComponent(category)}">
+        ${category}
+      </a>
+    `;
+  });
+}
 
 /* Shopping cart count and Add to Cart buttons */
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -140,11 +165,22 @@ function getAvailableProducts() {
 
     const matchesType = productType === selectedTypeLower;
 
-    const matchesCategory =
-      !selectedCategory ||
-      product.category?.trim().toLowerCase() === selectedCategory.trim().toLowerCase();
+    const productCategories = [
+      product.category,
+      product.category2
+    ]
+      .filter(category => category)
+      .map(category => category.trim().toLowerCase())
+      .filter(category => category);
 
-    const productName = product.name ? product.name.trim().toLowerCase() : "";
+    const matchesCategory =
+      !selectedCategoryLower ||
+      productCategories.includes(selectedCategoryLower);
+
+    const productName = product.name
+      ? product.name.trim().toLowerCase()
+      : "";
+
     const matchesSearch = productName.includes(searchTextLower);
 
     if (searchTextLower) {
@@ -158,6 +194,10 @@ function getAvailableProducts() {
 /* Build product cards */
 function displayProducts() {
   const availableProducts = getAvailableProducts();
+
+  if (!productGrid) {
+    return;
+  }
 
   productGrid.innerHTML = "";
 
@@ -207,6 +247,10 @@ function displayProducts() {
 
 /* Search controls */
 function runCatalogSearch() {
+  if (!catalogSearchInput) {
+    return;
+  }
+
   currentSearchText = catalogSearchInput.value;
   displayProducts();
 }
