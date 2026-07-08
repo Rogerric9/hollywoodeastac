@@ -141,12 +141,19 @@ function updateAddToCartButtons() {
     const quantityAvailable = product.quantity_available || 1;
     const existingCartItem = cart.find(item => item.product_id === productId);
 
-    if (existingCartItem && existingCartItem.quantity >= quantityAvailable) {
-      button.textContent = "Already in Cart";
-      button.disabled = true;
-    } else {
-      button.textContent = "Add to Cart";
-      button.disabled = false;
+const productStatus = product.status
+  ? product.status.trim().toLowerCase()
+  : "";
+
+    if (productStatus === "not-for-sale") {
+        button.textContent = "Not For Sale";
+        button.disabled = true;
+        } else if (existingCartItem && existingCartItem.quantity >= quantityAvailable) {
+        button.textContent = "Already in Cart";
+        button.disabled = true;
+        } else {
+        button.textContent = "Add to Cart";
+        button.disabled = false;
     }
   });
 }

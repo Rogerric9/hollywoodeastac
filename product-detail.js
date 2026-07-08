@@ -103,12 +103,19 @@ if (!product) {
 
     const existingCartItem = cart.find(item => item.product_id === product.product_id);
 
-    if (existingCartItem && existingCartItem.quantity >= quantityAvailable) {
-      addToCartButton.textContent = "Already in Cart";
-      addToCartButton.disabled = true;
+    const productStatus = product.status
+    ? product.status.trim().toLowerCase()
+    : "";
+
+    if (productStatus === "not-for-sale") {
+        addToCartButton.textContent = "Not For Sale";
+        addToCartButton.disabled = true;
+    } else if (existingCartItem && existingCartItem.quantity >= quantityAvailable) {
+        addToCartButton.textContent = "Already in Cart";
+        addToCartButton.disabled = true;
     } else {
-      addToCartButton.textContent = "Add to Cart";
-      addToCartButton.disabled = false;
+        addToCartButton.textContent = "Add to Cart";
+        addToCartButton.disabled = false;
     }
   }
 

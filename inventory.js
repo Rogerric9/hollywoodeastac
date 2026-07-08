@@ -39,6 +39,6 @@ const inventory = [
     description: "A signed 8x10 B&W photo of Elvis Presley",
     price: "299.99",
     product_page: "products/product.html?id=HEA-0003",
-    status: ""
+    status: "not-for-sale"
   }
 ];
