@@ -1,45 +1,42 @@
-console.log("DETAILS.JS VERSION 2 LOADED");
 const productDetails = [
   {
-    product_id: "HEA-0001",
-        product_images: [
-            "images/hea-0001.jpg",
-            "images/hea-0002.jpg",
-            "images/hec-0001-PopeyeWatch.jpg"
-            
-],
-    full_description: [
-        "This is the first temporary test paragraph for HEA-0001.",
-        "This is the second temporary test paragraph. It shows how longer descriptions can be broken into readable sections."
+    "product_id": "HEA-TEST1",
+    "product_images": [
+      "images/test-product.jpg"
     ],
-    authentication_info: "Beckett (pending)",
-    condition_notes: "Excellent condition",
-    miscellaneous: ""
+    "full_description": "This is the full description for the test product.",
+    "authentication_info": "Authentication information goes here.",
+    "condition_notes": "Condition notes go here.",
+    "miscellaneous": "Miscellaneous notes go here."
   },
   {
-    product_id: "HEA-0002",
-    product_images: ["images/hea-0002.jpg"],
-    full_description: [],
-    authentication_info: "Steve Grad",
-    condition_notes: "Good",
-    miscellaneous: ""
+    "product_id": "HEA-TEST2",
+    "product_images": [
+      "images/test-product.jpg"
+    ],
+    "full_description": "",
+    "authentication_info": "",
+    "condition_notes": "",
+    "miscellaneous": ""
   },
   {
-  product_id: "HEC-0001",
-  product_images: ["images/hec-0001-PopeyeWatch.jpg"],
-  full_description: [
-    "This is a temporary test description for the collectible item."
-  ],
-  authentication_info: "Toy Certifiers, Inc.",
-  condition_notes: "Acceptible",
-  miscellaneous: "Some"
-},
- {
-  product_id: "HEA-0003",
-  product_images: ["images/hea-0003.png"],
-  full_description: "This is a temporary test Elvis description for the collectible item.",
-  authentication_info: "Beckett",
-  condition_notes: "Mint",
-  miscellaneous: ""
-}
+    "product_id": "HEA-TEST3",
+    "product_images": [
+      "images/test-product.jpg"
+    ],
+    "full_description": "",
+    "authentication_info": "",
+    "condition_notes": "",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0001",
+    "product_images": [
+      "images/HEA-0001.jpg"
+    ],
+    "full_description": "This is a great shot of Shaq from back when he played for the Orlando Magic.   It is mounted on a wooden placque covered by plexiglass.",
+    "authentication_info": "",
+    "condition_notes": "Very good condition.",
+    "miscellaneous": ""
+  }
 ];
