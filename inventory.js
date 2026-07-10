@@ -30,10 +30,10 @@ const inventory = [
     "category2": "historical",
     "name": "George P. Shultz",
     "description": "8x10 Black & White Photograph.   Signed on the bottom.",
-    "price": 0.0,
+    "price": 29.99,
     "product_page": "product-detail.html?id=HEA-0003",
     "status": "",
-    "quantity_available": 0
+    "quantity_available": 1
   },
   {
     "product_id": "HEA-0004",
