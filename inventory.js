@@ -111,7 +111,7 @@ const inventory = [
     "product_id": "HEA-0010",
     "type": "autograph",
     "category": "tv",
-    "category2": "collectibles",
+    "category2": "vintage",
     "name": "Pat Sajak",
     "description": "Signed 8x10 B&W photograph.",
     "price": 59.99,
