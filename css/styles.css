@@ -347,8 +347,10 @@ nav a:hover {
 
 @media (max-width: 600px) {
   .home-banner img {
-    height: 200px;
-    object-fit: contain;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: initial;
   }
 }
 
