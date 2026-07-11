@@ -54,10 +54,10 @@ const inventory = [
     "category2": "politics",
     "name": "William F. Buckley Jr.",
     "description": "Signed \"Cordiallt\" 5x7 B&W Photo",
-    "price": 0.0,
+    "price": 50.0,
     "product_page": "product-detail.html?id=HEA-0005",
     "status": "",
-    "quantity_available": 0
+    "quantity_available": 1
   },
   {
     "product_id": "HEA-0006",
