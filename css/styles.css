@@ -127,7 +127,8 @@ nav a:hover {
   text-decoration: none;
 }
 
-.catalog-menu:hover .category-dropdown {
+.catalog-menu:hover .category-dropdown,
+.catalog-menu.open .category-dropdown {
   display: block;
 }
 

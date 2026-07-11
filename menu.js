@@ -1,6 +1,10 @@
 (function () {
   const menuCategoryDropdown = document.getElementById("category-dropdown");
   const menuCartCount = document.getElementById("cart-count");
+  const catalogMenuLink = document.getElementById("catalog-menu-link");
+  const catalogMenu = catalogMenuLink
+    ? catalogMenuLink.closest(".catalog-menu")
+    : null;
 
   function updateMenuCartCount() {
     if (!menuCartCount) {
@@ -84,6 +88,23 @@
   }
 
   window.updateMenuCartCount = updateMenuCartCount;
+
+  if (catalogMenuLink && catalogMenu) {
+    catalogMenuLink.addEventListener("click", event => {
+      const isTouchDevice = window.matchMedia("(hover: none)").matches;
+
+      if (isTouchDevice && !catalogMenu.classList.contains("open")) {
+        event.preventDefault();
+        catalogMenu.classList.add("open");
+      }
+    });
+
+    document.addEventListener("click", event => {
+      if (!catalogMenu.contains(event.target)) {
+        catalogMenu.classList.remove("open");
+      }
+    });
+  }
 
   updateMenuCartCount();
   buildAutographCategoryMenu();
