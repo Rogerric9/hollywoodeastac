@@ -511,20 +511,21 @@ nav a:hover {
 
 @media screen and (max-width: 600px) {
   .featured-category-carousel {
-    grid-template-columns: 40px minmax(0, 1fr) 40px;
-    gap: 6px;
+    grid-template-columns: 34px minmax(0, 1fr) 34px;
+    gap: 4px;
   }
 
   .featured-category-card {
-    flex: 0 0 220px;
+    flex: 0 0 96px;
   }
 
   .category-arrow {
-    width: 40px;
-    height: 44px;
-    font-size: 22px;
+    width: 34px;
+    height: 40px;
+    font-size: 20px;
   }
 }
+
 /* Force Featured Category arrows to display correctly */
 
 .category-arrow {
