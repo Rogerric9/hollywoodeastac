@@ -86,16 +86,17 @@ function displayCart() {
 
   cartTotal.textContent = calculateCartTotal().toFixed(2);
 
-  document.querySelectorAll(".remove-item").forEach(button => {
-    button.addEventListener("click", () => {
-      const productId = button.dataset.productId;
+document.querySelectorAll(".remove-item").forEach(button => {
+  button.addEventListener("click", () => {
+    const productId = button.dataset.productId;
 
-      cart = cart.filter(cartItem => cartItem.product_id !== productId);
-      localStorage.setItem("cart", JSON.stringify(cart));
+    cart = cart.filter(cartItem => cartItem.product_id !== productId);
+    localStorage.setItem("cart", JSON.stringify(cart));
 
-      displayCart();
-    });
+    displayCart();
+    window.updateMenuCartCount();
   });
+});
 }
 
 displayCart();

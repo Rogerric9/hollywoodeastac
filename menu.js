@@ -83,6 +83,8 @@
     });
   }
 
+  window.updateMenuCartCount = updateMenuCartCount;
+
   updateMenuCartCount();
   buildAutographCategoryMenu();
 })();
