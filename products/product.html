@@ -26,48 +26,62 @@
   </header>
 
   <main>
-  <section class="product-detail">
+<section class="product-detail">
 
-    <div class="product-image-viewer">
-      <button id="previous-image" class="image-arrow" type="button">&#10094;</button>
+<div class="product-image-column">
 
-      <img id="main-product-image"
-           src=""
-           alt="Product image">
+  <div class="product-image-viewer">
+    <button id="previous-image" class="image-arrow" type="button">
+      &#10094;
+    </button>
 
-      <button id="next-image" class="image-arrow" type="button">&#10095;</button>
+  <img id="main-product-image"
+      src=""
+      alt="Product image"
+      onerror="this.onerror=null; this.src='../images/no-image-available.jpg';">
+
+      <div class="product-page-buttons">
+        <button id="add-to-cart-button" type="button">
+          Add to Cart
+        </button>
+
+        <p>
+          <a class="back-link" href="../cart.html">View Cart</a>
+        </p>
+
+        <p>
+          <a class="back-link" href="../catalog.html">
+            Return to Catalog
+          </a>
+        </p>
+      </div>
     </div>
 
-    <div class="product-information">
-      <h2 id="product-name"></h2>
+    <button id="next-image" class="image-arrow" type="button">
+      &#10095;
+    </button>
+  </div>
 
-      <p id="product-number" class="product-number"></p>
+</div>
 
-      <p id="product-price" class="product-price"></p>
+  <div class="product-information">
+    <h2 id="product-name"></h2>
 
-      <div id="product-description"></div>
+    <p id="product-number" class="product-number"></p>
 
-      <div id="product-authentication"></div>
+    <p id="product-price" class="product-price"></p>
 
-      <div id="product-condition"></div>
+    <div id="product-description"></div>
 
-      <div id="product-miscellaneous"></div>
-    
-      <button id="add-to-cart-button" type="button">
-        Add to Cart
-      </button>
+    <div id="product-authentication"></div>
 
-      <p>
-        <a class="back-link" href="../cart.html">View Cart</a>
-      </p>
+    <div id="product-condition"></div>
 
-      <p>
-        <a class="back-link" href="../catalog.html">Return to Catalog</a>
-      </p>
+    <div id="product-miscellaneous"></div>
+  </div>
 
-    </div>
+</section>
 
-  </section>
 </main>
   <footer>
     <p>&copy; 2026 Hollywood East Autographs & Collectibles</p>

@@ -38,14 +38,26 @@ if (!product) {
   function showCurrentPhoto() {
     const currentPhoto = photoList[currentPhotoIndex];
 
+    mainProductImage.onerror = function () {
+      this.onerror = null;
+      this.src = "../images/no-image-available.jpg";
+
+      previousImageButton.style.display = "none";
+      nextImageButton.style.display = "none";
+    };
+
     mainProductImage.src = `../${currentPhoto}`;
     mainProductImage.alt = product.name;
 
     previousImageButton.style.display =
-      currentPhotoIndex === 0 ? "none" : "inline-block";
+      photoList.length <= 1 || currentPhotoIndex === 0
+        ? "none"
+        : "inline-block";
 
     nextImageButton.style.display =
-      currentPhotoIndex === photoList.length - 1 ? "none" : "inline-block";
+      photoList.length <= 1 || currentPhotoIndex === photoList.length - 1
+        ? "none"
+        : "inline-block";
   }
 
   previousImageButton.addEventListener("click", () => {
@@ -64,17 +76,29 @@ if (!product) {
 
   showCurrentPhoto();
 
-  if (details && details.full_description) {
-    const descriptionParagraphs = Array.isArray(details.full_description)
-      ? details.full_description
-      : [details.full_description];
+productDescription.innerHTML = "";
 
-    productDescription.innerHTML = "<h3>Description</h3>";
+if (product.description) {
+  productDescription.innerHTML += `
+    <h3>Description</h3>
+    <p>${product.description}</p>
+  `;
+}
 
-    descriptionParagraphs.forEach(paragraph => {
-      productDescription.innerHTML += `<p>${paragraph}</p>`;
-    });
-  }
+if (details && details.full_description) {
+  const fullDescriptionParagraphs = Array.isArray(details.full_description)
+    ? details.full_description
+    : [details.full_description];
+
+  productDescription.innerHTML += `
+    <h3>Full Description</h3>
+    <div class="full-description-scroll">
+      ${fullDescriptionParagraphs
+        .map(paragraph => `<p>${paragraph}</p>`)
+        .join("")}
+    </div>
+  `;
+}
 
   if (details && details.authentication_info) {
     productAuthentication.innerHTML = `

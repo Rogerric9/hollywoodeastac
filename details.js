@@ -44,7 +44,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0005.jpg"
     ],
-    "full_description": "William F. Buckley Jr. was an American author, political commentator, and founder of *National Review*. A leading figure in the modern conservative movement, he was also known for hosting the long-running television program *Firing Line* and for his distinctive wit, vocabulary, and debating style.",
+    "full_description": "William F. Buckley Jr. was an American author, political commentator, and founder of *National Review*. A leading figure in the modern conservative movement, he was also known for hosting the long-running television program *Firing Line* and for his distinctive wit, vocabulary, and debating style.   In the 1970s he was often paired in debate against Gore Vidal, who many considered to be Buckley's liberal counterpart.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""

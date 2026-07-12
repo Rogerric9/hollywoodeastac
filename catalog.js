@@ -228,7 +228,11 @@ function displayProducts() {
 
     productGrid.innerHTML += `
       <div class="product-card">
-        <img src="${mainImage}" alt="${product.name}">
+        <img
+          src="${mainImage}"
+          alt="${product.name}"
+          onerror="this.onerror=null; this.src='images/no-image-available.jpg';"
+        >
 
         <h3>${product.name}</h3>
 
@@ -238,7 +242,7 @@ function displayProducts() {
 
         <p class="price">$${product.price}</p>
 
-        <a class="button" href="${product.product_page}">
+        <a class="button" href="products/product.html?id=${product.product_id}">
             View Details
         </a>
 
