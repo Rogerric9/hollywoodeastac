@@ -53,7 +53,7 @@ const inventory = [
     "category": "author",
     "category2": "politics",
     "name": "William F. Buckley Jr.",
-    "description": "Signed \"Cordiallt\" 5x7 B&W Photo",
+    "description": "Signed \"Cordially\" 5x7 B&W Photo",
     "price": 50.0,
     "product_page": "product-detail.html?id=HEA-0005",
     "status": "",
