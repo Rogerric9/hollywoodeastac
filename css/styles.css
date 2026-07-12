@@ -167,18 +167,43 @@ nav a:hover {
   background-color: white;
   text-align: center;
 }
-
 .product-card img {
   width: 100%;
   max-width: 250px;
   height: 280px;
   object-fit: contain;
   background-color: #f5f5f5;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
 .product-card a {
   color: #1f3556;
   text-decoration: none;
+}
+
+.product-card > a {
+  display: inline-block;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 0;
+  background: none;
+}
+
+.product-card > a:focus,
+.product-card > a:active,
+.product-card > a:visited {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.product-card > a img {
+  display: block;
+  border: 1px solid black !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .product-card h3 {
