@@ -298,17 +298,5 @@ const inventory = [
     "product_page": "product-detail.html?id=HEA-0025",
     "status": "",
     "quantity_available": 1
-  },
-  {
-    "product_id": "HEA-0026",
-    "type": "autograph",
-    "category": "sports",
-    "category2": "",
-    "name": "Magic Johnson",
-    "description": "Signed color 8x10 mounted on wood plaque.",
-    "price": 80.0,
-    "product_page": "product-detail.html?id=HEA-0026",
-    "status": "",
-    "quantity_available": 1
   }
 ];

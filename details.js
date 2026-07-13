@@ -7,7 +7,7 @@ const productDetails = [
     "full_description": "This is a great shot of Shaq from back when he played for the Orlando Magic.   It is mounted on a wooden placque covered by plexiglass.",
     "authentication_info": "",
     "condition_notes": "Very good condition.",
-    "miscellaneous": "This should be here."
+    "miscellaneous": ""
   },
   {
     "product_id": "HEA-0002",
@@ -248,16 +248,6 @@ const productDetails = [
     "full_description": "(Deceased) Al Hirt (November 7, 1922 \u2013 April 27, 1999) was an American trumpeter and bandleader known for his powerful sound and lively performances. Nicknamed \u201cJumbo,\u201d he became a major recording and television star in the 1960s, with hits such as \u201cJava\u201d and \u201cCotton Candy.\u201d Hirt was closely associated with New Orleans jazz and remained one of the most recognizable trumpet players of his era.",
     "authentication_info": "",
     "condition_notes": "",
-    "miscellaneous": ""
-  },
-  {
-    "product_id": "HEA-0026",
-    "product_images": [
-      "images/HEA-0026.jpg"
-    ],
-    "full_description": "Magic Johnson (born August 14, 1959) is a Basketball Hall of Famer best known for leading the Los Angeles Lakers during the team\u2019s \u201cShowtime\u201d era. A five-time NBA champion and three-time league MVP, he is widely regarded as one of the greatest point guards in basketball history.",
-    "authentication_info": "",
-    "condition_notes": "Good",
     "miscellaneous": ""
   }
 ];
