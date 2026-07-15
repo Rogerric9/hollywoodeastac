@@ -16,8 +16,16 @@
     <nav>
       <a href="../index.html">Home</a>
       <a href="../catalog.html">Catalog</a>
-      <a href="../cart.html">Cart</a>
-      <a href="../ordering.html">Ordering</a>
+      <a href="../cart.html" class="cart-menu-link" aria-label="Shopping cart">
+        <span class="cart-icon">
+          <svg class="cart-svg" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M12 18l7 24h30l7-24"></path>
+            <circle cx="25" cy="51" r="4"></circle>
+            <circle cx="47" cy="51" r="4"></circle>
+          </svg>
+          <span id="cart-count" class="cart-count">0</span>
+        </span>
+      </a>      <a href="../ordering.html">Ordering</a>
       <a href="../privacy.html">Privacy</a>
       <a href="../about.html">About Us</a>
       <a href="../contact.html">Contact</a>
@@ -69,6 +77,8 @@
 
     <p id="product-price" class="product-price"></p>
 
+    <p id="product-shipping" class="product-shipping"></p>
+
     <div id="product-description"></div>
 
     <div id="product-authentication"></div>
@@ -87,6 +97,8 @@
 
   <script src="../inventory.js?v=3"></script>
   <script src="../details.js?v=3"></script>
+  <script src="../shipping.js?v=1"></script>
+  <script src="../menu.js?v=2"></script>
   <script src="../product-detail.js?v=3"></script>
 
 </body>

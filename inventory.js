@@ -9,7 +9,9 @@ const inventory = [
     "price": 349.0,
     "product_page": "product-detail.html?id=HEA-0001",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 2,
+    "shipping_class": "plaque",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0002",
@@ -21,7 +23,9 @@ const inventory = [
     "price": 59.99,
     "product_page": "product-detail.html?id=HEA-0002",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "custom",
+    "shipping_charge": 12.5
   },
   {
     "product_id": "HEA-0003",
@@ -33,7 +37,9 @@ const inventory = [
     "price": 29.99,
     "product_page": "product-detail.html?id=HEA-0003",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0004",
@@ -45,7 +51,9 @@ const inventory = [
     "price": 29.99,
     "product_page": "product-detail.html?id=HEA-0004",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0005",
@@ -57,7 +65,9 @@ const inventory = [
     "price": 50.0,
     "product_page": "product-detail.html?id=HEA-0005",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0006",
@@ -69,7 +79,9 @@ const inventory = [
     "price": 34.99,
     "product_page": "product-detail.html?id=HEA-0006",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0007",
@@ -81,7 +93,9 @@ const inventory = [
     "price": 45.0,
     "product_page": "product-detail.html?id=HEA-0007",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0008",
@@ -93,7 +107,9 @@ const inventory = [
     "price": 40.0,
     "product_page": "product-detail.html?id=HEA-0008",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0009",
@@ -105,7 +121,9 @@ const inventory = [
     "price": 79.99,
     "product_page": "product-detail.html?id=HEA-0009",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0010",
@@ -117,7 +135,9 @@ const inventory = [
     "price": 59.99,
     "product_page": "product-detail.html?id=HEA-0010",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "framed",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0011",
@@ -129,7 +149,9 @@ const inventory = [
     "price": 30.0,
     "product_page": "product-detail.html?id=HEA-0011",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "framed",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0012",
@@ -141,7 +163,9 @@ const inventory = [
     "price": 150.0,
     "product_page": "product-detail.html?id=HEA-0012",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "plaque",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0013",
@@ -153,7 +177,9 @@ const inventory = [
     "price": 325.0,
     "product_page": "product-detail.html?id=HEA-0013",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0014",
@@ -165,7 +191,9 @@ const inventory = [
     "price": 80.0,
     "product_page": "product-detail.html?id=HEA-0014",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0015",
@@ -177,7 +205,9 @@ const inventory = [
     "price": 45.0,
     "product_page": "product-detail.html?id=HEA-0015",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0016",
@@ -189,7 +219,9 @@ const inventory = [
     "price": 85.0,
     "product_page": "product-detail.html?id=HEA-0016",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0017",
@@ -201,7 +233,9 @@ const inventory = [
     "price": 90.0,
     "product_page": "product-detail.html?id=HEA-0017",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0018",
@@ -213,7 +247,9 @@ const inventory = [
     "price": 75.0,
     "product_page": "product-detail.html?id=HEA-0018",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0019",
@@ -225,7 +261,9 @@ const inventory = [
     "price": 175.0,
     "product_page": "product-detail.html?id=HEA-0019",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0020",
@@ -237,7 +275,9 @@ const inventory = [
     "price": 90.0,
     "product_page": "product-detail.html?id=HEA-0020",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0021",
@@ -249,7 +289,9 @@ const inventory = [
     "price": 50.0,
     "product_page": "product-detail.html?id=HEA-0021",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0022",
@@ -261,7 +303,9 @@ const inventory = [
     "price": 90.0,
     "product_page": "product-detail.html?id=HEA-0022",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0023",
@@ -273,7 +317,9 @@ const inventory = [
     "price": 80.0,
     "product_page": "product-detail.html?id=HEA-0023",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0024",
@@ -285,7 +331,9 @@ const inventory = [
     "price": 80.0,
     "product_page": "product-detail.html?id=HEA-0024",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   },
   {
     "product_id": "HEA-0025",
@@ -297,6 +345,8 @@ const inventory = [
     "price": 85.0,
     "product_page": "product-detail.html?id=HEA-0025",
     "status": "",
-    "quantity_available": 1
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   }
 ];

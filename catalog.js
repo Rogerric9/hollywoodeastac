@@ -321,9 +321,10 @@ document.addEventListener("click", event => {
       product_id: product.product_id,
       name: product.name,
       price: product.price,
-      quantity: 1
+      quantity: 1,
+      shipping_class: product.shipping_class || "standard",
+      shipping_charge: product.shipping_charge || ""
     });
-
     alert(`${product.name} has been added to your cart.`);
   }
 

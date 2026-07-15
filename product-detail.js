@@ -11,6 +11,7 @@ const nextImageButton = document.getElementById("next-image");
 const productName = document.getElementById("product-name");
 const productNumber = document.getElementById("product-number");
 const productPrice = document.getElementById("product-price");
+const productShipping = document.getElementById("product-shipping");
 const productDescription = document.getElementById("product-description");
 const productAuthentication = document.getElementById("product-authentication");
 const productCondition = document.getElementById("product-condition");
@@ -25,6 +26,20 @@ if (!product) {
   productName.textContent = product.name;
   productNumber.textContent = `Product No. ${product.product_id}`;
   productPrice.textContent = `$${product.price}`;
+  let shippingAmount = 0;
+
+  if (product.shipping_class === "standard") {
+    shippingAmount = SHIPPING_CONFIG.standardSingle;
+  } else if (product.shipping_class === "framed") {
+    shippingAmount = SHIPPING_CONFIG.framedFirst;
+  } else if (product.shipping_class === "plaque") {
+    shippingAmount = SHIPPING_CONFIG.plaqueFirst;
+  } else if (product.shipping_class === "custom") {
+    shippingAmount = Number(product.shipping_charge);
+  }
+
+  productShipping.textContent =
+    `Shipping: $${shippingAmount.toFixed(2)}`;
 
   const photoList =
     details &&
@@ -166,13 +181,17 @@ if (details && details.full_description) {
         product_id: product.product_id,
         name: product.name,
         price: product.price,
-        quantity: 1
+        quantity: 1,
+        shipping_class: product.shipping_class || "standard",
+        shipping_charge: product.shipping_charge || ""
       });
-
       alert(`${product.name} has been added to your cart.`);
     }
-
     localStorage.setItem("cart", JSON.stringify(cart));
+
+    if (window.updateMenuCartCount) {
+      window.updateMenuCartCount();
+    }
 
     updateAddToCartButton();
   });
