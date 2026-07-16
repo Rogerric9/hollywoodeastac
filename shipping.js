@@ -1,6 +1,6 @@
 const SHIPPING_CONFIG = {
-  standardSingle: 6.95,
-  standardMultiple: 8.95,
+  standardSingle: 8.95,
+  standardMultiple: 10.95,
 
   framedFirst: 18.95,
   framedAdditional: 6.00,

@@ -163,110 +163,132 @@ displayCart();
 
 if (window.paypal) {
   paypal.Buttons({
-    createOrder: function(data, actions) {
-      const merchandiseSubtotal =
-        calculateMerchandiseSubtotal();
-
-      const shippingAmount =
-        calculateShippingTotal();
-
-      const orderTotal =
-        merchandiseSubtotal + shippingAmount;
-
-      if (orderTotal <= 0) {
+    createOrder: async function() {
+      if (!Array.isArray(cart) || cart.length === 0) {
         alert("Your cart is empty.");
-        return;
+        throw new Error("The cart is empty.");
       }
 
-      const paypalItems = cart.map(cartItem => {
+      const checkoutItems = cart.map(cartItem => {
         return {
-          name: cartItem.name,
-          sku: cartItem.product_id,
-          quantity: String(cartItem.quantity),
-          category: "PHYSICAL_GOODS",
-          unit_amount: {
-            currency_code: "USD",
-            value: Number(cartItem.price).toFixed(2)
-          }
+          product_id: cartItem.product_id,
+          quantity: Number(cartItem.quantity)
         };
       });
-      
-      const invoiceNumber =
-        `HE-${Date.now()}`;
 
-      return actions.order.create({
-        purchase_units: [
-          {
-            invoice_id: invoiceNumber,
-            items: paypalItems,
+      const response = await fetch(
+        "https://hollywood-east-checkout.steve-kanski.workers.dev/create-paypal-order",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            items: checkoutItems
+          })
+        }
+      );
 
-            amount: {
-              currency_code: "USD",
-              value: orderTotal.toFixed(2),
+      const result = await response.json();
 
-              breakdown: {
-                item_total: {
-                  currency_code: "USD",
-                  value: merchandiseSubtotal.toFixed(2)
-                },
+      if (
+        !response.ok ||
+        !result.success ||
+        !result.order_id
+      ) {
+        const message =
+          result.message ||
+          "The PayPal order could not be created.";
 
-                shipping: {
-                  currency_code: "USD",
-                  value: shippingAmount.toFixed(2)
-                }
-              }
-            }
-          }
-        ]
-      });
+        alert(message);
+        throw new Error(message);
+      }
+
+      console.log(
+        "Secure PayPal order created.",
+        result
+      );
+
+      return result.order_id;
     },
 
-    onApprove: function(data, actions) {
+    onApprove: async function(data) {
       console.log("PayPal payment approved.");
 
-      return actions.order.capture().then(function(details) {
-        console.log("PayPal payment captured.", details);
+      const response = await fetch(
+        "https://hollywood-east-checkout.steve-kanski.workers.dev/capture-paypal-order",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            order_id: data.orderID
+          })
+        }
+      );
 
-        const expectedTotal =
-          calculateMerchandiseSubtotal() +
-          calculateShippingTotal();
+      const result = await response.json();
 
-        const capture =
-          details.purchase_units?.[0]
-            ?.payments?.captures?.[0];
+      console.log(
+        "Secure PayPal capture result.",
+        result
+      );
 
-        const capturedAmount = Number(
-          capture?.amount?.value
-        );
-
-        const paymentStatus = capture?.status;
-
+      if (
+        !response.ok ||
+        !result.success ||
+        result.status !== "COMPLETED"
+      ) {
         if (
-          paymentStatus !== "COMPLETED" ||
-          capturedAmount !== Number(expectedTotal.toFixed(2))
+          result.status === "PENDING" &&
+          result.pending_reason === "PENDING_REVIEW"
         ) {
           alert(
-            "Payment could not be verified. " +
-            "Please contact Hollywood East before retrying."
+            "PayPal is reviewing this payment. " +
+            "Your order is not complete yet, and your cart " +
+            "will remain available. Please do not retry the " +
+            "payment or submit another order. Hollywood East " +
+            "will wait for PayPal to complete its review."
           );
+
           return;
         }
 
-        alert("Payment completed. Thank you!");
+        alert(
+          result.message ||
+          "Payment could not be verified. " +
+          "Please contact Hollywood East before retrying."
+        );
 
-        cart = [];
-        localStorage.removeItem("cart");
+        return;
+      }
 
-        displayCart();
+      alert("Payment completed. Thank you!");
 
-        if (window.updateMenuCartCount) {
-          window.updateMenuCartCount();
-        }
+      cart = [];
+      localStorage.removeItem("cart");
 
-        document.getElementById(
-          "paypal-button-container"
-        ).innerHTML = "";
-      });
+      displayCart();
+
+      if (window.updateMenuCartCount) {
+        window.updateMenuCartCount();
+      }
+
+      document.getElementById(
+        "paypal-button-container"
+      ).innerHTML = "";
+    },
+
+    onCancel: function() {
+      console.log("PayPal checkout canceled.");
+    },
+
+    onError: function(error) {
+      console.error(
+        "Secure PayPal checkout error.",
+        error
+      );
     }
   }).render("#paypal-button-container");
 } else {
