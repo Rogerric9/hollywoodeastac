@@ -492,5 +492,71 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0051",
+    "product_images": [
+      "images/HEA-0051.jpg",
+      "images/MarkiePost.jpg"
+    ],
+    "full_description": "(Deceased) Markie Post (November 4, 1950 \u2013 August 7, 2021) was an American actress best known for portraying public defender Christine Sullivan on the hit television comedy Night Court. She also starred as Terri Michaels on The Fall Guy and Georgie Anne Lahti Hartman on Hearts Afire. Her other credits included There\u2019s Something About Mary, Scrubs, Chicago P.D., and Santa Clarita Diet.",
+    "authentication_info": "",
+    "condition_notes": "",
+    "miscellaneous": "This autograph comes with a beautiful color 8x10 of Markie Post.  (Photo is not signed.)"
+  },
+  {
+    "product_id": "HEA-0052",
+    "product_images": [
+      "images/HEA-0052.jpg",
+      "images/DolphLundgren,jpg.jpg"
+    ],
+    "full_description": "Dolph Lundgren (born November 3, 1957) is a Swedish actor, filmmaker, martial artist, and former chemical engineer. He became internationally famous for playing Soviet boxer Ivan Drago in Rocky IV, a role he later reprised in Creed II. His other notable films include Masters of the Universe, Universal Soldier, The Punisher, Aquaman, and The Expendables film series.",
+    "authentication_info": "",
+    "condition_notes": "Excllent condition.",
+    "miscellaneous": "This autograph comes with a great color 8x10 photo of Dolph Lundgren.   (The photo is not signed.)"
+  },
+  {
+    "product_id": "HEA-0053",
+    "product_images": [
+      "images/HEA-0053.jpg",
+      "images/SophiaLoren.jpg"
+    ],
+    "full_description": "Sophia Loren (born September 20, 1934) is an Italian actress and one of the most celebrated international film stars of Hollywood\u2019s Golden Age. She won the Academy Award for Best Actress for her performance in Two Women, becoming the first performer to win an acting Oscar for a non-English-language role. Her other notable films include Houseboat, Yesterday, Today and Tomorrow, Marriage Italian Style, El Cid, Grumpier Old Men, and The Life Ahead. She also received an Honorary Academy Award for her contributions to world cinema.",
+    "authentication_info": "",
+    "condition_notes": "Excellent",
+    "miscellaneous": "This autograph comes with a gorgeous 8x10 color photograph of Sophia Loren.  (The photo is not signed.)"
+  },
+  {
+    "product_id": "HEA-0054",
+    "product_images": [
+      "images/HEA-0054.jpg",
+      "images/AngieDickinson.jpg"
+    ],
+    "full_description": "Angie Dickinson (born September 30, 1931) is an American actress best known for starring as Sergeant Suzanne \u201cPepper\u201d Anderson in the television crime drama Police Woman. Her notable films include Rio Bravo, Ocean\u2019s 11, The Killers, Point Blank, Big Bad Mama, and Dressed to Kill. During a career spanning more than five decades, she became one of Hollywood\u2019s most recognizable film and television stars.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "This autograph comes with color 8x10 photogrph of Angie Dickinson.  (The photo is not signed.)"
+  },
+  {
+    "product_id": "HEA-0055",
+    "product_images": [
+      "images/HEA-0055.jpg",
+      "images/JamesGarner.jpg"
+    ],
+    "full_description": "(Deceased) James Garner (April 7, 1928 \u2013 July 19, 2014) was an American actor best known for starring as Bret Maverick in the television western Maverick and as private investigator Jim Rockford in The Rockford Files. His notable films included The Great Escape, Grand Prix, Victor/Victoria, Murphy\u2019s Romance, Space Cowboys, and The Notebook. Garner was admired for his relaxed charm, natural humor, and versatility across westerns, comedies, dramas, and action roles.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "This autograph comes with a nice color 8x10 of James Garner as Jim Rockford.  (The photo is not signed.)"
+  },
+  {
+    "product_id": "HEA-0056",
+    "product_images": [
+      "images/HEA-0056.jpg",
+      "images/ConnieSelleca.jpg"
+    ],
+    "full_description": "Connie Sellecca (born May 25, 1955) is an American actress, producer, and former model best known for her television roles as Pam Davidson on The Greatest American Hero and Christine Francis on Hotel. She also appeared in Flying High, Beyond Westworld, P.S. I Luv U, and numerous made-for-television movies. Her performance on Hotel earned her a Golden Globe Award nomination.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "This autograph comes with beautiful 8x10 photo of Connie Selleca.   (The photo is not signed.)"
   }
 ];
