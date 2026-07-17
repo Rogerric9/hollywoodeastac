@@ -636,9 +636,9 @@ const productDetails = [
       "images/EstherWilliams.jpg"
     ],
     "full_description": "(Deceased) Esther Williams (August 8, 1921 \u2013 June 6, 2013) was an American competitive swimmer and actress best known for starring in lavish MGM \u201caquamusicals\u201d during the 1940s and 1950s. Her films featured elaborate synchronized-swimming routines and included Bathing Beauty, Neptune\u2019s Daughter, Million Dollar Mermaid, Dangerous When Wet and Easy to Love. Before entering films, Williams was a champion swimmer whose hopes of competing in the Olympics ended when the 1940 Games were canceled because of World War II.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
-    "miscellaneous": "This autograpk comes with an 8x10 B&W photograph of Esther Williams.  (The photo itself is not signed.)"
+    "miscellaneous": "This autograph comes with an 8x10 B&W photograph of Esther Williams.  (The photo itself is not signed.)"
   },
   {
     "product_id": "HEA-0065",
