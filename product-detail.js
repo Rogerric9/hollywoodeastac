@@ -100,17 +100,23 @@ if (product.description) {
   `;
 }
 
+
 if (details && details.full_description) {
-  const fullDescriptionParagraphs = Array.isArray(details.full_description)
+  const fullDescriptionParagraphs = Array.isArray(
+    details.full_description
+  )
     ? details.full_description
     : [details.full_description];
 
   productDescription.innerHTML += `
-    <h3>Full Description</h3>
-    <div class="full-description-scroll">
-      ${fullDescriptionParagraphs
-        .map(paragraph => `<p>${paragraph}</p>`)
-        .join("")}
+    <div class="full-description-section">
+      <h3>Full Description</h3>
+
+      <div class="full-description-scroll">
+        ${fullDescriptionParagraphs
+          .map(paragraph => `<p>${paragraph}</p>`)
+          .join("")}
+      </div>
     </div>
   `;
 }
@@ -129,11 +135,28 @@ if (details && details.full_description) {
     `;
   }
 
-  if (details && details.miscellaneous) {
+  if (
+    details &&
+    details.miscellaneous &&
+    String(details.miscellaneous).trim() !== ""
+  ) {
+    const miscellaneousParagraphs = Array.isArray(
+      details.miscellaneous
+    )
+      ? details.miscellaneous
+      : [details.miscellaneous];
+
     productMiscellaneous.innerHTML = `
       <h3>Miscellaneous</h3>
-      <p>${details.miscellaneous}</p>
+
+      <div class="full-description-scroll">
+        ${miscellaneousParagraphs
+          .map(paragraph => `<p>${paragraph}</p>`)
+          .join("")}
+      </div>
     `;
+  } else {
+    productMiscellaneous.innerHTML = "";
   }
 
    function updateAddToCartButton() {

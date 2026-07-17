@@ -72,12 +72,13 @@ const productDetails = [
   {
     "product_id": "HEA-0008",
     "product_images": [
-      "images/HEA-0008.jpg"
+      "images/HEA-0008.jpg",
+      "images/LaurenBacall.jpg"
     ],
     "full_description": "Lauren Bacall was an American actress celebrated for her distinctive voice, elegant screen presence, and roles in classic films such as To Have and Have Not, The Big Sleep, Key Largo, and How to Marry a Millionaire. She was married to actor Humphrey Bogart from 1945 until his death in 1957, and the two became one of Hollywood\u2019s most famous couples.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
-    "miscellaneous": ""
+    "miscellaneous": "This autograph comes with a beautiful color 8x10 photograph of Lauren bacall.  (The photo is not signed.)"
   },
   {
     "product_id": "HEA-0009",
@@ -273,12 +274,13 @@ const productDetails = [
   {
     "product_id": "HEA-0029",
     "product_images": [
-      "images/HEA-0029.jpg"
+      "images/HEA-0029.jpg",
+      "images/BlackLagoonMonster.jpg"
     ],
     "full_description": "(Deceased) Born February 16, 1930 \u2014 Died February 27, 2023. Ricou Browning was an American actor, stunt performer, director, writer and underwater filmmaker best known for portraying the Gill-man during the underwater scenes in the 1954 horror classic *Creature from the Black Lagoon*.\n\nAn accomplished swimmer and diver, Browning performed the role without scuba equipment and reprised the underwater character in *Revenge of the Creature* and *The Creature Walks Among Us*. Ben Chapman portrayed the creature during the original film\u2019s land scenes.\n\nBrowning also helped create the popular *Flipper* franchise, co-writing the story for the 1963 film and contributing to the television series that followed. His extensive behind-the-scenes work included directing underwater sequences for several major productions, including the James Bond film *Thunderball*. He also worked on films such as *20,000 Leagues Under the Sea*, *Hello Down There* and *Caddyshack*.\n\nRecognized as a pioneer of underwater filmmaking, Browning enjoyed a varied Hollywood career that included acting, writing, producing, directing and stunt coordination.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
-    "miscellaneous": ""
+    "miscellaneous": "This autograph comes with an 8x10 color photo of the Creature of the Black Lagoon."
   },
   {
     "product_id": "HEA-0030",
@@ -443,7 +445,8 @@ const productDetails = [
   {
     "product_id": "HEA-0046",
     "product_images": [
-      "images/HEA-0046.jpg"
+      "images/HEA-0046.jpg",
+      "images/TheresaRussel.jpg"
     ],
     "full_description": "Theresa Russell, born March 20, 1957, is an American actress known for her work in both mainstream and independent films. She made her film debut in The Last Tycoon and later appeared in Straight Time, Bad Timing, Black Widow, Insignificance, and Wild Things. Russell became especially known for her collaborations with director Nicolas Roeg and for portraying complex, unconventional characters throughout her career.",
     "authentication_info": "",
@@ -467,7 +470,7 @@ const productDetails = [
     ],
     "full_description": "Jean Simmons (Deceased; January 31, 1929 \u2013 January 22, 2010) was a British-American actress whose distinguished career spanned more than six decades. She received Academy Award nominations for Hamlet and The Happy Ending and starred in such notable films as Great Expectations, Guys and Dolls, The Robe, Spartacus, Elmer Gantry, and The Big Country. Simmons was admired for her elegance, versatility, and memorable performances in both British and Hollywood productions.",
     "authentication_info": "",
-    "condition_notes": "Excellent condition.",
+    "condition_notes": "Very good condition.  Some very minor creases.",
     "miscellaneous": ""
   },
   {
