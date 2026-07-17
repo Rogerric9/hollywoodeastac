@@ -558,5 +558,97 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": "This autograph comes with beautiful 8x10 photo of Connie Selleca.   (The photo is not signed.)"
+  },
+  {
+    "product_id": "HEA-0057",
+    "product_images": [
+      "images/HEA-0057.jpg"
+    ],
+    "full_description": "(Deceased) Edward G. Robinson (December 12, 1893 \u2013 January 26, 1973) was a Romanian-born American actor best known for portraying tough, intimidating characters in classic Hollywood crime films. He became a major star after playing gangster Caesar Enrico \u201cRico\u201d Bandello in Little Caesar (1931). His other notable films include Double Indemnity, Key Largo, The Woman in the Window, Scarlet Street, and The Ten Commandments. During a career spanning more than 50 years, Robinson appeared in over 100 films and received an honorary Academy Award shortly after his death.",
+    "authentication_info": "",
+    "condition_notes": "The upper right corner has been torn and repaired with tape on the backside.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0058",
+    "product_images": [
+      "images/HEA-0058.jpg"
+    ],
+    "full_description": "Richard Lester (born January 19, 1932) is an American film director known for his innovative, fast-paced visual style and offbeat humor. He became internationally famous for directing the Beatles films A Hard Day\u2019s Night and Help! His other notable movies include The Three Musketeers, The Four Musketeers, Robin and Marian, Superman II, and Superman III. Born in Philadelphia, Lester spent most of his career in Great Britain and became closely associated with British cinema of the 1960s. ([en.wikipedia.org][1])\n\n[1]: https://en.wikipedia.org/wiki/Richard_Lester?utm_source=chatgpt.com \"Richard Lester\"",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0059",
+    "product_images": [
+      "images/HEA-0059.jpg"
+    ],
+    "full_description": "Neil Young (born November 12, 1945) is a Canadian-American singer, songwriter, musician, and filmmaker known for his distinctive high-pitched voice, deeply personal lyrics, and influential guitar work. He first gained fame as a member of Buffalo Springfield before beginning a successful solo career and frequently performing with the band Crazy Horse. His best-known songs include \u201cHeart of Gold,\u201d \u201cOld Man,\u201d \u201cCinnamon Girl,\u201d \u201cRockin\u2019 in the Free World,\u201d and \u201cOhio.\u201d Young has been inducted into the Rock and Roll Hall of Fame twice\u2014once as a solo performer and once as a member of Buffalo Springfield. ([Wikipedia][1])\n\n[1]: https://en.wikipedia.org/wiki/Neil_Young?utm_source=chatgpt.com \"Neil Young\"",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0060",
+    "product_images": [
+      "images/HEA-0060.jpg"
+    ],
+    "full_description": "(Deceased) Aldo Ray (September 25, 1926 \u2013 March 27, 1991) and Jeff Donnell (July 10, 1921 \u2013 April 11, 1988) were American actors who were married during the 1950s. Ray was a gravel-voiced leading man best known for portraying soldiers, tough guys and working-class characters in films such as The Marrying Kind, Pat and Mike, Battle Cry, We\u2019re No Angels, Men in War and The Green Berets. Donnell was a versatile film and television actress whose credits included My Sister Eileen, A Night to Remember, In a Lonely Place, The Blue Gardenia and the long-running soap opera General Hospital. The couple married in 1954, but the marriage ended in divorce a few years later. ([Encyclopedia.com][1])\n\n[1]: https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/ray-aldo?utm_source=chatgpt.com \"Ray, Aldo\"",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0061",
+    "product_images": [
+      "images/HEA-0061.jpg"
+    ],
+    "full_description": "(Deceased) Lloyd Bridges (January 15, 1913 \u2013 March 10, 1998) was an American film and television actor whose career spanned more than six decades. He became widely known as underwater adventurer Mike Nelson in the television series Sea Hunt and later appeared in such films as High Noon, Sahara, Little Big Horn, Airplane!, Hot Shots! and Blown Away. Bridges successfully moved between drama, westerns, adventure stories and comedy, earning particular praise for his deadpan comic performances later in life. He was the father of actors Beau Bridges and Jeff Bridges.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0062",
+    "product_images": [
+      "images/HEA-0062.jpg"
+    ],
+    "full_description": "(Deceased) Donna Douglas (September 26, 1932 \u2013 January 1, 2015) was an American actress and singer best remembered as the animal-loving Elly May Clampett on the classic television comedy The Beverly Hillbillies, which aired from 1962 to 1971. She also appeared in films such as Career, Lover Come Back and Frankie and Johnny, in which she starred opposite Elvis Presley. After her acting career, Douglas worked as a gospel singer, inspirational speaker and author. ([en.wikipedia.org][1])\n\n[1]: https://en.wikipedia.org/wiki/Donna_Douglas?utm_source=chatgpt.com \"Donna Douglas\"",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0063",
+    "product_images": [
+      "images/HEA-0063.jpg"
+    ],
+    "full_description": "(Deceased) Florence Henderson (February 14, 1934 \u2013 November 24, 2016) was an American actress and singer best remembered as Carol Brady, the warm and cheerful mother on the classic television sitcom The Brady Bunch, which aired from 1969 to 1974. She also appeared in numerous stage productions, television programs and films, including Oklahoma!, Fanny, The Love Boat and The Brady Bunch Movie. Henderson remained a popular television personality for decades, making frequent guest appearances and serving as a host, performer and contestant on programs such as Dancing with the Stars.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0064",
+    "product_images": [
+      "images/HEA-0064.jpg",
+      "images/EstherWilliams.jpg"
+    ],
+    "full_description": "(Deceased) Esther Williams (August 8, 1921 \u2013 June 6, 2013) was an American competitive swimmer and actress best known for starring in lavish MGM \u201caquamusicals\u201d during the 1940s and 1950s. Her films featured elaborate synchronized-swimming routines and included Bathing Beauty, Neptune\u2019s Daughter, Million Dollar Mermaid, Dangerous When Wet and Easy to Love. Before entering films, Williams was a champion swimmer whose hopes of competing in the Olympics ended when the 1940 Games were canceled because of World War II.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "This autograpk comes with an 8x10 B&W photograph of Esther Williams.  (The photo itself is not signed.)"
+  },
+  {
+    "product_id": "HEA-0065",
+    "product_images": [
+      "images/HEA-0065.jpg",
+      "images/HollyHunter.jpg"
+    ],
+    "full_description": "Holly Hunter (born March 20, 1958) is an American actress known for her distinctive voice and acclaimed performances in film and television. She won the Academy Award for Best Actress for portraying Ada McGrath in The Piano and received additional Oscar nominations for Broadcast News, The Firm and Thirteen. Her other notable credits include Raising Arizona, Always, Copycat, O Brother, Where Art Thou?, The Incredibles, Saving Grace, Succession and Batman v Superman: Dawn of Justice. ([en.wikipedia.org][1])\n\n[1]: https://en.wikipedia.org/wiki/Holly_Hunter?utm_source=chatgpt.com \"Holly Hunter\"",
+    "authentication_info": "",
+    "condition_notes": "",
+    "miscellaneous": "This autograph comes with an 8x10 color photograph of Holly Hunter.   (The photo itself is not signed.)"
   }
 ];
