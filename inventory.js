@@ -894,5 +894,19 @@ const inventory = [
     "quantity_available": 1,
     "shipping_class": "standard",
     "shipping_charge": ""
+  },
+  {
+    "product_id": "HEA-0066",
+    "type": "autograph",
+    "category": "actor",
+    "category2": "vintage",
+    "name": "Charlton Heston",
+    "description": "Signed B&W photo as Colonel George Taylor from Planet of the Apes",
+    "price": 300.0,
+    "product_page": "product-detail.html?id=HEA-0066",
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   }
 ];

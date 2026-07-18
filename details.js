@@ -650,5 +650,15 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "",
     "miscellaneous": "This autograph comes with an 8x10 color photograph of Holly Hunter.   (The photo itself is not signed.)"
+  },
+  {
+    "product_id": "HEA-0066",
+    "product_images": [
+      "images/HEA-0066.jpg"
+    ],
+    "full_description": "(Deceased) Charlton Heston (October 4, 1923 \u2013 April 5, 2008) was an American actor best known for his commanding screen presence and leading roles in epic films. He won the Academy Award for Best Actor for portraying Judah Ben-Hur in Ben-Hur (1959) and also starred as Moses in The Ten Commandments (1956), George Taylor in Planet of the Apes (1968), and Robert Neville in The Omega Man (1971). Over a career spanning more than six decades, Heston appeared in numerous historical dramas, westerns, adventure films, and science-fiction productions. He also served as president of the Screen Actors Guild and later became a prominent public advocate for gun-ownership rights.",
+    "authentication_info": "",
+    "condition_notes": "Very good condition.  Some minor bleeding of felt tip ink.",
+    "miscellaneous": ""
   }
 ];
