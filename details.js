@@ -660,5 +660,363 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Very good condition.  Some minor bleeding of felt tip ink.",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0001",
+    "product_images": [
+      "images/HEC-0001.jpg"
+    ],
+    "full_description": "Tis is a set of four glass coasters featuring the names of Beatles albums.  We have Abbey Road, Sgt Peppers, Help and A Hard Day's Night.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "The pictures are not actual reproductions of the actual original album art, but are whimsical artisti c adaptations."
+  },
+  {
+    "product_id": "HEA-0067",
+    "product_images": [
+      "images/HEA-0067.jpg",
+      "images/DavyJones.jpg"
+    ],
+    "full_description": "(Deceased) Davy Jones (December 30, 1945 \u2013 February 29, 2012) was an English singer, musician, and actor best known as a member of the popular 1960s television and music group The Monkees. Before joining the group, he appeared on stage in the musical Oliver! and received a Tony Award nomination. With The Monkees, Jones sang lead on such hits as \u201cDaydream Believer\u201d and \u201cI Wanna Be Free.\u201d He later continued performing as a solo artist and made numerous television appearances. Jones died of a heart attack at age 66.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "This is a Limited Edition EP.  The CD is in mint condition an contains the songs, \"Daydream Believer\", \"Let Them Be Little\", \"Nice To Be With You\", \"Oliver medley\" and \"Here Comes My Baby\""
+  },
+  {
+    "product_id": "HEA-0068",
+    "product_images": [
+      "images/HEA-0068.jpg",
+      "images/EverlyStrings.jpg"
+    ],
+    "full_description": "(Deceased) Phil Everly (January 19, 1939 \u2013 January 3, 2014) was an American singer and musician best known as one half of the influential duo the Everly Brothers, alongside his older brother Don. Renowned for their close vocal harmonies, the brothers recorded such classics as \u201cBye Bye Love,\u201d \u201cWake Up Little Susie,\u201d \u201cAll I Have to Do Is Dream,\u201d and \u201cCathy\u2019s Clown.\u201d Their sound had a major influence on later artists including the Beatles, Simon & Garfunkel, and the Beach Boys. Phil Everly continued performing and recording for many years and was inducted with his brother into the Rock and Roll Hall of Fame in 1986.",
+    "authentication_info": "",
+    "condition_notes": "Very good condition.",
+    "miscellaneous": "Signed cover of the back of an empty package of Everly Music Company Acoustic Arctic Rockers guitar strings."
+  },
+  {
+    "product_id": "HEA-0069",
+    "product_images": [
+      "images/HEA-0069.jpg",
+      "images/JamesMercer.jpg"
+    ],
+    "full_description": "(Deceased) Phil Everly (January 19, 1939 \u2013 January 3, 2014) was an American singer and musician best known as one half of the influential duo the Everly Brothers, alongside his older brother Don. Renowned for their close vocal harmonies, the brothers recorded such classics as \u201cBye Bye Love,\u201d \u201cWake Up Little Susie,\u201d \u201cAll I Have to Do Is Dream,\u201d and \u201cCathy\u2019s Clown.\u201d Their sound had a major influence on later artists including the Beatles, Simon & Garfunkel, and the Beach Boys. Phil Everly continued performing and recording for many years and was inducted with his brother into the Rock and Roll Hall of Fame in 1986.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0070",
+    "product_images": [
+      "images/HEA-0070.jpg"
+    ],
+    "full_description": "(Deceased) Bea Arthur (May 13, 1922 \u2013 April 25, 2009) was an American actress and comedian best known for her distinctive voice, sharp wit, and commanding screen presence. She starred as Maude Findlay in the television series Maude and later became widely beloved as Dorothy Zbornak on The Golden Girls. Arthur also enjoyed a successful stage career and won a Tony Award for her performance in the musical Mame. Over the course of her career, she received multiple Emmy Awards and became one of television\u2019s most recognizable comedic performers.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0071",
+    "product_images": [
+      "images/HEA-0071.jpg"
+    ],
+    "full_description": "(Deceased) Ren\u00e9 Auberjonois (June 1, 1940 \u2013 December 8, 2019) was an American actor and director known for his distinctive voice and wide-ranging work in television, film, and theater. He was best known for playing Odo on Star Trek: Deep Space Nine, Clayton Endicott III on Benson, and attorney Paul Lewiston on Boston Legal. His film roles included Father Mulcahy in M*A*S*H and Roy Bagley in King Kong. Auberjonois was also an accomplished stage performer who won a Tony Award for the musical Coco and worked extensively as a voice actor.",
+    "authentication_info": "",
+    "condition_notes": "Exfcellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0072",
+    "product_images": [
+      "images/HEA-0072.jpg"
+    ],
+    "full_description": "Elizabeth Dole (born July 29, 1936) is an American attorney, politician, and public-service leader who served as a United States senator from North Carolina from 2003 to 2009. She previously served as U.S. secretary of transportation under President Ronald Reagan and secretary of labor under President George H. W. Bush. Dole was also president of the American Red Cross from 1991 to 2000 and sought the Republican presidential nomination in 2000. The widow of Senator Bob Dole, she later founded the Elizabeth Dole Foundation to support military and veteran caregivers.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0073",
+    "product_images": [
+      "images/HEA-0073.jpg"
+    ],
+    "full_description": "Angela Cartwright (born September 9, 1952) is an English-born American actress, artist, and photographer best known for her roles in several classic television series and films. She played Linda Williams on Make Room for Daddy, Brigitta von Trapp in the Academy Award-winning musical The Sound of Music, and Penny Robinson on the science-fiction series Lost in Space. Cartwright later continued acting while also developing a successful career in photography, art, and writing.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0074",
+    "product_images": [
+      "images/HEA-0074.jpg",
+      "images/JacquelineBisset.jpg"
+    ],
+    "full_description": "Jacqueline Bisset (born September 13, 1944) is an English actress known for her elegant screen presence and a career spanning film and television. She gained international recognition through roles in Bullitt, Airport, The Deep, Murder on the Orient Express, and Day for Night. Bisset has worked in both American and European productions and received a Golden Globe Award for her performance in the television miniseries Dancing on the Edge. Her long and varied career has made her one of the most recognizable actresses of her generation.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "This autograph comes with an 8x10 color photograph of Jacqueline Bisset.   (The photo itself is not signed.)"
+  },
+  {
+    "product_id": "HEA-0075",
+    "product_images": [
+      "images/HEA-0075.jpg"
+    ],
+    "full_description": "Erin Gray (born January 7, 1950) is an American actress and former model best known for her television roles as Colonel Wilma Deering on the science-fiction series Buck Rogers in the 25th Century and Kate Summers-Stratton on the sitcom Silver Spoons. Before becoming an actress, she enjoyed a successful modeling career and appeared in numerous national advertising campaigns. Gray has continued acting in film and television and has remained a popular figure at science-fiction and classic television conventions.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0076",
+    "product_images": [
+      "images/HEA-0076.jpg"
+    ],
+    "full_description": "(Deceased) Kim Hunter (November 12, 1922 \u2013 September 11, 2002) was an American actress best known for playing Stella Kowalski in the film A Streetcar Named Desire, a performance that earned her an Academy Award for Best Supporting Actress. She also portrayed the sympathetic chimpanzee scientist Zira in Planet of the Apes and two of its sequels. Hunter enjoyed a long career in film, television, and theater and won a Golden Globe Award as well as an Emmy Award.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0077",
+    "product_images": [
+      "images/HEA-0077.jpg",
+      "images/AllenMeadows.jpg"
+    ],
+    "full_description": "(Deceased) Steve Allen (December 26, 1921 \u2013 October 30, 2000) and Jayne Meadows (September 27, 1919 \u2013 April 26, 2015) were a prominent American entertainment couple married from 1954 until Allen\u2019s death. Allen was a comedian, musician, author, and television personality best known as the original host of The Tonight Show. Meadows was an actress known for her work in film, television, and theater, as well as frequent appearances on game shows and programs hosted by her husband. The couple often performed together and remained married for 46 years.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "These autographs come with a color 8x10 photograph of Steve Allen and Jayne Meadows.   (The photo itself is not signed."
+  },
+  {
+    "product_id": "HEA-0078",
+    "product_images": [
+      "images/HEA-0078.jpg",
+      "images/VS.jpg"
+    ],
+    "full_description": "(Deceased) Maureen O\u2019Sullivan (May 17, 1911 \u2013 June 23, 1998) was an Irish-American actress best remembered for portraying Jane opposite Johnny Weissmuller in six Tarzan films, beginning with Tarzan the Ape Man in 1932. Her other notable films included The Thin Man, Anna Karenina, A Day at the Races, Pride and Prejudice, and Hannah and Her Sisters. O\u2019Sullivan also worked extensively on television and the stage during a career spanning more than six decades. She was married to director John Farrow and was the mother of seven children, including actress Mia Farrow. ([Los Angeles Times][1])\n\n[1]: https://projects.latimes.com/hollywood/star-walk/maureen-osullivan/?utm_source=chatgpt.com \"Maureen O'Sullivan - Hollywood Star Walk - Los Angeles Times\"",
+    "authentication_info": "",
+    "condition_notes": "Very good condition.",
+    "miscellaneous": "There is an unidentified autograph on the backside of this page.  After a kengthy search onlin, I was unable to come up with the identity of the owner of the other signature.   I'm enclosing a photo of the backside of the page, but the price of this item reflects that of Maureen O'Sullivan alone."
+  },
+  {
+    "product_id": "HEA-0079",
+    "product_images": [
+      "images/HEA-0079.jpg"
+    ],
+    "full_description": "Angel Tompkins (born December 20, 1942) is an American actress and former model known for her film and television work from the late 1960s onward. She received a Golden Globe nomination as New Star of the Year for her performance opposite Elliott Gould in the 1970 comedy I Love My Wife. Her other films include Prime Cut, The Don Is Dead, The Teacher, Walking Tall Part II, and The Bees. Tompkins also made numerous television appearances on programs such as Mannix, The F.B.I., Police Woman, Charlie\u2019s Angels, Knight Rider, Simon & Simon, and Diagnosis: Murder. ([Golden Globes][1])\n\n[1]: https://goldenglobes.com/person/angel-tompkins/?utm_source=chatgpt.com \"Angel Tompkins - Golden Globes\"",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0080",
+    "product_images": [
+      "images/HEA-0080.jpg",
+      "images/WellerRobocop2.jpg"
+    ],
+    "full_description": "Peter Weller (born June 24, 1947) is an American actor, director, musician, author, and art historian best known for playing the title role in RoboCop and its sequel, RoboCop 2. He also starred in the cult science-fiction film The Adventures of Buckaroo Banzai Across the 8th Dimension and appeared in such productions as Star Trek Into Darkness, 24, Dexter, Sons of Anarchy, and The Last Ship. Weller has directed numerous television episodes and earned a doctorate in Italian Renaissance art history from UCLA. ([en.wikipedia.org][1])\n\n[1]: https://en.wikipedia.org/wiki/Peter_Weller?utm_source=chatgpt.com \"Peter Weller\"",
+    "authentication_info": "",
+    "condition_notes": "very good condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0081",
+    "product_images": [
+      "images/HEA-0081.jpg"
+    ],
+    "full_description": "Lily Tomlin (born September 1, 1939) is an American actress, comedian, writer and producer whose career began in stand-up comedy and gained national attention through Rowan & Martin\u2019s Laugh-In. She became famous for memorable comic characters such as telephone operator Ernestine and the precocious child Edith Ann. Tomlin\u2019s notable films include Nashville, 9 to 5, The Incredible Shrinking Woman, All of Me, Big Business and Grandma. She also voiced Ms. Frizzle on The Magic School Bus and starred alongside Jane Fonda in the television series Grace and Frankie. Her acclaimed stage work includes The Search for Signs of Intelligent Life in the Universe. ([lilytomlin.com][1])\n\n[1]: https://www.lilytomlin.com/lilytomlin/?utm_source=chatgpt.com \"Lily Tomlin | LILY\"",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0082",
+    "product_images": [
+      "images/HEA-0082.jpg"
+    ],
+    "full_description": "(Deceased) Jack Klugman (April 27, 1922 \u2013 December 24, 2012) was an American actor best known for playing the untidy sportswriter Oscar Madison in the television comedy The Odd Couple, opposite Tony Randall. He also starred as medical examiner Dr. R. Quincy in the long-running crime drama Quincy, M.E. Klugman\u2019s other notable work included 12 Angry Men, Days of Wine and Roses, The Twilight Zone, and the Broadway production of Gypsy. During his career, he won three Primetime Emmy Awards and became one of television\u2019s most recognizable character actors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0083",
+    "product_images": [
+      "images/HEA-0083.jpg"
+    ],
+    "full_description": "Jim Davis (born July 28, 1945) is an American cartoonist, writer and producer best known as the creator of Garfield, the lazy, lasagna-loving orange cat. The Garfield comic strip debuted nationally on June 19, 1978, and became one of the world\u2019s most widely syndicated comic strips. Davis grew up on a farm near Marion, Indiana, surrounded by numerous cats, which later helped inspire his famous character. He has also written and produced Garfield television specials and animated programs, earning several Emmy Awards. His honors include the National Cartoonists Society\u2019s Reuben Award for outstanding cartoonist of the year. ([penguinrandomhouse.com][1])\n\n[1]: https://www.penguinrandomhouse.com/authors/2340231/jim-davis/?utm_source=chatgpt.com \"Jim Davis | Penguin Random House\"",
+    "authentication_info": "",
+    "condition_notes": "Good condition.   Has a slight crease/fold that runs the vertical length of the card.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0084",
+    "product_images": [
+      "images/HEA-0084.jpg"
+    ],
+    "full_description": "(Deceased) Gerald Ford (July 14, 1913 \u2013 December 26, 2006) was the 38th president of the United States, serving from 1974 to 1977 after the resignation of Richard Nixon. He previously served as vice president and represented Michigan in the U.S. House of Representatives for nearly 25 years, including eight years as House minority leader. Ford is the only person to have served as both vice president and president without being elected to either office. His presidency included efforts to restore public trust after the Watergate scandal, the end of American involvement in Vietnam, and his controversial pardon of Nixon.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "38th US president."
+  },
+  {
+    "product_id": "HEA-0085",
+    "product_images": [
+      "images/HEA-0085.jpg"
+    ],
+    "full_description": "John Grisham (born February 8, 1955) is an American novelist, former attorney and former Mississippi legislator best known for his bestselling legal thrillers. His first novel, A Time to Kill, was followed by major successes such as The Firm, The Pelican Brief, The Client, The Rainmaker and The Runaway Jury. Many of his books have been adapted into popular films and television productions. Grisham has also written nonfiction, sports novels and the Theodore Boone series for younger readers, becoming one of the world\u2019s most successful and widely translated authors. ([jgrisham.com][1])\n\n[1]: https://jgrisham.com/bio/?utm_source=chatgpt.com \"About John Grisham - John Grisham\"",
+    "authentication_info": "",
+    "condition_notes": "Good.   Has as small smudge on the bottom right of the card.  Does not impact signature.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0086",
+    "product_images": [
+      "images/HEA-0086.jpg"
+    ],
+    "full_description": "(Deceased) Sidney Sheldon (February 11, 1917 \u2013 January 30, 2007) was an American novelist, screenwriter, playwright and television producer. He began his career writing for Broadway and Hollywood, winning an Academy Award for the screenplay of The Bachelor and the Bobby-Soxer. Sheldon later created and produced popular television series including The Patty Duke Show, I Dream of Jeannie and Hart to Hart. As a novelist, he became internationally famous for bestselling suspense stories such as The Other Side of Midnight, Master of the Game, If Tomorrow Comes and The Sands of Time.",
+    "authentication_info": "",
+    "condition_notes": "Very good condition.  No flaws whatsoever.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0087",
+    "product_images": [
+      "images/HEA-0087.jpg"
+    ],
+    "full_description": "(Deceased) William Westmoreland (March 26, 1914 \u2013 July 18, 2005) was a United States Army general best known for commanding American military forces during much of the Vietnam War. He served as commander of U.S. Military Assistance Command, Vietnam, from 1964 to 1968, overseeing a major increase in American troop levels and pursuing a strategy based largely on attrition and large-scale ground operations. Westmoreland later served as chief of staff of the United States Army from 1968 to 1972. His leadership in Vietnam remained highly controversial, particularly after the 1968 Tet Offensive challenged optimistic assessments of the war\u2019s progress.",
+    "authentication_info": "",
+    "condition_notes": "Very good condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0088",
+    "product_images": [
+      "images/HEA-0088.jpg"
+    ],
+    "full_description": "(Deceased) Danny Aiello (June 20, 1933 \u2013 December 12, 2019) was an American actor best known for portraying Sal, the pizzeria owner in Spike Lee\u2019s Do the Right Thing, a performance that earned him an Academy Award nomination for Best Supporting Actor. His many other film credits included The Godfather Part II, Once Upon a Time in America, The Purple Rose of Cairo, Moonstruck, Harlem Nights, Hudson Hawk, and L\u00e9on: The Professional. Aiello was known for playing tough, streetwise characters while bringing warmth, humor, and vulnerability to his roles.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0089",
+    "product_images": [
+      "images/HEA-0089.jpg"
+    ],
+    "full_description": "(Deceased) Vivian Blaine (November 21, 1921 \u2013 December 9, 1995) was an American actress and singer best known for originating the role of Miss Adelaide in the Broadway musical Guys and Dolls. She reprised the role in the 1955 film adaptation alongside Frank Sinatra and Marlon Brando. Blaine also appeared in films such as State Fair, Jitterbugs, and Three Little Girls in Blue, and later worked extensively in television and stage productions.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "Vivian added the sentiment \"Especially for you\""
+  },
+  {
+    "product_id": "HEA-0090",
+    "product_images": [
+      "images/HEA-0090.jpg"
+    ],
+    "full_description": "Bruce Boxleitner (born May 12, 1950) is an American actor and writer best known for portraying Alan Bradley and the title character in the science-fiction film Tron and its sequel, Tron: Legacy. He also starred as Captain John Sheridan on Babylon 5, secret agent Lee Stetson on Scarecrow and Mrs. King, and Luke Macahan on How the West Was Won. Boxleitner has appeared in numerous television movies, Westerns and series, and has also written several science-fiction novels.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0091",
+    "product_images": [
+      "images/HEA-0091.jpg"
+    ],
+    "full_description": "(Deceased) Adrian Booth Brian (July 26, 1917 \u2013 April 30, 2017), born Virginia Pound and also known professionally as Lorna Gray, was an American actress who appeared in more than 70 films during the 1930s, 1940s and 1950s. She is remembered for her roles in several Three Stooges comedies, including Three Sappy People and You Nazty Spy!, as well as films and serials such as Mr. Smith Goes to Washington, Captain America, Federal Operator 99 and Red River Range. After working under the name Lorna Gray, she adopted the screen name Adrian Booth in the mid-1940s. She was married to actor David Brian and sometimes signed her name Adrian Booth Brian.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "Adrian has added the sentiment \"Blessings\".  Adrian Booth Brian was also known as Lorna Gray."
+  },
+  {
+    "product_id": "HEA-0092",
+    "product_images": [
+      "images/HEA-0092.jpg"
+    ],
+    "full_description": "Blair Brown (born April 23, 1946) is an American actress known for her work in film, television and theater. She starred as Molly Dodd in the acclaimed television series The Days and Nights of Molly Dodd, earning several Emmy Award nominations. Her notable films include Altered States, Continental Divide, Stealing Home and Space Cowboys. Brown also portrayed Nina Sharp on the science-fiction series Fringe and appeared in Orange Is the New Black. An accomplished stage actress, she won a Tony Award for her performance in the Broadway play Copenhagen.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0093",
+    "product_images": [
+      "images/HEA-0093.jpg",
+      "images/GaryBusey.jpg"
+    ],
+    "full_description": "Gary Busey (born June 29, 1944) is an American actor known for his intense, energetic performances in film and television. He received an Academy Award nomination for portraying rock-and-roll pioneer Buddy Holly in The Buddy Holly Story. His other notable films include Lethal Weapon, Point Break, Under Siege, The Firm, Rookie of the Year and Predator 2. Busey has also appeared in numerous television programs and reality shows and is the father of actor Jake Busey.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "This autograph comes with an 8x10 color photo of Busey.  (Photo itself is not signed.)"
+  },
+  {
+    "product_id": "HEA-0094",
+    "product_images": [
+      "images/HEA-0094.jpg"
+    ],
+    "full_description": "(Deceased) Harry Carey Jr. (May 16, 1921 \u2013 December 27, 2012) was an American actor best known for his many roles in Western films and television programs. The son of silent-film star Harry Carey, he became a frequent member of director John Ford\u2019s stock company and appeared in classics such as 3 Godfathers, She Wore a Yellow Ribbon, Wagon Master, Rio Grande and The Searchers. Carey also worked with actors including John Wayne and appeared in later films such as Tombstone and Back to the Future Part III.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0095",
+    "product_images": [
+      "images/HEA-0095.jpg"
+    ],
+    "full_description": "Rebecca De Mornay (born August 29, 1959) is an American actress and producer best known for her breakthrough role as Lana in the 1983 film Risky Business. Her other notable films include The Trip to Bountiful, Runaway Train, The Hand That Rocks the Cradle, Backdraft, Guilty as Sin and The Three Musketeers. She has also appeared in numerous television productions, including The Shining, John from Cincinnati, Jessica Jones and Lucifer.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0096",
+    "product_images": [
+      "images/HEA-0096.jpg"
+    ],
+    "full_description": "Faye Dunaway (born January 14, 1941) is an American actress celebrated for her intense, sophisticated performances in film, television, and theater. She rose to stardom as bank robber Bonnie Parker in Bonnie and Clyde and later appeared in such acclaimed films as The Thomas Crown Affair, Chinatown, Three Days of the Condor, and Network. Dunaway won the Academy Award for Best Actress for her performance as ambitious television executive Diana Christensen in Network. Her other notable roles include Joan Crawford in Mommie Dearest and Milady de Winter in The Three Musketeers.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0097",
+    "product_images": [
+      "images/HEA-0097.jpg"
+    ],
+    "full_description": "(Deceased) Jack Elam (November 13, 1920 \u2013 October 20, 2003) was an American character actor best known for his distinctive wandering eye and memorable portrayals of villains, gunfighters, and comic sidekicks. He appeared in numerous Westerns, including High Noon, Rawhide, The Man from Laramie, Rio Lobo, and Once Upon a Time in the West. Later in his career, Elam became known for humorous roles in films such as Support Your Local Sheriff!, The Cannonball Run, and its sequel. His unusual appearance and expressive acting made him one of Hollywood\u2019s most recognizable character performers.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0098",
+    "product_images": [
+      "images/HEA-0098.jpg"
+    ],
+    "full_description": "(Deceased) Douglas Fairbanks Jr. (December 9, 1909 \u2013 May 7, 2000) was an American actor, producer, and decorated naval officer. The son of silent-film star Douglas Fairbanks, he built a successful career of his own in films including The Prisoner of Zenda, Gunga Din, The Dawn Patrol, and Sinbad the Sailor. During World War II, Fairbanks served with distinction in the United States Navy and was awarded the Silver Star. He later worked in television, theater, and film production and was known for his polished screen presence and adventurous leading-man roles.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0099",
+    "product_images": [
+      "images/HEA-0099.jpg"
+    ],
+    "full_description": "Jamie Farr (born July 1, 1934) is an American actor and comedian best known for playing Corporal Maxwell Q. Klinger on the long-running television series M*A*S*H. The character became famous for wearing women\u2019s clothing in repeated attempts to obtain a psychiatric discharge, but later developed into a capable and respected company clerk. Farr also appeared in films such as The Blackboard Jungle, The Cannonball Run, and Cannonball Run II, and later starred in the M*A*S*H sequel series AfterMASH.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0100",
+    "product_images": [
+      "images/HEA-0100.jpg"
+    ],
+    "full_description": "(Deceased) Teri Garr (December 11, 1944 \u2013 October 29, 2024) was an American actress and comedian known for her lively, witty performances in film and television. She received an Academy Award nomination for Best Supporting Actress for Tootsie and also appeared in such popular films as Young Frankenstein, Close Encounters of the Third Kind, The Conversation, Mr. Mom, and After Hours. Garr was also a frequent television guest and had a recurring role as Phoebe Buffay\u2019s mother on Friends.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
   }
 ];
