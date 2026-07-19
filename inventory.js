@@ -620,7 +620,7 @@ const inventory = [
     "type": "autograph",
     "category": "actress",
     "category2": "",
-    "name": "Theresa Russel",
+    "name": "Theresa Russell",
     "description": "Signed 3x5 index card.  Not inscribed.",
     "price": 35.0,
     "product_page": "product-detail.html?id=HEA-0046",
@@ -652,7 +652,7 @@ const inventory = [
     "description": "Signed 8x10 B&W photo from Androcles and the Lion.  Not inscribed.",
     "price": 175.0,
     "product_page": "product-detail.html?id=HEA-0048",
-    "status": "not-for-sale",
+    "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
     "shipping_charge": ""
@@ -921,7 +921,7 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.95
   },
   {
     "product_id": "HEA-0067",

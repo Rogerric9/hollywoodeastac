@@ -666,10 +666,10 @@ const productDetails = [
     "product_images": [
       "images/HEC-0001.jpg"
     ],
-    "full_description": "Tis is a set of four glass coasters featuring the names of Beatles albums.  We have Abbey Road, Sgt Peppers, Help and A Hard Day's Night.",
-    "authentication_info": "",
+    "full_description": "This is a set of four glass coasters featuring the names of Beatles albums.  We have Abbey Road, Sgt Peppers, Help and A Hard Day's Night.",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
-    "miscellaneous": "The pictures are not actual reproductions of the actual original album art, but are whimsical artisti c adaptations."
+    "miscellaneous": "The pictures are not actual reproductions of the actual original album art, but are whimsical artistic adaptations."
   },
   {
     "product_id": "HEA-0067",
