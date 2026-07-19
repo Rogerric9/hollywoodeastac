@@ -52,16 +52,23 @@
       <input
         type="text"
         id="catalog-search"
-        placeholder="Example: Bob Dylan"
+        placeholder="Example: Davy Jones"
       >
 
       <button id="catalog-search-button" type="button" aria-label="Search">
         🔍
       </button>
 
-      <button id="catalog-grid-button" type="button">
-        See in Grid
-      </button>
+      <div class="catalog-grid-option">
+        <button id="catalog-grid-button" type="button">
+          See in Grid
+        </button>
+
+        <span class="catalog-grid-note">
+          (Select an item from a grid list)
+        </span>
+      </div>
+
     </div>
       <div id="product-grid" class="product-grid"></div>
     </section>
