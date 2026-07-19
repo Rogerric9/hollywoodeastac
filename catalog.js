@@ -5,6 +5,7 @@ const categoryHeading = document.getElementById("category-heading");
 const catalogDescription = document.getElementById("catalog-description");
 const catalogSearchInput = document.getElementById("catalog-search");
 const catalogSearchButton = document.getElementById("catalog-search-button");
+const catalogGridButton = document.getElementById("catalog-grid-button");
 
 const urlParameters = new URLSearchParams(window.location.search);
 const selectedType = urlParameters.get("type") || "autograph";
@@ -19,6 +20,7 @@ const typeHeading =
   selectedTypeLower === "collectible" ? "Collectibles" : "Autographs";
 
 let currentSearchText = "";
+let isGridView = false;
 
 /* Page heading and description */
 if (categoryHeading) {
@@ -216,6 +218,46 @@ function displayProducts() {
     return;
   }
 
+  if (isGridView) {
+  const sortedProducts = [...availableProducts].sort((a, b) => {
+    const nameA = a.name ? a.name.trim() : "";
+    const nameB = b.name ? b.name.trim() : "";
+
+    return nameA.localeCompare(nameB, undefined, {
+      sensitivity: "base"
+    });
+  });
+
+  productGrid.innerHTML = `
+    <table class="catalog-product-table">
+      <thead>
+        <tr>
+          <th>Product ID</th>
+          <th>Product Name</th>
+          <th>Description</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        ${sortedProducts.map(product => `
+          <tr
+            class="catalog-product-row"
+            data-product-id="${product.product_id}"
+          >
+            <td>${product.product_id}</td>
+            <td>${product.name}</td>
+            <td>${product.description}</td>
+            <td>$${product.price}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  `;
+
+  return;
+}
+
   availableProducts.forEach(product => {
     const details = productDetails.find(
       item => item.product_id === product.product_id
@@ -277,6 +319,17 @@ if (catalogSearchButton) {
   catalogSearchButton.addEventListener("click", runCatalogSearch);
 }
 
+if (catalogGridButton) {
+  catalogGridButton.addEventListener("click", () => {
+    isGridView = !isGridView;
+
+    catalogGridButton.textContent = isGridView
+      ? "See as Cards"
+      : "See in Grid";
+
+    displayProducts();
+  });
+}
 if (catalogSearchInput) {
   catalogSearchInput.addEventListener("keydown", event => {
     if (event.key === "Enter") {
@@ -291,6 +344,17 @@ updateCartCount();
 displayProducts();
 
 document.addEventListener("click", event => {
+  const productRow = event.target.closest(".catalog-product-row");
+
+  if (productRow) {
+    const productId = productRow.dataset.productId;
+
+    window.location.href =
+      `products/product.html?id=${encodeURIComponent(productId)}`;
+
+    return;
+  }
+
   if (!event.target.classList.contains("add-to-cart")) {
     return;
   }

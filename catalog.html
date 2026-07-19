@@ -46,21 +46,23 @@
       <h2 id="category-heading"></h2>
 
       <p id="catalog-description"></p>
+    <div class="catalog-search-area">
+      <label for="catalog-search">Search by name:</label>
 
-      <div class="catalog-search-area">
-        <label for="catalog-search">Search by name:</label>
+      <input
+        type="text"
+        id="catalog-search"
+        placeholder="Example: Bob Dylan"
+      >
 
-        <input
-          type="text"
-          id="catalog-search"
-          placeholder="Example: Bob Dylan"
-        >
+      <button id="catalog-search-button" type="button" aria-label="Search">
+        🔍
+      </button>
 
-        <button id="catalog-search-button" type="button" aria-label="Search">
-          🔍
-        </button>
-      </div>
-
+      <button id="catalog-grid-button" type="button">
+        See in Grid
+      </button>
+    </div>
       <div id="product-grid" class="product-grid"></div>
     </section>
   </main>
