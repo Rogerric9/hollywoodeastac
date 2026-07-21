@@ -14,27 +14,45 @@
     <h1>Hollywood East Autographs & Collectibles</h1>
     <p>Authentic autographs from film, television, music, sports, and history</p>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="catalog.html?type=autograph">Autographs</a>
-    <a href="catalog.html?type=collectible">Collectibles</a>
-    <a href="cart.html" class="cart-menu-link" aria-label="Shopping cart">
-      <span class="cart-icon">
-        <svg class="cart-svg" viewBox="0 0 64 64" aria-hidden="true">
-          <path d="M12 18l7 24h30l7-24"></path>
-          <circle cx="25" cy="51" r="4"></circle>
-          <circle cx="47" cy="51" r="4"></circle>
-        </svg>
+<nav>
+  <a href="index.html">Home</a>
 
-        <span id="cart-count" class="cart-count">0</span>
-      </span>
+  <div class="catalog-menu">
+    <a href="catalog.html?type=autograph" id="catalog-menu-link">
+      Autographs
     </a>
-    
-    <a href="ordering.html">Ordering</a>
-    <a href="privacy.html">Privacy</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+
+    <div id="category-dropdown" class="category-dropdown"></div>
+  </div>
+
+  <div class="collectibles-menu">
+    <a href="catalog.html?type=collectible" id="collectibles-menu-link">
+      Collectibles
+    </a>
+
+    <div
+      id="collectibles-category-dropdown"
+      class="category-dropdown"
+    ></div>
+  </div>
+
+  <a href="cart.html" class="cart-menu-link" aria-label="Shopping cart">
+    <span class="cart-icon">
+      <svg class="cart-svg" viewBox="0 0 64 64" aria-hidden="true">
+        <path d="M12 18l7 24h30l7-24"></path>
+        <circle cx="25" cy="51" r="4"></circle>
+        <circle cx="47" cy="51" r="4"></circle>
+      </svg>
+
+      <span id="cart-count" class="cart-count">0</span>
+    </span>
+  </a>
+
+  <a href="ordering.html">Ordering</a>
+  <a href="privacy.html">Privacy</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
   </header>
 
   <section class="home-banner">
