@@ -5,7 +5,17 @@
   const catalogMenu = catalogMenuLink
     ? catalogMenuLink.closest(".catalog-menu")
     : null;
+  const collectiblesCategoryDropdown = document.getElementById(
+    "collectibles-category-dropdown"
+  );
 
+  const collectiblesMenuLink = document.getElementById(
+    "collectibles-menu-link"
+  );
+
+  const collectiblesMenu = collectiblesMenuLink
+    ? collectiblesMenuLink.closest(".collectibles-menu")
+    : null;
   function updateMenuCartCount() {
     if (!menuCartCount) {
       return;
@@ -87,6 +97,71 @@
     });
   }
 
+function buildCollectibleCategoryMenu() {
+  if (!collectiblesCategoryDropdown) {
+    return;
+  }
+
+  if (typeof inventory === "undefined") {
+    return;
+  }
+
+  const collectibleCategoryMap = new Map();
+
+  inventory.forEach(product => {
+    const isAvailable =
+      !product.status || product.status.trim().toLowerCase() !== "sold";
+
+    const productType = product.type
+      ? product.type.trim().toLowerCase()
+      : "autograph";
+
+    const isCollectible = productType === "collectible";
+
+    const categoryList = [
+      product.category,
+      product.category2
+    ]
+      .filter(category => category)
+      .map(category => category.trim())
+      .filter(category => category);
+
+    if (isAvailable && isCollectible) {
+      categoryList.forEach(category => {
+        const key = category.toLowerCase();
+
+        if (!collectibleCategoryMap.has(key)) {
+          const displayCategory = category.replace(/\b\w/g, letter =>
+            letter.toUpperCase()
+          );
+
+          collectibleCategoryMap.set(key, displayCategory);
+        }
+      });
+    }
+  });
+
+  const collectibleCategories = [
+    ...collectibleCategoryMap.values()
+  ];
+
+  collectibleCategories.sort((a, b) =>
+    a.localeCompare(b, undefined, { sensitivity: "base" })
+  );
+
+  collectiblesCategoryDropdown.innerHTML = `
+    <a href="catalog.html?type=collectible">All Collectibles</a>
+  `;
+
+  collectibleCategories.forEach(category => {
+    collectiblesCategoryDropdown.innerHTML += `
+      <a href="catalog.html?type=collectible&category=${encodeURIComponent(category)}">
+        ${category}
+      </a>
+    `;
+  });
+}
+
   window.updateMenuCartCount = updateMenuCartCount;
 
   if (catalogMenuLink && catalogMenu) {
@@ -108,4 +183,5 @@
 
   updateMenuCartCount();
   buildAutographCategoryMenu();
+  buildCollectibleCategoryMenu();
 })();

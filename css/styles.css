@@ -96,7 +96,8 @@ nav a:hover {
 
 /* Catalog category dropdown */
 
-.catalog-menu {
+.catalog-menu,
+.collectibles-menu {
   position: relative;
   display: inline-block;
 }
@@ -127,12 +128,12 @@ nav a:hover {
   background-color: #f2f2f2;
   text-decoration: none;
 }
-
 .catalog-menu:hover .category-dropdown,
-.catalog-menu.open .category-dropdown {
+.catalog-menu.open .category-dropdown,
+.collectibles-menu:hover .category-dropdown,
+.collectibles-menu.open .category-dropdown {
   display: block;
 }
-
 /* Catalog shopping-cart display */
 
 .catalog-header-row {
