@@ -45,7 +45,7 @@ const productDetails = [
       "images/HEA-0005.jpg"
     ],
     "full_description": "William F. Buckley Jr. was an American author, political commentator, and founder of *National Review*. A leading figure in the modern conservative movement, he was also known for hosting the long-running television program *Firing Line* and for his distinctive wit, vocabulary, and debating style.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -1022,50 +1022,55 @@ const productDetails = [
   {
     "product_id": "HEC-0002",
     "product_images": [
-      "images/HEC-0002.jpg"
+      "images/HEC-0002.jpg",
+      "images/AmericamBreedAlbum.jpg"
     ],
     "full_description": "The American Breed was a Chicago-area rock and pop band best known for the 1967 hit \u201cBend Me, Shape Me.\u201d Originally performing as Gary and the Knight Lites, the group adopted its new name in 1967 and featured Gary Loizzo, Al Ciner, Charles \u201cChuck\u201d Colbert Jr., and Lee Graziano. Other notable songs included \u201cStep Out of Your Mind\u201d and \u201cGreen Light.\u201d After the band dissolved around 1970, several members helped form the funk group Rufus.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Mint condition.   Still in shrink wrap.   Never opened.",
     "miscellaneous": ""
   },
   {
     "product_id": "HEC-0003",
     "product_images": [
-      "images/HEC-0003.jpg"
+      "images/HEC-0003.jpg",
+      "images/MoonglowsReturn.jpg"
     ],
     "full_description": "The Moonglows were an influential American R&B and doo-wop vocal group formed in Cleveland, Ohio, in the early 1950s. Led by Harvey Fuqua and Bobby Lester, the group became known for its smooth harmonies and romantic ballads, including \u201cSincerely,\u201d \u201cThe Ten Commandments of Love,\u201d \u201cMost of All,\u201d and \u201cSee Saw.\u201d Their sophisticated vocal style helped bridge traditional pop harmony and early rock and roll. The Moonglows were inducted into the Rock and Roll Hall of Fame in 2000.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Mint.  Unopened.   Still in shrink wrap.",
     "miscellaneous": ""
   },
   {
     "product_id": "HEC-0004",
     "product_images": [
-      "images/HEC-0004.jpg"
+      "images/HEC-0004.jpg",
+      "images/FiveBrothersAlbum.jpg"
     ],
     "full_description": "Five Brothers was a West Coast jazz quintet led by trombonist Herbie Harper. The group featured Bob Enevoldsen on tenor saxophone and valve trombone, Don Overburg on guitar, Red Mitchell on bass, and Frank Capp on drums. Recorded in Los Angeles in 1955, the ensemble performed a cool-jazz mixture of standards and original compositions, including \u201cKing Porter Stomp,\u201d \u201cAlone Together,\u201d \u201cDon\u2019t Buck It,\u201d and \u201cJuan Don.\u201d",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Record: VG+    Cover: Poor.   Split at bottom,  Attempt at taping.   No paper sleeve.",
     "miscellaneous": ""
   },
   {
     "product_id": "HEC-0005",
     "product_images": [
-      "images/HEC-0005.jpg"
+      "images/HEC-0005.jpg",
+      "images/CactusFlower.jpg"
     ],
     "full_description": "Cactus Flower is a 1969 romantic comedy directed by Gene Saks and starring Walter Matthau, Ingrid Bergman, and Goldie Hawn. Matthau plays a bachelor dentist who falsely tells his young girlfriend that he is married, then persuades his reserved nurse to pose as his wife when the deception begins to unravel. Goldie Hawn won the Academy Award for Best Supporting Actress for her performance.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Vinyl: Near mint\nCover: VG+  some minor color fading on back.",
     "miscellaneous": ""
   },
   {
     "product_id": "HEC-0006",
     "product_images": [
-      "images/HEC-0006.jpg"
+      "images/HEC-0006.jpg",
+      "images/LesterLanninChristmas.jpg"
     ],
     "full_description": "(Deceased) Lester Lanin (August 26, 1907\u2013October 27, 2004) was an American bandleader known for providing elegant, continuous dance music at high-society parties, debutante balls, presidential inaugurations, and other prestigious events. His orchestra performed polished medleys of popular standards designed to keep guests dancing, earning Lanin a reputation as one of America\u2019s foremost society bandleaders.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Vinyl: VG+\nCover: VG+",
     "miscellaneous": ""
   },
@@ -1082,27 +1087,30 @@ const productDetails = [
   {
     "product_id": "HEC-0008",
     "product_images": [
-      "images/HEC-0008.jpg"
+      "images/HEC-0008.jpg",
+      "images/LesliePhillips.jpg"
     ],
     "full_description": "Leslie Phillips (born January 28, 1962), now known professionally as Sam Phillips, is an American singer and songwriter who began her career recording contemporary Christian music in the 1980s. Her albums included Beyond Saturday Night, Dancing with Danger, and The Turning. She later adopted the name Sam Phillips and moved into alternative pop and rock, earning acclaim for albums such as Martinis & Bikinis and Fan Dance. She has also composed music for the television series Gilmore Girls and The Marvelous Mrs. Maisel.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Vinyl: Near mint\nCover: Near mint. Opened but still has shrink wrap.",
     "miscellaneous": ""
   },
   {
     "product_id": "HEC-0009",
     "product_images": [
-      "images/HEC-0009.jpg"
+      "images/HEC-0009.jpg",
+      "images/ManzanillaSound.jpg"
     ],
     "full_description": "The Manzanilla Sound was a British easy-listening instrumental group associated with Welsh trumpeter, arranger, and bandleader Ray Davies\u2014not the Kinks musician of the same name. The group specialized in polished brass-led arrangements of contemporary pop songs, film themes, and original compositions. Its albums included Make Mine Manzanilla, released in 1972, featuring versions of \u201cMammy Blue,\u201d \u201cSummer of \u201942,\u201d and \u201cNever My Love.\u201d",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Vinyl: Near mint.\nCover: VG+",
     "miscellaneous": ""
   },
   {
     "product_id": "HEC-0010",
     "product_images": [
-      "images/HEC-0010.jpg"
+      "images/HEC-0010.jpg",
+      "images/HollyridgeStringsChristmas.jpg"
     ],
     "full_description": "The Hollyridge Strings was an American studio orchestra created for Capitol Records in the 1960s. Led initially by arranger and conductor Stu Phillips, the group became known for lush, easy-listening instrumental versions of contemporary pop and rock songs. Its successful albums included The Beatles Song Book, as well as collections devoted to the Beach Boys, Elvis Presley, the Four Seasons, and Simon & Garfunkel.",
     "authentication_info": "",
@@ -1112,7 +1120,8 @@ const productDetails = [
   {
     "product_id": "HEC-0011",
     "product_images": [
-      "images/HEC-0011.jpg"
+      "images/HEC-0011.jpg",
+      "images/SandpipersComeSaturday.jpg"
     ],
     "full_description": "The Sandpipers were an American easy-listening vocal trio best known for their 1966 recording of the Cuban song \u201cGuantanamera.\u201d Their smooth harmonies, gentle orchestral arrangements, and frequent use of Spanish-language lyrics gave the group a distinctive international sound. Other notable recordings included \u201cCome Saturday Morning,\u201d \u201cLouie Louie,\u201d and \u201cKumbaya.\u201d",
     "authentication_info": "",
@@ -1122,47 +1131,52 @@ const productDetails = [
   {
     "product_id": "HEC-0012",
     "product_images": [
-      "images/HEC-0012.jpg"
+      "images/HEC-0012.jpg",
+      "images/TerryBaxterBestOf69.jpg"
     ],
     "full_description": "The Terry Baxter Orchestra was an American easy-listening studio ensemble known for polished instrumental and choral arrangements of popular songs. Recording primarily for Columbia Musical Treasuries and the Columbia Record Club during the late 1960s and 1970s, the orchestra released collections such as The Best of \u201969, The Best of \u201971, Song Sung Blue, and Yesterday: The Wonderful Music of the Beatles. The recordings typically combined lush strings, brass, and chorus in a smooth orchestral-pop style.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Vinyl: Near mint\nCover: VG+++",
     "miscellaneous": "Instrumental covers of the best songs of 1969."
   },
   {
     "product_id": "HEC-0013",
     "product_images": [
-      "images/HEC-0013.jpg"
+      "images/HEC-0013.jpg",
+      "images/BernsteinRhapsody.jpg"
     ],
     "full_description": "(Deceased) Leonard Bernstein (August 25, 1918\u2013October 14, 1990) was an American composer, conductor, pianist, and music educator. He served as music director of the New York Philharmonic and became one of the most celebrated conductors of the twentieth century. His best-known compositions include West Side Story, Candide, On the Town, Chichester Psalms, and the score for On the Waterfront. Bernstein also introduced classical music to broad audiences through his popular televised Young People\u2019s Concerts.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Vinyl: VG++\nCover: Near mint.",
     "miscellaneous": "New York Philamonic and the Columbia Symphony."
   },
   {
     "product_id": "HEC-0014",
     "product_images": [
-      "images/HEC-0014.jpg"
+      "images/HEC-0014.jpg",
+      "images/DixieEchoes.jpg"
     ],
     "full_description": "The Dixie Echoes are an American Southern gospel quartet formed in Pensacola, Florida, in 1960 by gospel singer and promoter J. G. Whitfield. The group became nationally known through appearances on the television program The Gospel Singing Jubilee and for its traditional quartet harmonies, spirituals, hymns, and country-gospel songs. Dale Shelnut later brought the group greater prominence, and his son Randy Shelnut continued its long-running ministry and musical legacy.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Vinyl: Near mint\t\nCover: VG +++",
     "miscellaneous": ""
   },
   {
     "product_id": "HEC-0015",
     "product_images": [
-      "images/HEC-0015.jpg"
+      "images/HEC-0015.jpg",
+      "images/BobCarolTedAlice.jpg"
     ],
     "full_description": "Bob & Carol & Ted & Alice is a 1969 comedy-drama directed by Paul Mazursky and starring Natalie Wood, Robert Culp, Elliott Gould, and Dyan Cannon. The film follows two married couples whose friendships and relationships are tested after Bob and Carol embrace the open attitudes of the era\u2019s self-discovery movement. The film satirizes changing sexual values, marriage, friendship, and social conventions during the late 1960s.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Vinyl: Near mint\nCover: VG +++",
     "miscellaneous": ""
   },
   {
     "product_id": "HEC-0016",
     "product_images": [
-      "images/HEC-0016.jpg"
+      "images/HEC-0016.jpg",
+      "images/DolenzJonesBoyceHart.jpg"
     ],
     "full_description": "Dolenz, Jones, Boyce & Hart was a pop-rock group formed in the mid-1970s by former Monkees Micky Dolenz and Davy Jones with songwriters and performers Tommy Boyce and Bobby Hart. Boyce and Hart had written and produced many of the Monkees\u2019 early recordings. The quartet released a self-titled album in 1976 and toured internationally, performing both new material and familiar Monkees songs.",
     "authentication_info": "",
@@ -1172,21 +1186,34 @@ const productDetails = [
   {
     "product_id": "HEC-0017",
     "product_images": [
-      "images/HEC-0017.jpg"
+      "images/HEC-0017.jpg",
+      "images/CharlieAlbum.jpg"
     ],
     "full_description": "Charlie was a British rock band formed in the early 1970s by singer, songwriter, guitarist, and producer Terry Thomas. The group became known for its polished blend of melodic rock, pop, and progressive influences, gaining particular popularity on American FM radio. Charlie\u2019s notable albums included Fantasy Girls, No Second Chance, Lines, and Fight Dirty, while its best-known songs included \u201cShe Loves to Be in Love,\u201d \u201cKiller Cut,\u201d and \u201cIt\u2019s Inevitable.\u201d",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Vinyl: Near mint.  Like new.\nCover: VG+ - some flaking in upper left corner.",
     "miscellaneous": ""
   },
   {
     "product_id": "HEC-0018",
     "product_images": [
-      "images/HEC-0018.jpg"
+      "images/HEC-0018.jpg",
+      "images/SinatraVoice.jpg"
     ],
     "full_description": "(Deceased) Frank Sinatra (December 12, 1915\u2013May 14, 1998) was an American singer and actor celebrated for his distinctive voice, sophisticated phrasing, and interpretations of popular standards. After performing with the Harry James and Tommy Dorsey orchestras, he became one of the twentieth century\u2019s most successful solo entertainers. His best-known recordings include \u201cMy Way,\u201d \u201cNew York, New York,\u201d \u201cFly Me to the Moon,\u201d and \u201cStrangers in the Night.\u201d Sinatra also won an Academy Award for his performance in From Here to Eternity.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Vinyl: VG+++\nCover: Good.  Partial split at bottom.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0019",
+    "product_images": [
+      "images/HEC-0019.jpg",
+      "images/BetweenButtons.jpg"
+    ],
+    "full_description": "The Rolling Stones are an English rock band formed in London in 1962. Led by singer Mick Jagger and guitarist Keith Richards, the group became one of the most influential and enduring acts in rock history. Their best-known songs include \u201c(I Can\u2019t Get No) Satisfaction,\u201d \u201cPaint It Black,\u201d \u201cJumpin\u2019 Jack Flash,\u201d \u201cGimme Shelter,\u201d \u201cBrown Sugar,\u201d and \u201cStart Me Up.\u201d Known for their blues-based sound, rebellious image, and energetic live performances, the Rolling Stones have sold millions of records worldwide.",
+    "authentication_info": "None",
+    "condition_notes": "Vinyl: VG\nCover: VG",
     "miscellaneous": ""
   }
 ];
