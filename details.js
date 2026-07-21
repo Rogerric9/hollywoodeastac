@@ -572,12 +572,13 @@ const productDetails = [
   {
     "product_id": "HEA-0058",
     "product_images": [
-      "images/HEA-0058.jpg"
+      "images/HEA-0058.jpg",
+      "images/HardDaysNightPoster.jpg"
     ],
     "full_description": "Richard Lester (born January 19, 1932) is an American film director known for his innovative, fast-paced visual style and offbeat humor. He became internationally famous for directing the Beatles films A Hard Day\u2019s Night and Help! His other notable movies include The Three Musketeers, The Four Musketeers, Robin and Marian, Superman II, and Superman III. Born in Philadelphia, Lester spent most of his career in Great Britain and became closely associated with British cinema of the 1960s. ([en.wikipedia.org][1])\n\n[1]: https://en.wikipedia.org/wiki/Richard_Lester?utm_source=chatgpt.com \"Richard Lester\"",
-    "authentication_info": "",
-    "condition_notes": "Excellent condition.",
-    "miscellaneous": ""
+    "authentication_info": "None",
+    "condition_notes": "Excellent condition.   The poster is 14 x 9.5 inches and in new, unopened, in its original shrink wrap.",
+    "miscellaneous": "This autograph comes with a poster of the film, A Hard Day's Night.   (The poster itself is not signed,)"
   },
   {
     "product_id": "HEA-0059",
@@ -1215,5 +1216,57 @@ const productDetails = [
     "authentication_info": "None",
     "condition_notes": "Vinyl: VG\nCover: VG",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0020",
+    "product_images": [
+      "images/HEC-0020.jpg"
+    ],
+    "full_description": "This item is a 10x14 inch ad page from a 1937 issue of the Saturday Evening Post, showing a you Bob Hope shaving.",
+    "authentication_info": "",
+    "condition_notes": "",
+    "miscellaneous": "Bob Hope\u2019s Woodbury Rippling Rhythm radio program ran from May through September 1937 and is mentioned in the ad, the issue was almost certainly published during that period\u2014most likely summer 1937."
+  },
+  {
+    "product_id": "HEA-0101",
+    "product_images": [
+      "images/HEA-0101.jpg"
+    ],
+    "full_description": "(Deceased) Sonny Tufts (July 16, 1911\u2013June 4, 1970) was an American actor and singer who became a prominent Hollywood leading man during the 1940s. A Yale graduate and former opera singer, he appeared in films including So Proudly We Hail!, Here Come the Waves, The Virginian, Cat-Women of the Moon, and The Seven Year Itch. His career later declined amid heavy drinking, arrests for public intoxication, and damaging tabloid scandals. Two women separately accused him of biting them on the thigh, although one later dropped her lawsuit. These incidents turned Tufts from a popular screen star into a frequent target of jokes about faded Hollywood celebrities. ([en.wikipedia.org][1])\n\n[1]: https://en.wikipedia.org/wiki/Sonny_Tufts?utm_source=chatgpt.com \"Sonny Tufts\"",
+    "authentication_info": "",
+    "condition_notes": "Good.   Some staining on back from prior taping.   Does not impact the signature.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0102",
+    "product_images": [
+      "images/HEA-0102.jpg",
+      "images/AlStewartYearOfTheCat.jpg"
+    ],
+    "full_description": "Al Stewart (born September 5, 1945) is a Scottish singer-songwriter and guitarist best known for blending folk rock with historical and literary themes. He achieved international success during the 1970s with songs such as \u201cYear of the Cat,\u201d \u201cOn the Border\u201d and \u201cTime Passages.\u201d Known for his distinctive voice, detailed storytelling and sophisticated arrangements, Stewart has maintained a long recording and touring career and remains especially popular among fans of classic folk and soft rock.",
+    "authentication_info": "",
+    "condition_notes": "Vinyl: VG++\nCover: VG+++",
+    "miscellaneous": "Signed album inscribed to Lisa."
+  },
+  {
+    "product_id": "HEA-0103",
+    "product_images": [
+      "images/HEA-0103.jpg",
+      "images/GingerRogersSig.jpg"
+    ],
+    "full_description": "(Deceased) Ginger Rogers (July 16, 1911 \u2013 April 25, 1995) was an American actress, dancer and singer best known for her celebrated film partnership with Fred Astaire. Together, they starred in a series of classic 1930s musicals, including Top Hat, Swing Time and Shall We Dance. Rogers also enjoyed a successful dramatic career and won the Academy Award for Best Actress for Kitty Foyle in 1941. Her grace, versatility and screen presence made her one of the most enduring stars of Hollywood\u2019s Golden Age.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "Professionally mounted in 11X14 inch matte.  Ready for framing."
+  },
+  {
+    "product_id": "HEA-0104",
+    "product_images": [
+      "images/HEA-0104.jpg"
+    ],
+    "full_description": "Elisabeth Shue (born October 6, 1963) is an American actress known for her roles in The Karate Kid, Adventures in Babysitting, Cocktail and Back to the Future Parts II and III. She received an Academy Award nomination for Best Actress for her dramatic performance in Leaving Las Vegas and later appeared in films such as The Saint, Hollow Man and Battle of the Sexes. Shue has also worked extensively in television, including prominent roles in CSI: Crime Scene Investigation, The Boys and Cobra Kai.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "Mounted in a 12x16 matte ready for framing."
   }
 ];
