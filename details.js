@@ -1276,7 +1276,7 @@ const productDetails = [
     ],
     "full_description": "(Deceased) Fess Parker (born August 16, 1924 \u2013 died March 18, 2010) was an American actor, best known for portraying legendary frontiersmen Davy Crockett and Daniel Boone. His starring role in Walt Disney\u2019s Davy Crockett television productions during the 1950s made him a major star and helped spark a nationwide craze for coonskin caps. Parker later starred in the popular television series Daniel Boone from 1964 to 1970. After retiring from acting, he became a successful real estate developer, hotel owner, and winemaker in California.",
     "authentication_info": "",
-    "condition_notes": "",
+    "condition_notes": "Some smudging on card.",
     "miscellaneous": ""
   },
   {

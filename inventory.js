@@ -1727,7 +1727,7 @@ const inventory = [
     "category": "actor",
     "category2": "vintage",
     "name": "Fess Parker",
-    "description": "Signed 3x5 card.  Not inscribed.",
+    "description": "Signed 2.5x5 card.  Not inscribed.",
     "price": 125.0,
     "product_page": "product-detail.html?id=HEA-0105",
     "status": "",
