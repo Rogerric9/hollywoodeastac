@@ -1268,5 +1268,295 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": "Mounted in a 12x16 matte ready for framing."
+  },
+  {
+    "product_id": "HEA-0105",
+    "product_images": [
+      "images/HEA-0105.jpg"
+    ],
+    "full_description": "(Deceased) Fess Parker (born August 16, 1924 \u2013 died March 18, 2010) was an American actor, best known for portraying legendary frontiersmen Davy Crockett and Daniel Boone. His starring role in Walt Disney\u2019s Davy Crockett television productions during the 1950s made him a major star and helped spark a nationwide craze for coonskin caps. Parker later starred in the popular television series Daniel Boone from 1964 to 1970. After retiring from acting, he became a successful real estate developer, hotel owner, and winemaker in California.",
+    "authentication_info": "",
+    "condition_notes": "",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0106",
+    "product_images": [
+      "images/HEA-0106.jpg"
+    ],
+    "full_description": "(Deceased) Art Carney (born November 4, 1918 \u2013 died November 9, 2003) was an American actor and comedian, best remembered for playing sewer worker Ed Norton opposite Jackie Gleason on the classic television comedy The Honeymooners. His performance earned him multiple Emmy Awards and made Norton one of television\u2019s most beloved comic characters. Carney also enjoyed a successful film career, winning the Academy Award for Best Actor for Harry and Tonto in 1975. A World War II veteran who was wounded during the Normandy campaign, he continued acting in television, film, and theater for several decades.",
+    "authentication_info": "",
+    "condition_notes": "",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0107",
+    "product_images": [
+      "images/HEA-0107.jpg"
+    ],
+    "full_description": "(Deceased) Tony Randall (born February 26, 1920 \u2013 died May 17, 2004) was an American actor and comedian, best known for playing the fastidious photographer Felix Unger opposite Jack Klugman in the television comedy The Odd Couple. His performance earned him an Emmy Award and made him one of television\u2019s most recognizable comic actors. Randall also appeared in numerous films, including Pillow Talk, Lover Come Back, and Send Me No Flowers, often playing sophisticated or neurotic supporting characters. Later in life, he founded the National Actors Theatre and remained active on stage, television, and film.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0108",
+    "product_images": [
+      "images/HEA-0108.jpg"
+    ],
+    "full_description": "(Deceased) Joyce Randolph (born October 21, 1924 \u2013 died January 13, 2024) was an American actress best known for portraying Trixie Norton, the wife of Ed Norton, on the classic television comedy The Honeymooners. Her warm, witty performance made her an important part of the show\u2019s enduring popularity. Randolph also appeared in other television programs and stage productions, but she remained most closely associated with Trixie Norton throughout her career.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0109",
+    "product_images": [
+      "images/HEA-0109.jpg"
+    ],
+    "full_description": "(Deceased) Debbie Reynolds (born April 1, 1932 \u2013 died December 28, 2016) was an American actress, singer, and dancer whose career spanned more than six decades. She became a major Hollywood star after appearing in the classic musical Singin\u2019 in the Rain and later starred in films including The Unsinkable Molly Brown, for which she received an Academy Award nomination. Reynolds was also known for her stage work, television appearances, and preservation of Hollywood costumes and memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0110",
+    "product_images": [
+      "images/HEA-0110.jpg"
+    ],
+    "full_description": "(Deceased) Jason Robards (born July 26, 1922 \u2013 died December 26, 2000) was an American actor celebrated for his powerful work on stage and screen. He won consecutive Academy Awards for Best Supporting Actor for All the President\u2019s Men and Julia, and was especially acclaimed for his performances in the plays of Eugene O\u2019Neill. Robards also appeared in such notable films as Once Upon a Time in the West, Melvin and Howard, Philadelphia, and Magnolia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0111",
+    "product_images": [
+      "images/HEA-0111.jpg"
+    ],
+    "full_description": "(Deceased) Ann Rutherford (born November 2, 1917 \u2013 died June 11, 2012) was a Canadian-born American actress best known for portraying Scarlett O\u2019Hara\u2019s sister Carreen in Gone with the Wind and Polly Benedict in the popular Andy Hardy film series starring Mickey Rooney. She also appeared in films such as Pride and Prejudice, Orchestra Wives, and Whistling in the Dark. Rutherford later worked in television and remained a popular figure among fans of classic Hollywood.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0112",
+    "product_images": [
+      "images/HEA-0112.jpg"
+    ],
+    "full_description": "Emma Samms (born August 28, 1960) is an English actress best known for playing Holly Sutton on the daytime soap opera General Hospital and Fallon Carrington Colby on Dynasty and its spin-off, The Colbys. She also appeared in the television miniseries Goliath Awaits and has returned to General Hospital several times over the course of her career.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0113",
+    "product_images": [
+      "images/HEA-0113.jpg"
+    ],
+    "full_description": "(Deceased) Bo Schembechler (born April 1, 1929 \u2013 died November 17, 2006) was an American college football coach best known for leading the University of Michigan Wolverines from 1969 to 1989. During his tenure, Michigan won or shared 13 Big Ten Conference championships and became one of the nation\u2019s most successful football programs. Schembechler was renowned for his intense leadership, disciplined teams, and famous rivalry with Ohio State coach Woody Hayes in the annual \u201cTen-Year War.\u201d",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0114",
+    "product_images": [
+      "images/HEA-0114.jpg"
+    ],
+    "full_description": "(Deceased) Pat Schroeder (born July 30, 1940 \u2013 died March 13, 2023) was an American politician and attorney who represented Colorado in the U.S. House of Representatives from 1973 to 1997. A leading advocate for women\u2019s rights, family leave, and military reform, she was the first woman to serve on the House Armed Services Committee. Schroeder also helped advance the Family and Medical Leave Act and briefly explored a campaign for the Democratic presidential nomination in 1987.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0115",
+    "product_images": [
+      "images/HEA-0115.jpg"
+    ],
+    "full_description": "(Deceased) Robert Stack (born January 13, 1919 \u2013 died May 14, 2003) was an American actor best known for portraying federal agent Eliot Ness in the television crime drama The Untouchables, a role that earned him an Emmy Award. He also appeared in films including Written on the Wind, for which he received an Academy Award nomination, as well as The High and the Mighty and Airplane! Later generations knew him as the longtime host of the television series Unsolved Mysteries.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0116",
+    "product_images": [
+      "images/HEA-0116.jpg"
+    ],
+    "full_description": "(Deceased) Harry Dean Stanton (born July 14, 1926 \u2013 died September 15, 2017) was an American character actor whose distinctive presence made him a memorable figure in film and television for more than six decades. He appeared in such notable films as Cool Hand Luke, Alien, Escape from New York, Repo Man, Paris, Texas, Pretty in Pink, and The Green Mile. Stanton was especially acclaimed for his rare leading role in Paris, Texas and was also known for his work as a musician and singer.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0117",
+    "product_images": [
+      "images/HEA-0117.jpg"
+    ],
+    "full_description": "George Stephanopoulos (born February 10, 1961) is an American television journalist, political commentator, and former political adviser. He served in the Clinton administration as White House communications director and senior adviser before joining ABC News in 1997. Stephanopoulos became widely known as an anchor of Good Morning America and host of the Sunday political program This Week, where he has interviewed numerous presidents, world leaders, and major political figures.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0118",
+    "product_images": [
+      "images/HEA-0118.jpg"
+    ],
+    "full_description": "Nicolas Cage (born January 7, 1964) is an American actor and producer known for his intense, unconventional performances in a wide range of films. He won the Academy Award for Best Actor for Leaving Las Vegas and has starred in such popular movies as Moonstruck, Raising Arizona, Face/Off, Con Air, National Treasure, Adaptation, and The Rock. Cage is also a member of the Coppola filmmaking family and adopted his stage name to establish his own identity in Hollywood.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0119",
+    "product_images": [
+      "images/HEA-0119.jpg"
+    ],
+    "full_description": "Sally Struthers (born July 28, 1947) is an American actress and activist best known for playing Gloria Stivic on the landmark television sitcom All in the Family. Her performance earned her two Emmy Awards and made her one of television\u2019s most recognizable stars of the 1970s. Struthers later appeared in the spin-off series Gloria, provided the voice of Pebbles Flintstone in animated productions, and enjoyed a successful career in theater, television, and film.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Sally has inscribed this card:   'For \"Grandpaw\" Thanks for Mike's computer.   love to you ...'"
+  },
+  {
+    "product_id": "HEA-0120",
+    "product_images": [
+      "images/HEA-0120.jpg"
+    ],
+    "full_description": "(Deceased) Shirley Temple Black (born April 23, 1928 \u2013 died February 10, 2014) was an American actress, singer, dancer, and diplomat who became one of Hollywood\u2019s most famous child stars during the 1930s. Known for her curls, cheerful personality, and musical performances, she starred in films including Bright Eyes, Curly Top, Heidi, and The Little Princess. After retiring from acting, she entered public service and served as a U.S. ambassador to Ghana and Czechoslovakia, as well as Chief of Protocol of the United States.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0121",
+    "product_images": [
+      "images/HEA-0121.jpg"
+    ],
+    "full_description": "Marlo Thomas (born November 21, 1937) is an American actress, producer, author, and activist best known for starring as aspiring actress Ann Marie in the groundbreaking television comedy That Girl. She also created and starred in the influential children\u2019s project Free to Be... You and Me and has appeared in numerous television programs, films, and stage productions. The daughter of entertainer Danny Thomas, she has long supported St. Jude Children\u2019s Research Hospital and serves as its national outreach director.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0122",
+    "product_images": [
+      "images/HEA-0122.jpg"
+    ],
+    "full_description": "Bobby Vinton (born April 16, 1935) is an American pop singer and entertainer known for his romantic ballads and smooth vocal style. Nicknamed \u201cThe Polish Prince,\u201d he scored numerous hits during the 1960s and 1970s, including \u201cBlue Velvet,\u201d \u201cRoses Are Red (My Love),\u201d \u201cThere! I\u2019ve Said It Again,\u201d \u201cMr. Lonely,\u201d and \u201cMy Melody of Love.\u201d Vinton also hosted his own television variety series and appeared in films such as Big Jake and The Train Robbers.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0123",
+    "product_images": [
+      "images/HEA-0123.jpg"
+    ],
+    "full_description": "(Deceased) James Caan (born March 26, 1940 \u2013 died July 6, 2022) was an American actor best known for portraying the hot-tempered Sonny Corleone in The Godfather, a performance that earned him an Academy Award nomination. His long film career also included memorable roles in Brian\u2019s Song, Rollerball, Misery, Thief, Elf, and The Gambler. Known for his tough, charismatic screen presence, Caan remained a popular and respected performer for more than five decades.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0124",
+    "product_images": [
+      "images/HEA-0124.jpg"
+    ],
+    "full_description": "(Deceased) Eli Wallach (born December 7, 1915 \u2013 died June 24, 2014) was an American actor known for his vivid character performances on stage, television, and film. He is especially remembered for playing Tuco in The Good, the Bad and the Ugly, Calvera in The Magnificent Seven, and Silva Vacarro in Baby Doll. Wallach enjoyed a career spanning more than six decades and received an Honorary Academy Award in recognition of his lasting contribution to motion pictures.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0125",
+    "product_images": [
+      "images/HEA-0125.jpg"
+    ],
+    "full_description": "Vanna White (born February 18, 1957) is an American television personality and actress best known as the longtime co-host of the game show Wheel of Fortune. She joined the program in 1982 and became one of the most recognizable figures in American television, famous for revealing letters on the show\u2019s puzzle board. White has also appeared in several television programs and films and has been active in charitable causes and commercial ventures.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0126",
+    "product_images": [
+      "images/HEA-0126.jpg"
+    ],
+    "full_description": "Anna Maria Alberghetti (born May 15, 1936) is an Italian-American actress and soprano known for her work in film, television, musical theater, and concert performances. She appeared in movies including Here Comes the Groom, The Stars Are Singing, Ten Thousand Bedrooms, and Cinderfella. Alberghetti also achieved considerable success on Broadway, winning a Tony Award for her starring performance in the 1961 musical Carnival! She was a frequent television variety-show guest and appeared many times on The Ed Sullivan Show.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0127",
+    "product_images": [
+      "images/HEA-0127.jpg"
+    ],
+    "full_description": "(Deceased) Ruth Buzzi (born July 24, 1936 \u2013 died May 1, 2025) was an American actress and comedian best known as a regular performer on the television comedy-variety series Rowan & Martin\u2019s Laugh-In. Her most famous character was Gladys Ormphby, a dour, hairnet-wearing woman who frequently struck unwanted admirers with her handbag. Buzzi also appeared on Sesame Street, That Girl, The Carol Burnett Show, and numerous other television programs, films, and animated productions. Her work on Laugh-In earned her a Golden Globe Award and several Emmy Award nominations.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0128",
+    "product_images": [
+      "images/HEA-0128.jpg"
+    ],
+    "full_description": "Kim Alexis (born July 15, 1960) is an American model, actress, author, and television personality who became one of the leading supermodels of the 1980s. She appeared on hundreds of magazine covers, including Vogue, Harper\u2019s Bazaar, Cosmopolitan, and Glamour, and was featured in the Sports Illustrated Swimsuit Issue several times. Alexis also became the face of Revlon\u2019s Ultima II cosmetics line and later worked as a fashion editor and television host, including appearances on Good Morning America.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0129",
+    "product_images": [
+      "images/HEA-0129.jpg"
+    ],
+    "full_description": "(Deceased) Steve Allen (born December 26, 1921 \u2013 died October 30, 2000) was an American television personality, comedian, musician, composer, actor, and writer who helped pioneer late-night television. He was the original host of NBC\u2019s The Tonight Show and later hosted The Steve Allen Show, I\u2019ve Got a Secret, and numerous other television programs. Known for his quick wit, improvisational comedy, and musical talent, Allen also wrote dozens of books and composed thousands of songs during his long career.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0130",
+    "product_images": [
+      "images/HEA-0130.jpg"
+    ],
+    "full_description": "(Deceased) June Allyson (born October 7, 1917 \u2013 died July 8, 2006) was an American actress, singer, and dancer known for her warm, wholesome screen image in films of the 1940s and 1950s. She starred in such movies as Two Girls and a Sailor, Little Women, The Stratton Story, Executive Suite, and The Glenn Miller Story. Allyson also worked extensively in television and won a Golden Globe Award for her performance in Too Young to Kiss.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0131",
+    "product_images": [
+      "images/HEA-0131.jpg"
+    ],
+    "full_description": "(Deceased) Morey Amsterdam (born December 14, 1908 \u2013 died October 27, 1996) was an American comedian, actor, writer, and musician best known for playing comedy writer Buddy Sorrell on the classic television series The Dick Van Dyke Show. Nicknamed \u201cThe Human Joke Machine\u201d for his rapid-fire wit, Amsterdam also performed in vaudeville, radio, nightclubs, films, and numerous television programs. He was also a skilled cellist and songwriter whose entertainment career spanned more than six decades.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0132",
+    "product_images": [
+      "images/HEA-0132.jpg"
+    ],
+    "full_description": "(Deceased) Lew Ayres (born December 28, 1908 \u2013 died December 30, 1996) was an American actor best known for starring as Paul B\u00e4umer in the classic antiwar film All Quiet on the Western Front. He also played Dr. James Kildare in a popular series of films and appeared in such notable movies as Holiday, Johnny Belinda, The Dark Mirror, and Advise & Consent. A committed pacifist, Ayres served as a medic and chaplain\u2019s assistant during World War II and later received an Academy Award nomination for his performance in Johnny Belinda.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0133",
+    "product_images": [
+      "images/HEA-0133.jpg"
+    ],
+    "full_description": "(Deceased) Madeline Kahn (born September 29, 1942 \u2013 died December 3, 1999) was an American actress and comedian celebrated for her distinctive voice, impeccable timing, and memorable performances in film, television, and theater. She received Academy Award nominations for Paper Moon and Blazing Saddles and also appeared in Young Frankenstein, High Anxiety, Clue, and History of the World, Part I. Kahn was also an accomplished stage performer and won a Tony Award for the 1993 Broadway comedy The Sisters Rosensweig.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "Signed in red ink pen."
   }
 ];
