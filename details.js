@@ -338,7 +338,7 @@ const productDetails = [
       "images/HEA-0035.jpg"
     ],
     "full_description": "Born May 31, 1930. Clint Eastwood is an American actor, director and producer whose career has made him one of the most enduring figures in motion-picture history.\n\nHe first gained widespread recognition as Rowdy Yates on the television Western *Rawhide*. Eastwood then became an international star as the mysterious \u201cMan with No Name\u201d in Sergio Leone\u2019s *Dollars Trilogy*. He later created another iconic character as tough police inspector Harry Callahan in the *Dirty Harry* film series.\n\nEastwood successfully moved behind the camera and became one of Hollywood\u2019s most acclaimed directors. His films include *Play Misty for Me*, *The Outlaw Josey Wales*, *Unforgiven*, *Mystic River*, *Million Dollar Baby*, *Gran Torino*, *American Sniper* and *Sully*.\n\nHe won Academy Awards for Best Director and Best Picture for both *Unforgiven* and *Million Dollar Baby*. Known for his understated acting style, distinctive voice and efficient filmmaking, Eastwood remained active in the motion-picture industry well into his nineties.",
-    "authentication_info": "COA from Iconographs",
+    "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
   },

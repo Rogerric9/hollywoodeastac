@@ -279,9 +279,45 @@ if (window.paypal) {
         "paypal-button-container"
       ).innerHTML = "";
     },
+    onCancel: async function(data) {
+      console.log(
+        "PayPal checkout canceled.",
+        data.orderID
+      );
 
-    onCancel: function() {
-      console.log("PayPal checkout canceled.");
+      try {
+        const response = await fetch(
+          "https://hollywood-east-checkout.steve-kanski.workers.dev/release-paypal-reservation",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              order_id: data.orderID
+            })
+          }
+        );
+
+        const result = await response.json();
+
+        console.log(
+          "PayPal reservation release result.",
+          result
+        );
+
+        if (!response.ok || !result.success) {
+          console.error(
+            "The canceled checkout reservation could not be released.",
+            result
+          );
+        }
+      } catch (error) {
+        console.error(
+          "The canceled checkout reservation could not be released.",
+          error
+        );
+      }
     },
 
     onError: function(error) {
