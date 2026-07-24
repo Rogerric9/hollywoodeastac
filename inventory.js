@@ -2126,5 +2126,19 @@ const inventory = [
     "quantity_available": 1,
     "shipping_class": "standard",
     "shipping_charge": ""
+  },
+  {
+    "product_id": "HEA-0134",
+    "type": "autograph",
+    "category": "actor",
+    "category2": "vintage",
+    "name": "William Frawley",
+    "description": "Handwritten signed 1948 letter on New York Yankees letterhead.",
+    "price": 200.0,
+    "product_page": "product-detail.html?id=HEA-0134",
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   }
 ];
