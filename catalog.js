@@ -212,7 +212,7 @@ function displayProducts() {
 
   if (availableProducts.length === 0) {
     productGrid.innerHTML = `
-      <p>No products are currently available in this section.</p>
+      <p>No item found with that name.</p>
     `;
 
     return;
