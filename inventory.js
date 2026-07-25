@@ -2128,17 +2128,31 @@ const inventory = [
     "shipping_charge": ""
   },
   {
-    "product_id": "HEA-0134",
+    "product_id": "HEA-0135",
     "type": "autograph",
-    "category": "actor",
-    "category2": "vintage",
-    "name": "William Frawley",
-    "description": "Handwritten signed 1948 letter on New York Yankees letterhead.",
-    "price": 900.0,
-    "product_page": "product-detail.html?id=HEA-0134",
+    "category": "sports",
+    "category2": "",
+    "name": "Ken Griffey Jr.",
+    "description": "Signed color 8x10 mounted on wooden plaque.",
+    "price": 200.0,
+    "product_page": "product-detail.html?id=HEA-0135",
     "status": "",
     "quantity_available": 1,
-    "shipping_class": "standard",
+    "shipping_class": "plaque",
+    "shipping_charge": ""
+  },
+  {
+    "product_id": "HEA-0136",
+    "type": "autograph",
+    "category": "sports",
+    "category2": "",
+    "name": "Dennis Rodman",
+    "description": "Signed 8x10 color photo mounted on wooden plaque.",
+    "price": 200.0,
+    "product_page": "product-detail.html?id=HEA-0136",
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "plaque",
     "shipping_charge": ""
   }
 ];

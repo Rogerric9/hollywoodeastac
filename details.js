@@ -1560,13 +1560,23 @@ const productDetails = [
     "miscellaneous": "Signed in red ink pen."
   },
   {
-    "product_id": "HEA-0134",
+    "product_id": "HEA-0135",
     "product_images": [
-      "images/HEA-0134.jpg"
+      "images/HEA-0135.jpg"
     ],
-    "full_description": "(Deceased) William Frawley (February 26, 1887\u2013March 3, 1966) was an American stage, film, and television actor best remembered as Fred Mertz on I Love Lucy and \u201cBub\u201d O\u2019Casey on My Three Sons. During a career spanning more than five decades, he appeared in vaudeville, on Broadway, and in more than 100 motion pictures.\n\nFrawley was also a lifelong and passionately devoted New York Yankees fan. His enthusiasm for the team was so well known that his I Love Lucy contract reportedly allowed him time off whenever the Yankees played in the World Series. He attended games whenever possible, maintained friendships with figures in baseball, and proudly wore a World Series watch associated with the Yankees. His love of the game also led to his appearance with Mickey Mantle and Roger Maris in the 1962 baseball film Safe at Home!",
+    "full_description": "Ken Griffey Jr. (born November 21, 1969) is a retired American baseball player widely regarded as one of the greatest center fielders in Major League Baseball history. Nicknamed \u201cThe Kid,\u201d he played primarily for the Seattle Mariners and Cincinnati Reds, earning 13 All-Star selections, 10 Gold Glove Awards, and hitting 630 career home runs. Known for his smooth left-handed swing and spectacular defensive plays, Griffey was inducted into the National Baseball Hall of Fame in 2016.",
     "authentication_info": "",
-    "condition_notes": "Very good condition.",
-    "miscellaneous": "Signed \"Sincerely Bill\""
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0136",
+    "product_images": [
+      "images/HEA-0136.jpg"
+    ],
+    "full_description": "Dennis Rodman (born May 13, 1961) is a retired American professional basketball player known for his exceptional rebounding, defense, and colorful personality. Nicknamed \u201cThe Worm,\u201d he won five NBA championships with the Detroit Pistons and Chicago Bulls and was named NBA Defensive Player of the Year twice. Rodman was inducted into the Naismith Memorial Basketball Hall of Fame in 2011.",
+    "authentication_info": "",
+    "condition_notes": "Good condition.",
+    "miscellaneous": ""
   }
 ];
