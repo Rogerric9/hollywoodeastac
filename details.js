@@ -1578,5 +1578,25 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Good condition.",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0137",
+    "product_images": [
+      "images/HEA-0137.jpg"
+    ],
+    "full_description": "(Deceased) Bill Essick (December 18, 1880 \u2013 October 12, 1951), nicknamed \u201cVinegar Bill,\u201d was an American baseball pitcher, minor-league manager, and highly respected scout for the New York Yankees. He briefly pitched for the Cincinnati Reds in 1906 and 1907 before building his reputation as a manager and talent evaluator.\n\nEssick is best remembered for helping bring Joe DiMaggio to the Yankees. After DiMaggio suffered a serious knee injury in 1934, many major-league teams lost interest, but Essick remained convinced that the young outfielder would recover. He arranged for DiMaggio to be examined by a doctor and strongly encouraged the Yankees to complete the deal. DiMaggio subsequently became one of baseball\u2019s greatest players and an enduring Yankees legend.\n\nEssick also helped the Yankees acquire or sign other notable players, including Hall of Famers Lefty Gomez and Joe Gordon, as well as Frank Crosetti and Ralph Houk. His ability to recognize talent helped strengthen the Yankees teams that dominated baseball during the 1930s and 1940s.",
+    "authentication_info": "",
+    "condition_notes": "Very good condition.  Some slight folds corresponding to having been inserted into a mailing envelope.   Some yellowing with age.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0021",
+    "product_images": [
+      "images/HEC-0021.jpg"
+    ],
+    "full_description": "(Deceased) H. Roy Hamey (June 9, 1902 \u2013 December 14, 1983) was an American Major League Baseball executive who served as general manager of the Pittsburgh Pirates, Philadelphia Phillies and New York Yankees. During his three full seasons as Yankees general manager, the club won three American League pennants and the 1961 and 1962 World Series championships. Hamey was also a friend of actor and devoted Yankees fan William Frawley, best known for playing Fred Mertz on I Love Lucy.",
+    "authentication_info": "",
+    "condition_notes": "This is a carbon copy of the original letter It is in very good condition with a ingle horizontal fold in the middle of the page.",
+    "miscellaneous": ""
   }
 ];

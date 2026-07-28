@@ -62,7 +62,7 @@ const inventory = [
     "category2": "politics",
     "name": "William F. Buckley Jr.",
     "description": "Signed \"Cordially\" 5x7 B&W Photo",
-    "price": 50.0,
+    "price": 150.0,
     "product_page": "product-detail.html?id=HEA-0005",
     "status": "",
     "quantity_available": 1,
@@ -2153,6 +2153,34 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "plaque",
+    "shipping_charge": ""
+  },
+  {
+    "product_id": "HEA-0137",
+    "type": "autograph",
+    "category": "sports",
+    "category2": "historical",
+    "name": "Bill Essick (Vinegar Bill)",
+    "description": "Signed hand-written 1948 letter on New York Yankees letterhead",
+    "price": 275.0,
+    "product_page": "product-detail.html?id=HEA-0137",
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
+  },
+  {
+    "product_id": "HEC-0021",
+    "type": "collectible",
+    "category": "miscellaneous",
+    "category2": "memorabilia",
+    "name": "H. Roy Hamey",
+    "description": "Typed letter from Hamey to William Frawley (Fred Mertz on I Love Lucy)",
+    "price": 3.0,
+    "product_page": "product-detail.html?id=HEC-0021",
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "standard",
     "shipping_charge": ""
   }
 ];
