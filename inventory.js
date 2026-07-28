@@ -2178,7 +2178,7 @@ const inventory = [
     "description": "Typed letter from Hamey to William Frawley (Fred Mertz on I Love Lucy)",
     "price": 3.0,
     "product_page": "product-detail.html?id=HEC-0021",
-    "status": "",
+    "status": "sold",
     "quantity_available": 1,
     "shipping_class": "standard",
     "shipping_charge": ""
