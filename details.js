@@ -1784,7 +1784,8 @@ const productDetails = [
   {
     "product_id": "HEA-0156",
     "product_images": [
-      "images/HEA-0156.jpg"
+      "images/HEA-0156.jpg",
+      "images/JulieBrownCoffey.jpg"
     ],
     "full_description": "Julie Brown (born August 31, 1958) is an American actress, comedian, singer-songwriter, screenwriter, and director known for her satirical songs and energetic comic style. She gained fame with novelty hits including \u201cThe Homecoming Queen\u2019s Got a Gun\u201d and \u201c\u2019Cause I\u2019m a Blonde,\u201d co-wrote and appeared in the film Earth Girls Are Easy, and starred in MTV\u2019s Just Say Julie. Brown also created and starred in the Madonna parody Medusa: Dare to Be Truthful.\n\nCharlie Coffey is an American writer, actor, producer, and songwriter best known for his longtime creative partnership with comedian Julie Brown. The pair collaborated on comedy songs, television programs, and films, including \u201cThe Homecoming Queen\u2019s Got a Gun,\u201d \u201c\u2019Cause I\u2019m a Blonde,\u201d Just Say Julie, Medusa: Dare to Be Truthful, Strip Mall, and Earth Girls Are Easy, which Coffey co-wrote.",
     "authentication_info": "None",
