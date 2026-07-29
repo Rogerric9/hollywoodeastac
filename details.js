@@ -1598,5 +1598,207 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "This is a carbon copy of the original letter It is in very good condition with a ingle horizontal fold in the middle of the page.",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0138",
+    "product_images": [
+      "images/HEA-0138.jpg",
+      "images/DietrichSignature.jpg"
+    ],
+    "full_description": "(Deceased) Marlene Dietrich (December 27, 1901 \u2013 May 6, 1992) was a German-born American actress and singer celebrated for her distinctive voice, glamorous style, and sophisticated screen presence. She achieved international fame in The Blue Angel and later starred in Hollywood classics including Morocco, Shanghai Express, Destry Rides Again, and Witness for the Prosecution. Dietrich also entertained Allied troops during World War II and became one of the most enduring icons of twentieth-century cinema.",
+    "authentication_info": "",
+    "condition_notes": "Signature is light, as is typical for Dietrich.   Otherwise gret condition.",
+    "miscellaneous": "Comes mounted in a 19x14 inch wood frame.   Ready to hang on your wall."
+  },
+  {
+    "product_id": "HEA-0139",
+    "product_images": [
+      "images/HEA-0139.jpg",
+      "images/JamesStewartSig.jpg"
+    ],
+    "full_description": "(Deceased) James \u201cJimmy\u201d Stewart (May 20, 1908 \u2013 July 2, 1997) was an American actor known for his distinctive voice, natural screen presence, and portrayals of honest, everyday heroes. His classic films include Mr. Smith Goes to Washington, The Philadelphia Story, It\u2019s a Wonderful Life, Rear Window, Vertigo, and The Man Who Shot Liberty Valance. Stewart also served as a decorated U.S. Army Air Forces pilot during World War II and became one of Hollywood\u2019s most respected and beloved stars.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "Photo is of Stewart and June allyson."
+  },
+  {
+    "product_id": "HEA-0140",
+    "product_images": [
+      "images/HEA-0140.jpg"
+    ],
+    "full_description": "(Deceased) George Foreman (January 10, 1949 \u2013 March 21, 2025) was an American professional boxer, Olympic gold medalist, minister, author, and businessman. Known as \u201cBig George,\u201d he twice won the world heavyweight championship and became the oldest heavyweight champion in history when he regained the title at age 45. Outside the ring, Foreman achieved worldwide fame as the spokesperson for the George Foreman Grill and became one of boxing\u2019s most recognizable and popular personalities.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0141",
+    "product_images": [
+      "images/HEA-0141.jpg"
+    ],
+    "full_description": "(Deceased) Don January (November 20, 1929 \u2013 May 7, 2023) was an American professional golfer who won 10 PGA Tour tournaments, including the 1967 PGA Championship. Known for his relaxed style and accuracy, he also enjoyed great success on the Senior PGA Tour, now known as PGA Tour Champions, winning 22 events and leading the money list twice. January was a two-time Ryder Cup team member and was inducted into the Texas Golf Hall of Fame.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0142",
+    "product_images": [
+      "images/HEA-0142.jpg"
+    ],
+    "full_description": "Stefan Johansson (born September 8, 1956) is a Swedish former racing driver best known for competing in Formula One for teams including Ferrari and McLaren. He earned 12 Formula One podium finishes and later raced successfully in IndyCar and endurance racing. Johansson won the 1997 24 Hours of Le Mans and has also worked as a racing team manager and artist.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0143",
+    "product_images": [
+      "images/HEA-0143.jpg"
+    ],
+    "full_description": "Nancy Kerrigan (born October 13, 1969) is an American former figure skater who won the bronze medal at the 1992 Winter Olympics and the silver medal at the 1994 Winter Olympics. Known for her elegant skating style and technical consistency, she also won two U.S. national championships and a world championship silver medal. Kerrigan became one of the most recognizable American figure skaters of the 1990s.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0144",
+    "product_images": [
+      "images/HEA-0144.jpg"
+    ],
+    "full_description": "Ray \u201cBoom Boom\u201d Mancini (born March 4, 1961) is an American former professional boxer who held the World Boxing Association lightweight championship from 1982 to 1984. Known for his aggressive, crowd-pleasing fighting style, Mancini became one of boxing\u2019s most popular stars of the early 1980s. He later worked as an actor, producer, and boxing commentator.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0145",
+    "product_images": [
+      "images/HEA-0145.jpg"
+    ],
+    "full_description": "(Deceased) Floyd Patterson (January 4, 1935 \u2013 May 11, 2006) was an American professional boxer and Olympic gold medalist who twice held the world heavyweight championship. He became the youngest heavyweight champion in history at the time when he won the title in 1956 and later became the first boxer to regain it after losing it. Known for his speed, sportsmanship, and peek-a-boo fighting style, Patterson remains one of the most respected heavyweight champions in boxing history.",
+    "authentication_info": "None",
+    "condition_notes": "Good condition.   Some very minor wrinkles.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0146",
+    "product_images": [
+      "images/HEA-0146.jpg"
+    ],
+    "full_description": "Roger Penske (born February 20, 1937) is an American businessman, former race-car driver, and legendary motorsports team owner. Known as \u201cThe Captain,\u201d he founded Team Penske, one of the most successful organizations in auto-racing history, with numerous victories in the Indianapolis 500, NASCAR, and other major racing series. Penske is also the founder and chairman of Penske Corporation, a major transportation-services company.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0147",
+    "product_images": [
+      "images/HEA-0147.jpg"
+    ],
+    "full_description": "Kenny Perry (born August 10, 1960) is an American professional golfer who won 14 tournaments on the PGA Tour. Known for his powerful, consistent play, he represented the United States in the Ryder Cup and Presidents Cup and narrowly missed winning the 2009 Masters. Perry later enjoyed a successful career on the PGA Tour Champions, winning several major championships.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0148",
+    "product_images": [
+      "images/HEA-0148.jpg"
+    ],
+    "full_description": "",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "Ricky Rudd (born September 12, 1956) is an American former NASCAR driver known for his toughness, consistency, and long racing career. Nicknamed \u201cThe Rooster,\u201d he won 23 NASCAR Cup Series races, including the 1997 Brickyard 400, and recorded at least one victory in 16 consecutive seasons. Rudd was inducted into the NASCAR Hall of Fame as a member of the Class of 2025."
+  },
+  {
+    "product_id": "HEA-0149",
+    "product_images": [
+      "images/HEA-0149.jpg"
+    ],
+    "full_description": "Ken Schrader (born May 29, 1955) is an American professional race-car driver best known for his long and versatile NASCAR career. He won four NASCAR Cup Series races, earned numerous pole positions, and was named the series\u2019 Rookie of the Year in 1985. Schrader has also competed extensively in ARCA, USAC, dirt-track and short-track racing, earning a reputation as one of motorsports\u2019 most experienced and enthusiastic drivers.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0150",
+    "product_images": [
+      "images/HEA-0150.jpg"
+    ],
+    "full_description": "(Deceased) Dick Trickle (October 27, 1941 \u2013 May 16, 2013) was an American race-car driver who became a legend in Midwestern short-track racing before competing nationally in NASCAR. He won hundreds of races during his career and was named NASCAR Winston Cup Rookie of the Year in 1989 at age 48, making him the oldest driver to receive the honor. Trickle was admired for his skill, colorful personality, and influence on generations of racers.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0151",
+    "product_images": [
+      "images/HEA-0151.jpg"
+    ],
+    "full_description": "(Deceased) Johnny Vander Meer (November 2, 1914 \u2013 October 6, 1997) was an American Major League Baseball pitcher best known for throwing two consecutive no-hitters for the Cincinnati Reds in June 1938\u2014a feat never duplicated in major-league history. Nicknamed \u201cThe Dutch Master,\u201d he was a four-time All-Star, helped the Reds win the 1940 World Series, and was inducted into the Cincinnati Reds Hall of Fame.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0152",
+    "product_images": [
+      "images/HEA-0152.jpg"
+    ],
+    "full_description": "(Deceased) Jerry Clower (September 28, 1926 \u2013 August 24, 1998) was an American comedian and storyteller known for his humorous tales about rural Southern life. Nicknamed \u201cThe Mouth of Mississippi,\u201d he became popular through comedy recordings featuring the fictional Ledbetter family and their colorful adventures. Clower joined the Grand Ole Opry in 1973 and remained one of country entertainment\u2019s most beloved comedians until his death.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0153",
+    "product_images": [
+      "images/HEA-0153.jpg"
+    ],
+    "full_description": "(Deceased) Ralph Emery (March 10, 1933 \u2013 January 15, 2022) was an American radio and television personality known as the \u201cDean of Country Music Broadcasters.\u201d During a career spanning more than five decades, he interviewed many of country music\u2019s biggest stars and hosted popular programs including Pop! Goes the Country and Nashville Now. Emery was inducted into both the Country Music Hall of Fame and the National Radio Hall of Fame.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0154",
+    "product_images": [
+      "images/HEA-0154.jpg"
+    ],
+    "full_description": "(Deceased) Barbara March (October 9, 1953 \u2013 August 11, 2019) was a Canadian actress best known for portraying the Klingon warrior Lursa, one of the Duras sisters, in Star Trek: The Next Generation, Star Trek: Deep Space Nine, and the film Star Trek Generations. She also performed extensively on stage and worked as a screenwriter and television story editor.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0155",
+    "product_images": [
+      "images/HEA-0155.jpg"
+    ],
+    "full_description": "Morgan Shepherd (born October 12, 1941) is an American former professional stock-car racing driver and team owner known for his remarkably long NASCAR career. He won four NASCAR Cup Series races and competed across seven decades, becoming the oldest driver to start a Cup Series race at age 71. Shepherd was also recognized for his strong Christian faith, charitable work, and the \u201cRacing with Jesus\u201d message displayed on his race cars.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0156",
+    "product_images": [
+      "images/HEA-0156.jpg"
+    ],
+    "full_description": "Julie Brown (born August 31, 1958) is an American actress, comedian, singer-songwriter, screenwriter, and director known for her satirical songs and energetic comic style. She gained fame with novelty hits including \u201cThe Homecoming Queen\u2019s Got a Gun\u201d and \u201c\u2019Cause I\u2019m a Blonde,\u201d co-wrote and appeared in the film Earth Girls Are Easy, and starred in MTV\u2019s Just Say Julie. Brown also created and starred in the Madonna parody Medusa: Dare to Be Truthful.\n\nCharlie Coffey is an American writer, actor, producer, and songwriter best known for his longtime creative partnership with comedian Julie Brown. The pair collaborated on comedy songs, television programs, and films, including \u201cThe Homecoming Queen\u2019s Got a Gun,\u201d \u201c\u2019Cause I\u2019m a Blonde,\u201d Just Say Julie, Medusa: Dare to Be Truthful, Strip Mall, and Earth Girls Are Easy, which Coffey co-wrote.",
+    "authentication_info": "None",
+    "condition_notes": "Very good condition. Some holes in upper left corner where the two pages were originally stapled together.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0157",
+    "product_images": [
+      "images/HEA-0157.jpg"
+    ],
+    "full_description": "Angela Cartwright (born September 9, 1952) is an English-born American actress, artist, photographer, and author. She is best known for playing Brigitta von Trapp in the classic film The Sound of Music and Penny Robinson in the television series Lost in Space. As a child actress, she also portrayed Linda Williams on The Danny Thomas Show and later continued making occasional film and television appearances while pursuing photography and other creative work.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
   }
 ];
