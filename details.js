@@ -976,7 +976,7 @@ const productDetails = [
       "images/HEA-0096.jpg"
     ],
     "full_description": "Faye Dunaway (born January 14, 1941) is an American actress celebrated for her intense, sophisticated performances in film, television, and theater. She rose to stardom as bank robber Bonnie Parker in Bonnie and Clyde and later appeared in such acclaimed films as The Thomas Crown Affair, Chinatown, Three Days of the Condor, and Network. Dunaway won the Academy Award for Best Actress for her performance as ambitious television executive Diana Christensen in Network. Her other notable roles include Joan Crawford in Mommie Dearest and Milady de Winter in The Three Musketeers.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -1798,6 +1798,496 @@ const productDetails = [
       "images/HEA-0157.jpg"
     ],
     "full_description": "Angela Cartwright (born September 9, 1952) is an English-born American actress, artist, photographer, and author. She is best known for playing Brigitta von Trapp in the classic film The Sound of Music and Penny Robinson in the television series Lost in Space. As a child actress, she also portrayed Linda Williams on The Danny Thomas Show and later continued making occasional film and television appearances while pursuing photography and other creative work.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0158",
+    "product_images": [
+      "images/HEA-0158.jpg"
+    ],
+    "full_description": "[![Anfernee Hardaway | Forward | NBA.com](https://tse2.mm.bing.net/th/id/OIP.w5q6Zl_BEj5uNBgipXdB1gHaFa?r=0\\&pid=Api)](https://www.nba.com/stats/player/358?utm_source=chatgpt.com)\n\nAnfernee \u201cPenny\u201d Hardaway (born July 18, 1971) is a former professional basketball player best known for his years with the Orlando Magic. A 6-foot-7 guard with exceptional passing and scoring ability, Hardaway was a four-time NBA All-Star and helped lead Orlando to the 1995 NBA Finals. He also played for the Phoenix Suns, New York Knicks and Miami Heat during his 14-season NBA career. ([NBA.com][1])\n\n[1]: https://www.nba.com/player/358/anfernee-hardaway?utm_source=chatgpt.com \"Anfernee Hardaway | Forward | NBA.com\"",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0159",
+    "product_images": [
+      "images/HEA-0159.jpg"
+    ],
+    "full_description": "(Deceased) Ray Harryhausen (June 29, 1920\u2013May 7, 2013) was an American visual-effects artist, animator and producer who became a master of stop-motion animation. He created memorable creatures and fantasy sequences for films such as The 7th Voyage of Sinbad, Jason and the Argonauts, One Million Years B.C. and Clash of the Titans. His innovative work influenced generations of filmmakers and special-effects artists.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0160",
+    "product_images": [
+      "images/HEA-0160.jpg"
+    ],
+    "full_description": "(Deceased) Alan Young (November 19, 1919\u2013May 19, 2016) was a British-born Canadian-American actor, comedian and voice artist. He was best known for playing architect Wilbur Post on the television comedy Mister Ed. Young also became closely associated with Disney\u2019s Scrooge McDuck, providing the character\u2019s voice in numerous animated productions, including DuckTales and Mickey\u2019s Christmas Carol.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0161",
+    "product_images": [
+      "images/HEA-0161.jpg"
+    ],
+    "full_description": "(Deceased) Marty Balin (January 30, 1942\u2013September 27, 2018) was an American singer, songwriter and musician best known as a founder and lead vocalist of Jefferson Airplane. He later performed with Jefferson Starship, singing on popular songs such as \u201cMiracles,\u201d \u201cWith Your Love\u201d and \u201cCount on Me.\u201d Balin was inducted into the Rock and Roll Hall of Fame as a member of Jefferson Airplane in 1996.",
+    "authentication_info": "",
+    "condition_notes": "Very good condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0162",
+    "product_images": [
+      "images/HEA-0162.jpg"
+    ],
+    "full_description": "The Turtles were an American rock band formed in Los Angeles in 1965, best known for their upbeat harmonies and humorous stage presence. Led by vocalists Howard Kaylan and Mark Volman, the group recorded several popular songs, including \u201cHappy Together,\u201d \u201cElenore,\u201d \u201cShe\u2019d Rather Be with Me\u201d and \u201cYou Showed Me.\u201d After the band disbanded, Kaylan and Volman continued performing together as Flo & Eddie.",
+    "authentication_info": "",
+    "condition_notes": "Good condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0163",
+    "product_images": [
+      "images/HEA-0163.jpg"
+    ],
+    "full_description": "(Deceased) Joey Molland (June 21, 1947\u2013March 1, 2025) was an English guitarist, singer and songwriter best known as a member of the rock band Badfinger. He joined the group in 1969 and performed on recordings including \u201cNo Matter What,\u201d \u201cDay After Day\u201d and \u201cBaby Blue.\u201d Molland also contributed to George Harrison\u2019s All Things Must Pass and John Lennon\u2019s Imagine, and continued performing and recording as a solo artist for many years.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0164",
+    "product_images": [
+      "images/HEA-0164.jpg"
+    ],
+    "full_description": "Tommy Reynolds was an American singer and multi-instrumentalist best known as an original member of the soft-rock group Hamilton, Joe Frank & Reynolds. He previously performed with the T-Bones and later became the lead singer of Shango. With Hamilton, Joe Frank & Reynolds, he helped record the 1971 hit \u201cDon\u2019t Pull Your Love\u201d before leaving the group in the early 1970s.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0165",
+    "product_images": [
+      "images/HEA-0165.jpg"
+    ],
+    "full_description": "Peter Noone (born November 5, 1947) is an English singer, songwriter and actor best known as the lead vocalist of the 1960s pop group Herman\u2019s Hermits. Nicknamed \u201cHerman,\u201d he sang on hits including \u201cI\u2019m into Something Good,\u201d \u201cMrs. Brown, You\u2019ve Got a Lovely Daughter,\u201d \u201cI\u2019m Henry VIII, I Am\u201d and \u201cThere\u2019s a Kind of Hush.\u201d He has also appeared in films and television programs and continues to perform with Herman\u2019s Hermits starring Peter Noone.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0166",
+    "product_images": [
+      "images/HEA-0166.jpg"
+    ],
+    "full_description": "Signed by 4 Grass Roots members: Rob Grill (lead vocals, bass), David Page (drums), Larry Nelson (keyboards, synthesizers and backing vocals, and Dusty Hanvey (lead guitar and backing vocals.)\n\nThese signatures were obtained in-person in 1984 in Williamsport, Pa.\n\nAs a bonus, Gary Lewis of the Playboys has also signed.",
+    "authentication_info": "",
+    "condition_notes": "Good condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0167",
+    "product_images": [
+      "images/HEA-0167.jpg"
+    ],
+    "full_description": "Gary Lewis (born July 31, 1945) is an American singer, musician and drummer best known as the leader of the 1960s pop group Gary Lewis & the Playboys. The son of entertainer Jerry Lewis, he sang lead on hits including \u201cThis Diamond Ring,\u201d \u201cCount Me In,\u201d \u201cSave Your Heart for Me,\u201d \u201cEverybody Loves a Clown\u201d and \u201cShe\u2019s Just My Style.\u201d The group became one of the era\u2019s most successful American pop acts, placing seven consecutive singles in the Top 10. ([garylewisandtheplayboys.com][1])\n\n[1]: https://www.garylewisandtheplayboys.com/bio?lv=true&utm_source=chatgpt.com \"Bio\"",
+    "authentication_info": "",
+    "condition_notes": "OK.   Has a fold along the center which runs through the tail end of Lewis's signature.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0168",
+    "product_images": [
+      "images/HEA-0168.jpg"
+    ],
+    "full_description": "Roger McGuinn (born July 13, 1942) is an American singer, songwriter and guitarist best known as the co-founder and leader of the influential folk-rock band the Byrds. His distinctive 12-string Rickenbacker guitar sound helped define recordings such as \u201cMr. Tambourine Man,\u201d \u201cTurn! Turn! Turn!\u201d and \u201cSo You Want to Be a Rock \u2019n\u2019 Roll Star.\u201d After the Byrds, McGuinn continued performing and recording as a solo artist.",
+    "authentication_info": "",
+    "condition_notes": "OK condition.  Stub was folded.   Fold runs thru the center of McGuinn's signature.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0169",
+    "product_images": [
+      "images/HEA-0169.jpg"
+    ],
+    "full_description": "(Deceased) Carl Perkins (April 9, 1932\u2013January 19, 1998) was an American singer, songwriter and guitarist who became one of the pioneers of rockabilly music. He is best known for writing and recording \u201cBlue Suede Shoes,\u201d which became a major hit and was later covered by Elvis Presley. Perkins also wrote songs recorded by artists including Johnny Cash, the Beatles and Patsy Cline.   Perkins was a favorite of Beatles, Ringo Starr. He was inducted into the Rock and Roll Hall of Fame in 1987.",
+    "authentication_info": "",
+    "condition_notes": "Very good condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0170",
+    "product_images": [
+      "images/HEA-0170.jpg"
+    ],
+    "full_description": "John Sebastian (born March 17, 1944) is an American singer, songwriter and musician best known as the founder and lead singer of the Lovin\u2019 Spoonful. He wrote or co-wrote many of the group\u2019s hits, including \u201cDo You Believe in Magic,\u201d \u201cDaydream,\u201d \u201cSummer in the City\u201d and \u201cYou Didn\u2019t Have to Be So Nice.\u201d Sebastian later pursued a solo career and recorded \u201cWelcome Back,\u201d the theme song for the television series Welcome Back, Kotter.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0171",
+    "product_images": [
+      "images/HEA-0171.jpg"
+    ],
+    "full_description": "Neil Sedaka (born March 13, 1939) is an American singer, songwriter and pianist who became a major pop star during the late 1950s and early 1960s. His best-known recordings include \u201cOh! Carol,\u201d \u201cCalendar Girl,\u201d \u201cBreaking Up Is Hard to Do\u201d and \u201cHappy Birthday Sweet Sixteen.\u201d Sedaka later enjoyed a successful comeback in the 1970s and also wrote songs recorded by numerous other artists.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0172",
+    "product_images": [
+      "images/HEA-0172.jpg"
+    ],
+    "full_description": "(Deceased) Dennis Yost (July 20, 1943\u2013December 7, 2008) was an American singer and musician best known as the lead vocalist of the Classics IV. His smooth, expressive voice was featured on the group\u2019s biggest hits, including \u201cSpooky,\u201d \u201cStormy,\u201d \u201cTraces\u201d and \u201cEvery Day with You Girl.\u201d Yost began as the band\u2019s drummer before becoming its full-time lead singer and remained closely associated with the Classics IV throughout his career.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0173",
+    "product_images": [
+      "images/HEA-0173.jpg"
+    ],
+    "full_description": "(Deceased) Maureen O\u2019Hara (August 17, 1920\u2013October 24, 2015) was an Irish-American actress celebrated for her fiery screen presence and striking red hair. She starred in classic films including The Quiet Man, Miracle on 34th Street, How Green Was My Valley and The Parent Trap. O\u2019Hara was especially known for her frequent collaborations with director John Ford and actor John Wayne.",
+    "authentication_info": "None",
+    "condition_notes": "Good condition.  Minor ink smear on the inscription.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0174",
+    "product_images": [
+      "images/HEA-0174.jpg"
+    ],
+    "full_description": "(Deceased) Martha O\u2019Driscoll (March 4, 1922\u2013November 3, 1998) was an American actress who appeared in films during the 1930s and 1940s. She was known for roles in movies including House of Dracula, The Fallen Sparrow, Reap the Wild Wind and The Lady Eve. O\u2019Driscoll often played elegant leading or supporting characters before retiring from acting in the late 1940s.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0175",
+    "product_images": [
+      "images/HEA-0175.jpg"
+    ],
+    "full_description": "Elizabeth McGovern (born July 18, 1961) is an American actress and musician known for her work in film, television and theater. She received an Academy Award nomination for her performance as Evelyn Nesbit in Ragtime and later appeared in films including Ordinary People, Once Upon a Time in America and She\u2019s Having a Baby. McGovern is also widely recognized for playing Cora Crawley, Countess of Grantham, in Downton Abbey.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0176",
+    "product_images": [
+      "images/HEA-0176.jpg"
+    ],
+    "full_description": "(Deceased) Clayton Moore (September 14, 1914\u2013December 28, 1999) was an American actor best known for portraying the masked Western hero in the television series The Lone Ranger. He played the role during most of the show\u2019s run from 1949 to 1957 and became closely identified with the character throughout his life. Moore also appeared in numerous Western films and serials before and after the series.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0177",
+    "product_images": [
+      "images/HEA-0177.jpg"
+    ],
+    "full_description": "Kathy Mattea (born June 21, 1959) is an American country and folk singer known for her warm voice and thoughtful, story-driven songs. Her best-known recordings include \u201cEighteen Wheels and a Dozen Roses,\u201d \u201cWhere\u2019ve You Been,\u201d \u201cCome from the Heart\u201d and \u201cGoin\u2019 Gone.\u201d Mattea has won multiple Grammy and Country Music Association awards and has also recorded music influenced by Appalachian and bluegrass traditions.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0178",
+    "product_images": [
+      "images/HEA-0178.jpg"
+    ],
+    "full_description": "(Deceased) Janet Leigh (July 6, 1927\u2013October 3, 2004) was an American actress best known for her role as Marion Crane in Alfred Hitchcock\u2019s Psycho, which earned her an Academy Award nomination. She also appeared in films including Touch of Evil, The Manchurian Candidate, Little Women and Bye Bye Birdie. Leigh was the mother of actresses Jamie Lee Curtis and Kelly Curtis.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0179",
+    "product_images": [
+      "images/HEA-0179.jpg"
+    ],
+    "full_description": "Brenda Lee (born December 11, 1944) is an American singer whose powerful voice earned her the nickname \u201cLittle Miss Dynamite.\u201d She became a major pop and country star with recordings including \u201cI\u2019m Sorry,\u201d \u201cSweet Nothin\u2019s,\u201d \u201cBreak It to Me Gently\u201d and the holiday favorite \u201cRockin\u2019 Around the Christmas Tree.\u201d Lee has been inducted into both the Country Music Hall of Fame and the Rock and Roll Hall of Fame.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0180",
+    "product_images": [
+      "images/HEA-0180.jpg"
+    ],
+    "full_description": "Cheryl Ladd (born July 12, 1951) is an American actress, singer and author best known for playing Kris Munroe on the television series Charlie\u2019s Angels. She joined the show in 1977 and remained through its final season. Ladd has also appeared in numerous films and television movies and recorded several pop albums during her career.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0181",
+    "product_images": [
+      "images/HEA-0181.jpg"
+    ],
+    "full_description": "Walter Koenig (born September 14, 1936) is an American actor and writer best known for portraying Pavel Chekov in the original Star Trek television series and several Star Trek films. He later played the recurring villain Alfred Bester on Babylon 5. Koenig has also written novels, comic books and scripts during his long career.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0182",
+    "product_images": [
+      "images/HEA-0182.jpg"
+    ],
+    "full_description": "(Deceased) Gloria Jean (April 14, 1926\u2013August 31, 2018) was an American actress and singer who became a popular child star during the 1930s and 1940s. Known for her soprano voice, she appeared in films including The Under-Pup, If I Had My Way, Never Give a Sucker an Even Break and Copacabana. She later retired from acting and worked in business and real estate.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0183",
+    "product_images": [
+      "images/HEA-0183.jpg"
+    ],
+    "full_description": "(Deceased) Ferlin Husky (December 3, 1925\u2013March 17, 2011) was an American country singer and actor known for his smooth voice and versatile style. His best-known recordings include \u201cGone,\u201d \u201cWings of a Dove\u201d and \u201cA Dear John Letter,\u201d a duet with Jean Shepard. Husky also performed comedy under the name Simon Crum and was inducted into the Country Music Hall of Fame in 2010.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0184",
+    "product_images": [
+      "images/HEA-0184.jpg"
+    ],
+    "full_description": "Kathy Garver (born December 13, 1945) is an American actress and voice artist best known for playing Catherine \u201cCissy\u201d Davis on the television series Family Affair. She also appeared in films and television programs beginning as a child actress and later became a prolific voice performer in animated series and commercials. Garver has continued acting, writing and making appearances celebrating classic television.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0185",
+    "product_images": [
+      "images/HEA-0185.jpg"
+    ],
+    "full_description": "(Deceased) Mike Connors (August 15, 1925\u2013January 26, 2017) was an American actor best known for playing private investigator Joe Mannix in the television series Mannix. Born Krekor Ohanian, he also starred in the crime series Tightrope! and appeared in numerous films and television programs. Connors received several award nominations for Mannix and remained closely associated with the role throughout his career.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0186",
+    "product_images": [
+      "images/HEA-0186.jpg"
+    ],
+    "full_description": "(Deceased) Rita Gam (April 2, 1927\u2013March 22, 2016) was an American actress and documentary filmmaker who appeared in films, television and theater. Her movie credits included The Thief, King of Kings, Night People and Sign of the Pagan. Gam was also known for her close friendship with Grace Kelly and served as a bridesmaid at Kelly\u2019s wedding to Prince Rainier III of Monaco.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0187",
+    "product_images": [
+      "images/HEA-0187.jpg"
+    ],
+    "full_description": "(Deceased) Bonnie Franklin (January 6, 1944\u2013March 1, 2013) was an American actress best known for playing divorced mother Ann Romano on the television comedy One Day at a Time. Her performance earned multiple Emmy and Golden Globe nominations. Franklin also appeared extensively on Broadway, in regional theater and on television throughout her career.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0188",
+    "product_images": [
+      "images/HEA-0188.jpg"
+    ],
+    "full_description": "(Deceased) Tony Franciosa (October 25, 1928\u2013January 19, 2006) was an American actor known for his intense performances in film, television and theater. He received an Academy Award nomination for A Hatful of Rain and later appeared in films including The Long, Hot Summer, Career and The Pleasure Seekers. Franciosa also starred in television series such as The Name of the Game and Matt Helm.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0189",
+    "product_images": [
+      "images/HEA-0189.jpg"
+    ],
+    "full_description": "(Deceased) Nina Foch (April 20, 1924\u2013December 5, 2008) was a Dutch-born American actress whose career spanned film, television and theater. She received an Academy Award nomination for her supporting role in Executive Suite and also appeared in films including An American in Paris, The Ten Commandments, Spartacus and My Name Is Julia Ross. Foch later became a respected acting teacher and taught at the University of Southern California.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0190",
+    "product_images": [
+      "images/HEA-0190.jpg"
+    ],
+    "full_description": "(Deceased) Louise Fletcher (July 22, 1934\u2013September 23, 2022) was an American actress best known for portraying Nurse Ratched in One Flew Over the Cuckoo\u2019s Nest, a performance that earned her the Academy Award for Best Actress. She also appeared in films including Brainstorm, Flowers in the Attic and The Exorcist II, and later played the recurring role of Kai Winn on Star Trek: Deep Space Nine.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0191",
+    "product_images": [
+      "images/HEA-0191.jpg"
+    ],
+    "full_description": "(Deceased) Pat Crowley (September 17, 1933\u2013September 14, 2025) was an American actress whose career spanned more than six decades. She was best known for starring as Joan Nash in the television comedy Please Don\u2019t Eat the Daisies and also appeared in films including Forever Female, Money from Home and Hollywood or Bust. Crowley later had recurring roles in Dynasty, Generations and Port Charles and made guest appearances on many popular television programs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0192",
+    "product_images": [
+      "images/HEA-0192.jpg"
+    ],
+    "full_description": "Peggy Fleming (born July 27, 1948) is an American former figure skater who won the women\u2019s singles gold medal at the 1968 Winter Olympics. Known for her graceful and artistic skating style, she also won three consecutive World Championships and five United States championships. After retiring from competition, Fleming performed professionally and became a longtime television commentator for figure skating.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0193",
+    "product_images": [
+      "images/HEA-0193.jpg"
+    ],
+    "full_description": "Barbara Feldon (born March 12, 1933) is an American actress and former model best known for playing Agent 99 on the television comedy Get Smart. Her poised, intelligent performance made her one of the show\u2019s most memorable characters. Feldon also appeared in films, television programs and commercials and later wrote about her life and career.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0194",
+    "product_images": [
+      "images/HEA-0194.jpg"
+    ],
+    "full_description": "Jamie Farr (born July 1, 1934) is an American actor and comedian best known for playing Corporal Maxwell Q. Klinger on the television series M*A*S*H. The character became famous for wearing women\u2019s clothing in an effort to receive a psychiatric discharge, though Klinger later developed into a respected and resourceful member of the unit. Farr also appeared in films, stage productions and numerous television programs throughout his career.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0195",
+    "product_images": [
+      "images/HEA-0195.jpg"
+    ],
+    "full_description": "(Deceased) Billie Dove (May 14, 1903\u2013December 31, 1997) was an American actress who became a popular leading lady during the silent-film era and the early years of sound movies. Known for her beauty and glamorous screen presence, she appeared in films including The Black Pirate, The American Beauty and Blondie of the Follies. Dove retired from acting in the early 1930s.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "Silent-film era star."
+  },
+  {
+    "product_id": "HEA-0196",
+    "product_images": [
+      "images/HEA-0196.jpg"
+    ],
+    "full_description": "Tom Cruise (born July 3, 1962) is an American actor and producer who became one of Hollywood\u2019s most successful leading men. He is known for films including Top Gun, Rain Man, A Few Good Men, Jerry Maguire, The Last Samurai and the Mission: Impossible series. Cruise has received multiple Academy Award nominations and is especially noted for performing many of his own action stunts.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0197",
+    "product_images": [
+      "images/HEA-0197.jpg"
+    ],
+    "full_description": "(Deceased) Phyllis Diller (July 17, 1917\u2013August 20, 2012) was an American comedian, actress and author known for her outrageous costumes, exaggerated laugh and rapid-fire jokes about domestic life. She became one of the first widely successful female stand-up comedians and appeared frequently on television, in films and on stage. Diller also performed in Las Vegas, wrote several books and provided voices for animated productions.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0198",
+    "product_images": [
+      "images/HEA-0198.jpg"
+    ],
+    "full_description": "Diane Baker (born February 25, 1938) is an American actress and producer whose career has included film, television and theater. She appeared in movies including The Diary of Anne Frank, Journey to the Center of the Earth, The Prize, Marnie and The Silence of the Lambs. Baker later became an acting instructor and served as executive director of the School of Motion Pictures and Television at the Academy of Art University.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0199",
+    "product_images": [
+      "images/HEA-0199.jpg"
+    ],
+    "full_description": "(Deceased) Binnie Barnes (May 25, 1903\u2013July 27, 1998) was an English actress whose career spanned more than five decades in British and American films. She appeared in movies including The Private Life of Henry VIII, The Last of the Mohicans, In Old California and The Trouble with Angels. Barnes was known for playing confident, sophisticated and often witty supporting characters.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0200",
+    "product_images": [
+      "images/HEA-0200.jpg"
+    ],
+    "full_description": "Valerie Bertinelli (born April 23, 1960) is an American actress, television personality and author best known for playing Barbara Cooper on the sitcom One Day at a Time. She later starred in series including Touched by an Angel, Caf\u00e9 Americain and Hot in Cleveland. Bertinelli has also hosted several cooking programs and written books about her life, career and personal experiences.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0201",
+    "product_images": [
+      "images/HEA-0201.jpg"
+    ],
+    "full_description": "(Deceased) Julian Bond (January 14, 1940\u2013August 15, 2015) was an American civil rights leader, politician, educator and writer. He helped found the Student Nonviolent Coordinating Committee and later served in both the Georgia House of Representatives and Georgia Senate. Bond was also chairman of the NAACP and became a prominent lecturer and commentator on civil rights and social justice.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0202",
+    "product_images": [
+      "images/HEA-0202.jpg"
+    ],
+    "full_description": "Pat Boone (born June 1, 1934) is an American singer, actor, songwriter and television personality who became one of the most successful recording stars of the 1950s and early 1960s. His best-known songs include \u201cLove Letters in the Sand,\u201d \u201cApril Love,\u201d \u201cAin\u2019t That a Shame\u201d and \u201cMoody River.\u201d Boone also starred in several films, hosted his own television variety show and recorded extensively in pop, country and gospel music.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0203",
+    "product_images": [
+      "images/HEA-0203.jpg"
+    ],
+    "full_description": "(Deceased) Alice Faye (May 5, 1915\u2013May 9, 1998) was an American actress and singer who became one of 20th Century Fox\u2019s most popular musical stars during the 1930s and 1940s. She appeared in films including Alexander\u2019s Ragtime Band, In Old Chicago, That Night in Rio and Hello, Frisco, Hello. Faye was known for her warm singing voice and later starred with her husband, Phil Harris, on a popular radio comedy program.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0204",
+    "product_images": [
+      "images/HEA-0204.jpg"
+    ],
+    "full_description": "(Deceased) Jackie Collins (October 4, 1937\u2013September 19, 2015) was a British-American novelist known for bestselling books about wealth, fame, romance and scandal. Her novels included Hollywood Wives, Lucky, Chances and The Stud, and many were adapted for film or television. Collins sold hundreds of millions of books worldwide and became one of the most successful popular-fiction authors of her generation.",
+    "authentication_info": "",
+    "condition_notes": "Good.   Two coffee stains under signature.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0205",
+    "product_images": [
+      "images/HEA-0205.jpg"
+    ],
+    "full_description": "Angel Tompkins (born December 20, 1942) is an American actress and former model who became known for her film and television work beginning in the late 1960s. She received a Golden Globe nomination for I Love My Wife and appeared in films including Prime Cut, Little Cigars, The Teacher and Walking Tall Part 2. Her numerous television appearances included Mannix, Bonanza, Charlie\u2019s Angels, Three\u2019s Company, Knight Rider and Simon & Simon.",
+    "authentication_info": "",
+    "condition_notes": "Very good conition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0206",
+    "product_images": [
+      "images/HEA-0206.jpg"
+    ],
+    "full_description": "(Deceased) Marjorie Lord (July 26, 1918\u2013November 28, 2015) was an American actress best known for playing Kathy Williams on the television comedy Make Room for Daddy, later titled The Danny Thomas Show. She also appeared in films including Sherlock Holmes in Washington, The Strange Mrs. Crane and Riding High. Lord worked extensively in television and theater and remained closely associated with her long-running role as Danny Thomas\u2019s on-screen wife.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
