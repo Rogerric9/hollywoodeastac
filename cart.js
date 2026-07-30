@@ -31,6 +31,56 @@ function normalizeCart() {
   localStorage.setItem("cart", JSON.stringify(cart));
 }
 
+function addProductFromUrl() {
+  const urlParameters = new URLSearchParams(window.location.search);
+  const productId = urlParameters.get("add");
+
+  if (!productId) {
+    return;
+  }
+
+  const product = inventory.find(
+    item => item.product_id.toLowerCase() === productId.toLowerCase()
+  );
+
+  if (!product) {
+    alert("The requested item could not be found.");
+    return;
+  }
+
+  if (
+    product.status === "sold" ||
+    product.status === "not-for-sale" ||
+    Number(product.quantity_available) < 1
+  ) {
+    alert("The requested item is no longer available.");
+    return;
+  }
+
+  const existingCartItem = cart.find(
+    item => item.product_id === product.product_id
+  );
+
+  if (!existingCartItem) {
+    cart.push({
+      product_id: product.product_id,
+      name: product.name,
+      price: product.price,
+      quantity: 1,
+      shipping_class: product.shipping_class || "standard",
+      shipping_charge: Number(product.shipping_charge) || 0
+    });
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }
+
+  window.history.replaceState(
+    {},
+    document.title,
+    window.location.pathname
+  );
+}
+
 function calculateMerchandiseSubtotal() {
   let subtotal = 0;
 
@@ -93,6 +143,7 @@ function calculateShippingTotal() {
 
 function displayCart() {
   normalizeCart();
+  addProductFromUrl();
 
   cartItems.innerHTML = "";
 
