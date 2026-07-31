@@ -125,8 +125,8 @@ const productDetails = [
     "product_images": [
       "images/HEA-0013.jpg"
     ],
-    "full_description": "This is a rare item indeed.   A beautiful 8x10 B&W photograph signed by Art Carney (Ed Norton) Joyce Randolph (Trixie Norton) and Audrey Meqadows (Alice Kramdon).",
-    "authentication_info": "",
+    "full_description": "This is a rare item indeed.   A beautiful 8x10 B&W photograph signed by Art Carney (Ed Norton) Joyce Randolph (Trixie Norton) and Audrey Meadows (Alice Kramdon).",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
