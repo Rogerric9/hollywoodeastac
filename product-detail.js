@@ -44,6 +44,14 @@ if (!product) {
     );
   }
 
+  const structuredDataElement = document.getElementById(
+    "product-structured-data"
+  );
+
+  if (structuredDataElement) {
+    structuredDataElement.textContent = "{}";
+  }
+
   productName.textContent = "Product Not Found";
   productDescription.innerHTML =
     "<p>Sorry, this product could not be found.</p>";
@@ -93,6 +101,58 @@ if (!product) {
       "content",
       finalDescription.slice(0, 160)
     );
+  }
+
+  const structuredDataElement = document.getElementById(
+    "product-structured-data"
+  );
+
+  if (structuredDataElement) {
+    const productUrl =
+      "https://hollywoodeastac.com/products/" +
+      `product.html?id=${encodeURIComponent(product.product_id)}`;
+
+    const structuredProductData = {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": product.name,
+      "description":
+        product.description ||
+        `View ${product.name} from Hollywood East Autographs & Collectibles.`,
+      "sku": product.product_id,
+      "url": productUrl,
+      "image":
+        details &&
+        details.product_images &&
+        details.product_images.length > 0
+          ? details.product_images.map(
+              imagePath =>
+                `https://hollywoodeastac.com/${imagePath}`
+            )
+          : [
+              "https://hollywoodeastac.com/images/no-image-available.jpg"
+            ],
+      "offers": {
+        "@type": "Offer",
+        "url": productUrl,
+        "priceCurrency": "USD",
+        "price": Number(product.price).toFixed(2),
+        "availability":
+          product.status === "not-for-sale"
+            ? "https://schema.org/OutOfStock"
+            : Number(product.quantity_available) > 0
+              ? "https://schema.org/InStock"
+              : "https://schema.org/OutOfStock",
+        "itemCondition": "https://schema.org/UsedCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "Hollywood East Autographs & Collectibles"
+        }
+      }
+    };
+
+    structuredDataElement.textContent =
+      JSON.stringify(structuredProductData);
   }
 
   productName.textContent = product.name;
