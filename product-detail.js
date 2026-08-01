@@ -22,6 +22,17 @@ if (!product) {
   document.title =
     "Product Not Found | Hollywood East Autographs & Collectibles";
 
+  const canonicalLink = document.querySelector(
+    'link[rel="canonical"]'
+  );
+
+  if (canonicalLink) {
+    canonicalLink.setAttribute(
+      "href",
+      "https://hollywoodeastac.com/products/product.html"
+    );
+  }
+
   const metaDescription = document.querySelector(
     'meta[name="description"]'
   );
@@ -40,6 +51,17 @@ if (!product) {
 } else {
   document.title =
     `${product.name} | Hollywood East Autographs & Collectibles`;
+
+  const canonicalLink = document.querySelector(
+    'link[rel="canonical"]'
+  );
+
+  if (canonicalLink) {
+    canonicalLink.setAttribute(
+      "href",
+      `https://hollywoodeastac.com/products/product.html?id=${encodeURIComponent(product.product_id)}`
+    );
+  }
 
   const metaDescription = document.querySelector(
     'meta[name="description"]'
