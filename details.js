@@ -408,7 +408,7 @@ const productDetails = [
       "images/HEA-0042.jpg"
     ],
     "full_description": "Vera Ralston (Deceased; July 12, 1919 \u2013 February 9, 2003) was a Czech-American figure skater and actress who became a leading star at Republic Pictures during the 1940s and 1950s. Born V\u011bra Helena Hrub\u00e1 in Prague, she competed internationally as a figure skater before beginning her film career. Her notable movies include Dakota, The Fighting Kentuckian, The Flame, and Fair Wind to Java, and she frequently appeared in Westerns and adventure films alongside stars such as John Wayne.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -1928,7 +1928,7 @@ const productDetails = [
       "images/HEA-0170.jpg"
     ],
     "full_description": "John Sebastian (born March 17, 1944) is an American singer, songwriter and musician best known as the founder and lead singer of the Lovin\u2019 Spoonful. He wrote or co-wrote many of the group\u2019s hits, including \u201cDo You Believe in Magic,\u201d \u201cDaydream,\u201d \u201cSummer in the City\u201d and \u201cYou Didn\u2019t Have to Be So Nice.\u201d Sebastian later pursued a solo career and recorded \u201cWelcome Back,\u201d the theme song for the television series Welcome Back, Kotter.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
