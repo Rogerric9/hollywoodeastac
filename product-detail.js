@@ -19,10 +19,60 @@ const productMiscellaneous = document.getElementById("product-miscellaneous");
 const addToCartButton = document.getElementById("add-to-cart-button");
 
 if (!product) {
+  document.title =
+    "Product Not Found | Hollywood East Autographs & Collectibles";
+
+  const metaDescription = document.querySelector(
+    'meta[name="description"]'
+  );
+
+  if (metaDescription) {
+    metaDescription.setAttribute(
+      "content",
+      "The requested Hollywood East product could not be found."
+    );
+  }
+
   productName.textContent = "Product Not Found";
-  productDescription.innerHTML = "<p>Sorry, this product could not be found.</p>";
+  productDescription.innerHTML =
+    "<p>Sorry, this product could not be found.</p>";
   addToCartButton.style.display = "none";
 } else {
+  document.title =
+    `${product.name} | Hollywood East Autographs & Collectibles`;
+
+  const metaDescription = document.querySelector(
+    'meta[name="description"]'
+  );
+
+  if (metaDescription) {
+    const descriptionText =
+      product.description ||
+      (
+        details &&
+        details.full_description
+          ? (
+              Array.isArray(details.full_description)
+                ? details.full_description.join(" ")
+                : details.full_description
+            )
+          : ""
+      );
+
+    const cleanedDescription = String(descriptionText)
+      .replace(/\s+/g, " ")
+      .trim();
+
+    const finalDescription = cleanedDescription
+      ? `${product.name}. ${cleanedDescription}`
+      : `View ${product.name} from Hollywood East Autographs & Collectibles.`;
+
+    metaDescription.setAttribute(
+      "content",
+      finalDescription.slice(0, 160)
+    );
+  }
+
   productName.textContent = product.name;
   productNumber.textContent = `Product No. ${product.product_id}`;
   productPrice.textContent = `$${product.price}`;
