@@ -22,6 +22,11 @@ if (!product) {
   document.title =
     "Product Not Found | Hollywood East Autographs & Collectibles";
 
+  const robotsMeta = document.createElement("meta");
+  robotsMeta.setAttribute("name", "robots");
+  robotsMeta.setAttribute("content", "noindex, follow");
+  document.head.appendChild(robotsMeta);
+
   const canonicalLink = document.querySelector(
     'link[rel="canonical"]'
   );
