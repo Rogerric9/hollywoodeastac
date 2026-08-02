@@ -1008,20 +1008,6 @@ const inventory = [
     "shipping_charge": ""
   },
   {
-    "product_id": "HEA-0073",
-    "type": "autograph",
-    "category": "actress",
-    "category2": "tv",
-    "name": "Angela Cartwright",
-    "description": "Signed 4,5 x 6 B&W photo.   Inscribed.",
-    "price": 65.0,
-    "product_page": "product-detail.html?id=HEA-0073",
-    "status": "",
-    "quantity_available": 1,
-    "shipping_class": "standard",
-    "shipping_charge": ""
-  },
-  {
     "product_id": "HEA-0074",
     "type": "autograph",
     "category": "",

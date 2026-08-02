@@ -736,16 +736,6 @@ const productDetails = [
     "miscellaneous": ""
   },
   {
-    "product_id": "HEA-0073",
-    "product_images": [
-      "images/HEA-0073.jpg"
-    ],
-    "full_description": "Angela Cartwright (born September 9, 1952) is an English-born American actress, artist, and photographer best known for her roles in several classic television series and films. She played Linda Williams on Make Room for Daddy, Brigitta von Trapp in the Academy Award-winning musical The Sound of Music, and Penny Robinson on the science-fiction series Lost in Space. Cartwright later continued acting while also developing a successful career in photography, art, and writing.",
-    "authentication_info": "",
-    "condition_notes": "Excellent condition.",
-    "miscellaneous": ""
-  },
-  {
     "product_id": "HEA-0074",
     "product_images": [
       "images/HEA-0074.jpg",
