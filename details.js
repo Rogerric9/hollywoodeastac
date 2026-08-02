@@ -1898,7 +1898,7 @@ const productDetails = [
       "images/HEA-0167.jpg"
     ],
     "full_description": "Gary Lewis (born July 31, 1945) is an American singer, musician and drummer best known as the leader of the 1960s pop group Gary Lewis & the Playboys. The son of entertainer Jerry Lewis, he sang lead on hits including \u201cThis Diamond Ring,\u201d \u201cCount Me In,\u201d \u201cSave Your Heart for Me,\u201d \u201cEverybody Loves a Clown\u201d and \u201cShe\u2019s Just My Style.\u201d The group became one of the era\u2019s most successful American pop acts, placing seven consecutive singles in the Top 10. ([garylewisandtheplayboys.com][1])\n\n[1]: https://www.garylewisandtheplayboys.com/bio?lv=true&utm_source=chatgpt.com \"Bio\"",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "OK.   Has a fold along the center which runs through the tail end of Lewis's signature.",
     "miscellaneous": ""
   },
@@ -1978,7 +1978,7 @@ const productDetails = [
       "images/HEA-0175.jpg"
     ],
     "full_description": "Elizabeth McGovern (born July 18, 1961) is an American actress and musician known for her work in film, television and theater. She received an Academy Award nomination for her performance as Evelyn Nesbit in Ragtime and later appeared in films including Ordinary People, Once Upon a Time in America and She\u2019s Having a Baby. McGovern is also widely recognized for playing Cora Crawley, Countess of Grantham, in Downton Abbey.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
