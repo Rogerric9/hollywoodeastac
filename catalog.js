@@ -6,6 +6,7 @@ const catalogDescription = document.getElementById("catalog-description");
 const catalogSearchInput = document.getElementById("catalog-search");
 const catalogSearchButton = document.getElementById("catalog-search-button");
 const catalogGridButton = document.getElementById("catalog-grid-button");
+const catalogGridNote = document.getElementById("catalog-grid-note");
 
 const urlParameters = new URLSearchParams(window.location.search);
 const selectedType = urlParameters.get("type") || "autograph";
@@ -327,6 +328,11 @@ if (catalogGridButton) {
     catalogGridButton.textContent = isGridView
       ? "See as Cards"
       : "See in Grid";
+
+    if (catalogGridNote) {
+      catalogGridNote.style.display =
+        isGridView ? "none" : "inline";
+    }
 
     displayProducts();
   });
