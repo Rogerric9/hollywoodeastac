@@ -233,7 +233,7 @@ function displayProducts() {
     <table class="catalog-product-table">
       <thead>
         <tr>
-          <th>Select</th>
+          <th>View</th>
           <th>Product Name</th>
           <th>Description</th>
           <th>Price</th>        </tr>
@@ -246,7 +246,7 @@ function displayProducts() {
             data-product-id="${product.product_id}"
           >
             <td>
-              <span class="catalog-select-label">Select</span>
+              <span class="catalog-select-label">View</span>
             </td>
             <td>${product.name}</td>
             <td>${product.description}</td>
