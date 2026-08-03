@@ -136,9 +136,9 @@ const productDetails = [
       "images/HEA-0014.jpg"
     ],
     "full_description": "(Deceased) Chet Atkins (June 20, 1924 \u2013 June 30, 2001) was an American guitarist, record producer, and country music legend. Known for his smooth \u201cfingerstyle\u201d guitar technique, Atkins helped shape the Nashville Sound and influenced generations of musicians. He recorded dozens of albums, produced major artists, and earned numerous honors, including induction into the Country Music Hall of Fame and the Rock and Roll Hall of Fame.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
-    "miscellaneous": ""
+    "miscellaneous": "After his signature, atkins has added \"cgp\".  Chet Atkins created the honorary designation and often signed his name \u201cChet Atkins, C.G.P.\u201d He also bestowed the title on a small number of guitarists whom he especially admired. He reportedly began adding it to his signature around 1983."
   },
   {
     "product_id": "HEA-0015",
@@ -701,7 +701,7 @@ const productDetails = [
       "images/JamesMercer.jpg"
     ],
     "full_description": "(Deceased) Phil Everly (January 19, 1939 \u2013 January 3, 2014) was an American singer and musician best known as one half of the influential duo the Everly Brothers, alongside his older brother Don. Renowned for their close vocal harmonies, the brothers recorded such classics as \u201cBye Bye Love,\u201d \u201cWake Up Little Susie,\u201d \u201cAll I Have to Do Is Dream,\u201d and \u201cCathy\u2019s Clown.\u201d Their sound had a major influence on later artists including the Beatles, Simon & Garfunkel, and the Beach Boys. Phil Everly continued performing and recording for many years and was inducted with his brother into the Rock and Roll Hall of Fame in 1986.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
   },
@@ -1877,8 +1877,8 @@ const productDetails = [
     "product_images": [
       "images/HEA-0166.jpg"
     ],
-    "full_description": "Signed by 4 Grass Roots members: Rob Grill (lead vocals, bass), David Page (drums), Larry Nelson (keyboards, synthesizers and backing vocals, and Dusty Hanvey (lead guitar and backing vocals.)\n\nThese signatures were obtained in-person in 1984 in Williamsport, Pa.\n\nAs a bonus, Gary Lewis of the Playboys has also signed.",
-    "authentication_info": "",
+    "full_description": "Signed by 4 Grass Roots members: Rob Grill (lead vocals, bass), David Page (drums), Larry Nelson (keyboards, synthesizers and backing vocals, and Dusty Hanvey (lead guitar and backing vocals.)\n\nThese signatures were obtained in-person in 1984 in Williamsport, Pa.\n\nAs a bonus, Gary Lewis of the Playboys has also signed.   (The Playboys were on the same bill.)",
+    "authentication_info": "None",
     "condition_notes": "Good condition.",
     "miscellaneous": ""
   },
@@ -2280,6 +2280,26 @@ const productDetails = [
     "full_description": "(Deceased) Marjorie Lord (July 26, 1918\u2013November 28, 2015) was an American actress best known for playing Kathy Williams on the television comedy Make Room for Daddy, later titled The Danny Thomas Show. She also appeared in films including Sherlock Holmes in Washington, The Strange Mrs. Crane and Riding High. Lord worked extensively in television and theater and remained closely associated with her long-running role as Danny Thomas\u2019s on-screen wife.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0207",
+    "product_images": [
+      "images/HEA-0207.jpg"
+    ],
+    "full_description": "Chad & Jeremy were a British folk-pop duo consisting of Chad Stuart (Deceased: \nDecember 10, 1941\u2013December 20, 2020) and Jeremy Clyde (born March 22, 1941). Formed in London in the early 1960s, they became part of the British Invasion and were known for their soft vocal harmonies and acoustic sound. Their best-known recordings include \u201cYesterday\u2019s Gone,\u201d \u201cWillow Weep for Me,\u201d \u201cBefore and After,\u201d and \u201cA Summer Song.\u201d The duo separated in 1968 but later reunited for recordings and concert appearances. Stuart also worked as an arranger and record producer, while Clyde developed a long career as a stage, television, and film actor.",
+    "authentication_info": "",
+    "condition_notes": "Good condition.   Framed and ready to hang.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0208",
+    "product_images": [
+      "images/HEA-0208.jpg"
+    ],
+    "full_description": "Donovan Phillips Leitch (born May 10, 1946) is a Scottish singer, songwriter and guitarist who became one of the best-known folk-rock and psychedelic-pop performers of the 1960s. Performing simply as Donovan, he gained international fame with songs including \u201cCatch the Wind,\u201d \u201cSunshine Superman,\u201d \u201cMellow Yellow,\u201d \u201cHurdy Gurdy Man,\u201d \u201cSeason of the Witch\u201d and \u201cAtlantis.\u201d His music blended folk, pop, jazz, blues and Eastern influences, and he became closely associated with the counterculture of the era. Donovan was inducted into the Rock and Roll Hall of Fame in 2012.",
+    "authentication_info": "",
+    "condition_notes": "Good condition.   Framed and ready to hang.",
     "miscellaneous": ""
   }
 ];

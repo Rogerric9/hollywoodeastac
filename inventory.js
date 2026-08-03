@@ -956,8 +956,8 @@ const inventory = [
     "type": "autograph",
     "category": "music",
     "category2": "",
-    "name": "James Mercer",
-    "description": "Signed CD album insert from Chutes Too Narrow",
+    "name": "James Mercer - The Shins",
+    "description": "Signed CD album insert from The Shins - Chutes Too Narrow",
     "price": 100.0,
     "product_page": "product-detail.html?id=HEA-0069",
     "status": "",
@@ -3133,6 +3133,34 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
+    "shipping_charge": ""
+  },
+  {
+    "product_id": "HEA-0207",
+    "type": "autograph",
+    "category": "music",
+    "category2": "vintage",
+    "name": "Chad and Jeremy",
+    "description": "Signed Distant Shores framed vinyl LP.",
+    "price": 125.0,
+    "product_page": "product-detail.html?id=HEA-0207",
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "framed",
+    "shipping_charge": ""
+  },
+  {
+    "product_id": "HEA-0208",
+    "type": "autograph",
+    "category": "music",
+    "category2": "vintage",
+    "name": "Donovan (Sunshine Superman, Mellow Yellow)",
+    "description": "Signed Open Road framed vinyl LP.  No inscribed.  In-Person.",
+    "price": 125.0,
+    "product_page": "product-detail.html?id=HEA-0208",
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "framed",
     "shipping_charge": ""
   }
 ];
