@@ -55,7 +55,7 @@ const productDetails = [
       "images/HEA-0006.jpg"
     ],
     "full_description": "Cheryl Tiegs is an American model and television personality who became one of the most recognizable fashion and swimsuit models of the 1970s and 1980s. She appeared on numerous magazine covers, including Sports Illustrated, and helped define the era\u2019s image of the American supermodel.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
   },
@@ -459,7 +459,7 @@ const productDetails = [
       "images/HEA-0047.jpg"
     ],
     "full_description": "Armin Shimerman, born November 5, 1949, is an American actor and writer best known for portraying the Ferengi bartender Quark throughout all seven seasons of Star Trek: Deep Space Nine. He also appeared in Star Trek: The Next Generation and Star Trek: Voyager and played Principal Snyder on Buffy the Vampire Slayer. In addition to his television work, Shimerman has performed extensively in theater and provided the voice of Andrew Ryan in the BioShock video game series.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -2300,6 +2300,216 @@ const productDetails = [
     "full_description": "Donovan Phillips Leitch (born May 10, 1946) is a Scottish singer, songwriter and guitarist who became one of the best-known folk-rock and psychedelic-pop performers of the 1960s. Performing simply as Donovan, he gained international fame with songs including \u201cCatch the Wind,\u201d \u201cSunshine Superman,\u201d \u201cMellow Yellow,\u201d \u201cHurdy Gurdy Man,\u201d \u201cSeason of the Witch\u201d and \u201cAtlantis.\u201d His music blended folk, pop, jazz, blues and Eastern influences, and he became closely associated with the counterculture of the era. Donovan was inducted into the Rock and Roll Hall of Fame in 2012.",
     "authentication_info": "",
     "condition_notes": "Good condition.   Framed and ready to hang.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0209",
+    "product_images": [
+      "images/HEA-0209.jpg"
+    ],
+    "full_description": "John Larroquette (born November 25, 1947) is an American actor best known for his Emmy-winning portrayal of prosecutor Dan Fielding on the television comedy Night Court. He later starred in The John Larroquette Show and appeared in Boston Legal, The Practice, McBride, and the revival of Night Court. Larroquette is also known for narrating the opening of the 1974 horror film The Texas Chain Saw Massacre.",
+    "authentication_info": "",
+    "condition_notes": "Excellent cndition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0210",
+    "product_images": [
+      "images/HEA-0210.jpg"
+    ],
+    "full_description": "Vicki Lawrence (born March 26, 1949) is an American actress, comedian, and singer best known for her work on The Carol Burnett Show and for portraying the sharp-tongued Thelma \u201cMama\u201d Harper on Mama\u2019s Family. She also had a number-one pop hit in 1973 with \u201cThe Night the Lights Went Out in Georgia.\u201d Lawrence has continued performing the Mama character in stage shows and has appeared in television series including Hannah Montana, The Cool Kids, and Call Me Kat.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0211",
+    "product_images": [
+      "images/HEA-0211.jpg"
+    ],
+    "full_description": "Gloria Loring (born December 10, 1946) is an American singer and actress best known for portraying Liz Chandler on the daytime television series Days of Our Lives. She recorded the hit duet \u201cFriends and Lovers\u201d with Carl Anderson and co-wrote the theme songs for Diff\u2019rent Strokes and The Facts of Life with her former husband, Alan Thicke. Loring is also an author and longtime advocate for diabetes research. She is the mother of singer Robin Thicke. ([en.wikipedia.org][1])\n\n[1]: https://en.wikipedia.org/wiki/Gloria_Loring?utm_source=chatgpt.com \"Gloria Loring\"",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0212",
+    "product_images": [
+      "images/HEA-0212.jpg"
+    ],
+    "full_description": "(Deceased) Deanna Lund (May 30, 1937 \u2013 June 22, 2018) was an American actress best known for playing Valerie Scott on the science-fiction television series Land of the Giants. She also appeared in films and television programs including Batman, The Girl from U.N.C.L.E., Dr. Goldfoot and the Bikini Machine, and Tony Rome. Lund later became an author and remained closely associated with classic science-fiction television conventions and fan events.",
+    "authentication_info": "",
+    "condition_notes": "Good condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0213",
+    "product_images": [
+      "images/HEA-0213.jpg"
+    ],
+    "full_description": "(Deceased) Mary Ann Mobley (February 17, 1937 \u2013 December 9, 2014) was an American actress, television personality, and beauty queen who was crowned Miss America 1959. She appeared in films including Girl Happy and Harum Scarum with Elvis Presley and became a familiar guest star on television programs such as Perry Mason, Mission: Impossible, The Love Boat, and Fantasy Island. Mobley was also known for her charitable work and was married to actor and television host Gary Collins.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0214",
+    "product_images": [
+      "images/HEA-0214.jpg"
+    ],
+    "full_description": "(Deceased) Ricardo Montalb\u00e1n (November 25, 1920 \u2013 January 14, 2009) was a Mexican-American actor known for his distinguished voice, elegant screen presence, and lengthy career in film and television. He is best remembered as Mr. Roarke on Fantasy Island and as Khan Noonien Singh in Star Trek II: The Wrath of Khan, a role he first played on the original Star Trek series. His other credits included Across the Wide Missouri, Sayonara, The Naked Gun, and the Spy Kids films.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0215",
+    "product_images": [
+      "images/HEA-0215.jpg"
+    ],
+    "full_description": "(Deceased) Martin Mull (August 18, 1943 \u2013 June 27, 2024) was an American actor, comedian, musician, and artist known for his dry wit and distinctive deadpan style. He gained early attention on the satirical television series Mary Hartman, Mary Hartman and Fernwood 2 Night, and later appeared in Roseanne, Sabrina the Teenage Witch, Arrested Development, Veep, and The Ranch. Mull also played Colonel Mustard in the 1985 comedy film Clue and maintained a parallel career as a painter and recording artist.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0216",
+    "product_images": [
+      "images/HEA-0216.jpg"
+    ],
+    "full_description": "(Deceased) Leslie Nielsen (February 11, 1926 \u2013 November 28, 2010) was a Canadian-American actor and comedian known for his deadpan delivery and mastery of parody. After beginning his career in serious dramatic roles, he became a major comedy star through Airplane! and the Police Squad! television series. He is especially remembered as Detective Frank Drebin in The Naked Gun films. His other credits included Forbidden Planet, The Poseidon Adventure, and the Scary Movie series.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0217",
+    "product_images": [
+      "images/HEA-0217.jpg"
+    ],
+    "full_description": "(Deceased) Richard Paul (June 6, 1940 \u2013 December 25, 1998) was an American actor best known for playing Mayor Teddy Burnside on the television comedy Carter Country. He appeared frequently in films and television programs, including Murder, She Wrote, The Love Boat, Night Court, and Full House. Paul also portrayed evangelist Jerry Falwell in the film The People vs. Larry Flynt.",
+    "authentication_info": "",
+    "condition_notes": "Very good condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0218",
+    "product_images": [
+      "images/HEA-0218.jpg"
+    ],
+    "full_description": "(Deceased) Margaret Pellegrini (September 23, 1923 \u2013 August 7, 2013) was an American actress best known as one of the Munchkins in the 1939 film The Wizard of Oz. She appeared as a member of the \u201cSleepy Head\u201d group and as one of the flowerpot Munchkins. Pellegrini later became a popular guest at Oz festivals, autograph shows, and classic-film conventions.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0219",
+    "product_images": [
+      "images/HEA-0219.jpg"
+    ],
+    "full_description": "(Deceased) Joyce Randolph (October 21, 1924 \u2013 January 13, 2024) was an American actress best known for playing Trixie Norton on the classic television comedy The Honeymooners. As the wife of Ed Norton, portrayed by Art Carney, she completed the show\u2019s central quartet alongside Jackie Gleason and Audrey Meadows. Randolph also appeared in early television programs and commercials and remained closely associated with The Honeymooners throughout her life.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0220",
+    "product_images": [
+      "images/HEA-0220.jpg"
+    ],
+    "full_description": "Connie Sellecca (born May 25, 1955) is an American actress, producer, and former model best known for starring as Christine Francis on the television series Hotel. She also played attorney Pam Davidson on The Greatest American Hero and appeared in the series Flying High. Sellecca has starred in numerous television movies and has also worked as a radio host and spokesperson.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0221",
+    "product_images": [
+      "images/HEA-0221.jpg"
+    ],
+    "full_description": "Armin Shimerman (born November 5, 1949) is an American actor and voice performer best known for portraying the Ferengi bartender Quark on Star Trek: Deep Space Nine. He also played Principal Snyder on Buffy the Vampire Slayer and appeared in television series including Beauty and the Beast, Seinfeld, and Boston Legal. His voice work includes the character Andrew Ryan in the BioShock video-game series.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0222",
+    "product_images": [
+      "images/HEA-0222.jpg"
+    ],
+    "full_description": "Wesley Snipes (born July 31, 1962) is an American actor, producer, and martial artist best known for portraying the vampire hunter Blade in the Blade film series. He also starred in New Jack City, White Men Can\u2019t Jump, Passenger 57, Demolition Man, Major League, and U.S. Marshals. Snipes later returned as Blade in the 2024 film Deadpool & Wolverine.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0223",
+    "product_images": [
+      "images/HEA-0223.jpg"
+    ],
+    "full_description": "**Brinke Stevens** (born Charlene Elizabeth Brinkman on September 20, 1954) is an American actress, writer, producer, director, and model best known for her work in horror films.\n\nShe became a popular \u201cscream queen\u201d during the 1980s after appearing as Linda in *The Slumber Party Massacre* (1982). She went on to act in numerous low-budget and independent horror and science-fiction films, including *Nightmare Sisters*, *Sorority Babes in the Slimeball Bowl-O-Rama*, *Slave Girls from Beyond Infinity*, *Grandmother\u2019s House*, and *Haunting Fear*.\n\nBefore entering entertainment, Stevens studied marine biology and earned advanced college degrees. She later began modeling and acting while also becoming involved in screenwriting and film production.\n\nIn addition to her extensive acting career, Stevens has written screenplays, produced independent films, and directed several projects. She has remained active in horror conventions and fan events, where she is well known among collectors of horror memorabilia and autographs.\n\nStevens was formerly married to artist Dave Stevens, the creator of *The Rocketeer*.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0224",
+    "product_images": [
+      "images/HEA-0224.jpg"
+    ],
+    "full_description": "George Takei - (born April 20, 1937) is an American actor, author, and activist best known for portraying Hikaru Sulu in the original *Star Trek* television series and several related films.\n\nBorn in Los Angeles, Takei spent part of his childhood with his family in Japanese American incarceration camps during World War II. That experience later became a major focus of his public speaking and writing.\n\nBefore *Star Trek*, he appeared in numerous television programs and films, often playing supporting roles. His portrayal of Sulu made him an enduring figure in science-fiction culture. He later appeared in productions including *Heroes*, *The Big Bang Theory*, and the stage musical *Allegiance*, which was inspired by his family\u2019s wartime experiences.\n\nTakei has written several books, including the graphic memoir *They Called Us Enemy*. He is also widely recognized for advocating for civil rights, LGBTQ+ equality, and greater public awareness of the incarceration of Japanese Americans.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0225",
+    "product_images": [
+      "images/HEA-0225.jpg"
+    ],
+    "full_description": "Lea Thompson - (born May 31, 1961) is an American actress, director, and producer best known for playing Lorraine Baines McFly in the *Back to the Future* film trilogy.\n\nBorn in Rochester, Minnesota, Thompson trained extensively as a ballet dancer before turning to acting. She began appearing in commercials and films during the early 1980s, with roles in *Jaws 3-D*, *Red Dawn*, *All the Right Moves*, and *Some Kind of Wonderful*.\n\nHer performance in *Back to the Future* (1985) brought her widespread recognition. She later starred in the television comedy-drama *Caroline in the City*, which ran from 1995 to 1999, and appeared in films such as *Howard the Duck*, *The Beverly Hillbillies*, and *Dennis the Menace*.\n\nThompson has also worked extensively as a television director, directing episodes of programs including *The Goldbergs*, *Young Sheldon*, and *Star Trek: Picard*. She is married to film director Howard Deutch, and their daughters, Zoey Deutch and Madelyn Deutch, also work in entertainment.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0226",
+    "product_images": [
+      "images/HEA-0226.jpg"
+    ],
+    "full_description": "Cheryl Tiegs (born September 25, 1947) is an American model, television personality, and fashion designer who became one of the most recognizable models of the 1970s and 1980s.\n\nBorn in Breckenridge, Minnesota, and raised in California, Tiegs began modeling while still a teenager. She gained national attention through magazine advertisements and appeared multiple times on the covers of publications such as Sports Illustrated, Time, and Glamour.\n\nTiegs became especially famous for her appearances in the Sports Illustrated Swimsuit Issue. One of her best-known images showed her wearing a sheer white fishnet swimsuit, which became an iconic fashion photograph of the era.\n\nIn addition to modeling, Tiegs developed her own clothing and accessories lines and appeared on television programs, documentaries, and reality shows. She also became involved in environmental causes, health advocacy, and charitable work.\n\nHer long career helped establish the modern concept of the celebrity supermodel, and she remains closely associated with American fashion and popular culture of the 1970s.",
+    "authentication_info": "",
+    "condition_notes": "Very good condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0227",
+    "product_images": [
+      "images/HEA-0227.jpg"
+    ],
+    "full_description": "Brenda Vaccaro (born November 18, 1939) is an American actress known for her distinctive voice and her work in film, television, and theater.\n\nBorn in Brooklyn and raised in Dallas, Vaccaro studied acting at the Neighborhood Playhouse in New York City. She began her career onstage and earned acclaim for performances in Broadway productions, including Cactus Flower and How Now, Dow Jones.\n\nVaccaro became widely known for her film roles during the 1960s and 1970s. She appeared in Midnight Cowboy, Airport \u201977, Capricorn One, and Once Is Not Enough. Her performance in Once Is Not Enough earned her an Academy Award nomination for Best Supporting Actress.\n\nShe also built a successful television career, appearing in numerous series, television movies, and guest roles. Vaccaro won an Emmy Award for her performance in the television special The Shape of Things.\n\nOver the years, she has continued acting in both dramatic and comedic roles and has also performed voice work. Her energetic style and recognizable voice have made her a memorable presence across several decades of American entertainment.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0228",
+    "product_images": [
+      "images/HEA-0228.jpg"
+    ],
+    "full_description": "Vanna White (born February 18, 1957) is an American television personality and actress best known as the longtime co-host of the game show Wheel of Fortune.\n\nBorn Vanna Marie Rosich in North Myrtle Beach, South Carolina, she moved to Atlanta to study fashion and later relocated to Los Angeles to pursue acting. She appeared in several small film and television roles before joining Wheel of Fortune in 1982.\n\nWhite became famous for revealing the letters on the show\u2019s puzzle board and for her glamorous gowns and friendly on-screen personality. Her partnership with host Pat Sajak helped make Wheel of Fortune one of the most successful and recognizable game shows in American television history.\n\nIn addition to her television career, White has made guest appearances on various programs and has supported numerous charitable causes. She is also known for her interest in knitting and has promoted her own line of yarn products.\n\nHer decades-long presence on television has made her one of the most familiar figures in American popular culture.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0229",
+    "product_images": [
+      "images/HEA-0229.jpg"
+    ],
+    "full_description": "(Deceased) Peter Marshall (March 30, 1926 \u2013 August 15, 2024) was an American television and radio personality, actor, singer, and entertainer best known as the original host of The Hollywood Squares. He hosted the popular celebrity game show from 1966 to 1981, appearing in more than 5,000 episodes and winning several Emmy Awards.\n\nBorn Ralph Pierre LaCock in Huntington, West Virginia, Marshall began his career as a singer and comedian. He performed in a comedy act with Tommy Noonan and later appeared in stage productions, films, nightclubs, and television variety programs. His Broadway credits included Skyscraper and La Cage aux Folles.\n\nMarshall\u2019s polished manner, quick wit, and ability to manage the show\u2019s unpredictable celebrity panel helped make The Hollywood Squares a television classic. After leaving the program, he continued acting, singing, hosting television specials, and appearing as a guest on game shows and talk programs. He also hosted a nationally syndicated radio program featuring music and interviews.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   }
 ];
