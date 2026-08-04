@@ -3456,5 +3456,19 @@ const inventory = [
     "quantity_available": 1,
     "shipping_class": "standard",
     "shipping_charge": ""
+  },
+  {
+    "product_id": "HEA-0230",
+    "type": "autograph",
+    "category": "actor",
+    "category2": "tv",
+    "name": "William Shatner - Star Trek",
+    "description": "Signed AFTRA Engagement Contract.",
+    "price": 120.0,
+    "product_page": "product-detail.html?id=HEA-0230",
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   }
 ];

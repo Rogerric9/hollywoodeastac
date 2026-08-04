@@ -2511,5 +2511,15 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0230",
+    "product_images": [
+      "images/HEA-0230.jpg"
+    ],
+    "full_description": "William Shatner (born March 22, 1931) is a Canadian actor, author, director, singer, and television personality best known for portraying Captain James T. Kirk in the original Star Trek television series and several feature films. His energetic, distinctive acting style helped make Kirk one of science fiction\u2019s most recognizable characters.\n\nShatner later starred as veteran police officer T. J. Hooker and hosted the reality-based program Rescue 911. He earned renewed acclaim as attorney Denny Crane on The Practice and Boston Legal, winning Emmy and Golden Globe awards for the role.\n\nBeyond acting, Shatner has written numerous novels and memoirs, recorded several spoken-word music albums, and appeared frequently in commercials and comedy programs. In 2021, at age 90, he traveled aboard a Blue Origin spacecraft, becoming the oldest person at that time to fly into space. His career has spanned more than seven decades.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
   }
 ];
