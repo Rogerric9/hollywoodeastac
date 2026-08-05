@@ -636,7 +636,7 @@ const inventory = [
     "category2": "",
     "name": "Armin Shimmerman",
     "description": "Signed color 8x10 as Quark with cast of Deep Space Nine.  Not inscribed.",
-    "price": 130.0,
+    "price": 70.0,
     "product_page": "product-detail.html?id=HEA-0047",
     "status": "",
     "quantity_available": 1,
