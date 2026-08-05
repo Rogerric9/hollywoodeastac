@@ -2398,7 +2398,7 @@ const inventory = [
     "type": "autograph",
     "category": "actress",
     "category2": "tv",
-    "name": "Barbra March",
+    "name": "Barbara March",
     "description": "Signed 8x10 color photo as Klingon \"Lursa\".   Inscribed.",
     "price": 70.0,
     "product_page": "product-detail.html?id=HEA-0154",

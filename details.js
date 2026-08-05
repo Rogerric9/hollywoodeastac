@@ -1757,7 +1757,7 @@ const productDetails = [
       "images/HEA-0154.jpg"
     ],
     "full_description": "(Deceased) Barbara March (October 9, 1953 \u2013 August 11, 2019) was a Canadian actress best known for portraying the Klingon warrior Lursa, one of the Duras sisters, in Star Trek: The Next Generation, Star Trek: Deep Space Nine, and the film Star Trek Generations. She also performed extensively on stage and worked as a screenwriter and television story editor.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
