@@ -45,7 +45,7 @@ const productDetails = [
       "images/HEA-0005.jpg"
     ],
     "full_description": "William F. Buckley Jr. was an American author, political commentator, and founder of *National Review*. A leading figure in the modern conservative movement, he was also known for hosting the long-running television program *Firing Line* and for his distinctive wit, vocabulary, and debating style.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -55,7 +55,7 @@ const productDetails = [
       "images/HEA-0006.jpg"
     ],
     "full_description": "Cheryl Tiegs is an American model and television personality who became one of the most recognizable fashion and swimsuit models of the 1970s and 1980s. She appeared on numerous magazine covers, including Sports Illustrated, and helped define the era\u2019s image of the American supermodel.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
   },
@@ -126,7 +126,7 @@ const productDetails = [
       "images/HEA-0013.jpg"
     ],
     "full_description": "This is a rare item indeed.   A beautiful 8x10 B&W photograph signed by Art Carney (Ed Norton) Joyce Randolph (Trixie Norton) and Audrey Meadows (Alice Kramdon).",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -136,7 +136,7 @@ const productDetails = [
       "images/HEA-0014.jpg"
     ],
     "full_description": "(Deceased) Chet Atkins (June 20, 1924 \u2013 June 30, 2001) was an American guitarist, record producer, and country music legend. Known for his smooth \u201cfingerstyle\u201d guitar technique, Atkins helped shape the Nashville Sound and influenced generations of musicians. He recorded dozens of albums, produced major artists, and earned numerous honors, including induction into the Country Music Hall of Fame and the Rock and Roll Hall of Fame.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": "After his signature, atkins has added \"cgp\".  Chet Atkins created the honorary designation and often signed his name \u201cChet Atkins, C.G.P.\u201d He also bestowed the title on a small number of guitarists whom he especially admired. He reportedly began adding it to his signature around 1983."
   },
@@ -408,7 +408,7 @@ const productDetails = [
       "images/HEA-0042.jpg"
     ],
     "full_description": "Vera Ralston (Deceased; July 12, 1919 \u2013 February 9, 2003) was a Czech-American figure skater and actress who became a leading star at Republic Pictures during the 1940s and 1950s. Born V\u011bra Helena Hrub\u00e1 in Prague, she competed internationally as a figure skater before beginning her film career. Her notable movies include Dakota, The Fighting Kentuckian, The Flame, and Fair Wind to Java, and she frequently appeared in Westerns and adventure films alongside stars such as John Wayne.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -459,7 +459,7 @@ const productDetails = [
       "images/HEA-0047.jpg"
     ],
     "full_description": "Armin Shimerman, born November 5, 1949, is an American actor and writer best known for portraying the Ferengi bartender Quark throughout all seven seasons of Star Trek: Deep Space Nine. He also appeared in Star Trek: The Next Generation and Star Trek: Voyager and played Principal Snyder on Buffy the Vampire Slayer. In addition to his television work, Shimerman has performed extensively in theater and provided the voice of Andrew Ryan in the BioShock video game series.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -576,7 +576,7 @@ const productDetails = [
       "images/HardDaysNightPoster.jpg"
     ],
     "full_description": "Richard Lester (born January 19, 1932) is an American film director known for his innovative, fast-paced visual style and offbeat humor. He became internationally famous for directing the Beatles films A Hard Day\u2019s Night and Help! His other notable movies include The Three Musketeers, The Four Musketeers, Robin and Marian, Superman II, and Superman III. Born in Philadelphia, Lester spent most of his career in Great Britain and became closely associated with British cinema of the 1960s. ([en.wikipedia.org][1])\n\n[1]: https://en.wikipedia.org/wiki/Richard_Lester?utm_source=chatgpt.com \"Richard Lester\"",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.   The poster is 14 x 9.5 inches and in new, unopened, in its original shrink wrap.",
     "miscellaneous": "This autograph comes with a poster of the film, A Hard Day's Night.   (The poster itself is not signed,)"
   },
@@ -637,7 +637,7 @@ const productDetails = [
       "images/EstherWilliams.jpg"
     ],
     "full_description": "(Deceased) Esther Williams (August 8, 1921 \u2013 June 6, 2013) was an American competitive swimmer and actress best known for starring in lavish MGM \u201caquamusicals\u201d during the 1940s and 1950s. Her films featured elaborate synchronized-swimming routines and included Bathing Beauty, Neptune\u2019s Daughter, Million Dollar Mermaid, Dangerous When Wet and Easy to Love. Before entering films, Williams was a champion swimmer whose hopes of competing in the Olympics ended when the 1940 Games were canceled because of World War II.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": "This autograph comes with an 8x10 B&W photograph of Esther Williams.  (The photo itself is not signed.)"
   },
@@ -668,7 +668,7 @@ const productDetails = [
       "images/HEC-0001.jpg"
     ],
     "full_description": "This is a set of four glass coasters featuring the names of Beatles albums.  We have Abbey Road, Sgt Peppers, Help and A Hard Day's Night.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": "The pictures are not actual reproductions of the actual original album art, but are whimsical artistic adaptations."
   },
@@ -701,7 +701,7 @@ const productDetails = [
       "images/JamesMercer.jpg"
     ],
     "full_description": "(Deceased) Phil Everly (January 19, 1939 \u2013 January 3, 2014) was an American singer and musician best known as one half of the influential duo the Everly Brothers, alongside his older brother Don. Renowned for their close vocal harmonies, the brothers recorded such classics as \u201cBye Bye Love,\u201d \u201cWake Up Little Susie,\u201d \u201cAll I Have to Do Is Dream,\u201d and \u201cCathy\u2019s Clown.\u201d Their sound had a major influence on later artists including the Beatles, Simon & Garfunkel, and the Beach Boys. Phil Everly continued performing and recording for many years and was inducted with his brother into the Rock and Roll Hall of Fame in 1986.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
   },
@@ -966,7 +966,7 @@ const productDetails = [
       "images/HEA-0096.jpg"
     ],
     "full_description": "Faye Dunaway (born January 14, 1941) is an American actress celebrated for her intense, sophisticated performances in film, television, and theater. She rose to stardom as bank robber Bonnie Parker in Bonnie and Clyde and later appeared in such acclaimed films as The Thomas Crown Affair, Chinatown, Three Days of the Condor, and Network. Dunaway won the Academy Award for Best Actress for her performance as ambitious television executive Diana Christensen in Network. Her other notable roles include Joan Crawford in Mommie Dearest and Milady de Winter in The Three Musketeers.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -1017,7 +1017,7 @@ const productDetails = [
       "images/AmericamBreedAlbum.jpg"
     ],
     "full_description": "The American Breed was a Chicago-area rock and pop band best known for the 1967 hit \u201cBend Me, Shape Me.\u201d Originally performing as Gary and the Knight Lites, the group adopted its new name in 1967 and featured Gary Loizzo, Al Ciner, Charles \u201cChuck\u201d Colbert Jr., and Lee Graziano. Other notable songs included \u201cStep Out of Your Mind\u201d and \u201cGreen Light.\u201d After the band dissolved around 1970, several members helped form the funk group Rufus.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Mint condition.   Still in shrink wrap.   Never opened.",
     "miscellaneous": ""
   },
@@ -1028,7 +1028,7 @@ const productDetails = [
       "images/MoonglowsReturn.jpg"
     ],
     "full_description": "The Moonglows were an influential American R&B and doo-wop vocal group formed in Cleveland, Ohio, in the early 1950s. Led by Harvey Fuqua and Bobby Lester, the group became known for its smooth harmonies and romantic ballads, including \u201cSincerely,\u201d \u201cThe Ten Commandments of Love,\u201d \u201cMost of All,\u201d and \u201cSee Saw.\u201d Their sophisticated vocal style helped bridge traditional pop harmony and early rock and roll. The Moonglows were inducted into the Rock and Roll Hall of Fame in 2000.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Mint.  Unopened.   Still in shrink wrap.",
     "miscellaneous": ""
   },
@@ -1039,7 +1039,7 @@ const productDetails = [
       "images/FiveBrothersAlbum.jpg"
     ],
     "full_description": "Five Brothers was a West Coast jazz quintet led by trombonist Herbie Harper. The group featured Bob Enevoldsen on tenor saxophone and valve trombone, Don Overburg on guitar, Red Mitchell on bass, and Frank Capp on drums. Recorded in Los Angeles in 1955, the ensemble performed a cool-jazz mixture of standards and original compositions, including \u201cKing Porter Stomp,\u201d \u201cAlone Together,\u201d \u201cDon\u2019t Buck It,\u201d and \u201cJuan Don.\u201d",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Record: VG+    Cover: Poor.   Split at bottom,  Attempt at taping.   No paper sleeve.",
     "miscellaneous": ""
   },
@@ -1050,7 +1050,7 @@ const productDetails = [
       "images/CactusFlower.jpg"
     ],
     "full_description": "Cactus Flower is a 1969 romantic comedy directed by Gene Saks and starring Walter Matthau, Ingrid Bergman, and Goldie Hawn. Matthau plays a bachelor dentist who falsely tells his young girlfriend that he is married, then persuades his reserved nurse to pose as his wife when the deception begins to unravel. Goldie Hawn won the Academy Award for Best Supporting Actress for her performance.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Vinyl: Near mint\nCover: VG+  some minor color fading on back.",
     "miscellaneous": ""
   },
@@ -1061,7 +1061,7 @@ const productDetails = [
       "images/LesterLanninChristmas.jpg"
     ],
     "full_description": "(Deceased) Lester Lanin (August 26, 1907\u2013October 27, 2004) was an American bandleader known for providing elegant, continuous dance music at high-society parties, debutante balls, presidential inaugurations, and other prestigious events. His orchestra performed polished medleys of popular standards designed to keep guests dancing, earning Lanin a reputation as one of America\u2019s foremost society bandleaders.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Vinyl: VG+\nCover: VG+",
     "miscellaneous": ""
   },
@@ -1082,7 +1082,7 @@ const productDetails = [
       "images/LesliePhillips.jpg"
     ],
     "full_description": "Leslie Phillips (born January 28, 1962), now known professionally as Sam Phillips, is an American singer and songwriter who began her career recording contemporary Christian music in the 1980s. Her albums included Beyond Saturday Night, Dancing with Danger, and The Turning. She later adopted the name Sam Phillips and moved into alternative pop and rock, earning acclaim for albums such as Martinis & Bikinis and Fan Dance. She has also composed music for the television series Gilmore Girls and The Marvelous Mrs. Maisel.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Vinyl: Near mint\nCover: Near mint. Opened but still has shrink wrap.",
     "miscellaneous": ""
   },
@@ -1093,7 +1093,7 @@ const productDetails = [
       "images/ManzanillaSound.jpg"
     ],
     "full_description": "The Manzanilla Sound was a British easy-listening instrumental group associated with Welsh trumpeter, arranger, and bandleader Ray Davies\u2014not the Kinks musician of the same name. The group specialized in polished brass-led arrangements of contemporary pop songs, film themes, and original compositions. Its albums included Make Mine Manzanilla, released in 1972, featuring versions of \u201cMammy Blue,\u201d \u201cSummer of \u201942,\u201d and \u201cNever My Love.\u201d",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Vinyl: Near mint.\nCover: VG+",
     "miscellaneous": ""
   },
@@ -1126,7 +1126,7 @@ const productDetails = [
       "images/TerryBaxterBestOf69.jpg"
     ],
     "full_description": "The Terry Baxter Orchestra was an American easy-listening studio ensemble known for polished instrumental and choral arrangements of popular songs. Recording primarily for Columbia Musical Treasuries and the Columbia Record Club during the late 1960s and 1970s, the orchestra released collections such as The Best of \u201969, The Best of \u201971, Song Sung Blue, and Yesterday: The Wonderful Music of the Beatles. The recordings typically combined lush strings, brass, and chorus in a smooth orchestral-pop style.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Vinyl: Near mint\nCover: VG+++",
     "miscellaneous": "Instrumental covers of the best songs of 1969."
   },
@@ -1137,7 +1137,7 @@ const productDetails = [
       "images/BernsteinRhapsody.jpg"
     ],
     "full_description": "(Deceased) Leonard Bernstein (August 25, 1918\u2013October 14, 1990) was an American composer, conductor, pianist, and music educator. He served as music director of the New York Philharmonic and became one of the most celebrated conductors of the twentieth century. His best-known compositions include West Side Story, Candide, On the Town, Chichester Psalms, and the score for On the Waterfront. Bernstein also introduced classical music to broad audiences through his popular televised Young People\u2019s Concerts.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Vinyl: VG++\nCover: Near mint.",
     "miscellaneous": "New York Philamonic and the Columbia Symphony."
   },
@@ -1148,7 +1148,7 @@ const productDetails = [
       "images/DixieEchoes.jpg"
     ],
     "full_description": "The Dixie Echoes are an American Southern gospel quartet formed in Pensacola, Florida, in 1960 by gospel singer and promoter J. G. Whitfield. The group became nationally known through appearances on the television program The Gospel Singing Jubilee and for its traditional quartet harmonies, spirituals, hymns, and country-gospel songs. Dale Shelnut later brought the group greater prominence, and his son Randy Shelnut continued its long-running ministry and musical legacy.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Vinyl: Near mint\t\nCover: VG +++",
     "miscellaneous": ""
   },
@@ -1159,7 +1159,7 @@ const productDetails = [
       "images/BobCarolTedAlice.jpg"
     ],
     "full_description": "Bob & Carol & Ted & Alice is a 1969 comedy-drama directed by Paul Mazursky and starring Natalie Wood, Robert Culp, Elliott Gould, and Dyan Cannon. The film follows two married couples whose friendships and relationships are tested after Bob and Carol embrace the open attitudes of the era\u2019s self-discovery movement. The film satirizes changing sexual values, marriage, friendship, and social conventions during the late 1960s.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Vinyl: Near mint\nCover: VG +++",
     "miscellaneous": ""
   },
@@ -1181,7 +1181,7 @@ const productDetails = [
       "images/CharlieAlbum.jpg"
     ],
     "full_description": "Charlie was a British rock band formed in the early 1970s by singer, songwriter, guitarist, and producer Terry Thomas. The group became known for its polished blend of melodic rock, pop, and progressive influences, gaining particular popularity on American FM radio. Charlie\u2019s notable albums included Fantasy Girls, No Second Chance, Lines, and Fight Dirty, while its best-known songs included \u201cShe Loves to Be in Love,\u201d \u201cKiller Cut,\u201d and \u201cIt\u2019s Inevitable.\u201d",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Vinyl: Near mint.  Like new.\nCover: VG+ - some flaking in upper left corner.",
     "miscellaneous": ""
   },
@@ -1192,7 +1192,7 @@ const productDetails = [
       "images/SinatraVoice.jpg"
     ],
     "full_description": "(Deceased) Frank Sinatra (December 12, 1915\u2013May 14, 1998) was an American singer and actor celebrated for his distinctive voice, sophisticated phrasing, and interpretations of popular standards. After performing with the Harry James and Tommy Dorsey orchestras, he became one of the twentieth century\u2019s most successful solo entertainers. His best-known recordings include \u201cMy Way,\u201d \u201cNew York, New York,\u201d \u201cFly Me to the Moon,\u201d and \u201cStrangers in the Night.\u201d Sinatra also won an Academy Award for his performance in From Here to Eternity.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Vinyl: VG+++\nCover: Good.  Partial split at bottom.",
     "miscellaneous": ""
   },
@@ -1203,7 +1203,7 @@ const productDetails = [
       "images/BetweenButtons.jpg"
     ],
     "full_description": "The Rolling Stones are an English rock band formed in London in 1962. Led by singer Mick Jagger and guitarist Keith Richards, the group became one of the most influential and enduring acts in rock history. Their best-known songs include \u201c(I Can\u2019t Get No) Satisfaction,\u201d \u201cPaint It Black,\u201d \u201cJumpin\u2019 Jack Flash,\u201d \u201cGimme Shelter,\u201d \u201cBrown Sugar,\u201d and \u201cStart Me Up.\u201d Known for their blues-based sound, rebellious image, and energetic live performances, the Rolling Stones have sold millions of records worldwide.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Vinyl: VG\nCover: VG",
     "miscellaneous": ""
   },
@@ -1667,7 +1667,7 @@ const productDetails = [
       "images/HEA-0145.jpg"
     ],
     "full_description": "(Deceased) Floyd Patterson (January 4, 1935 \u2013 May 11, 2006) was an American professional boxer and Olympic gold medalist who twice held the world heavyweight championship. He became the youngest heavyweight champion in history at the time when he won the title in 1956 and later became the first boxer to regain it after losing it. Known for his speed, sportsmanship, and peek-a-boo fighting style, Patterson remains one of the most respected heavyweight champions in boxing history.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Good condition.   Some very minor wrinkles.",
     "miscellaneous": ""
   },
@@ -1757,7 +1757,7 @@ const productDetails = [
       "images/HEA-0154.jpg"
     ],
     "full_description": "(Deceased) Barbara March (October 9, 1953 \u2013 August 11, 2019) was a Canadian actress best known for portraying the Klingon warrior Lursa, one of the Duras sisters, in Star Trek: The Next Generation, Star Trek: Deep Space Nine, and the film Star Trek Generations. She also performed extensively on stage and worked as a screenwriter and television story editor.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -1778,7 +1778,7 @@ const productDetails = [
       "images/JulieBrownCoffey.jpg"
     ],
     "full_description": "Julie Brown (born August 31, 1958) is an American actress, comedian, singer-songwriter, screenwriter, and director known for her satirical songs and energetic comic style. She gained fame with novelty hits including \u201cThe Homecoming Queen\u2019s Got a Gun\u201d and \u201c\u2019Cause I\u2019m a Blonde,\u201d co-wrote and appeared in the film Earth Girls Are Easy, and starred in MTV\u2019s Just Say Julie. Brown also created and starred in the Madonna parody Medusa: Dare to Be Truthful.\n\nCharlie Coffey is an American writer, actor, producer, and songwriter best known for his longtime creative partnership with comedian Julie Brown. The pair collaborated on comedy songs, television programs, and films, including \u201cThe Homecoming Queen\u2019s Got a Gun,\u201d \u201c\u2019Cause I\u2019m a Blonde,\u201d Just Say Julie, Medusa: Dare to Be Truthful, Strip Mall, and Earth Girls Are Easy, which Coffey co-wrote.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Very good condition. Some holes in upper left corner where the two pages were originally stapled together.",
     "miscellaneous": ""
   },
@@ -1878,7 +1878,7 @@ const productDetails = [
       "images/HEA-0166.jpg"
     ],
     "full_description": "Signed by 4 Grass Roots members: Rob Grill (lead vocals, bass), David Page (drums), Larry Nelson (keyboards, synthesizers and backing vocals, and Dusty Hanvey (lead guitar and backing vocals.)\n\nThese signatures were obtained in-person in 1984 in Williamsport, Pa.\n\nAs a bonus, Gary Lewis of the Playboys has also signed.   (The Playboys were on the same bill.)",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Good condition.",
     "miscellaneous": ""
   },
@@ -1888,7 +1888,7 @@ const productDetails = [
       "images/HEA-0167.jpg"
     ],
     "full_description": "Gary Lewis (born July 31, 1945) is an American singer, musician and drummer best known as the leader of the 1960s pop group Gary Lewis & the Playboys. The son of entertainer Jerry Lewis, he sang lead on hits including \u201cThis Diamond Ring,\u201d \u201cCount Me In,\u201d \u201cSave Your Heart for Me,\u201d \u201cEverybody Loves a Clown\u201d and \u201cShe\u2019s Just My Style.\u201d The group became one of the era\u2019s most successful American pop acts, placing seven consecutive singles in the Top 10. ([garylewisandtheplayboys.com][1])\n\n[1]: https://www.garylewisandtheplayboys.com/bio?lv=true&utm_source=chatgpt.com \"Bio\"",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "OK.   Has a fold along the center which runs through the tail end of Lewis's signature.",
     "miscellaneous": ""
   },
@@ -1918,7 +1918,7 @@ const productDetails = [
       "images/HEA-0170.jpg"
     ],
     "full_description": "John Sebastian (born March 17, 1944) is an American singer, songwriter and musician best known as the founder and lead singer of the Lovin\u2019 Spoonful. He wrote or co-wrote many of the group\u2019s hits, including \u201cDo You Believe in Magic,\u201d \u201cDaydream,\u201d \u201cSummer in the City\u201d and \u201cYou Didn\u2019t Have to Be So Nice.\u201d Sebastian later pursued a solo career and recorded \u201cWelcome Back,\u201d the theme song for the television series Welcome Back, Kotter.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -1948,7 +1948,7 @@ const productDetails = [
       "images/HEA-0173.jpg"
     ],
     "full_description": "(Deceased) Maureen O\u2019Hara (August 17, 1920\u2013October 24, 2015) was an Irish-American actress celebrated for her fiery screen presence and striking red hair. She starred in classic films including The Quiet Man, Miracle on 34th Street, How Green Was My Valley and The Parent Trap. O\u2019Hara was especially known for her frequent collaborations with director John Ford and actor John Wayne.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Good condition.  Minor ink smear on the inscription.",
     "miscellaneous": ""
   },
@@ -1968,7 +1968,7 @@ const productDetails = [
       "images/HEA-0175.jpg"
     ],
     "full_description": "Elizabeth McGovern (born July 18, 1961) is an American actress and musician known for her work in film, television and theater. She received an Academy Award nomination for her performance as Evelyn Nesbit in Ragtime and later appeared in films including Ordinary People, Once Upon a Time in America and She\u2019s Having a Baby. McGovern is also widely recognized for playing Cora Crawley, Countess of Grantham, in Downton Abbey.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
