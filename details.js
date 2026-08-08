@@ -1607,9 +1607,9 @@ const productDetails = [
       "images/JamesStewartSig.jpg"
     ],
     "full_description": "(Deceased) James \u201cJimmy\u201d Stewart (May 20, 1908 \u2013 July 2, 1997) was an American actor known for his distinctive voice, natural screen presence, and portrayals of honest, everyday heroes. His classic films include Mr. Smith Goes to Washington, The Philadelphia Story, It\u2019s a Wonderful Life, Rear Window, Vertigo, and The Man Who Shot Liberty Valance. Stewart also served as a decorated U.S. Army Air Forces pilot during World War II and became one of Hollywood\u2019s most respected and beloved stars.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
-    "miscellaneous": "Photo is of Stewart and June allyson."
+    "miscellaneous": "Photo is of Stewart and June allyson.   This item comes in a 17x13 inch frame, ready for hanging."
   },
   {
     "product_id": "HEA-0140",
