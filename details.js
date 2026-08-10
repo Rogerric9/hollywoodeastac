@@ -2521,5 +2521,365 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Good condition",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0231",
+    "product_images": [
+      "images/HEA-0231.jpg"
+    ],
+    "full_description": "Jean-Fran\u00e7ois Clervoy (born November 19, 1958) is a French engineer and former astronaut with the French space agency CNES and the European Space Agency (ESA). He was born in Longeville-l\u00e8s-Metz, France, and trained as an aerospace engineer before being selected as an astronaut.\n\nClervoy flew on three NASA Space Shuttle missions. His first flight was STS-66 aboard Atlantis in 1994, followed by STS-84 aboard Atlantis in 1997, a mission to the Russian Mir space station. His third flight was STS-103 aboard Discovery in 1999, during which the crew performed a servicing mission to the Hubble Space Telescope.\n\nDuring his career, Clervoy accumulated more than 675 hours in space. He later held management and technical positions with ESA and contributed to European human spaceflight programs. Clervoy has also been active in promoting science, engineering, and space exploration to the public.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0232",
+    "product_images": [
+      "images/HEA-0232.jpg"
+    ],
+    "full_description": "Robert L. Gibson (born October 30, 1946) is a retired American naval aviator, test pilot, aeronautical engineer, and NASA astronaut. Born in Cooperstown, New York, he graduated from California Polytechnic State University with a degree in aeronautical engineering before entering the U.S. Navy.\n\nGibson became a highly experienced fighter and test pilot and was selected by NASA as an astronaut in 1978. He flew on five Space Shuttle missions between 1984 and 1995. His first flight was STS-41-B aboard Challenger, and he later commanded four missions: STS-61-C aboard Columbia, STS-27 aboard Atlantis, STS-47 aboard Endeavour, and STS-71 aboard Atlantis.\n\nSTS-71 was particularly significant because it marked the first Space Shuttle docking with the Russian space station Mir, an important step in U.S.-Russian cooperation in space.\n\nOver his NASA career, Gibson accumulated more than 36 days in space. After leaving NASA, he continued working in aviation and became involved in commercial test flying and air racing. He is widely respected for his extensive experience in military aviation, experimental aircraft, and human spaceflight.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0233",
+    "product_images": [
+      "images/HEA-0233.jpg"
+    ],
+    "full_description": "Dean Jones (Deceased) (January 25, 1931 \u2013 September 1, 2015) was an American actor best known for his work in a series of popular Walt Disney films during the 1960s and 1970s.\n\nBorn in Decatur, Alabama, Jones began his career as a singer and actor, appearing in television programs and motion pictures before becoming closely associated with Disney. He starred in such films as That Darn Cat! (1965), The Ugly Dachshund (1966), Blackbeard\u2019s Ghost (1968), The Love Bug (1968), The Million Dollar Duck (1971), and Herbie Goes to Monte Carlo (1977).\n\nHis role as race-car driver Jim Douglas in The Love Bug became one of his most recognizable performances and helped make the Volkswagen Beetle character \u201cHerbie\u201d a lasting part of Disney film history.\n\nJones also worked extensively in television and on the stage. In 1970, he originated the role of Bobby in Stephen Sondheim\u2019s Broadway musical Company, although he left the production shortly after it opened.\n\nOver a career spanning more than five decades, Jones became especially identified with wholesome family entertainment and remains remembered as one of Disney\u2019s most familiar live-action stars.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0234",
+    "product_images": [
+      "images/HEA-0234.jpg"
+    ],
+    "full_description": "Ben Johnson (Deceased) (June 13, 1918 \u2013 April 8, 1996) was an American actor, stuntman, cowboy, and rodeo performer best known for his authentic portrayals of Western characters.\n\nBorn in Foraker, Oklahoma, Johnson grew up around ranching and horses and became an accomplished rodeo cowboy. His skill as a horseman led him to Hollywood, where he initially worked as a stuntman and wrangler before moving into acting.\n\nJohnson became closely associated with director John Ford and appeared in several classic Westerns, including She Wore a Yellow Ribbon (1949), Wagon Master (1950), and Rio Grande (1950). He later appeared in Shane (1953), One-Eyed Jacks (1961), The Wild Bunch (1969), and numerous other films and television programs.\n\nHis most acclaimed performance came in The Last Picture Show (1971), in which he played Sam the Lion. The role earned him the Academy Award for Best Supporting Actor.\n\nJohnson continued acting into the 1990s and was admired for bringing genuine Western experience and understated realism to his roles. He is remembered as one of Hollywood\u2019s most respected Western character actors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0235",
+    "product_images": [
+      "images/HEA-0235.jpg"
+    ],
+    "full_description": "Gloria Jean (Deceased) (April 14, 1926 \u2013 August 31, 2018) was an American actress and singer best known as a child and teenage star of musical films during the 1930s and 1940s.\n\nBorn Gloria Jean Schoonover in Buffalo, New York, she began singing at an early age and gained attention for her strong soprano voice. She entered motion pictures with Universal Pictures and became known for films that showcased both her acting and singing talents.\n\nHer early movies included The Under-Pup (1939), If I Had My Way (1940), A Little Bit of Heaven (1940), and Never Give a Sucker an Even Break (1941), in which she appeared with comedian W.C. Fields. She also starred in several light musicals and comedies throughout the 1940s.\n\nAs she grew older, Gloria Jean continued appearing in films, although her career gradually shifted away from major studio productions. She later worked in television and made occasional public appearances related to classic Hollywood.\n\nShe is remembered as one of the notable young musical performers of Hollywood\u2019s Golden Age, particularly for her clear singing voice and cheerful screen presence.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0236",
+    "product_images": [
+      "images/HEA-0236.jpg"
+    ],
+    "full_description": "Lauren Hutton (born November 17, 1943) is an American model and actress who became one of the most recognizable fashion figures of the 1970s and later built a successful film and television career.\n\nBorn Mary Laurence Hutton in Charleston, South Carolina, she moved to New York City and entered modeling in the 1960s. She became especially famous for her distinctive gap-toothed smile and for challenging traditional ideas of beauty in the fashion industry. In 1973, she signed a groundbreaking cosmetics contract with Revlon, one of the most lucrative modeling agreements of its time.\n\nHutton appeared on the cover of Vogue numerous times and became a major influence on modern fashion modeling.\n\nAs an actress, she appeared in films including The Gambler (1974), Gator (1976), American Gigolo (1980), and Once Bitten (1985). She also worked extensively in television.\n\nHutton remained active in modeling well beyond the typical age range for fashion models, becoming an advocate for greater age diversity and natural beauty in the industry. She is regarded as one of the pioneering supermodels of the modern era.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0237",
+    "product_images": [
+      "images/HEA-0237.jpg"
+    ],
+    "full_description": "Mark Harmon (born September 2, 1951) is an American actor and former college football player best known for his long-running role as Special Agent Leroy Jethro Gibbs on the television series NCIS.\n\nBorn in Burbank, California, Harmon is the son of football star and broadcaster Tom Harmon and actress Elyse Knox. He played quarterback at UCLA before pursuing an acting career.\n\nHarmon began appearing regularly on television during the 1970s and gained wider recognition through roles on shows such as St. Elsewhere, where he played Dr. Robert Caldwell. He also appeared in numerous television movies and feature films, including Summer School (1987), The Presidio (1988), and Wyatt Earp (1994).\n\nIn 2003, Harmon began portraying Gibbs on NCIS, a role that became the defining part of his career. He remained a central cast member for nearly two decades and also served as an executive producer.\n\nHarmon has received multiple award nominations and is regarded as one of the most durable and recognizable leading actors in American television.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0238",
+    "product_images": [
+      "images/HEA-0238.jpg"
+    ],
+    "full_description": "Lou Gossett Jr. (Deceased) (May 27, 1936 \u2013 March 29, 2024) was an American actor whose career in film, television, and theater spanned more than six decades.\n\nBorn Louis Cameron Gossett Jr. in Brooklyn, New York, he began acting as a teenager and made his Broadway debut while still in high school. He later gained national attention for his role in the original Broadway production of A Raisin in the Sun and appeared in the 1961 film version.\n\nGossett became widely known for playing Fiddler in the landmark television miniseries Roots (1977), a performance that earned him an Emmy Award.\n\nOne of his most famous roles was Gunnery Sergeant Emil Foley in An Officer and a Gentleman (1982). His powerful performance earned him the Academy Award for Best Supporting Actor, making him the first Black actor to win the Oscar in that category.\n\nHe also appeared in films such as The Deep, Iron Eagle, Enemy Mine, and Diggstown, as well as numerous television productions. Gossett was respected for his commanding screen presence and his ability to portray both authority figures and deeply complex characters.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0239",
+    "product_images": [
+      "images/HEA-0239.jpg"
+    ],
+    "full_description": "Whoopi Goldberg (born November 13, 1955) is an American actress, comedian, author, and television personality known for her distinctive voice, sharp humor, and wide-ranging dramatic and comedic performances.\n\nBorn Caryn Elaine Johnson in New York City, she developed a one-woman stage show that brought her national attention and led to her breakthrough film role in The Color Purple (1985). Her performance earned her an Academy Award nomination for Best Actress.\n\nGoldberg later won the Academy Award for Best Supporting Actress for Ghost (1990), in which she played psychic Oda Mae Brown. Her other notable films include Jumpin\u2019 Jack Flash, Sister Act, Sister Act 2: Back in the Habit, The Player, and Corrina, Corrina.\n\nShe has also worked extensively in television and theater and became a longtime co-host of the daytime talk show The View.\n\nGoldberg is one of the relatively few performers to achieve EGOT status, having won Emmy, Grammy, Oscar, and Tony Awards. Her career has made her one of the most recognizable and successful entertainers of her generation.",
+    "authentication_info": "",
+    "condition_notes": "Poor condition.   Substantial yellowing of card borders.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0240",
+    "product_images": [
+      "images/HEA-0240.jpg"
+    ],
+    "full_description": "Danny Glover (born July 22, 1946) is an American actor, producer, and activist best known for his roles in major films of the 1980s and 1990s.\n\nBorn in San Francisco, California, Glover studied at San Francisco State University and later trained in acting at the American Conservatory Theater. He began his career on stage before gaining wider attention in film.\n\nGlover received strong critical notice for his performances in Places in the Heart (1984) and The Color Purple (1985). He became internationally famous as Los Angeles police detective Roger Murtaugh opposite Mel Gibson in the Lethal Weapon film series, beginning in 1987. His character\u2019s weary humor and partnership with Gibson became one of the most recognizable action-film pairings of the era.\n\nHis other notable films include Silverado, Witness, Predator 2, To Sleep with Anger, Angels in the Outfield, Beloved, Dreamgirls, and The Royal Tenenbaums.\n\nIn addition to acting, Glover has produced films and documentaries and has been involved in humanitarian and social causes throughout his career. He is widely respected for both his dramatic work and his contributions beyond the entertainment industry.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0241",
+    "product_images": [
+      "images/HEA-0241.jpg"
+    ],
+    "full_description": "John Gielgud (Deceased) (April 14, 1904 \u2013 May 21, 2000) was an acclaimed English actor and director whose career spanned more than seven decades across stage, film, television, and radio.\n\nBorn in London, Gielgud became one of the leading Shakespearean actors of the 20th century. He was especially celebrated for roles such as Hamlet, Richard II, Prospero, and King Lear, and was known for his exceptionally clear, expressive speaking voice.\n\nAlthough primarily associated with the theater early in his career, Gielgud later became a familiar film actor. His notable movies included Becket (1964), Murder on the Orient Express (1974), Caligula (1979), Arthur (1981), Chariots of Fire (1981), Gandhi (1982), and Elizabeth (1998).\n\nHe won the Academy Award for Best Supporting Actor for his performance as the dryly humorous butler Hobson in Arthur. He also received Emmy, Grammy, and Tony Awards, making him one of the relatively few performers to achieve EGOT status.\n\nGielgud was knighted in 1953 and remained a highly respected figure in British acting until his death.",
+    "authentication_info": "",
+    "condition_notes": "Excellent conition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0242",
+    "product_images": [
+      "images/HEA-0242.jpg"
+    ],
+    "full_description": "Marla Gibbs (born June 14, 1931) is an American actress, singer, comedian, writer, and television producer best known for her memorable roles in several popular television comedies.\n\nBorn Margaret Theresa Bradley in Chicago, Illinois, Gibbs worked as an airline reservations agent before pursuing acting. She gained national recognition as Florence Johnston, the sharp-tongued maid on The Jeffersons. Originally a recurring character, Florence became so popular that Gibbs was made a regular cast member. She played the role from 1975 to 1985 and received multiple Emmy Award nominations for her performance.\n\nGibbs later starred as Mary Jenkins on the NBC sitcom 227, which aired from 1985 to 1990. She also served as a producer on the series and helped establish it as another successful television comedy.\n\nOver the years, Gibbs has appeared in numerous films and television programs, including The Fresh Prince of Bel-Air, ER, The Hughleys, Grey\u2019s Anatomy, and Station 19.\n\nKnown for her comic timing, distinctive delivery, and strong screen presence, Gibbs has remained a respected and enduring figure in American television.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0243",
+    "product_images": [
+      "images/HEA-0243.jpg"
+    ],
+    "full_description": "Alice Ghostley (Deceased) (August 14, 1923 \u2013 September 21, 2007) was an American actress and comedian best known for her distinctive comic performances on television, stage, and film.\n\nBorn in Eve, Missouri, Ghostley began her career in theater and became known for her work on Broadway. She won a Tony Award for Best Featured Actress in a Play for The Sign in Sidney Brustein\u2019s Window in 1965.\n\nOn television, she became especially familiar to audiences as Esmeralda, the shy and frequently flustered witch on Bewitched. She also appeared as Bernice Clifton on Designing Women, a role that earned her an Emmy nomination and became one of her most memorable later performances.\n\nGhostley made numerous guest appearances on television programs including The Odd Couple, Maude, Good Times, and The Golden Girls.\n\nHer film credits included To Kill a Mockingbird (1962), The Graduate (1967), Grease (1978), and Addams Family Reunion (1998).\n\nKnown for her nervous mannerisms, expressive face, and excellent comic timing, Ghostley became a popular and recognizable character actress whose career lasted for more than five decades.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0244",
+    "product_images": [
+      "images/HEA-0244.jpg"
+    ],
+    "full_description": "Greer Garson (Deceased) (September 29, 1904 \u2013 April 6, 1996) was a British-American actress and one of the leading Hollywood stars of the 1940s.\n\nBorn in London, Garson worked in advertising and performed on the British stage before being discovered by MGM. She made a major impression in her first Hollywood film, Goodbye, Mr. Chips (1939), earning an Academy Award nomination for Best Actress.\n\nGarson became especially famous for portraying strong, dignified women in dramas such as Pride and Prejudice (1940), Blossoms in the Dust (1941), Mrs. Miniver (1942), Madame Curie (1943), and Mrs. Parkington (1944).\n\nHer performance in Mrs. Miniver, as a courageous English wife and mother during World War II, earned her the Academy Award for Best Actress. She received a total of seven Academy Award nominations during her career.\n\nGarson continued acting in films through the 1960s and also appeared occasionally on television. Later in life, she and her husband, E.E. \u201cBuddy\u201d Fogelson, became noted philanthropists.\n\nShe is remembered for her elegance, intelligence, warm screen presence, and portrayals of resilient women during Hollywood\u2019s Golden Age.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Greer writes: Do try to catch our Christmas show on the Red Skelton Hour Tues, Dec,21st in color - It's Fun!"
+  },
+  {
+    "product_id": "HEA-0245",
+    "product_images": [
+      "images/HEA-0245.jpg"
+    ],
+    "full_description": "James Garner (Deceased) (April 7, 1928 \u2013 July 19, 2014) was an American actor best known for his easygoing charm, dry humor, and leading roles in both television and film.\n\nBorn James Scott Bumgarner in Norman, Oklahoma, he served in the U.S. Army during the Korean War and received two Purple Hearts. After returning home, he began acting and gained widespread fame as gambler Bret Maverick in the television Western Maverick, which premiered in 1957.\n\nGarner later became equally well known as private investigator Jim Rockford in The Rockford Files, which ran from 1974 to 1980. His performance earned him an Emmy Award and made the character one of television\u2019s most popular detectives.\n\nHis film career included notable roles in The Great Escape (1963), Grand Prix (1966), Support Your Local Sheriff! (1969), Victor/Victoria (1982), Murphy\u2019s Romance (1985), and The Notebook (2004). He received an Academy Award nomination for Best Actor for Murphy\u2019s Romance.\n\nGarner remained a popular and respected performer for decades and is remembered for his naturalistic acting style, likable screen presence, and ability to move easily between comedy, drama, Westerns, and romantic roles.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0246",
+    "product_images": [
+      "images/HEA-0246.jpg"
+    ],
+    "full_description": "Beverly Garland (Deceased) (October 17, 1926 \u2013 December 5, 2008) was an American actress known for a long career in film and television, particularly in crime dramas, Westerns, science fiction, and family television.\n\nBorn Beverly Lucy Fessenden in Santa Cruz, California, she began acting in the 1950s and quickly became a familiar face in low-budget feature films and television programs. Her movie credits included It Conquered the World (1956), Not of This Earth (1957), The Alligator People (1959), and numerous Westerns and crime films.\n\nGarland was especially successful on television. She starred in the groundbreaking series Decoy from 1957 to 1958, playing an undercover policewoman, one of the earliest American television series built around a female law-enforcement lead.\n\nShe later became well known as Barbara Harper Douglas on My Three Sons and appeared in many other series, including Perry Mason, Gunsmoke, The Twilight Zone, Lois & Clark: The New Adventures of Superman, and 7th Heaven.\n\nGarland was admired for her versatility and durability as a character actress, with a career that extended for more than five decades.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0247",
+    "product_images": [
+      "images/HEA-0247.jpg"
+    ],
+    "full_description": "Joan Fontaine (Deceased) (October 22, 1917 \u2013 December 15, 2013) was a British-American actress and one of the major stars of Hollywood\u2019s Golden Age.\n\nBorn Joan de Beauvoir de Havilland in Tokyo, Japan, she was the younger sister of actress Olivia de Havilland. Fontaine began acting in the 1930s and gained major recognition with Alfred Hitchcock\u2019s Rebecca (1940), for which she received an Academy Award nomination for Best Actress.\n\nThe following year, she won the Academy Award for Best Actress for Hitchcock\u2019s Suspicion (1941), becoming the only actor to win an Oscar for a performance in a Hitchcock-directed film.\n\nFontaine went on to star in many notable films, including Jane Eyre (1943), The Constant Nymph (1943), Letter from an Unknown Woman (1948), and Ivanhoe (1952). She was particularly effective in romantic dramas and suspense films, often portraying intelligent, vulnerable, or emotionally conflicted women.\n\nHer career also included stage and television work. Fontaine remained a celebrated figure from classic Hollywood and was known for her elegance, refined screen presence, and memorable performances in some of the era\u2019s most enduring films.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0248",
+    "product_images": [
+      "images/HEA-0248.jpg"
+    ],
+    "full_description": "Chad Everett (Deceased) (June 11, 1937 \u2013 July 24, 2012) was an American actor best known for his starring role as Dr. Joe Gannon on the television medical drama Medical Center.\n\nBorn Raymon Lee Cramton in South Bend, Indiana, Everett began acting in the 1960s and appeared in a variety of films and television programs before achieving major fame with Medical Center, which aired from 1969 to 1976. His performance as the handsome and dedicated surgeon made him one of television\u2019s most recognizable leading men of the era and earned him Golden Globe nominations.\n\nEverett also appeared in films such as The Singing Nun (1966), Made in Paris (1966), and Airplane II: The Sequel (1982). Over the years, he made guest appearances on numerous television series, including Murder, She Wrote, Melrose Place, The Love Boat, and Cold Case.\n\nHe continued working into the 2000s, including a memorable appearance in David Lynch\u2019s Mulholland Drive.\n\nEverett was known for his polished screen presence, deep voice, and long career as both a leading man and character actor.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0249",
+    "product_images": [
+      "images/HEA-0249.jpg"
+    ],
+    "full_description": "Susan Dey (born December 10, 1952) is an American former actress and model best known for her roles on The Partridge Family and L.A. Law.\n\nBorn in Pekin, Illinois, Dey began her career as a model before being cast as Laurie Partridge on The Partridge Family, which aired from 1970 to 1974. The popular musical sitcom made her a widely recognized television star while still in her teens.\n\nDey later successfully moved into more dramatic roles. Her most acclaimed performance came as attorney Grace Van Owen on the legal drama L.A. Law, which she joined in 1986. The role earned her a Golden Globe Award and multiple Emmy nominations.\n\nHer other television and film credits include Looker (1981), Echo Park (1985), Love & War, and numerous television movies.\n\nDey became known for making a successful transition from a young sitcom star to a respected dramatic actress. She largely withdrew from acting in the early 2000s and has since maintained a relatively private life.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.  8.5x5.5 inch card.  Not inscribed.",
+    "miscellaneous": "Earned a Golden Globe Award and multiple Emmy nominations for her role as attorney Grace Van Owen on the legal drama L.A. Law."
+  },
+  {
+    "product_id": "HEA-0250",
+    "product_images": [
+      "images/HEA-0250.jpg"
+    ],
+    "full_description": "Dana Delany (born March 13, 1956) is an American actress best known for her work in television, film, and theater.\n\nBorn in New York City and raised in Connecticut, Delany studied theater at Wesleyan University before beginning her professional acting career. She gained widespread recognition as Army nurse Colleen McMurphy in the acclaimed television drama China Beach, which aired from 1988 to 1991. Her performance earned her two Primetime Emmy Awards.\n\nDelany later appeared in numerous films, including Tombstone (1993), Exit to Eden (1994), Fly Away Home (1996), and Wide Awake (1998).\n\nShe also became well known for television roles in Desperate Housewives, Body of Proof, Hand of God, and Tulsa King. In animation, she provided the voice of Lois Lane in Superman: The Animated Series and other DC productions.\n\nKnown for her versatility, intelligence, and strong dramatic presence, Delany has enjoyed a long career spanning stage, television, live-action film, and voice acting.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0251",
+    "product_images": [
+      "images/HEA-0251.jpg"
+    ],
+    "full_description": "Deborah Kerr (Deceased) (September 30, 1921 \u2013 October 16, 2007) was a Scottish actress and one of the most distinguished stars of British and American cinema.\n\nBorn Deborah Jane Trimmer in Helensburgh, Scotland, she originally trained as a ballet dancer before turning to acting. She gained recognition in British films during the 1940s, including Black Narcissus (1947), before establishing herself as a major Hollywood star.\n\nKerr became known for elegant, intelligent, and emotionally complex performances. Her notable films included From Here to Eternity (1953), The King and I (1956), An Affair to Remember (1957), Separate Tables (1958), and The Sundowners (1960).\n\nShe received six Academy Award nominations for Best Actress, although she never won competitively. In 1994, she received an Honorary Academy Award recognizing her exceptional career and contributions to motion pictures.\n\nKerr also worked successfully on stage and television. She was admired for her versatility, refined screen presence, and ability to portray both restrained and deeply passionate characters. She remains one of the most respected actresses of Hollywood\u2019s Golden Age.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Barry Nelson (Deceased) (April 16, 1917 \u2013 April 7, 2007) was an American actor whose career spanned stage, film, and television.\n\nBorn Robert Haakon Nielsen in San Francisco, California, Nelson began acting professionally in the 1940s and appeared in a variety of films before becoming especially well known for his television work.\n\nHe holds a unique place in James Bond history as the first actor to portray Ian Fleming\u2019s famous secret agent on screen. Nelson played an Americanized version of Bond, called \u201cJimmy Bond,\u201d in a 1954 television adaptation of Casino Royale for the anthology series Climax!\n\nNelson also appeared in films such as Airport (1970) and The Shining (1980), in which he played hotel manager Stuart Ullman. His television credits included numerous guest appearances and starring roles in series such as The Hunter and My Favorite Husband.\n\nIn addition to screen work, Nelson had a successful stage career and appeared in Broadway productions, including The Moon Is Blue and Cactus Flower.\n\nHe is remembered as a versatile character actor and for his unusual distinction as the first screen James Bond."
+  },
+  {
+    "product_id": "HEA-0252",
+    "product_images": [
+      "images/HEA-0252.jpg"
+    ],
+    "full_description": "Mel Torm\u00e9 (Deceased) (September 13, 1925 \u2013 June 5, 1999) was an American singer, songwriter, drummer, actor, and author known for his smooth vocal style and sophisticated interpretations of jazz and popular standards.\n\nBorn Melvin Howard Torm\u00e9 in Chicago, Illinois, he began performing professionally as a child and later became a member of the vocal group the Mel-Tones. He developed a successful solo career and earned the nickname \u201cThe Velvet Fog,\u201d a reference to the rich, soft quality of his voice.\n\nTorm\u00e9 recorded extensively throughout his career and became especially associated with jazz standards and the Great American Songbook. He was also an accomplished songwriter and co-wrote \u201cThe Christmas Song,\u201d famously known for its opening line about chestnuts roasting on an open fire.\n\nIn addition to music, Torm\u00e9 acted in films and television and made numerous guest appearances on variety and talk programs. He also wrote several books about music and entertainment.\n\nTorm\u00e9 received multiple Grammy Awards and remained an admired concert performer into the 1990s. He is remembered as one of the finest male jazz vocalists of the 20th century.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0253",
+    "product_images": [
+      "images/HEA-0253.jpg"
+    ],
+    "full_description": "Boots Randolph (Deceased)\n\nHomer Louis \u201cBoots\u201d Randolph III (1927\u20132007) was an American saxophonist best known for his energetic tenor saxophone playing and his 1963 instrumental hit \u201cYakety Sax.\u201d The tune became internationally recognizable after it was used for many years as the closing-theme music for the British television comedy The Benny Hill Show.\n\nBorn in Paducah, Kentucky, and raised in Cadiz, Randolph began playing music at a young age. After serving in the U.S. Army, he developed a career as a professional musician and eventually became an important member of Nashville\u2019s celebrated group of studio musicians known as the \u201cNashville A-Team.\u201d\n\nRandolph performed on recordings by numerous major artists, including Elvis Presley, Roy Orbison, Brenda Lee, and Chet Atkins. His distinctive saxophone can be heard on many country, pop, and rock recordings from the 1950s through the 1970s.\n\nIn addition to his studio work, Randolph recorded numerous albums under his own name and became a popular live entertainer. His style combined country, jazz, pop, and rhythm-and-blues influences, helping make the saxophone a familiar sound in Nashville recordings.\n\nRandolph remained active in music for decades and was widely respected for both his technical ability and his instantly recognizable sound.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0254",
+    "product_images": [
+      "images/HEA-0254.jpg"
+    ],
+    "full_description": "Henry Mancini (Deceased)\n\nHenry Mancini (1924\u20131994) was an American composer, conductor, and arranger best known for creating some of the most memorable film and television music of the 20th century.\n\nBorn in Cleveland, Ohio, and raised in Pennsylvania, Mancini studied music before serving in the U.S. Army during World War II. After the war, he worked as an arranger and composer in Hollywood, eventually becoming one of the film industry\u2019s most successful musical figures.\n\nMancini composed the scores for numerous popular movies, including Breakfast at Tiffany\u2019s, The Pink Panther, Days of Wine and Roses, Charade, and Victor/Victoria. His composition \u201cMoon River,\u201d written with lyricist Johnny Mercer for Breakfast at Tiffany\u2019s, became one of his most famous songs. He also wrote the instantly recognizable \u201cPink Panther Theme.\u201d\n\nFor television, Mancini composed the theme for Peter Gunn, which became a major instrumental success.\n\nDuring his career, Mancini won four Academy Awards, numerous Grammy Awards, and a Golden Globe. His music blended jazz, classical, pop, and orchestral styles and helped transform the sound of Hollywood film scoring.\n\nMancini continued composing, recording, and conducting until shortly before his death in 1994.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0255",
+    "product_images": [
+      "images/HEA-0255.jpg"
+    ],
+    "full_description": "Naomi Judd (Deceased)\n\nNaomi Judd (1946\u20132022) was an American country music singer and songwriter best known as one half of the highly successful mother-daughter duo The Judds, performing alongside her daughter Wynonna Judd.\n\nBorn Diana Ellen Judd in Ashland, Kentucky, she worked in several occupations, including nursing, before pursuing music professionally. In the early 1980s, Naomi and Wynonna began performing together and soon became one of country music\u2019s most popular acts.\n\nThe Judds scored numerous hit songs, including \u201cMama He\u2019s Crazy,\u201d \u201cWhy Not Me,\u201d \u201cGrandpa (Tell Me \u2019Bout the Good Old Days),\u201d and \u201cLove Can Build a Bridge.\u201d Their close vocal harmonies and traditional country sound earned them widespread popularity and numerous awards.\n\nNaomi retired from regular touring in 1991 after being diagnosed with hepatitis C, although she later made occasional appearances and reunion performances with Wynonna. She also became an author, motivational speaker, and television personality.\n\nThe Judds were inducted into the Country Music Hall of Fame in 2022. Naomi died on April 30, 2022, at age 76, shortly before the induction ceremony.\n\nShe is remembered as an important figure in modern country music and for helping make The Judds one of the genre\u2019s most successful family acts.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0256",
+    "product_images": [
+      "images/HEA-0256.jpg"
+    ],
+    "full_description": "George Jones (Deceased)\n\nGeorge Jones (1931\u20132013) was an American country music singer and songwriter widely regarded as one of the greatest vocalists in the history of country music.\n\nBorn in Saratoga, Texas, Jones began performing as a teenager and recorded his first records in the 1950s. He achieved his first major success with \u201cWhy Baby Why\u201d and went on to record dozens of country hits during a career spanning more than five decades.\n\nAmong his best-known songs are \u201cHe Stopped Loving Her Today,\u201d \u201cThe Grand Tour,\u201d \u201cWhite Lightning,\u201d \u201cThe Window Up Above,\u201d and \u201cShe Thinks I Still Care.\u201d His distinctive voice, emotional phrasing, and ability to convey heartbreak made him a major influence on generations of country singers.\n\nJones was also known for his turbulent personal life, including struggles with alcohol and drugs. His marriage to fellow country star Tammy Wynette produced several successful duets, including \u201cGolden Ring\u201d and \u201cWe\u2019re Gonna Hold On.\u201d\n\nHe eventually overcame many of his personal difficulties and continued performing and recording into his later years.\n\nJones was inducted into the Country Music Hall of Fame in 1992. He died in Nashville, Tennessee, in 2013 at age 81, leaving behind one of country music\u2019s most influential recording legacies.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0257",
+    "product_images": [
+      "images/HEA-0257.jpg"
+    ],
+    "full_description": "Mickey Gilley (Deceased)\n\nMickey Gilley (1936\u20132022) was an American country music singer, pianist, and nightclub owner who became one of the most successful country performers of the 1970s and 1980s.\n\nBorn in Natchez, Mississippi, Gilley grew up in Louisiana and was a cousin of musicians Jerry Lee Lewis and Jimmy Swaggart. Influenced by Lewis, he developed a piano-driven style that blended country, rock and roll, and honky-tonk music.\n\nGilley achieved his first major country hit in 1974 with \u201cRoom Full of Roses.\u201d He went on to record numerous successful songs, including \u201cDon\u2019t the Girls All Get Prettier at Closing Time,\u201d \u201cStand by Me,\u201d \u201cTrue Love Ways,\u201d and \u201cYou Don\u2019t Know Me.\u201d\n\nHe also became closely associated with Gilley\u2019s Club in Pasadena, Texas, one of the largest and most famous honky-tonks in the country. The club gained international attention after being featured in the 1980 film Urban Cowboy, starring John Travolta and Debra Winger.\n\nGilley earned numerous country music awards and placed many recordings on the country charts during his career. He continued performing for decades and remained closely identified with the Urban Cowboy era of country music.\n\nGilley died in Branson, Missouri, in 2022 at age 86.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0258",
+    "product_images": [
+      "images/HEA-0258.jpg"
+    ],
+    "full_description": "Fabian\n\nFabian Forte, known professionally simply as Fabian, is an American singer and actor who became a major teenage idol during the late 1950s and early 1960s.\n\nBorn in Philadelphia, Pennsylvania, in 1943, Fabian was discovered as a teenager and quickly developed a successful recording career. His handsome appearance and energetic performances helped make him especially popular with young audiences during the early rock-and-roll era.\n\nAmong his best-known recordings are \u201cTurn Me Loose,\u201d \u201cTiger,\u201d and \u201cHound Dog Man.\u201d Several of his singles reached the national charts, and he became a frequent performer on television programs such as American Bandstand.\n\nFabian also pursued an acting career, appearing in numerous films and television productions. His movie credits include Hound-Dog Man, North to Alaska, The Longest Day, Ride the Wild Surf, and Fireball 500. He worked alongside major stars including John Wayne, Bing Crosby, and James Stewart.\n\nIn later years, Fabian continued performing in nostalgia concerts and touring productions, often appearing with other popular entertainers from the early rock-and-roll era.\n\nHe remains closely associated with the generation of late-1950s teen idols who helped bridge traditional pop music and the emerging rock-and-roll culture.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0259",
+    "product_images": [
+      "images/HEA-0259.jpg"
+    ],
+    "full_description": "John Conlee\n\nJohn Conlee is an American country music singer known for his distinctive voice and a series of major hits during the late 1970s and 1980s.\n\nBorn in Versailles, Kentucky, in 1946, Conlee worked as a licensed mortician and later as a radio disc jockey before establishing himself as a country performer. His breakthrough came with the 1978 hit \u201cRose Colored Glasses,\u201d which became one of his signature songs.\n\nConlee followed with numerous successful recordings, including \u201cBackside of Thirty,\u201d \u201cLady Lay Down,\u201d \u201cFriday Night Blues,\u201d \u201cCommon Man,\u201d \u201cI\u2019m Only in It for the Love,\u201d and \u201cIn My Eyes.\u201d His music often focused on working-class life, relationships, and everyday experiences, helping him build a loyal country music audience.\n\nDuring his career, Conlee placed many singles on the country charts and earned several number-one hits. He became a member of the Grand Ole Opry in 1981 and has remained a regular performer there for decades.\n\nKnown for his straightforward traditional country style, Conlee continued touring and performing well beyond his peak chart years. He is remembered as one of the recognizable voices of mainstream country music during the late 1970s and 1980s.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0260",
+    "product_images": [
+      "images/HEA-0260.jpg"
+    ],
+    "full_description": "Vikki Carr\n\nVikki Carr is an American singer known for her powerful voice and successful career in pop, Latin, and traditional popular music.\n\nBorn Florencia Bisenta de Casillas-Martinez Cardona in El Paso, Texas, in 1941, Carr began her professional singing career in the early 1960s. She gained national attention with recordings that showcased her dramatic vocal style and ability to perform in both English and Spanish.\n\nHer best-known hit is \u201cIt Must Be Him,\u201d released in 1967, which became a major international success and earned her Grammy recognition. Other notable recordings include \u201cWith Pen in Hand,\u201d \u201cThe Lesson,\u201d and \u201cFor Once in My Life.\u201d\n\nCarr also built a substantial Spanish-language career and became especially popular with Latin American audiences. She recorded numerous albums in Spanish and won Grammy Awards for her Latin music recordings.\n\nThroughout her career, Carr appeared frequently on television variety programs and performed in major concert venues around the world. She has also been active in charitable work, particularly supporting education and health-related causes.\n\nCarr is recognized for successfully crossing between American pop and Latin music and for maintaining a recording and performing career spanning several decades.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0261",
+    "product_images": [
+      "images/HEA-0261.jpg"
+    ],
+    "full_description": "Rick Wilson\n\nRick Wilson is a retired American stock car racing driver who competed for many years in NASCAR\u2019s top divisions.\n\nBorn in Bartow, Florida, in 1953, Wilson began racing on short tracks before advancing into NASCAR competition. He became a regular competitor in what is now the NASCAR Cup Series during the 1980s and 1990s, driving for several teams and earning a reputation as a capable and dependable driver.\n\nWilson competed in hundreds of NASCAR Cup races and recorded numerous top-ten finishes. One of his most memorable performances came in the 1988 Daytona 500, where he finished second to Bobby Allison. He also competed successfully in NASCAR\u2019s Busch Series, now known as the Xfinity Series.\n\nWilson was particularly associated with the No. 75 car during portions of his career. He drove the No. 75 Food Country USA car in NASCAR competition and won two Busch Series races while driving for Henderson Motorsports in 1989. ([Wikipedia][1])\n\nAlthough he never became one of NASCAR\u2019s biggest stars, Wilson enjoyed a lengthy professional racing career and competed against many of the sport\u2019s most famous drivers during an important period in NASCAR history.\n\n[1]: https://en.wikipedia.org/wiki/Henderson_Motorsports?utm_source=chatgpt.com \"Henderson Motorsports\"",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0262",
+    "product_images": [
+      "images/HEA-0262.jpg"
+    ],
+    "full_description": "Pat Schroeder (Deceased)\n\nPat Schroeder (1940\u20132023) was an American politician, attorney, and longtime member of the U.S. House of Representatives from Colorado.\n\nBorn in Portland, Oregon, Schroeder earned a law degree from Harvard Law School and worked as an attorney before entering politics. In 1972, she was elected to Congress, becoming the first woman elected to the House of Representatives from Colorado.\n\nSchroeder served in Congress from 1973 to 1997 and became known for her work on women\u2019s rights, family issues, military policy, and workplace equality. She was a strong advocate for legislation dealing with family and medical leave, child care, and protections against discrimination.\n\nIn 1987, Schroeder briefly explored a campaign for the Democratic presidential nomination but ultimately decided not to run.\n\nAfter leaving Congress, she became president and chief executive of the Association of American Publishers, where she represented the publishing industry on copyright and related issues.\n\nSchroeder was known for her outspoken style, humor, and willingness to challenge traditional political institutions. Her 24 years in Congress made her one of the most prominent female lawmakers of her generation.\n\nShe died in 2023 at age 82.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Signed \"March On! Pat Schroeder\""
+  },
+  {
+    "product_id": "HEA-0263",
+    "product_images": [
+      "images/HEA-0263.jpg"
+    ],
+    "full_description": "Ricky Rudd\n\nRicky Rudd is a retired American stock car racing driver best known for his long and successful career in NASCAR\u2019s top series.\n\nBorn in Norfolk, Virginia, in 1956, Rudd began racing professionally in the 1970s and became one of NASCAR\u2019s most durable competitors. He earned the nickname \u201cThe Rooster\u201d and developed a reputation for toughness, consistency, and an aggressive driving style.\n\nRudd won more than 20 races in NASCAR\u2019s premier series during a career that lasted more than three decades. Among his notable victories were wins at tracks such as Richmond, Martinsville, and Indianapolis. In 1997, he won the Brickyard 400 at Indianapolis Motor Speedway, one of the most prestigious events on the NASCAR schedule.\n\nHe drove for several prominent teams, including those owned by Richard Childress, Bud Moore, Rick Hendrick, Robert Yates, and the Wood Brothers. Rudd also operated his own race team for several seasons.\n\nOne of his most remarkable accomplishments was a streak of nearly 800 consecutive NASCAR starts, reflecting his exceptional durability.\n\nRudd retired from full-time competition after the 2007 season. In 2025, he was inducted into the NASCAR Hall of Fame, recognizing his significant contributions to the sport.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0264",
+    "product_images": [
+      "images/HEA-0264.jpg"
+    ],
+    "full_description": "Rodney Crowell\n\nRodney Crowell is an American singer, songwriter, guitarist, and producer known for his influential work in country and Americana music.\n\nBorn in Houston, Texas, in 1950, Crowell moved to Nashville in the 1970s and became part of Emmylou Harris\u2019s Hot Band. He soon established himself as a successful songwriter, writing songs recorded by artists including Waylon Jennings, the Oak Ridge Boys, Crystal Gayle, and Bob Seger.\n\nCrowell developed a successful solo career during the 1980s. His 1988 album Diamonds & Dirt produced five consecutive number-one country singles, including \u201cIt\u2019s Such a Small World,\u201d \u201cI Couldn\u2019t Leave You If I Tried,\u201d and \u201cAfter All This Time.\u201d The latter earned him a Grammy Award.\n\nIn addition to performing, Crowell has remained highly respected as a songwriter and producer. His work often blends traditional country with rock, folk, and roots influences.\n\nCrowell was married to singer Rosanne Cash from 1979 to 1992, and the two collaborated professionally on numerous recordings.\n\nOver a career spanning several decades, Crowell has earned multiple Grammy Awards and widespread recognition for both his songwriting and musicianship. He is regarded as an important figure in modern country and Americana music.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0265",
+    "product_images": [
+      "images/HEA-0265.jpg"
+    ],
+    "full_description": "Kathy Garver\n\nKathy Garver is an American actress and voice performer best known for playing Catherine \u201cCissy\u201d Davis on the television series Family Affair.\n\nBorn in Long Beach, California, in 1945, Garver began acting as a child. One of her early film appearances was in Cecil B. DeMille\u2019s epic The Ten Commandments, in which she appeared as a young slave girl.\n\nGarver achieved her greatest fame on Family Affair, which aired from 1966 to 1971. She portrayed the teenage Cissy Davis, who lived with her younger siblings Buffy and Jody in the New York apartment of their uncle, Bill Davis. The popular series made Garver a familiar television personality.\n\nAfter Family Affair, she continued acting in television, film, stage productions, and commercials. She also developed an extensive career as a voice actress, contributing to animated programs, audiobooks, and other productions.\n\nGarver has remained active in entertainment conventions and nostalgia events and has written books about her career and experiences in Hollywood.\n\nHer long career, beginning in childhood and continuing for decades, has made her particularly well known to fans of classic American television.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Signed \"All Best in Life  Kathy Garver \"Cissy\""
+  },
+  {
+    "product_id": "HEA-0266",
+    "product_images": [
+      "images/HEA-0266.jpg"
+    ],
+    "full_description": "Patti Page (Deceased)\n\nPatti Page (1927\u20132013) was an American singer whose warm, smooth vocal style made her one of the most successful female recording artists of the 1950s. Born Clara Ann Fowler in Claremore, Oklahoma, she began her professional career singing on radio before signing with Mercury Records in the late 1940s.\n\nPage became known for her versatility, recording pop, country, and traditional standards. Her signature recording, \u201cTennessee Waltz,\u201d became a massive hit in 1950 and is one of the best-selling singles of its era. Other popular recordings included \u201c(How Much Is) That Doggie in the Window?,\u201d \u201cOld Cape Cod,\u201d \u201cMockin\u2019 Bird Hill,\u201d and \u201cAllegheny Moon.\u201d\n\nAn innovative aspect of Page\u2019s early recordings was the use of overdubbing, allowing her voice to be layered into multiple harmony parts at a time when multitrack recording was still uncommon.\n\nDuring her lengthy career, Page sold tens of millions of records and continued performing well beyond her peak chart years. She also appeared on television and hosted several variety programs.\n\nPage received numerous honors for her contributions to American popular music, including a Grammy Lifetime Achievement Award. She died in 2013 at the age of 85.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
   }
 ];
