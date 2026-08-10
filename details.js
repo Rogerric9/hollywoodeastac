@@ -2708,8 +2708,8 @@ const productDetails = [
       "images/HEA-0249.jpg"
     ],
     "full_description": "Susan Dey (born December 10, 1952) is an American former actress and model best known for her roles on The Partridge Family and L.A. Law.\n\nBorn in Pekin, Illinois, Dey began her career as a model before being cast as Laurie Partridge on The Partridge Family, which aired from 1970 to 1974. The popular musical sitcom made her a widely recognized television star while still in her teens.\n\nDey later successfully moved into more dramatic roles. Her most acclaimed performance came as attorney Grace Van Owen on the legal drama L.A. Law, which she joined in 1986. The role earned her a Golden Globe Award and multiple Emmy nominations.\n\nHer other television and film credits include Looker (1981), Echo Park (1985), Love & War, and numerous television movies.\n\nDey became known for making a successful transition from a young sitcom star to a respected dramatic actress. She largely withdrew from acting in the early 2000s and has since maintained a relatively private life.",
-    "authentication_info": "",
-    "condition_notes": "Excellent condition.  8.5x5.5 inch card.  Not inscribed.",
+    "authentication_info": "None",
+    "condition_notes": "Excellent condition.",
     "miscellaneous": "Earned a Golden Globe Award and multiple Emmy nominations for her role as attorney Grace Van Owen on the legal drama L.A. Law."
   },
   {
