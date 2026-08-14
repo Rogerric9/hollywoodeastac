@@ -4132,5 +4132,18 @@ const inventory = [
     "quantity_available": 1,
     "shipping_class": "standard",
     "shipping_charge": ""
+  },
+  {
+    "product_id": "HEC-0022",
+    "type": "collectible",
+    "category": "photos",
+    "category2": "miscellaneous",
+    "name": "Lauren Bacall",
+    "description": "Color 8x10 photograph.",
+    "price": 14.95,
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   }
 ];

@@ -3184,5 +3184,15 @@
       <g:price>250.00 USD</g:price>
       <g:condition>used</g:condition>
     </item>
+    <item>
+      <g:id>HEC-0022</g:id>
+      <g:title>Lauren Bacall</g:title>
+      <g:description>Color 8x10 photograph.</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0022</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0022.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
   </channel>
 </rss>

@@ -3221,5 +3221,15 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0022",
+    "product_images": [
+      "images/HEC-0022.jpg"
+    ],
+    "full_description": "Lauren Bacall (Deceased) was an American actress and model renowned for her distinctive deep voice, confident screen presence, and classic Hollywood glamour. She was born Betty Joan Perske on September 16, 1924, in New York City.\n\nBacall began her career as a fashion model before making a sensational film debut opposite Humphrey Bogart in To Have and Have Not (1944). Her performance made her an immediate star and began one of Hollywood\u2019s most famous screen and real-life partnerships. Bacall and Bogart married in 1945 and remained together until his death in 1957.\n\nThe pair also appeared together in The Big Sleep (1946), Dark Passage (1947), and Key Largo (1948). Bacall\u2019s other notable films included How to Marry a Millionaire (1953), Written on the Wind (1956), Murder on the Orient Express (1974), The Shootist (1976), and The Mirror Has Two Faces (1996), for which she received an Academy Award nomination.\n\nBacall also enjoyed great success on Broadway, winning Tony Awards for Applause and Woman of the Year. In 2009, she received an Academy Honorary Award recognizing her distinguished career.\n\nLauren Bacall died on August 12, 2014, at age 89. She remains one of the most recognizable and enduring stars of Hollywood\u2019s Golden Age.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
   }
 ];
