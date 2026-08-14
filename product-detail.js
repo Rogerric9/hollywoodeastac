@@ -111,7 +111,17 @@ if (!product) {
       finalDescription.slice(0, 160)
     );
   }
+  let shippingAmount = 0;
 
+  if (product.shipping_class === "standard") {
+    shippingAmount = SHIPPING_CONFIG.standardSingle;
+  } else if (product.shipping_class === "framed") {
+    shippingAmount = SHIPPING_CONFIG.framedFirst;
+  } else if (product.shipping_class === "plaque") {
+    shippingAmount = SHIPPING_CONFIG.plaqueFirst;
+  } else if (product.shipping_class === "custom") {
+    shippingAmount = Number(product.shipping_charge);
+  }
   const structuredDataElement = document.getElementById(
     "product-structured-data"
   );
@@ -161,7 +171,7 @@ if (!product) {
           },
           "shippingRate": {
             "@type": "MonetaryAmount",
-            "value": Number(product.shipping_charge).toFixed(2),
+            "value": shippingAmount.toFixed(2),
             "currency": "USD"
           }
         },
@@ -179,17 +189,6 @@ if (!product) {
   productName.textContent = product.name;
   productNumber.textContent = `Product No. ${product.product_id}`;
   productPrice.textContent = `$${product.price}`;
-  let shippingAmount = 0;
-
-  if (product.shipping_class === "standard") {
-    shippingAmount = SHIPPING_CONFIG.standardSingle;
-  } else if (product.shipping_class === "framed") {
-    shippingAmount = SHIPPING_CONFIG.framedFirst;
-  } else if (product.shipping_class === "plaque") {
-    shippingAmount = SHIPPING_CONFIG.plaqueFirst;
-  } else if (product.shipping_class === "custom") {
-    shippingAmount = Number(product.shipping_charge);
-  }
 
   productShipping.textContent =
     `Shipping: $${shippingAmount.toFixed(2)}`;
