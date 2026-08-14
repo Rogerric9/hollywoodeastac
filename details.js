@@ -2881,5 +2881,345 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0267",
+    "product_images": [
+      "images/HEA-0267.jpg"
+    ],
+    "full_description": "Jackie Collins (Deceased)\n\nJackie Collins was a British-American novelist best known for her glamorous, fast-paced stories about Hollywood, wealth, ambition, romance, and scandal. She was born on October 4, 1937, in London, England, and was the younger sister of actress Joan Collins.\n\nCollins began writing novels after briefly pursuing acting. Her first book, The World Is Full of Married Men, was published in 1968 and became a major success. She went on to write more than 30 novels, many of which became international bestsellers.\n\nAmong her best-known works are Hollywood Wives, Chances, Lucky, Lady Boss, and The Stud. Several of her novels were adapted for television or film. Her recurring character Lucky Santangelo became one of the most recognizable figures in her fiction.\n\nCollins was known for drawing inspiration from the entertainment industry and for portraying powerful, ambitious women who often controlled their own destinies. Her books sold hundreds of millions of copies worldwide and were translated into numerous languages.\n\nJackie Collins died on September 19, 2015, at age 77, from breast cancer.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0268",
+    "product_images": [
+      "images/HEA-0268.jpg"
+    ],
+    "full_description": "John Sebastian\n\nJohn Sebastian is an American singer, songwriter, and musician best known as the founder and lead singer of the 1960s rock band The Lovin\u2019 Spoonful. He was born on March 17, 1944, in New York City and grew up in a musical household.\n\nWith The Lovin\u2019 Spoonful, Sebastian wrote or co-wrote a string of major hits, including \u201cDo You Believe in Magic,\u201d \u201cDaydream,\u201d \u201cSummer in the City,\u201d \u201cYou Didn\u2019t Have to Be So Nice,\u201d and \u201cDid You Ever Have to Make Up Your Mind?\u201d The group became one of the most popular American bands of the mid-1960s.\n\nAfter leaving the band, Sebastian pursued a solo career. He made a memorable unscheduled appearance at the 1969 Woodstock festival and later achieved a No. 1 hit with \u201cWelcome Back,\u201d the theme song for the television series Welcome Back, Kotter.\n\nSebastian is also an accomplished guitarist, harmonica player, and autoharp player. His songwriting helped blend folk, blues, pop, and rock influences during a formative period in American popular music. He was inducted into the Rock and Roll Hall of Fame as a member of The Lovin\u2019 Spoonful in 2000.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0269",
+    "product_images": [
+      "images/HEA-0269.jpg"
+    ],
+    "full_description": "Crystal Gayle\n\nCrystal Gayle is an American country and pop singer best known for her smooth voice, crossover success, and signature floor-length hair. She was born Brenda Gail Webb on January 9, 1951, in Paintsville, Kentucky, and is the younger sister of country music legend Loretta Lynn.\n\nGayle began her recording career in the early 1970s and developed a more polished country-pop style that distinguished her from her sister. She achieved international fame with the 1977 hit \u201cDon\u2019t It Make My Brown Eyes Blue,\u201d which became her signature song and won her a Grammy Award.\n\nHer other successful recordings include \u201cTalking in Your Sleep,\u201d \u201cHalf the Way,\u201d \u201cReady for the Times to Get Better,\u201d \u201cYou and I,\u201d a duet with Eddie Rabbitt, and \u201cWhy Have You Left the One You Left Me For.\u201d\n\nGayle became one of country music\u2019s most successful crossover performers of the late 1970s and 1980s. She has received numerous awards and honors during her career and was inducted into the Grand Ole Opry in 2017.\n\nHer elegant vocal style and ability to blend country with pop helped expand country music\u2019s audience worldwide.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0270",
+    "product_images": [
+      "images/HEA-0270.jpg"
+    ],
+    "full_description": "Ray Conniff (Deceased)\n\nRay Conniff was an American bandleader, arranger, composer, and trombonist best known for his distinctive easy-listening orchestral and choral recordings. He was born on November 6, 1916, in Attleboro, Massachusetts.\n\nConniff began his career as a musician and arranger during the big-band era, working with performers such as Artie Shaw, Bob Crosby, and Harry James. He later became a successful arranger for Columbia Records, contributing to recordings by artists including Johnny Mathis and Guy Mitchell.\n\nIn the 1950s, Conniff formed the Ray Conniff Singers and developed a recognizable sound that blended lush orchestral arrangements with wordless or lightly sung vocal harmonies. His albums became extremely popular throughout the 1950s, 1960s, and 1970s.\n\nAmong his best-known recordings and albums were versions of popular standards, movie themes, and contemporary hits arranged in his distinctive style. He sold millions of records worldwide and enjoyed especially strong popularity in the United States, Europe, and Latin America.\n\nRay Conniff died on October 12, 2002, at age 85.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0271",
+    "product_images": [
+      "images/HEA-0271.jpg"
+    ],
+    "full_description": "Rosemary Clooney (Deceased)\n\nRosemary Clooney was an American singer and actress known for her warm, expressive voice and success in traditional pop and jazz. She was born on May 23, 1928, in Maysville, Kentucky.\n\nClooney began singing professionally with her sister Betty before launching a solo career. She became one of the most popular vocalists of the 1950s with hits such as \u201cCome On-a My House,\u201d \u201cHey There,\u201d \u201cThis Ole House,\u201d and \u201cMambo Italiano.\u201d\n\nShe also appeared in motion pictures, most notably the 1954 holiday classic White Christmas alongside Bing Crosby, Danny Kaye, and Vera-Ellen.\n\nAlthough changing musical tastes affected her career in the 1960s, Clooney later made a successful comeback as a respected jazz and standards singer. She recorded extensively in later decades and earned renewed critical acclaim for her interpretations of classic American songs.\n\nClooney was also the aunt of actor George Clooney. Her long career made her one of the most enduring popular singers of her generation.\n\nRosemary Clooney died on June 29, 2002, at age 74, from lung cancer.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0272",
+    "product_images": [
+      "images/HEA-0272.jpg"
+    ],
+    "full_description": "Walter Koenig\n\nWalter Koenig is an American actor and writer best known for portraying Ensign Pavel Chekov in the original Star Trek television series and several subsequent Star Trek films. He was born on September 14, 1936, in Chicago, Illinois.\n\nKoenig joined Star Trek during its second season in 1967. His character, a young Russian navigator aboard the USS Enterprise, became one of the series\u2019 most recognizable crew members. He later reprised Chekov in numerous Star Trek feature films, including Star Trek: The Motion Picture, The Wrath of Khan, The Search for Spock, and The Voyage Home.\n\nOutside Star Trek, Koenig had a notable recurring role as the villainous Alfred Bester on the science-fiction television series Babylon 5. He has also worked as a screenwriter, author, and acting instructor.\n\nKoenig has appeared at science-fiction conventions for decades and remains closely associated with the Star Trek franchise. In recognition of his contributions to the series, he received a star on the Hollywood Walk of Fame in 2012.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0273",
+    "product_images": [
+      "images/HEA-0273.jpg"
+    ],
+    "full_description": "Rachel Hunter\n\nRachel Hunter is a New Zealand model, actress, and television personality who became internationally known as one of the leading fashion models of the late 1980s and 1990s. She was born on September 8, 1969, in Auckland, New Zealand.\n\nHunter began modeling as a teenager and soon gained worldwide attention through major advertising campaigns and magazine appearances. She became especially well known for her work with Sports Illustrated, appearing in its swimsuit issues and on the cover.\n\nHer modeling success led to television and film work. Hunter appeared in a number of movies and television programs and later became a familiar personality on reality and entertainment shows, including Dancing with the Stars.\n\nHunter was married to rock singer Rod Stewart from 1990 until their divorce in 2006. They have two children together.\n\nIn later years, Hunter developed a strong interest in wellness, spirituality, and travel. She created the television series Rachel Hunter\u2019s Tour of Beauty, in which she traveled internationally exploring different cultural approaches to health, beauty, and well-being.\n\nShe remains recognized as one of New Zealand\u2019s most internationally successful fashion models.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0274",
+    "product_images": [
+      "images/HEA-0274.jpg"
+    ],
+    "full_description": "Kim Hunter (Deceased)\n\nKim Hunter was an American actress best known for her acclaimed stage and film career and for portraying Stella Kowalski in A Streetcar Named Desire. She was born on November 12, 1922, in Detroit, Michigan.\n\nHunter originated the role of Stella on Broadway opposite Marlon Brando and later reprised it in the 1951 film adaptation. Her performance earned her the Academy Award for Best Supporting Actress and a Golden Globe Award.\n\nShe also became familiar to science-fiction audiences for playing the sympathetic chimpanzee scientist Zira in Planet of the Apes and its sequels Beneath the Planet of the Apes and Escape from the Planet of the Apes.\n\nDuring the 1950s, Hunter\u2019s career was affected by the Hollywood blacklist after she was identified as having alleged left-wing associations. She later resumed steady work in film, television, and theater.\n\nHer television credits included appearances on programs such as The Edge of Night, Murder, She Wrote, and numerous dramatic anthology series.\n\nKim Hunter died on September 11, 2002, at age 79.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0275",
+    "product_images": [
+      "images/HEA-0275.jpg"
+    ],
+    "full_description": "Charlton Heston (Deceased)\n\nCharlton Heston was an American actor known for his commanding screen presence and leading roles in some of Hollywood\u2019s most famous historical and biblical epics. He was born on October 4, 1923, in Wilmette, Illinois.\n\nHeston became a major star during the 1950s and 1960s. His best-known role was Judah Ben-Hur in the 1959 film Ben-Hur, for which he won the Academy Award for Best Actor. He also portrayed Moses in Cecil B. DeMille\u2019s The Ten Commandments.\n\nHis other notable films included The Greatest Show on Earth, El Cid, The Agony and the Ecstasy, Planet of the Apes, Soylent Green, and The Omega Man.\n\nHeston also worked extensively in theater and television and served as president of the Screen Actors Guild. Later in life, he became widely known for his leadership role in the National Rifle Association.\n\nOver a career spanning more than five decades, Heston became closely associated with heroic, larger-than-life characters and epic filmmaking.\n\nCharlton Heston died on April 5, 2008, at age 84.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0276",
+    "product_images": [
+      "images/HEA-0276.jpg"
+    ],
+    "full_description": "Erin Gray\n\nErin Gray is an American actress and former model best known for her television roles in science-fiction and comedy. She was born on January 7, 1950, in Honolulu, Hawaii.\n\nGray began her career as a successful fashion model and appeared in numerous advertising campaigns before turning to acting. She became widely known for portraying Colonel Wilma Deering on the television series Buck Rogers in the 25th Century, which aired from 1979 to 1981.\n\nShe later starred as Kate Summers-Stratton on the popular sitcom Silver Spoons, appearing alongside Ricky Schroder during much of the show\u2019s 1982\u20131987 run.\n\nGray has also made guest appearances on many television programs, including Magnum, P.I., Fantasy Island, Murder, She Wrote, and Baywatch. In addition to acting, she has remained active on the science-fiction and nostalgia convention circuit.\n\nHer portrayal of Wilma Deering made her particularly popular with science-fiction fans, and she remains closely associated with the late-1970s and early-1980s era of television science fiction.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0277",
+    "product_images": [
+      "images/HEA-0277.jpg"
+    ],
+    "full_description": "Erin Gray\n\nErin Gray is an American actress and former model best known for her television roles in science-fiction and comedy. She was born on January 7, 1950, in Honolulu, Hawaii.\n\nGray began her career as a successful fashion model and appeared in numerous advertising campaigns before turning to acting. She became widely known for portraying Colonel Wilma Deering on the television series Buck Rogers in the 25th Century, which aired from 1979 to 1981.\n\nShe later starred as Kate Summers-Stratton on the popular sitcom Silver Spoons, appearing alongside Ricky Schroder during much of the show\u2019s 1982\u20131987 run.\n\nGray has also made guest appearances on many television programs, including Magnum, P.I., Fantasy Island, Murder, She Wrote, and Baywatch. In addition to acting, she has remained active on the science-fiction and nostalgia convention circuit.\n\nHer portrayal of Wilma Deering made her particularly popular with science-fiction fans, and she remains closely associated with the late-1970s and early-1980s era of television science fiction.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0278",
+    "product_images": [
+      "images/HEA-0278.jpg"
+    ],
+    "full_description": "Teri Garr (Deceased)\n\nTeri Garr was an American actress and comedian known for her distinctive comic timing and memorable roles in film and television. She was born on December 11, 1944, in Lakewood, Ohio.\n\nGarr began her career as a dancer and appeared in several films and television programs during the 1960s before gaining wider recognition as an actress. One of her most famous roles was Inga in Mel Brooks\u2019 1974 comedy Young Frankenstein.\n\nShe also appeared in Close Encounters of the Third Kind, The Conversation, Mr. Mom, After Hours, and One from the Heart. In 1982, Garr received an Academy Award nomination for Best Supporting Actress for her performance as Sandy Lester in Tootsie.\n\nOn television, she made numerous guest appearances and was a frequent and popular guest on late-night talk shows, especially The Tonight Show Starring Johnny Carson and Late Night with David Letterman.\n\nLater in life, Garr publicly discussed her diagnosis with multiple sclerosis and became an advocate for greater awareness of the disease.\n\nTeri Garr died on October 29, 2024, at age 79.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0279",
+    "product_images": [
+      "images/HEA-0279.jpg"
+    ],
+    "full_description": "Beverly Garland (Deceased)\n\nBeverly Garland was an American actress whose career spanned more than five decades in film and television. She was born on October 17, 1926, in Santa Cruz, California.\n\nGarland became especially known during the 1950s for appearing in crime dramas, westerns, and low-budget science-fiction films. Her movie credits included It Conquered the World, Not of This Earth, The Alligator People, and Gunslinger.\n\nShe later became a familiar television actress. One of her best-known roles was Barbara Harper Douglas on the long-running family comedy My Three Sons, which she joined in 1969. She also starred in the police series Decoy, one of the first American television dramas to feature a female police officer as its central character.\n\nGarland made numerous guest appearances on programs such as Perry Mason, The Twilight Zone, Gunsmoke, The Fugitive, and Lois & Clark: The New Adventures of Superman.\n\nIn addition to acting, she was involved in the operation of the Beverly Garland Holiday Inn in North Hollywood.\n\nBeverly Garland died on December 5, 2008, at age 82.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0280",
+    "product_images": [
+      "images/HEA-0280.jpg"
+    ],
+    "full_description": "Bonnie Franklin (Deceased)\n\nBonnie Franklin was an American actress best known for starring as Ann Romano on the television sitcom One Day at a Time. She was born on January 6, 1944, in Santa Monica, California.\n\nFranklin began performing as a child and appeared in television, film, and stage productions. She gained major recognition on Broadway in the musical Applause, earning a Tony Award nomination for her performance.\n\nHer defining role came in 1975 when she was cast as Ann Romano, a divorced mother raising two teenage daughters, played by Mackenzie Phillips and Valerie Bertinelli, on One Day at a Time. The series ran for nine seasons and was notable for addressing family, divorce, relationships, and social issues from the perspective of a single working mother.\n\nAfter the series ended, Franklin continued acting in television and theater and made guest appearances on several programs. She was also active in charitable and educational causes.\n\nBonnie Franklin died on March 1, 2013, at age 69, from pancreatic cancer.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0281",
+    "product_images": [
+      "images/HEA-0281.jpg"
+    ],
+    "full_description": "Rebecca De Mornay\n\nRebecca De Mornay is an American actress best known for her film roles in thrillers, dramas, and comedies. She was born on August 29, 1959, in Santa Rosa, California.\n\nDe Mornay gained widespread recognition playing Lana in the 1983 film Risky Business opposite Tom Cruise. The role established her as a prominent actress during the 1980s.\n\nShe went on to appear in films including The Trip to Bountiful, Runaway Train, Backdraft, and The Three Musketeers. One of her most memorable performances came in the 1992 psychological thriller The Hand That Rocks the Cradle, in which she portrayed the dangerously manipulative Peyton Flanders.\n\nDe Mornay has also worked extensively in television, appearing in television movies, miniseries, and series such as ER, The Practice, John from Cincinnati, Jessica Jones, and Lucifer.\n\nThroughout her career, she has played a wide variety of characters ranging from romantic leads to intense and complex dramatic roles. Her performance in The Hand That Rocks the Cradle remains one of the roles most closely associated with her career.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0282",
+    "product_images": [
+      "images/HEA-0282.jpg"
+    ],
+    "full_description": "Denise Crosby\n\nDenise Crosby is an American actress best known for portraying Lieutenant Tasha Yar on the television series Star Trek: The Next Generation. She was born on November 24, 1957, in Hollywood, California, and is the granddaughter of entertainer Bing Crosby.\n\nCrosby joined Star Trek: The Next Generation when the series premiered in 1987. Her character, Tasha Yar, served as the USS Enterprise\u2019s security chief during the first season. Although Crosby left the regular cast, she later returned for several memorable appearances, including alternate-timeline and related roles.\n\nOutside Star Trek, Crosby has appeared in numerous films and television programs. Her film credits include 48 Hrs., Pet Sematary, and Deep Impact. She has also made guest appearances on series such as The X-Files, NYPD Blue, Dexter, The Walking Dead, and Ray Donovan.\n\nCrosby also produced and hosted the documentary Trekkies and its sequel, which explored the devoted worldwide fan culture surrounding Star Trek.\n\nShe remains a popular figure at science-fiction conventions and is closely associated with the enduring legacy of the Star Trek franchise.",
+    "authentication_info": "None",
+    "condition_notes": "Good condition.   Some minor tape residue on upper right side of card.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0283",
+    "product_images": [
+      "images/HEA-0283.jpg"
+    ],
+    "full_description": "Ruth Buzzi\n\nRuth Buzzi is an American actress and comedian best known for her work on the television comedy series Rowan & Martin\u2019s Laugh-In. She was born on July 24, 1936, in Westerly, Rhode Island.\n\nBuzzi became famous for a variety of comic characters, particularly the dowdy, hairnet-wearing Gladys Ormphby, who often carried a purse that she used as a weapon against unwanted attention. Her performances on Laugh-In earned her widespread recognition and several award nominations.\n\nBefore and after Laugh-In, Buzzi worked extensively in television, theater, and voice acting. She appeared on programs including The Dean Martin Show, The Carol Burnett Show, The Monkees, and Sesame Street. She also supplied voices for numerous animated productions.\n\nBuzzi appeared in films such as Freaky Friday, The North Avenue Irregulars, and The Apple Dumpling Gang Rides Again. Her long career included comedy, children\u2019s television, variety shows, and guest appearances.\n\nShe became one of the most recognizable female comedians of the late 1960s and 1970s and remains strongly associated with the groundbreaking ensemble comedy of Laugh-In.",
+    "authentication_info": "",
+    "condition_notes": "OK.   Some smudging of ink on right side of photo due to ink transfer from a letter postmark.   Priced accordingly.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0284",
+    "product_images": [
+      "images/HEA-0284.jpg"
+    ],
+    "full_description": "Jimmy Spencer\n\nJimmy Spencer is an American former professional race car driver and television commentator best known for his career in NASCAR. He was born on February 15, 1957, in Berwick, Pennsylvania.\n\nNicknamed \u201cMr. Excitement\u201d for his aggressive and colorful driving style, Spencer first established himself in modified racing. He won the NASCAR Modified championship in both 1986 and 1987 before advancing to NASCAR\u2019s national divisions.\n\nSpencer competed in 478 NASCAR Cup Series races and scored two Cup victories, both in 1994 while driving for Junior Johnson. He won the Pepsi 400 at Daytona International Speedway and the DieHard 500 at Talladega Superspeedway.\n\nHe also enjoyed considerable success in what is now the NASCAR Xfinity Series, winning 12 races, and earned one victory in the NASCAR Truck Series. Spencer is among the relatively small group of drivers to win races in all three of NASCAR\u2019s major national series.\n\nAfter his driving career, Spencer became a television personality and commentator, appearing on SPEED network programs including NASCAR RaceDay, NASCAR Victory Lane, and NASCAR Race Hub. His outspoken personality made him a memorable figure both on and off the racetrack.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0285",
+    "product_images": [
+      "images/HEA-0285.jpg"
+    ],
+    "full_description": "Shelley Winters (Deceased)\n\nShelley Winters was an American actress whose career spanned more than six decades. She was born Shirley Schrift on August 18, 1920, in St. Louis, Missouri.\n\nWinters began her career playing glamorous blonde characters but later established herself as a highly respected dramatic actress. She won Academy Awards for Best Supporting Actress for The Diary of Anne Frank and A Patch of Blue.\n\nHer other notable films included A Place in the Sun, The Night of the Hunter, Lolita, Alfie, and The Poseidon Adventure, for which she received another Academy Award nomination.\n\nWinters was also an accomplished stage and television performer and appeared in numerous Broadway productions and television programs. Later generations knew her from guest appearances on shows including Roseanne.\n\nKnown for her outspoken personality and colorful stories about Hollywood, Winters also wrote several autobiographical books recounting her career and friendships with many famous performers.\n\nShelley Winters died on January 14, 2006, at age 85, following heart failure.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0286",
+    "product_images": [
+      "images/HEA-0286.jpg"
+    ],
+    "full_description": "George Takei\n\nGeorge Takei is an American actor, author, and activist best known for portraying Hikaru Sulu in the original Star Trek television series and subsequent Star Trek films. He was born on April 20, 1937, in Los Angeles, California.\n\nTakei began acting in film and television during the late 1950s and joined Star Trek when the series premiered in 1966. As Sulu, helmsman of the USS Enterprise, he became one of the most recognizable members of the Star Trek cast and later reprised the role in several feature films.\n\nBeyond Star Trek, Takei has appeared in numerous television programs, films, stage productions, and voice roles. He has also become widely known for his public speaking and social activism.\n\nAs a child during World War II, Takei and his family were forcibly relocated to U.S. incarceration camps for Japanese Americans. He has frequently spoken and written about that experience. His life story inspired the Broadway musical Allegiance, in which he also performed.\n\nTakei has written several books and remains a prominent figure in popular culture, particularly among Star Trek fans.",
+    "authentication_info": "",
+    "condition_notes": "Very good",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0287",
+    "product_images": [
+      "images/HEA-0287.jpg"
+    ],
+    "full_description": "Harry Dean Stanton (Deceased)\n\nHarry Dean Stanton was an American actor and musician known for his distinctive presence and long career as a character actor. He was born on July 14, 1926, in West Irvine, Kentucky.\n\nStanton served in the U.S. Navy during World War II before pursuing acting. He began appearing in films and television during the 1950s and became one of Hollywood\u2019s most recognizable supporting performers.\n\nHis notable films included Cool Hand Luke, The Godfather Part II, Alien, Escape from New York, Christine, Repo Man, Pretty in Pink, and The Green Mile. One of his rare leading roles came in Wim Wenders\u2019 acclaimed 1984 film Paris, Texas, in which his performance received widespread praise.\n\nStanton also appeared frequently on television, including a recurring role on the HBO series Big Love and a memorable appearance in Twin Peaks.\n\nIn addition to acting, Stanton was an accomplished singer and musician who performed regularly with his own band.\n\nHarry Dean Stanton died on September 15, 2017, at age 91. His career spanned more than six decades and included well over 100 film and television roles.",
+    "authentication_info": "None",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0288",
+    "product_images": [
+      "images/HEA-0288.jpg"
+    ],
+    "full_description": "Jean Simmons (Deceased)\n\nJean Simmons was a British-American actress whose career spanned more than six decades in film, television, and theater. She was born on January 31, 1929, in London, England.\n\nSimmons began acting as a teenager and gained early acclaim for her performance as the young Estella in Great Expectations. She later received an Academy Award nomination for playing Ophelia in Laurence Olivier\u2019s Hamlet.\n\nAfter moving to Hollywood, Simmons became a major star of the 1950s and 1960s. Her notable films included Guys and Dolls, The Robe, Spartacus, The Big Country, Elmer Gantry, and The Happy Ending, for which she received a second Academy Award nomination.\n\nShe worked opposite many leading actors, including Marlon Brando, Gregory Peck, Burt Lancaster, Kirk Douglas, and Richard Burton.\n\nSimmons later enjoyed a successful television career and won an Emmy Award for her performance in the miniseries The Thorn Birds.\n\nJean Simmons died on January 22, 2010, at age 80, from lung cancer.",
+    "authentication_info": "None",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0289",
+    "product_images": [
+      "images/HEA-0289.jpg"
+    ],
+    "full_description": "Jean Simmons (Deceased)\n\nJean Simmons was a British-American actress whose career spanned more than six decades in film, television, and theater. She was born on January 31, 1929, in London, England.\n\nSimmons began acting as a teenager and gained early acclaim for her performance as the young Estella in Great Expectations. She later received an Academy Award nomination for playing Ophelia in Laurence Olivier\u2019s Hamlet.\n\nAfter moving to Hollywood, Simmons became a major star of the 1950s and 1960s. Her notable films included Guys and Dolls, The Robe, Spartacus, The Big Country, Elmer Gantry, and The Happy Ending, for which she received a second Academy Award nomination.\n\nShe worked opposite many leading actors, including Marlon Brando, Gregory Peck, Burt Lancaster, Kirk Douglas, and Richard Burton.\n\nSimmons later enjoyed a successful television career and won an Emmy Award for her performance in the miniseries The Thorn Birds.\n\nJean Simmons died on January 22, 2010, at age 80, from lung cancer.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0290",
+    "product_images": [
+      "images/HEA-0290.jpg"
+    ],
+    "full_description": "Pat Sajak\n\nPat Sajak is an American television personality and game show host best known for his decades-long tenure as the host of Wheel of Fortune. He was born on October 26, 1946, in Chicago, Illinois.\n\nSajak began his broadcasting career in radio and served as a disc jockey for Armed Forces Radio while stationed in Vietnam with the U.S. Army. He later worked in local radio and television, including as a weatherman in Los Angeles.\n\nIn 1981, Sajak was selected to host the daytime version of Wheel of Fortune. He later became host of the syndicated evening edition alongside Vanna White. His relaxed humor and easy rapport with contestants helped make the program one of the most popular game shows in American television history.\n\nSajak also hosted The Pat Sajak Show, a late-night talk show that aired from 1989 to 1990, and made appearances in various television programs and specials.\n\nAfter more than four decades as host of Wheel of Fortune, Sajak retired from the regular syndicated program in 2024, completing one of the longest hosting runs in television history.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0291",
+    "product_images": [
+      "images/HEA-0291.jpg"
+    ],
+    "full_description": "Mary Ann Mobley (Deceased)\n\nMary Ann Mobley was an American actress, television personality, and beauty queen who became Miss America in 1959. She was born on February 17, 1937, in Brandon, Mississippi.\n\nAfter winning the Miss America title, Mobley pursued a career in entertainment and appeared in numerous films and television programs. Her movie credits included Get Yourself a College Girl, Girl Happy, and Harum Scarum, the latter two starring Elvis Presley.\n\nMobley became a familiar face on television through guest appearances on programs such as Perry Mason, Mission: Impossible, The Love Boat, Fantasy Island, Diff\u2019rent Strokes, and Falcon Crest. She also appeared frequently on game shows and variety programs.\n\nShe was married to actor and television host Gary Collins from 1967 until his death in 2012. The couple often appeared together professionally and were active in charitable causes.\n\nMobley was especially involved in humanitarian work and received recognition for her efforts on behalf of children and health-related organizations.\n\nMary Ann Mobley died on December 9, 2014, at age 77, from breast cancer.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0292",
+    "product_images": [
+      "images/HEA-0292.jpg"
+    ],
+    "full_description": "Arie Luyendyk\n\nArie Luyendyk is a Dutch former automobile racing driver best known for his success in the Indianapolis 500. He was born on September 21, 1953, in Sommelsdijk, Netherlands.\n\nLuyendyk began racing in Europe before moving to the United States, where he became a prominent competitor in Indy car racing. He earned the nickname \u201cThe Flying Dutchman\u201d for his speed and aggressive driving style.\n\nHe won the Indianapolis 500 twice, first in 1990 and again in 1997. His 1990 victory was achieved at a record average speed that stood for many years. Luyendyk was also known for his exceptional qualifying performances at Indianapolis and set several speed records at the track.\n\nIn addition to his Indianapolis victories, he won other major Indy car events and competed successfully in endurance racing, including the 24 Hours of Daytona.\n\nLuyendyk retired from professional racing after a career spanning several decades. He was inducted into the Indianapolis Motor Speedway Hall of Fame and remains one of the most successful Dutch drivers in American open-wheel racing history.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0293",
+    "product_images": [
+      "images/HEA-0293.jpg"
+    ],
+    "full_description": "Vanna White\n\nVanna White is an American television personality best known as the longtime co-host of the game show Wheel of Fortune. She was born Vanna Marie Rosich on February 18, 1957, in North Myrtle Beach, South Carolina.\n\nWhite moved to Los Angeles to pursue a career in modeling and acting and appeared in several small film and television roles before joining Wheel of Fortune in 1982. She became famous for revealing the letters on the show\u2019s puzzle board and for her glamorous wardrobe and friendly on-screen presence.\n\nHer partnership with host Pat Sajak became one of the most recognizable pairings in television history. Over the decades, White appeared in thousands of episodes and became an enduring part of American popular culture.\n\nIn addition to Wheel of Fortune, she has made cameo appearances in television programs and films and has been involved in various charitable activities.\n\nWhite is also known for her interest in crochet and knitting and has been associated with a line of yarn products bearing her name.\n\nHer exceptionally long television career has made her one of the most familiar personalities in the history of American game shows.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0294",
+    "product_images": [
+      "images/HEA-0294.jpg"
+    ],
+    "full_description": "Peter Weller\n\nPeter Weller is an American actor, director, and educator best known for starring as police officer Alex Murphy in the science-fiction film RoboCop. He was born on June 24, 1947, in Stevens Point, Wisconsin.\n\nWeller trained as an actor and began his career on stage before moving into film and television. He gained early attention in films such as The Adventures of Buckaroo Banzai Across the 8th Dimension and became internationally recognized for RoboCop in 1987. He reprised the role in RoboCop 2.\n\nHis other film credits include Naked Lunch, Leviathan, Mighty Aphrodite, and Star Trek Into Darkness. On television, Weller has appeared in series including 24, Dexter, Sons of Anarchy, and Longmire.\n\nIn addition to acting, Weller has directed numerous television episodes for series such as Sons of Anarchy, Hawaii Five-0, and The Last Ship.\n\nWeller also pursued advanced academic studies in art history and earned a doctorate in Italian Renaissance art history. His combination of acting, directing, and scholarship has given him an unusually varied career in entertainment and education.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0295",
+    "product_images": [
+      "images/HEA-0295.jpg"
+    ],
+    "full_description": "Peter Weller\n\nPeter Weller is an American actor, director, and educator best known for starring as police officer Alex Murphy in the science-fiction film RoboCop. He was born on June 24, 1947, in Stevens Point, Wisconsin.\n\nWeller trained as an actor and began his career on stage before moving into film and television. He gained early attention in films such as The Adventures of Buckaroo Banzai Across the 8th Dimension and became internationally recognized for RoboCop in 1987. He reprised the role in RoboCop 2.\n\nHis other film credits include Naked Lunch, Leviathan, Mighty Aphrodite, and Star Trek Into Darkness. On television, Weller has appeared in series including 24, Dexter, Sons of Anarchy, and Longmire.\n\nIn addition to acting, Weller has directed numerous television episodes for series such as Sons of Anarchy, Hawaii Five-0, and The Last Ship.\n\nWeller also pursued advanced academic studies in art history and earned a doctorate in Italian Renaissance art history. His combination of acting, directing, and scholarship has given him an unusually varied career in entertainment and education.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0296",
+    "product_images": [
+      "images/HEA-0296.jpg"
+    ],
+    "full_description": "Susan Clark\n\nSusan Clark is a Canadian actress best known for her work in film and television, particularly for starring as Katherine Papadapolis on the sitcom Webster. She was born on March 8, 1943, in Sarnia, Ontario, Canada.\n\nClark began acting professionally in the 1960s and appeared in a wide variety of dramatic and comedic roles. Her film credits include Coogan\u2019s Bluff, Tell Them Willie Boy Is Here, Colossus: The Forbin Project, Night Moves, and Airport 1975.\n\nShe received an Emmy Award for portraying Olympic athlete Babe Didrikson Zaharias in the 1975 television movie Babe.\n\nClark later became especially familiar to television audiences through Webster, which ran from 1983 to 1989. She starred opposite her real-life husband, actor Alex Karras, with Emmanuel Lewis playing their adopted son, Webster.\n\nThroughout her career, Clark appeared in numerous television movies and guest roles and was respected for her versatility in both dramatic and lighthearted parts.\n\nHer long career made her a familiar presence in American television and film from the 1960s through the 1990s.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0297",
+    "product_images": [
+      "images/HEA-0297.jpg"
+    ],
+    "full_description": "Jonathan Brandis (Deceased)\n\nJonathan Brandis was an American actor who became a popular young star during the late 1980s and 1990s. He was born on April 13, 1976, in Danbury, Connecticut.\n\nBrandis began his career as a child model and actor, appearing in commercials before moving into television and film. He gained widespread attention for portraying Bastian Bux in The NeverEnding Story II: The Next Chapter in 1990.\n\nHe also starred as Bill Denbrough in the 1990 television adaptation of Stephen King\u2019s It. One of his best-known roles came in the television series seaQuest DSV, in which he played teenage computer genius Lucas Wolenczak from 1993 to 1996.\n\nBrandis appeared in other films including Ladybugs, Sidekicks, and Outside Providence, as well as numerous television programs. During the height of his popularity, he became a major teen idol and was frequently featured in entertainment and fan magazines.\n\nJonathan Brandis died on November 12, 2003, at age 27, after sustaining injuries from a suicide attempt.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0298",
+    "product_images": [
+      "images/HEA-0298.jpg"
+    ],
+    "full_description": "Florence Henderson (Deceased)\n\nFlorence Henderson was an American actress and singer best known for portraying Carol Brady on the classic television sitcom The Brady Bunch. She was born on February 14, 1934, in Dale, Indiana.\n\nHenderson began her career in musical theater and appeared in Broadway productions including Oklahoma! and Fanny. She also became a frequent television performer and was the first woman to serve as a regular guest host of The Tonight Show.\n\nIn 1969, Henderson was cast as Carol Brady, the mother of a blended family with six children, on The Brady Bunch. The series ran until 1974 and became one of the most enduring family sitcoms in television history. Henderson later reprised the role in numerous Brady Bunch specials, reunion programs, and spin-offs.\n\nShe also appeared on many game shows, variety programs, and television series and competed on Dancing with the Stars in 2010.\n\nHenderson remained closely associated with The Brady Bunch throughout her life and was widely recognized as one of television\u2019s most famous mothers.\n\nFlorence Henderson died on November 24, 2016, at age 82, from heart failure.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0299",
+    "product_images": [
+      "images/HEA-0299.jpg"
+    ],
+    "full_description": "Adrienne Barbeau\n\nAdrienne Barbeau is an American actress, singer, and author known for her work in television, film, and theater. She was born on June 11, 1945, in Sacramento, California.\n\nBarbeau first gained major recognition on Broadway, where she originated the role of Rizzo in the musical Grease. She later became widely known to television audiences as Carol Traynor on the popular sitcom Maude, starring Bea Arthur.\n\nDuring the late 1970s and 1980s, Barbeau became a familiar presence in horror and science-fiction films. Her notable movie credits include The Fog, Escape from New York, Creepshow, and Swamp Thing. She was married for several years to director John Carpenter and appeared in several of his productions.\n\nBarbeau has also worked extensively as a voice actress, lending her distinctive voice to animated television series, video games, and other productions. In later years, she continued appearing in television and film while also publishing several books.\n\nHer career has spanned stage, television, film, voice work, and writing, making her a versatile and enduring figure in American entertainment.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0300",
+    "product_images": [
+      "images/HEA-0300.jpg"
+    ],
+    "full_description": "The Honeymooners\n\nThe Honeymooners was an American television sitcom centered on the everyday lives of working-class couples in Brooklyn, New York. The series starred Jackie Gleason as loud, ambitious bus driver Ralph Kramden and Audrey Meadows as his sharp-witted wife, Alice.\n\nArt Carney played Ralph\u2019s best friend and upstairs neighbor, sewer worker Ed Norton, while Joyce Randolph portrayed Ed\u2019s wife, Trixie.\n\nThe characters first appeared in comedy sketches on Jackie Gleason\u2019s variety programs before The Honeymooners became a weekly half-hour series in 1955. The original series produced 39 episodes during the 1955\u20131956 season, later becoming famous as the \u201cClassic 39.\u201d\n\nMany episodes revolved around Ralph\u2019s get-rich-quick schemes, arguments with Alice, and adventures with Norton. Despite frequent quarrels, the stories generally emphasized the affection and loyalty between the characters.\n\nAlthough its original network run was brief, The Honeymooners became one of television\u2019s most influential sitcoms through decades of reruns. Its characters, catchphrases, and working-class setting influenced numerous later television comedies, including The Flintstones.\n\nThe series remains regarded as a classic of early American television comedy.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
   }
 ];
