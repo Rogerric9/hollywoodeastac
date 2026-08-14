@@ -153,6 +153,18 @@ if (!product) {
               ? "https://schema.org/InStock"
               : "https://schema.org/OutOfStock",
         "itemCondition": "https://schema.org/UsedCondition",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": Number(product.shipping_charge).toFixed(2),
+            "currency": "USD"
+          }
+        },
         "seller": {
           "@type": "Organization",
           "name": "Hollywood East Autographs & Collectibles"

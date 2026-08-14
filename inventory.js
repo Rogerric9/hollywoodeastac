@@ -3687,7 +3687,7 @@ const inventory = [
     "category": "actress",
     "category2": "tv",
     "name": "Beverly Garland - My Three Sons",
-    "description": "Signe d 8x10 B&W photograph.  Not inscribed.",
+    "description": "Signed 8x10 B&W photograph.  Not inscribed.",
     "price": 140.0,
     "product_page": "product-detail.html?id=HEA-0246",
     "status": "",

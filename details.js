@@ -2678,7 +2678,7 @@ const productDetails = [
       "images/HEA-0246.jpg"
     ],
     "full_description": "Beverly Garland (Deceased) (October 17, 1926 \u2013 December 5, 2008) was an American actress known for a long career in film and television, particularly in crime dramas, Westerns, science fiction, and family television.\n\nBorn Beverly Lucy Fessenden in Santa Cruz, California, she began acting in the 1950s and quickly became a familiar face in low-budget feature films and television programs. Her movie credits included It Conquered the World (1956), Not of This Earth (1957), The Alligator People (1959), and numerous Westerns and crime films.\n\nGarland was especially successful on television. She starred in the groundbreaking series Decoy from 1957 to 1958, playing an undercover policewoman, one of the earliest American television series built around a female law-enforcement lead.\n\nShe later became well known as Barbara Harper Douglas on My Three Sons and appeared in many other series, including Perry Mason, Gunsmoke, The Twilight Zone, Lois & Clark: The New Adventures of Superman, and 7th Heaven.\n\nGarland was admired for her versatility and durability as a character actress, with a career that extended for more than five decades.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
   },
