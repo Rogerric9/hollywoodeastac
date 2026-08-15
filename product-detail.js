@@ -164,7 +164,9 @@ if (!product) {
     const structuredProductData = {
       "@context": "https://schema.org",
       "@type": "Product",
-      "name": product.name,
+      "name": String(product.name || "")
+        .replace(/[.,;:!?]+$/, "")
+        .trim(),
       "description":
         product.description ||
         `View ${product.name} from Hollywood East Autographs & Collectibles.`,
