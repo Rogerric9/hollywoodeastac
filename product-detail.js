@@ -112,16 +112,20 @@ if (!product) {
       .replace(/\s+/g, " ")
       .trim();
 
+    const seoProductName = String(product.name || "")
+      .replace(/[.,;:!?]+$/, "")
+      .trim();
+
     const finalDescription = cleanedDescription
       ? (
           product.type === "autograph"
-            ? `${product.name} autograph. ${cleanedDescription}`
-            : `${product.name}. ${cleanedDescription}`
+            ? `${seoProductName} autograph. ${cleanedDescription}`
+            : `${seoProductName}. ${cleanedDescription}`
         )
       : (
           product.type === "autograph"
-            ? `View this ${product.name} autograph from Hollywood East Autographs & Collectibles.`
-            : `View ${product.name} from Hollywood East Autographs & Collectibles.`
+            ? `View this ${seoProductName} autograph from Hollywood East Autographs & Collectibles.`
+            : `View ${seoProductName} from Hollywood East Autographs & Collectibles.`
         );
 
     const metaDescriptionText =
