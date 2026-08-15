@@ -62,14 +62,17 @@ if (!product) {
     "<p>Sorry, this product could not be found.</p>";
   addToCartButton.style.display = "none";
 } else {
+  const seoTitleProductName = String(product.name || "")
+    .replace(/[.,;:!?]+$/, "")
+    .trim();
+
   if (product.type === "autograph") {
     document.title =
-      `${product.name} Autograph | Hollywood East Autographs & Collectibles`;
+      `${seoTitleProductName} Autograph | Hollywood East Autographs & Collectibles`;
   } else {
     document.title =
-      `${product.name} | Hollywood East Autographs & Collectibles`;
+      `${seoTitleProductName} | Hollywood East Autographs & Collectibles`;
   }
-
   let canonicalLink = document.querySelector(
     'link[rel="canonical"]'
   );
