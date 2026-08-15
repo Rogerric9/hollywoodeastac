@@ -124,9 +124,14 @@ if (!product) {
             : `View ${product.name} from Hollywood East Autographs & Collectibles.`
         );
 
+    const metaDescriptionText =
+      finalDescription.length > 300
+        ? finalDescription.slice(0, 300).replace(/\s+\S*$/, "")
+        : finalDescription;
+
     metaDescription.setAttribute(
       "content",
-      finalDescription.slice(0, 300)
+      metaDescriptionText
     );
   }
   let shippingAmount = 0;
