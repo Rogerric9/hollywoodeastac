@@ -92,33 +92,33 @@ if (!product) {
     'meta[name="description"]'
   );
 
+  const shortDescription = product.description || "";
+
+  const fullDescription =
+    details && details.full_description
+      ? (
+          Array.isArray(details.full_description)
+            ? details.full_description.join(" ")
+            : details.full_description
+        )
+      : "";
+
+  const descriptionText = [
+    shortDescription,
+    fullDescription
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  const cleanedDescription = String(descriptionText)
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const seoProductName = String(product.name || "")
+    .replace(/[.,;:!?]+$/, "")
+    .trim();
+
   if (metaDescription) {
-    const shortDescription = product.description || "";
-
-    const fullDescription =
-      details && details.full_description
-        ? (
-            Array.isArray(details.full_description)
-              ? details.full_description.join(" ")
-              : details.full_description
-          )
-        : "";
-
-    const descriptionText = [
-      shortDescription,
-      fullDescription
-    ]
-      .filter(Boolean)
-      .join(" ");
-
-    const cleanedDescription = String(descriptionText)
-      .replace(/\s+/g, " ")
-      .trim();
-
-    const seoProductName = String(product.name || "")
-      .replace(/[.,;:!?]+$/, "")
-      .trim();
-
     const finalDescription = cleanedDescription
       ? (
           product.type === "autograph"
@@ -167,9 +167,8 @@ if (!product) {
       "name": String(product.name || "")
         .replace(/[.,;:!?]+$/, "")
         .trim(),
-      "description":
-        product.description ||
-        `View ${product.name} from Hollywood East Autographs & Collectibles.`,
+      "description": cleanedDescription ||
+        `View ${seoProductName} from Hollywood East Autographs & Collectibles.`,
       "sku": product.product_id,
       "url": productUrl,
       "image":
