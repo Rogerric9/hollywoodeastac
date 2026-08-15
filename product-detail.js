@@ -62,8 +62,13 @@ if (!product) {
     "<p>Sorry, this product could not be found.</p>";
   addToCartButton.style.display = "none";
 } else {
-  document.title =
-    `${product.name} | Hollywood East Autographs & Collectibles`;
+  if (product.type === "autograph") {
+    document.title =
+      `${product.name} Autograph | Hollywood East Autographs & Collectibles`;
+  } else {
+    document.title =
+      `${product.name} | Hollywood East Autographs & Collectibles`;
+  }
 
   let canonicalLink = document.querySelector(
     'link[rel="canonical"]'
@@ -85,30 +90,43 @@ if (!product) {
   );
 
   if (metaDescription) {
-    const descriptionText =
-      product.description ||
-      (
-        details &&
-        details.full_description
-          ? (
-              Array.isArray(details.full_description)
-                ? details.full_description.join(" ")
-                : details.full_description
-            )
-          : ""
-      );
+    const shortDescription = product.description || "";
+
+    const fullDescription =
+      details && details.full_description
+        ? (
+            Array.isArray(details.full_description)
+              ? details.full_description.join(" ")
+              : details.full_description
+          )
+        : "";
+
+    const descriptionText = [
+      shortDescription,
+      fullDescription
+    ]
+      .filter(Boolean)
+      .join(" ");
 
     const cleanedDescription = String(descriptionText)
       .replace(/\s+/g, " ")
       .trim();
 
     const finalDescription = cleanedDescription
-      ? `${product.name}. ${cleanedDescription}`
-      : `View ${product.name} from Hollywood East Autographs & Collectibles.`;
+      ? (
+          product.type === "autograph"
+            ? `${product.name} autograph. ${cleanedDescription}`
+            : `${product.name}. ${cleanedDescription}`
+        )
+      : (
+          product.type === "autograph"
+            ? `View this ${product.name} autograph from Hollywood East Autographs & Collectibles.`
+            : `View ${product.name} from Hollywood East Autographs & Collectibles.`
+        );
 
     metaDescription.setAttribute(
       "content",
-      finalDescription.slice(0, 160)
+      finalDescription.slice(0, 300)
     );
   }
   let shippingAmount = 0;
@@ -186,7 +204,11 @@ if (!product) {
       JSON.stringify(structuredProductData);
   }
 
-  productName.textContent = product.name;
+  if (product.type === "autograph") {
+    productName.textContent = `${product.name} Autograph`;
+  } else {
+    productName.textContent = product.name;
+  }
   productNumber.textContent = `Product No. ${product.product_id}`;
   productPrice.textContent = `$${product.price}`;
 
