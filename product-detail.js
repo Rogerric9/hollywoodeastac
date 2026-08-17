@@ -217,11 +217,7 @@ if (!product) {
       JSON.stringify(structuredProductData);
   }
 
-  if (product.type === "autograph") {
-    productName.textContent = `${product.name} Autograph`;
-  } else {
-    productName.textContent = product.name;
-  }
+  productName.textContent = product.name;
   productNumber.textContent = `Product No. ${product.product_id}`;
   productPrice.textContent = `$${product.price}`;
 
