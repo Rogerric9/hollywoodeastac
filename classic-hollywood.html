@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GT-K4ZWZCK7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'GT-K4ZWZCK7');
+  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Hollywood Autographs | Hollywood East Autographs & Collectibles</title>
+    <meta name="description" content="Browse classic Hollywood autographs from vintage film and television celebrities available from Hollywood East Autographs & Collectibles.">
+    <link rel="canonical" href="https://hollywoodeastac.com/classic-hollywood.html">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Classic Hollywood Autographs</h1>
+    <p>Authentic autographs from film, television, music, sports, and history</p>
+
+    <nav>
+      <a href="index.html">Home</a>
+
+      <div class="catalog-menu">
+        <a href="catalog.html?type=autograph" id="catalog-menu-link">Autographs</a>
+
+        <div id="category-dropdown" class="category-dropdown"></div>
+      </div>
+      <div class="collectibles-menu">
+        <a href="catalog.html?type=collectible" id="collectibles-menu-link">
+          Collectibles
+        </a>
+
+        <div
+          id="collectibles-category-dropdown"
+          class="category-dropdown"
+        ></div>
+      </div>
+      <a href="cart.html" class="cart-menu-link" aria-label="Shopping cart">
+  <span class="cart-icon">
+    <svg class="cart-svg" viewBox="0 0 64 64" aria-hidden="true">
+      <path d="M12 18l7 24h30l7-24"></path>
+      <circle cx="25" cy="51" r="4"></circle>
+      <circle cx="47" cy="51" r="4"></circle>
+    </svg>
+    <span id="cart-count" class="cart-count">0</span>
+  </span>
+</a>
+      <a href="ordering.html">Ordering</a>
+      <a href="returns.html">Returns</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </header>
+
+  <main>
+    <section>
+      <p>
+        Explore a rotating selection of classic Hollywood autographs from vintage film and television 
+        actors and actresses. Each signed item is available from Hollywood East Autographs & Collectibles, 
+        with new selections featured periodically from our vintage autograph inventory.
+      </p>
+
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+  </main>
+
+<footer>
+  <p>&copy; 2026 Hollywood East Autographs & Collectibles</p>
+  <p><a href="product-index.html" style="color: white;">Product Index</a></p>
+</footer>
+
+<script src="inventory.js"></script>
+<script src="details.js"></script>
+<script src="classic-hollywood.js"></script>
+<script src="menu.js"></script>
+
+<script>
+  const productGrid = document.getElementById("product-grid");
+
+  classicHollywoodProducts.forEach((product) => {
+    const details = productDetails.find(
+      (item) => item.product_id === product.product_id
+    );
+
+    const mainImage =
+      details && details.product_images && details.product_images.length > 0
+        ? details.product_images[0]
+        : "images/no-image-available.jpg";
+
+    productGrid.innerHTML += `
+      <div class="product-card">
+
+        <a
+          href="products/product.html?id=${product.product_id}"
+          style="display:inline-block; padding:0; border:0; outline:0; box-shadow:none; background:none;"
+        >
+          <img
+            src="${mainImage}"
+            alt="${product.name}"
+            style="display:block; border:1px solid black; outline:0; box-shadow:none;"
+            onerror="this.onerror=null; this.src='images/no-image-available.jpg';"
+          >
+        </a>
+
+        <h3>${product.name}</h3>
+
+        <p class="product-number">${product.product_id}</p>
+
+        <p>${product.description}</p>
+
+        <p class="price">$${product.price}</p>
+
+        <a class="button" href="products/product.html?id=${product.product_id}">
+          View Details
+        </a>
+
+        <button class="add-to-cart" data-product-id="${product.product_id}">
+          Add to Cart
+        </button>
+      </div>
+    `;
+  });
+</script>
+
+</body>
+</html>

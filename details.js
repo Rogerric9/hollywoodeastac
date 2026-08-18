@@ -3231,5 +3231,175 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0301",
+    "product_images": [
+      "images/HEA-0301.jpg"
+    ],
+    "full_description": "Kevin McCarthy (Deceased) was an American actor best known for starring as Dr. Miles Bennell in the classic 1956 science-fiction film \"Invasion of the Body Snatchers.\" His intense performance helped make the film one of the most enduring and influential science-fiction movies of the 1950s.\n\nBorn February 15, 1914, in Seattle, Washington, McCarthy earned major recognition for portraying Biff Loman in the 1951 film adaptation of Arthur Miller's \"Death of a Salesman.\" His performance earned him an Academy Award nomination for Best Supporting Actor and a Golden Globe Award.\n\nMcCarthy enjoyed a career spanning more than seven decades, working extensively in motion pictures, television, and theater. He appeared in numerous films and television series and later made a memorable cameo in the 1978 remake of \"Invasion of the Body Snatchers.\"\n\nKevin McCarthy died on September 11, 2010, at age 96. His strong association with \"Invasion of the Body Snatchers,\" classic science-fiction cinema, and vintage Hollywood makes his autograph especially desirable to collectors of movie memorabilia, horror, and science-fiction autographs.",
+    "authentication_info": "None",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Portrayed Biff Loman in the 1951 film adaptation of Arthur Miller\u2019s Death of a Salesman. The performance brought him an Academy Award nomination for Best Supporting Actor and a Golden Globe Award."
+  },
+  {
+    "product_id": "HEA-0302",
+    "product_images": [
+      "images/HEA-0302.jpg"
+    ],
+    "full_description": "Joe Don Baker (Deceased) was an American actor known for his rugged screen presence and memorable roles in crime films, action movies, and television.\n\nBorn February 12, 1936, in Groesbeck, Texas, Baker gained national attention portraying real-life Tennessee sheriff Buford Pusser in the 1973 film \"Walking Tall.\" The role became one of his most famous performances and established him as a powerful leading man of 1970s cinema.\n\nBaker also appeared in \"Charley Varrick,\" \"The Natural,\" \"Fletch,\" \"Cape Fear,\" and the cult action film \"Mitchell.\" James Bond fans remember him for playing villain Brad Whitaker in \"The Living Daylights\" and CIA agent Jack Wade in both \"GoldenEye\" and \"Tomorrow Never Dies.\"\n\nHis television work included the acclaimed British miniseries \"Edge of Darkness,\" along with numerous guest appearances throughout his long career.\n\nJoe Don Baker died on May 7, 2025, at age 89. His association with \"Walking Tall,\" the James Bond franchise, classic crime films, and action cinema makes his autograph especially appealing to collectors of Hollywood and movie memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0303",
+    "product_images": [
+      "images/HEA-0303.jpg"
+    ],
+    "full_description": "Jane Wyatt (Deceased) was an American actress best known for portraying Margaret Anderson, the warm and level-headed mother on the classic television series \"Father Knows Best.\"\n\nBorn August 12, 1910, in Mahwah, New Jersey, Wyatt began her career on stage before moving into motion pictures. Her film credits included \"Lost Horizon,\" \"None but the Lonely Heart,\" and \"Gentleman's Agreement.\"\n\nWyatt became a familiar television presence through \"Father Knows Best,\" which aired during the 1950s and 1960s. Her performance as Margaret Anderson earned her three Primetime Emmy Awards and helped establish her as one of television's most recognizable screen mothers.\n\nScience-fiction fans also remember Wyatt for portraying Amanda Grayson, the human mother of Spock, in the \"Star Trek\" episode \"Journey to Babel.\" She later returned to the role in \"Star Trek IV: The Voyage Home.\"\n\nJane Wyatt died on October 20, 2006, at age 96. Her connections to \"Father Knows Best,\" classic Hollywood films, and \"Star Trek\" make her autograph especially appealing to collectors of vintage television, science-fiction, and entertainment memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0304",
+    "product_images": [
+      "images/HEA-0304.jpg"
+    ],
+    "full_description": "Richard White is an American actor, singer, and accomplished stage performer best known as the original voice of Gaston in Disney's acclaimed 1991 animated film \"Beauty and the Beast.\"\n\nBorn in 1953, White developed a career combining acting with his powerful baritone singing voice. His performance as the arrogant and boastful Gaston made the character one of Disney animation's most recognizable villains. He performed memorable songs including \"Gaston\" and \"The Mob Song.\"\n\nWhite has also enjoyed an extensive career in musical theater and opera. His stage credits include productions of \"Show Boat,\" \"Carousel,\" \"Camelot,\" \"The Most Happy Fella,\" \"Jekyll & Hyde,\" and \"Gigi.\" He also created the title role of Erik in the stage musical \"Phantom.\"\n\nWhite later returned to the character of Gaston in Disney's animated television series \"House of Mouse\" and other Disney productions and projects.\n\nRichard White's lasting association with Gaston, \"Beauty and the Beast,\" Disney animation, Broadway, and musical theater makes his autograph especially appealing to collectors of Disney memorabilia, animation collectibles, and entertainment autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0305",
+    "product_images": [
+      "images/HEA-0305.jpg"
+    ],
+    "full_description": "Jane Russell (Deceased) was an American actress, singer, and Hollywood sex symbol best known for her glamorous screen presence and starring roles during the 1940s and 1950s.\n\nBorn June 21, 1921, in Bemidji, Minnesota, Russell rose to fame after being cast by Howard Hughes in the western \"The Outlaw.\" The film's publicity made her one of the most recognizable actresses of her era.\n\nRussell went on to star in numerous popular films, including \"His Kind of Woman,\" \"Macao,\" \"The Las Vegas Story,\" and \"The Tall Men.\" One of her most famous roles came opposite Marilyn Monroe in the 1953 musical comedy \"Gentlemen Prefer Blondes,\" in which she played Dorothy Shaw. Her performance and musical numbers helped make the film a classic of Golden Age Hollywood.\n\nIn addition to acting, Russell enjoyed success as a singer and recording artist and later appeared on television and in stage productions.\n\nJane Russell died on February 28, 2011, at age 89. Her association with \"Gentlemen Prefer Blondes,\" Marilyn Monroe, Howard Hughes, and classic Hollywood makes her autograph especially desirable to collectors of vintage movie memorabilia and Golden Age entertainment autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0306",
+    "product_images": [
+      "images/HEA-0306.jpg"
+    ],
+    "full_description": "Marjorie Reynolds (Deceased) was an American actress and dancer best known for her work in classic Hollywood films and for starring opposite Bing Crosby and Fred Astaire in the 1942 musical \"Holiday Inn.\"\n\nBorn August 12, 1917, in Buhl, Idaho, Reynolds began appearing in films as a child and later developed a successful career as a leading lady during the 1930s, 1940s, and 1950s. Her role as Linda Mason in \"Holiday Inn\" remains her most famous screen performance. The film introduced the Irving Berlin song \"White Christmas\" and became a lasting favorite of American musical cinema.\n\nReynolds appeared in numerous other films, including \"The Life of Riley,\" \"Ministry of Fear,\" and \"Up in Mabel's Room.\" She also worked extensively in television and became especially familiar to audiences through the sitcom \"The Life of Riley,\" in which she portrayed Peg Riley.\n\nMarjorie Reynolds died on February 1, 1997, at age 79. Her association with \"Holiday Inn,\" Bing Crosby, Fred Astaire, classic Hollywood musicals, and vintage television makes her autograph appealing to collectors of Golden Age movie memorabilia and entertainment autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0307",
+    "product_images": [
+      "images/HEA-0307.jpg"
+    ],
+    "full_description": "Dick Patterson (Deceased) was an American actor, comedian, singer, and dancer known for his work on Broadway, in motion pictures, and on television.\n\nBorn April 11, 1929, in Clear Lake, Iowa, Patterson gained important early recognition in musical theater. He replaced Dick Van Dyke in the role of Albert Peterson in the original Broadway production of \"Bye Bye Birdie,\" establishing himself as a talented musical comedy performer.\n\nPatterson later built a varied screen career with appearances in films and television. He is especially remembered by movie audiences for playing Mr. Rudie in the hit 1978 musical film \"Grease,\" starring John Travolta and Olivia Newton-John. He also appeared in \"The Killer Inside Me,\" \"Can't Stop the Music,\" and \"Grease 2.\"\n\nHis television credits included appearances in a wide range of comedy and dramatic programs, demonstrating the versatility that characterized his long entertainment career.\n\nDick Patterson died on September 20, 1999, at age 70. His connections to \"Bye Bye Birdie,\" \"Grease,\" Broadway musical theater, and classic film comedy make his autograph appealing to collectors of Hollywood, Broadway, and musical memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Rare"
+  },
+  {
+    "product_id": "HEA-0308",
+    "product_images": [
+      "images/HEA-0308.jpg"
+    ],
+    "full_description": "Tony Orlando is an American singer, entertainer, and television personality best known as the lead singer of Tony Orlando and Dawn, one of the most successful pop groups of the 1970s.\n\nBorn April 3, 1944, in New York City, Orlando began recording as a teenager and later achieved major fame with Dawn. The group scored a series of hit songs, including \"Knock Three Times,\" \"Candida,\" \"Tie a Yellow Ribbon Round the Ole Oak Tree,\" and \"He Don't Love You (Like I Love You).\" \"Tie a Yellow Ribbon Round the Ole Oak Tree\" became one of the defining pop songs of the decade.\n\nOrlando also became a popular television star through the variety series \"Tony Orlando and Dawn,\" which featured music, comedy, and celebrity guests.\n\nIn addition to his recording and television career, Orlando has remained active as a live performer and entertainer for decades, earning a lasting place in American pop culture.\n\nTony Orlando's association with Tony Orlando and Dawn, 1970s pop music, classic television variety shows, and hit songs such as \"Tie a Yellow Ribbon Round the Ole Oak Tree\" makes his autograph especially appealing to collectors of music, television, and entertainment memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0309",
+    "product_images": [
+      "images/HEA-0309.jpg"
+    ],
+    "full_description": "Gavin MacLeod (Deceased) was an American actor best known for his memorable television roles on \"The Mary Tyler Moore Show\" and \"The Love Boat.\"\n\nBorn February 28, 1931, in Mount Kisco, New York, MacLeod built a long career in film and television. He appeared in movies including \"Operation Petticoat,\" \"The Sand Pebbles,\" and \"Kelly's Heroes.\"\n\nMacLeod became widely known for portraying news writer Murray Slaughter on the acclaimed sitcom \"The Mary Tyler Moore Show.\" He later achieved even greater fame as Captain Merrill Stubing on the popular television series \"The Love Boat,\" which ran from 1977 to 1986 and became one of the most recognizable TV programs of its era.\n\nHis television career also included numerous guest appearances on classic series such as \"Hogan's Heroes,\" \"Perry Mason,\" and \"McHale's Navy.\"\n\nGavin MacLeod died on May 29, 2021, at age 90. His strong association with \"The Love Boat,\" \"The Mary Tyler Moore Show,\" classic television, and Hollywood entertainment makes his autograph especially appealing to collectors of vintage TV memorabilia and celebrity autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0310",
+    "product_images": [
+      "images/HEA-0310.jpg"
+    ],
+    "full_description": "Marjorie Lord (Deceased) was an American actress best known for portraying Kathy Williams on the classic television sitcom \"The Danny Thomas Show,\" also known as \"Make Room for Daddy.\"\n\nBorn July 26, 1918, in San Francisco, California, Lord began her career in films during the 1930s and appeared in numerous motion pictures before becoming a familiar television performer. Her film credits included \"Sherlock Holmes in Washington,\" \"The Strange Mrs. Crane,\" and \"The Lost Volcano.\"\n\nLord achieved her greatest fame after joining \"The Danny Thomas Show\" as Kathy Williams, the second wife of Danny Williams, played by Danny Thomas. She remained a central cast member for many seasons and became closely identified with one of television's most popular family comedies of the 1950s and 1960s.\n\nShe also made guest appearances on other television programs throughout her career.\n\nMarjorie Lord died on November 28, 2015, at age 97. Her association with \"The Danny Thomas Show,\" Danny Thomas, classic television comedy, and Golden Age Hollywood makes her autograph especially appealing to collectors of vintage television and entertainment memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0311",
+    "product_images": [
+      "images/HEA-0311.jpg"
+    ],
+    "full_description": "Perry King is an American actor best known for his work in film and television, particularly his starring role as Cody Allen in the 1980s detective series \"Riptide.\"\n\nBorn April 30, 1948, in Alliance, Ohio, King began building his screen career in the 1970s and appeared in films such as \"The Lords of Flatbush,\" \"Mandingo,\" \"Lipstick,\" and \"Class of 1984.\"\n\nKing became especially familiar to television audiences through \"Riptide,\" in which he starred alongside Joe Penny and Thom Bray. The action-adventure series followed a team of private investigators and became a popular part of 1980s television.\n\nHis many other television credits include appearances in \"The Hasty Heart,\" \"Melrose Place,\" \"Spin City,\" and numerous television movies and guest roles.\n\nWith a career spanning decades, Perry King remains closely associated with 1970s and 1980s film and television. His connections to \"Riptide,\" classic television, crime dramas, and vintage Hollywood make his autograph appealing to collectors of television and entertainment memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0312",
+    "product_images": [
+      "images/HEA-0312.jpg"
+    ],
+    "full_description": "Ben E. King (Deceased) was an American soul and R&B singer best known for his powerful voice and the enduring classic \"Stand by Me.\"\n\nBorn Benjamin Earl Nelson on September 28, 1938, in Henderson, North Carolina, King first gained national fame as a member of The Drifters. With the group, he sang lead on major hits including \"There Goes My Baby,\" \"Save the Last Dance for Me,\" and \"This Magic Moment.\"\n\nKing launched a successful solo career in the early 1960s and recorded \"Stand by Me\" in 1961. The song became his signature recording and later reached new generations through the 1986 film \"Stand by Me.\" His other solo hits included \"Spanish Harlem,\" \"Don't Play That Song (You Lied),\" and \"I (Who Have Nothing).\"\n\nKing's recordings helped define the sound of early soul music, blending rhythm and blues, pop, and gospel influences. His distinctive vocal style influenced generations of singers and musicians.\n\nBen E. King died on April 30, 2015, at age 76. His association with The Drifters, \"Stand by Me,\" classic soul, R&B, and 1960s popular music makes his autograph especially appealing to collectors of music memorabilia and vintage entertainment autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0313",
+    "product_images": [
+      "images/HEA-0313.jpg"
+    ],
+    "full_description": "Anjelica Huston is an American actress, director, and former fashion model known for her distinctive screen presence and acclaimed performances in film and television.\n\nBorn July 8, 1951, in Santa Monica, California, Huston is the daughter of legendary director John Huston and the granddaughter of actor Walter Huston. She won the Academy Award for Best Supporting Actress for her performance as Maerose Prizzi in the 1985 film \"Prizzi's Honor,\" directed by her father.\n\nHuston is also widely recognized for portraying Morticia Addams in \"The Addams Family\" and \"Addams Family Values,\" roles that became among the most iconic of her career. Her other notable films include \"The Witches,\" \"The Grifters,\" \"The Royal Tenenbaums,\" \"Ever After,\" and \"The Darjeeling Limited.\"\n\nHer television work includes prominent appearances in series such as \"Smash\" and \"Transparent.\" Huston has also directed films and written memoirs about her life and career.\n\nAnjelica Huston's connections to \"The Addams Family,\" \"Prizzi's Honor,\" Academy Award-winning performances, and the celebrated Huston acting dynasty make her autograph especially appealing to collectors of Hollywood, film, and television memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0314",
+    "product_images": [
+      "images/HEA-0314.jpg"
+    ],
+    "full_description": "Holly Hunter is an American actress known for her distinctive voice, intense performances, and acclaimed work in film and television.\n\nBorn March 20, 1958, in Conyers, Georgia, Hunter became one of the most respected actresses of her generation. She won the Academy Award for Best Actress for her performance as Ada McGrath in the 1993 drama \"The Piano.\"\n\nHunter is also widely remembered for starring as Edwina \"Ed\" McDunnough opposite Nicolas Cage in the Coen brothers comedy \"Raising Arizona.\" The 1987 film became a cult classic and remains one of her most recognizable early roles.\n\nHer other notable films include \"Broadcast News,\" \"The Firm,\" \"Thirteen,\" \"Always,\" \"Copycat,\" \"Home for the Holidays,\" \"O Brother, Where Art Thou?,\" and \"Batman v Superman: Dawn of Justice.\" She also voiced Helen Parr, also known as Elastigirl, in Pixar's \"The Incredibles\" and \"Incredibles 2.\"\n\nHunter has also enjoyed major success on television, including Emmy Award-winning performances and the series \"Saving Grace.\"\n\nHolly Hunter's association with \"Raising Arizona,\" \"The Piano,\" \"Broadcast News,\" \"The Incredibles,\" and Academy Award-winning performances makes her autograph especially appealing to collectors of Hollywood and entertainment memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0315",
+    "product_images": [
+      "images/HEA-0315.jpg"
+    ],
+    "full_description": "Mary-Margaret Humes is an American actress best known for portraying Gail Leery, the mother of Dawson Leery, on the popular television drama \"Dawson's Creek.\"\n\nBorn April 4, 1954, in Watertown, New York, Humes began her career as a beauty pageant contestant before moving into acting. She was crowned Miss Florida USA and later appeared in numerous television series and films.\n\nHumes became especially familiar to audiences through \"Dawson's Creek,\" where she played Gail Leery throughout much of the show's run. Her television credits also include appearances in \"The Dukes of Hazzard,\" \"Knight Rider,\" \"The A-Team,\" \"Matlock,\" \"Murphy Brown,\" and \"Touched by an Angel.\"\n\nShe has also appeared in television movies and family-oriented productions, continuing to work steadily across several decades.\n\nMary-Margaret Humes' association with \"Dawson's Creek,\" classic television dramas, 1980s and 1990s TV, and long-running network series makes her autograph especially appealing to collectors of television and entertainment memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0316",
+    "product_images": [
+      "images/HEA-0316.jpg"
+    ],
+    "full_description": "John Forsythe (Deceased) was an American actor best known for his elegant voice, sophisticated screen presence, and major roles in classic television.\n\nBorn January 29, 1918, in Penns Grove, New Jersey, Forsythe enjoyed a career spanning film, television, radio, and stage. He became widely known as Bentley Gregg on the popular sitcom \"Bachelor Father,\" which aired from 1957 to 1962.\n\nForsythe later achieved even greater fame as the unseen voice of mysterious millionaire Charles Townsend on the hit television series \"Charlie's Angels.\" His distinctive voice became one of the show's trademarks.\n\nIn the 1980s, Forsythe starred as wealthy oil tycoon Blake Carrington on the prime-time drama \"Dynasty.\" The series became one of the defining television hits of the decade and made Forsythe an international star. His performance earned him multiple Golden Globe Awards.\n\nHis film credits included \"The Trouble with Harry,\" \"In Cold Blood,\" and \"Scrooged.\"\n\nJohn Forsythe died on April 1, 2010, at age 92. His association with \"Dynasty,\" \"Charlie's Angels,\" \"Bachelor Father,\" and classic American television makes his autograph especially appealing to collectors of vintage TV, Hollywood, and entertainment memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0317",
+    "product_images": [
+      "images/HEA-0317.jpg"
+    ],
+    "full_description": "Laraine Day (Deceased) was an American actress best known for her work in classic Hollywood films during the 1930s, 1940s, and 1950s.\n\nBorn October 13, 1920, in Roosevelt, Utah, Day became especially popular for portraying Nurse Mary Lamont in MGM's \"Dr. Kildare\" film series opposite Lew Ayres and Lionel Barrymore. The role made her one of the most recognizable actresses associated with the long-running medical drama franchise.\n\nDay also appeared in notable films including \"Foreign Correspondent,\" directed by Alfred Hitchcock, \"The Locket,\" \"Mr. Lucky,\" \"My Son, My Son!,\" and \"The High and the Mighty.\" Her performances ranged from romantic drama to suspense and adventure.\n\nIn addition to her film career, Day worked in radio and television and remained a familiar figure to audiences for many years.\n\nLaraine Day died on November 10, 2007, at age 87. Her association with the \"Dr. Kildare\" films, Alfred Hitchcock's \"Foreign Correspondent,\" MGM, and Golden Age Hollywood makes her autograph especially appealing to collectors of classic movie memorabilia and vintage celebrity autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
   }
 ];
