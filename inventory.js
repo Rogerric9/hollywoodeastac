@@ -4123,7 +4123,7 @@ const inventory = [
   {
     "product_id": "HEA-0300",
     "type": "autograph",
-    "category": "actor",
+    "category": "vintage",
     "category2": "",
     "name": "Art Carney and Joyce Randolph - Honeymooners",
     "description": "Signed 8x10 B&W photograph as the Nortons.  Not inscribed",

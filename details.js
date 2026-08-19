@@ -85,8 +85,8 @@ const productDetails = [
     "product_images": [
       "images/HEA-0009.jpg"
     ],
-    "full_description": "Fats Domino (February 26, 1928\u2013October 24, 2017) was an American singer, pianist, and songwriter who became one of the pioneers of rock and roll. Known for his warm voice and distinctive New Orleans piano style, he recorded enduring hits such as *Blueberry Hill*, *Ain\u2019t That a Shame*, and *I\u2019m Walkin\u2019*.",
-    "authentication_info": "",
+    "full_description": "Fats Domino - Deceased (February 26, 1928\u2013October 24, 2017) was an American singer, pianist, and songwriter who became one of the pioneers of rock and roll. Known for his warm voice and distinctive New Orleans piano style, he recorded enduring hits such as *Blueberry Hill*, *Ain\u2019t That a Shame*, and *I\u2019m Walkin\u2019*.",
+    "authentication_info": "None",
     "condition_notes": "Excelleny condition.",
     "miscellaneous": ""
   },
@@ -105,8 +105,8 @@ const productDetails = [
     "product_images": [
       "images/HEA-0011.jpg"
     ],
-    "full_description": "C. Everett Koop (October 14, 1916\u2013February 25, 2013) was an American pediatric surgeon and public health official who served as Surgeon General of the United States from 1982 to 1989. He became widely known for his outspoken leadership on smoking, AIDS awareness, and preventive health.\n\nKoop became one of the country\u2019s strongest anti-smoking public-health advocates. He emphasized the dangers of smoking and secondhand smoke and helped make the Surgeon General\u2019s office a much more visible force in tobacco education",
-    "authentication_info": "",
+    "full_description": "C. Everett Koop - Deceased  (October 14, 1916\u2013February 25, 2013) was an American pediatric surgeon and public health official who served as Surgeon General of the United States from 1982 to 1989. He became widely known for his outspoken leadership on smoking, AIDS awareness, and preventive health.\n\nKoop became one of the country\u2019s strongest anti-smoking public-health advocates. He emphasized the dangers of smoking and secondhand smoke and helped make the Surgeon General\u2019s office a much more visible force in tobacco education",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -155,8 +155,8 @@ const productDetails = [
     "product_images": [
       "images/HEA-0016.jpg"
     ],
-    "full_description": "Rosemary Clooney (May 23, 1928 \u2013 June 29, 2002) was an American singer and actress known for her warm, expressive voice and classic pop recordings. She rose to fame in the 1950s with hits including \u201cCome On-a My House,\u201d \u201cHey There,\u201d and \u201cMambo Italiano.\u201d Clooney also appeared in films such as *White Christmas* and enjoyed a successful later career as a respected jazz and standards vocalist.",
-    "authentication_info": "",
+    "full_description": "Rosemary Clooney - Deceased (May 23, 1928 \u2013 June 29, 2002) was an American singer and actress known for her warm, expressive voice and classic pop recordings. She rose to fame in the 1950s with hits including \u201cCome On-a My House,\u201d \u201cHey There,\u201d and \u201cMambo Italiano.\u201d Clooney also appeared in films such as *White Christmas* and enjoyed a successful later career as a respected jazz and standards vocalist.",
+    "authentication_info": "None",
     "condition_notes": "Excellant condition.",
     "miscellaneous": ""
   },
