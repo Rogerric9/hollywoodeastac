@@ -5367,5 +5367,31 @@ const inventory = [
     "quantity_available": 1,
     "shipping_class": "standard",
     "shipping_charge": ""
+  },
+  {
+    "product_id": "HEC-0100",
+    "type": "collectible",
+    "category": "photos",
+    "category2": "",
+    "name": "Joan Collins - Dynasty",
+    "description": "8x10 color photograph",
+    "price": 10.99,
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
+  },
+  {
+    "product_id": "HEC-0101",
+    "type": "collectible",
+    "category": "photos",
+    "category2": "",
+    "name": "Robin Williams - Good Will Hunting",
+    "description": "8x10 color photograph",
+    "price": 14.99,
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
   }
 ];

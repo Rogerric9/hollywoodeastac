@@ -4134,5 +4134,25 @@
       <g:price>16.99 USD</g:price>
       <g:condition>used</g:condition>
     </item>
+    <item>
+      <g:id>HEC-0100</g:id>
+      <g:title>Joan Collins - Dynasty</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0100</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0100.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0101</g:id>
+      <g:title>Robin Williams - Good Will Hunting</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0101</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0101.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
   </channel>
 </rss>

@@ -4171,5 +4171,25 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0100",
+    "product_images": [
+      "images/HEC-0100.jpg"
+    ],
+    "full_description": "Joan Collins (born May 23, 1933) is an English actress, author, and producer whose career has spanned more than seven decades. She began acting professionally as a teenager and became a contract player for 20th Century Fox during the 1950s. Her early film credits include \"The Girl in the Red Velvet Swing,\" \"Land of the Pharaohs,\" \"The Virgin Queen,\" and \"The Wayward Bus.\"\n\nCollins appeared in numerous films and television programs throughout the 1960s and 1970s, including memorable guest roles on such series as \"Star Trek,\" in the acclaimed episode \"The City on the Edge of Forever.\" She also starred in the films \"The Stud\" and \"The Bitch,\" which helped revive her screen career in the late 1970s.\n\nHer most famous role came in 1981 when she joined the hit television drama \"Dynasty\" as the glamorous and scheming Alexis Carrington Colby. The character became one of television's most recognizable villains and earned Collins international fame, a Golden Globe Award, and multiple Emmy nominations.\n\nIn addition to acting, Collins has written novels, memoirs, and books about beauty and lifestyle. She was made a Dame Commander of the Order of the British Empire in 2015 for her services to charity.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0101",
+    "product_images": [
+      "images/HEC-0101.jpg"
+    ],
+    "full_description": "Robin Williams (Deceased) (1951\u20132014) was an American actor and comedian celebrated for his rapid-fire improvisation, energetic humor, and remarkable dramatic range. He first gained national attention playing the eccentric alien Mork on the television series \"Mork & Mindy,\" a role that made him one of the most popular comedy stars of the late 1970s.\n\nWilliams went on to build an extraordinary film career. His best-known movies include \"Good Morning, Vietnam,\" \"Dead Poets Society,\" \"Awakenings,\" \"The Fisher King,\" \"Mrs. Doubtfire,\" \"Jumanji,\" \"The Birdcage,\" and \"Patch Adams.\" He also provided the unforgettable voice of the Genie in Disney's animated classic \"Aladdin.\"\n\nAlthough famous for comedy, Williams earned widespread praise for serious dramatic performances. He won the Academy Award for Best Supporting Actor for his portrayal of psychologist Sean Maguire in \"Good Will Hunting\" and received additional Oscar nominations for \"Good Morning, Vietnam,\" \"Dead Poets Society,\" and \"The Fisher King.\"\n\nHis career also included acclaimed stage work, stand-up comedy specials, and numerous television appearances. Known for his extraordinary ability to shift instantly between characters, accents, and emotional tones, Williams became one of the most distinctive entertainers of his generation.\n\nRobin Williams died on August 11, 2014, at age 63. His performances continue to be widely admired for their humor, warmth, imagination, and emotional depth.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
   }
 ];
