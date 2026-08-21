@@ -3401,5 +3401,775 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0023",
+    "product_images": [
+      "images/HEC-0023.jpg"
+    ],
+    "full_description": "Richard Petty is an American former NASCAR driver and one of the most successful and recognizable figures in stock car racing history. Born July 2, 1937, in Level Cross, North Carolina, he became known worldwide as \"The King.\" Petty competed in NASCAR's top series from 1958 through 1992 and drove the famous No. 43 car for most of his career.\n\nPetty won a record 200 NASCAR Cup Series races and seven Cup championships, accomplishments that helped establish him as one of motorsports' greatest legends. He also won the Daytona 500 a record seven times and earned 123 pole positions during his career. His rivalry with other NASCAR stars and his distinctive cowboy hat, sunglasses, and friendly relationship with racing fans made him an enduring sports celebrity.\n\nPetty was inducted into the inaugural class of the NASCAR Hall of Fame in 2010. Following his retirement from driving, he remained active in NASCAR as a team owner, spokesman, and ambassador for the sport. Richard Petty autographs and racing memorabilia are especially collectible among NASCAR and motorsports enthusiasts because of his record-setting career, the iconic No. 43 car, and his status as \"The King\" of NASCAR.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0024",
+    "product_images": [
+      "images/HEC-0024.jpg"
+    ],
+    "full_description": "John Candy (Deceased) was a Canadian actor and comedian best known for his warm, lovable screen presence and memorable roles in some of the most popular comedies of the 1980s and early 1990s. Born October 31, 1950, in Toronto, Ontario, he first gained widespread attention as a performer on the television comedy series \"SCTV.\"\n\nCandy became a major film star with roles in \"Stripes,\" \"Splash,\" \"Brewster's Millions,\" \"Spaceballs,\" \"Planes, Trains and Automobiles,\" \"The Great Outdoors,\" \"Uncle Buck,\" \"Home Alone,\" and \"Cool Runnings.\" He was especially celebrated for his ability to combine broad comedy with genuine warmth and emotion, making characters such as Del Griffith in \"Planes, Trains and Automobiles\" and Buck Russell in \"Uncle Buck\" enduring audience favorites.\n\nCandy died on March 4, 1994, at age 43 while filming \"Wagons East!\" in Mexico. His work remains widely enjoyed, and John Candy autographs, signed photographs, and movie memorabilia are highly collectible among fans of classic comedy, 1980s films, and beloved character actors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0025",
+    "product_images": [
+      "images/HEC-0025.jpg"
+    ],
+    "full_description": "Elvis Presley (Deceased) was an American singer, musician, and actor who became one of the most influential entertainers in popular music history. Born January 8, 1935, in Tupelo, Mississippi, he rose to fame in the 1950s with a groundbreaking blend of rock and roll, rhythm and blues, country, and gospel music. Known worldwide as the \"King of Rock and Roll,\" Presley helped transform popular music and youth culture.\n\nHis best-known recordings include \"Heartbreak Hotel,\" \"Hound Dog,\" \"Jailhouse Rock,\" \"Love Me Tender,\" \"Suspicious Minds,\" and \"Can't Help Falling in Love.\" He also starred in numerous films, including \"Love Me Tender,\" \"Jailhouse Rock,\" \"King Creole,\" \"Blue Hawaii,\" and \"Viva Las Vegas.\" His energetic stage performances, distinctive voice, and iconic style made him an international celebrity.\n\nPresley died on August 16, 1977, at age 42 at Graceland in Memphis, Tennessee. His influence continues through music, film, and popular culture. Elvis Presley autographs, signed photographs, records, concert memorabilia, and movie collectibles are among the most sought-after items in entertainment collecting.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0026",
+    "product_images": [
+      "images/HEC-0026.jpg"
+    ],
+    "full_description": "Grace Slick is an American singer, songwriter, and artist best known as one of the defining voices of the San Francisco psychedelic rock scene. Born October 30, 1939, in Highland Park, Illinois, she rose to prominence in the 1960s as a member of Jefferson Airplane.\n\nSlick sang lead vocals on several of the group's most famous recordings, including \"Somebody to Love\" and \"White Rabbit,\" both of which became enduring classics of psychedelic rock. She later performed with Jefferson Starship and Starship, contributing to hits such as \"Miracles,\" \"We Built This City,\" and \"Nothing's Gonna Stop Us Now.\"\n\nKnown for her powerful contralto voice, outspoken personality, and commanding stage presence, Slick became one of the most recognizable female rock performers of her era. She was inducted into the Rock and Roll Hall of Fame in 1996 as a member of Jefferson Airplane.\n\nAfter retiring from music, Slick focused on visual art. Grace Slick autographs, signed photographs, album memorabilia, and Jefferson Airplane collectibles are popular with fans of classic rock, 1960s counterculture, and psychedelic music.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0027",
+    "product_images": [
+      "images/HEC-0027.jpg"
+    ],
+    "full_description": "Kyle Petty is an American former NASCAR driver, racing analyst, and member of the legendary Petty racing family. Born June 2, 1960, in Randleman, North Carolina, he is the son of seven-time NASCAR Cup Series champion Richard Petty and the grandson of NASCAR pioneer Lee Petty.\n\nPetty competed in NASCAR's top series from 1979 through 2008, earning eight Cup Series victories during his career. Among his notable wins were races at Richmond, Watkins Glen, Rockingham, and Dover. He drove for several teams, including Petty Enterprises, and became closely associated with the family's famous racing legacy.\n\nBeyond competition, Petty became a respected television racing analyst and commentator, known for his knowledge of NASCAR history and his straightforward perspective on the sport. He has also been deeply involved in charitable work, particularly through the Victory Junction camp, founded in memory of his son, Adam Petty.\n\nKyle Petty autographs, signed racing photographs, NASCAR cards, and Petty family memorabilia are collectible among motorsports fans, especially those interested in the multi-generation history of NASCAR's Petty dynasty.",
+    "authentication_info": "",
+    "condition_notes": "",
+    "miscellaneous": "Licensed by NASCAR"
+  },
+  {
+    "product_id": "HEC-0028",
+    "product_images": [
+      "images/HEC-0028.jpg"
+    ],
+    "full_description": "Ray Bolger (Deceased) was an American actor, dancer, singer, and vaudeville performer best remembered for playing the Scarecrow in the 1939 MGM classic \"The Wizard of Oz.\" Born January 10, 1904, in Boston, Massachusetts, Bolger became known for his distinctive loose-limbed dancing style, comic timing, and energetic stage presence.\n\nBefore achieving movie fame, Bolger established himself as a successful Broadway performer. His stage credits included \"On Your Toes,\" \"By Jupiter,\" and \"Where's Charley?\" He won a Tony Award for his starring performance in \"Where's Charley?\" and later appeared in the film version.\n\nBolger's other notable movies included \"The Great Ziegfeld,\" \"The Harvey Girls,\" \"April in Paris,\" and Disney's \"Babes in Toyland.\" He also starred in the television series \"Where's Raymond?,\" later renamed \"The Ray Bolger Show,\" and made numerous television guest appearances throughout his long career.\n\nBolger died on January 15, 1987, at age 83. His portrayal of the Scarecrow remains one of the most recognizable characters in classic Hollywood cinema. Ray Bolger autographs, signed photographs, \"The Wizard of Oz\" memorabilia, and vintage movie collectibles remain popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0029",
+    "product_images": [
+      "images/HEC-0029.jpg"
+    ],
+    "full_description": "Joan Baez is an American singer, songwriter, musician, and activist whose distinctive soprano voice made her one of the most influential figures in the folk music movement of the 1960s. Born January 9, 1941, in Staten Island, New York, she became known for traditional folk songs, protest music, and interpretations of contemporary songwriters.\n\nBaez helped introduce wider audiences to Bob Dylan by performing and recording his songs during the early 1960s. Her best-known recordings include \"Diamonds & Rust,\" \"The Night They Drove Old Dixie Down,\" \"We Shall Overcome,\" and \"Donna Donna.\" She performed at the 1969 Woodstock festival and became closely associated with the American civil rights and antiwar movements.\n\nOver a career spanning more than five decades, Baez released numerous albums and remained an important voice in folk, political, and socially conscious music. She was inducted into the Rock and Roll Hall of Fame in 2017.\n\nJoan Baez autographs, signed photographs, records, concert programs, and folk music memorabilia are collectible among fans of 1960s music, Woodstock, American folk, and the singer-songwriter tradition.",
+    "authentication_info": "",
+    "condition_notes": "Very good - slight crinkle in bottom left of broder.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0030",
+    "product_images": [
+      "images/HEC-0030.jpg"
+    ],
+    "full_description": "Doris Day (Deceased) was an American actress, singer, and recording star who became one of the most popular entertainers of the 20th century. Born April 3, 1922, in Cincinnati, Ohio, she first achieved fame as a big-band singer before becoming a major Hollywood movie star.\n\nDay recorded numerous hit songs, including \"Sentimental Journey,\" \"Secret Love,\" and \"Que Sera, Sera (Whatever Will Be, Will Be),\" which became closely identified with her career. Her successful films included \"Calamity Jane,\" \"Love Me or Leave Me,\" \"The Man Who Knew Too Much,\" \"Pillow Talk,\" \"Please Don't Eat the Daisies,\" and \"That Touch of Mink.\" She was especially known for romantic comedies and frequently appeared opposite Rock Hudson and James Garner.\n\nDay received an Academy Award nomination for \"Pillow Talk\" and later starred in the television series \"The Doris Day Show.\" After retiring from entertainment, she became a prominent advocate for animal welfare.\n\nDoris Day died on May 13, 2019, at age 97. Doris Day autographs, signed photographs, movie memorabilia, and vintage Hollywood collectibles remain popular with collectors of classic film and music.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0031",
+    "product_images": [
+      "images/HEC-0031.jpg"
+    ],
+    "full_description": "June Allyson (Deceased) was an American actress, singer, and dancer who became one of MGM's most popular stars during the 1940s and 1950s. Born October 7, 1917, in the Bronx, New York, she began her career as a dancer before moving into Broadway productions and motion pictures.\n\nAllyson became known for her warm, wholesome screen image and often played devoted wives and romantic leads. Her notable films included \"Two Girls and a Sailor,\" \"Good News,\" \"Little Women,\" \"The Stratton Story,\" \"The Glenn Miller Story,\" \"Executive Suite,\" and \"Strategic Air Command.\" She frequently appeared opposite leading actors such as James Stewart and Van Johnson.\n\nIn \"The Glenn Miller Story,\" Allyson starred opposite James Stewart in the popular 1954 musical biography of bandleader Glenn Miller. The film became one of the best-known movies of her career and remains a favorite among fans of classic Hollywood and big-band music.\n\nJune Allyson died on July 8, 2006, at age 88. June Allyson autographs, signed photographs, MGM memorabilia, and classic Hollywood collectibles remain popular with collectors of Golden Age film stars.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0032",
+    "product_images": [
+      "images/HEC-0032.jpg"
+    ],
+    "full_description": "W.C. Fields (Deceased) was an American comedian, actor, writer, and entertainer whose distinctive voice, comic timing, and cynical screen persona made him one of the most recognizable stars of classic Hollywood. He was born William Claude Dukenfield on January 29, 1880, in Darby, Pennsylvania, and began his career as a skilled juggler in vaudeville before becoming a Broadway and motion-picture performer.\n\nFields developed a memorable character who was often pompous, irritable, dishonest, and frequently frustrated by children, animals, and authority figures. His humor relied heavily on elaborate wordplay, exaggerated storytelling, physical comedy, and his unmistakable gravelly delivery.\n\nAmong his best-known films are \"It's a Gift,\" \"The Man on the Flying Trapeze,\" \"You Can't Cheat an Honest Man,\" \"The Bank Dick,\" \"Never Give a Sucker an Even Break,\" and \"My Little Chickadee.\" In \"My Little Chickadee\" (1940), Fields appeared opposite Mae West in their only feature film together, playing the boastful con man Cuthbert J. Twillie.\n\nFields also contributed extensively to the writing of his films, sometimes using unusual pseudonyms. His comic style influenced generations of comedians and helped establish the sarcastic, anti-authoritarian character type in American comedy.\n\nW.C. Fields died on December 25, 1946, at age 66. His films, distinctive personality, and instantly recognizable appearance continue to make him a popular figure among classic movie fans and collectors of vintage Hollywood memorabilia.\n\nMae West (Deceased) was an American actress, singer, playwright, screenwriter, and comedian who became one of the most famous and controversial stars of Hollywood\u2019s Golden Age. Born Mary Jane West on August 17, 1893, in Brooklyn, New York, she began performing as a child and later became a successful vaudeville and Broadway entertainer.\n\nWest was known for her glamorous image, confident personality, suggestive humor, and witty double entendres. She wrote and starred in several stage productions before moving to Hollywood, where she became one of Paramount Pictures\u2019 biggest stars during the 1930s.\n\nHer best-known films include \"She Done Him Wrong,\" \"I'm No Angel,\" \"Belle of the Nineties,\" \"Klondike Annie,\" \"Go West, Young Man,\" and \"Every Day's a Holiday.\" In 1940, she starred opposite W.C. Fields in \"My Little Chickadee,\" the only feature film the two comedy legends made together. West played Flower Belle Lee, while Fields portrayed the boastful con man Cuthbert J. Twillie.\n\nWest frequently wrote or contributed to the dialogue and screenplays of her films, giving her unusually strong creative control for a female star of her era. Her provocative style often brought her into conflict with Hollywood censors, but it also helped establish her as an enduring symbol of independence and sexual confidence.\n\nMae West died on November 22, 1980, at age 87. She remains an iconic figure in classic Hollywood and a popular subject among collectors of vintage movie memorabilia and autographs.\n\n\"My Little Chickadee\" is a 1940 Western comedy starring two of the most distinctive comic personalities of Hollywood\u2019s Golden Age, Mae West and W.C. Fields. Produced by Universal Pictures and directed by Edward F. Cline, the film is especially notable because it was the only feature movie in which West and Fields appeared together.\n\nMae West stars as Flower Belle Lee, a glamorous and outspoken woman who is forced to leave her hometown after becoming involved with a mysterious masked bandit. While traveling west by train, she meets Cuthbert J. Twillie, played by W.C. Fields, a boastful gambler and con man who attempts to impress her with stories of wealth and importance. Flower Belle soon realizes that Twillie may be useful to her, and the two become involved in a comic marriage of convenience.\n\nOnce they arrive in the frontier town of Greasewood City, Twillie unexpectedly finds himself appointed sheriff. This leads to a series of comic confrontations, misunderstandings, romantic complications, and encounters with dangerous outlaws. Fields brings his trademark bluster, wordplay, and physical comedy to the role, while West delivers the confident, flirtatious dialogue and double entendres that made her famous.\n\n\"My Little Chickadee\" remains a memorable showcase for both stars and is regarded as an important classic Hollywood comedy. Its combination of Western parody, sophisticated humor, and the contrasting personalities of Mae West and W.C. Fields has helped the film remain popular with collectors and fans of vintage American cinema.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0033",
+    "product_images": [
+      "images/HEC-0033.jpg"
+    ],
+    "full_description": "Pierce Brosnan is an Irish actor and film producer best known internationally for portraying British secret agent James Bond in four feature films. Born May 16, 1953, in Drogheda, County Louth, Ireland, Brosnan trained as an actor in London and first gained widespread attention on television.\n\nHe became a major television star as the charming private investigator Remington Steele in the series \"Remington Steele,\" which ran from 1982 to 1987. His success on the show helped establish the sophisticated screen persona that later made him a natural choice to play James Bond.\n\nBrosnan made his debut as Agent 007 in \"GoldenEye\" (1995), followed by \"Tomorrow Never Dies,\" \"The World Is Not Enough,\" and \"Die Another Day.\" His interpretation of Bond combined elegance, humor, action, and toughness, helping revive the franchise for a new generation of moviegoers.\n\nOutside the Bond series, Brosnan has appeared in a wide variety of films, including \"The Thomas Crown Affair,\" \"Dante's Peak,\" \"Mrs. Doubtfire,\" \"Mamma Mia!,\" \"The Matador,\" and \"The Ghost Writer.\" He has also continued working in television and independent films while producing projects through his own production company.\n\nWith a career spanning stage, television, and motion pictures, Pierce Brosnan remains one of the most recognizable leading men of modern cinema. His association with James Bond, along with his extensive filmography, makes his autograph and memorabilia especially popular with collectors of movie, television, and 007-related material.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0034",
+    "product_images": [
+      "images/HEC-0034.jpg"
+    ],
+    "full_description": "\"Charlie's Angels\" entered its second season in 1977 with an important change to the original cast. Farrah Fawcett left the series as a regular after the highly successful first season, and Cheryl Ladd joined Kate Jackson and Jaclyn Smith as the newest Angel.\n\nThe 1977\u201378 lineup featured Kate Jackson as Sabrina Duncan, Jaclyn Smith as Kelly Garrett, and Cheryl Ladd as Kris Munroe, the younger sister of Fawcett's character Jill Munroe. David Doyle continued as John Bosley, while John Forsythe provided the unmistakable voice of their unseen employer, Charles \"Charlie\" Townsend.\n\nThe season opened with the two-part episode \"Angels in Paradise,\" which introduced Kris and sent the Angels to Hawaii on a dangerous assignment. Cheryl Ladd quickly became a popular member of the cast and remained with the series for the rest of its run.\n\nFarrah Fawcett also returned for several guest appearances as Jill Munroe during the season. The stories continued to place the Angels in undercover situations involving murder, kidnapping, organized crime, theft, and other investigations, often requiring them to assume colorful disguises and identities.\n\nThe 1977\u201378 season helped prove that \"Charlie's Angels\" could remain a major television success despite the departure of its most publicized original star. The Jackson-Smith-Ladd lineup became one of the best-remembered versions of the series, making photographs and autographs featuring these three actresses particularly recognizable to collectors of classic television memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0035",
+    "product_images": [
+      "images/HEC-0035.jpg"
+    ],
+    "full_description": "Marlo Thomas is an American actress, producer, author, and activist best known for starring as Ann Marie in the groundbreaking television sitcom \"That Girl.\" Born Margaret Julia Thomas on November 21, 1937, in Detroit, Michigan, she is the daughter of entertainer Danny Thomas.\n\nThomas became a major television star with \"That Girl,\" which aired from 1966 to 1971. She played an aspiring actress living independently in New York City, and the series was notable for presenting a young single woman pursuing her own career and ambitions rather than being defined primarily by marriage or family life.\n\nHer other television and film appearances include \"Jenny,\" \"Thieves,\" \"Nobody's Child,\" \"Friends,\" \"Law & Order: Special Victims Unit,\" and \"The New Normal.\" She also appeared on Broadway and earned acclaim for dramatic as well as comedic performances.\n\nThomas created and produced the influential children's project \"Free to Be... You and Me,\" which began as a record and book before becoming a television special. The project promoted individuality, equality, and freedom from traditional gender stereotypes.\n\nThroughout her career, Thomas has received numerous honors, including Emmy Awards, a Golden Globe Award, a Grammy Award, and the Presidential Medal of Freedom. She has also been closely associated with St. Jude Children's Research Hospital, founded by her father, and has spent decades supporting its fundraising and charitable work.\n\nMarlo Thomas remains an important figure in American television history and a recognizable name among collectors of classic television, entertainment memorabilia, and celebrity autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0036",
+    "product_images": [
+      "images/HEC-0036.jpg"
+    ],
+    "full_description": "Pat Boone is an American singer, actor, television personality, and author who became one of the most successful popular entertainers of the 1950s and early 1960s. Born Charles Eugene Boone on June 1, 1934, in Jacksonville, Florida, he grew up in Nashville, Tennessee, and developed a clean-cut image that helped make him a favorite with mainstream audiences.\n\nBoone achieved major success as a recording artist with hits including \"Ain't That a Shame,\" \"April Love,\" \"Love Letters in the Sand,\" \"Moody River,\" and \"I'll Be Home.\" During the early rock-and-roll era, he recorded polished pop versions of several rhythm-and-blues songs, helping introduce the material to wider audiences.\n\nHis popularity led to a successful film career. Boone starred in movies including \"Bernardine,\" \"April Love,\" \"Journey to the Center of the Earth,\" \"State Fair,\" and \"The Main Attraction.\" He also hosted the television variety series \"The Pat Boone Chevy Showroom\" from 1957 to 1960, featuring many prominent musical guests.\n\nBoone remained active for decades in music, television, radio, writing, and public appearances. His career has included pop, gospel, country, and even a later tongue-in-cheek heavy-metal album.\n\nWith millions of records sold and a career spanning more than seven decades, Pat Boone remains an important figure in American popular music and entertainment history. His records, photographs, movie memorabilia, and autographs continue to interest collectors of 1950s music, classic Hollywood, and vintage celebrity material.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0037",
+    "product_images": [
+      "images/HEC-0037.jpg"
+    ],
+    "full_description": "Steve Allen (Deceased) was an American television personality, comedian, musician, composer, actor, and author who became one of the most influential figures in early television. Born Stephen Valentine Patrick William Allen on December 26, 1921, in New York City, he began his career in radio before becoming a major television star.\n\nAllen is best remembered as the original host of \"The Tonight Show,\" beginning in 1954. His combination of comedy, interviews, audience participation, musical performances, and spontaneous sketches helped establish the basic format that late-night television would follow for decades.\n\nHe later hosted \"The Steve Allen Show,\" which featured comedy, music, celebrity guests, and an influential group of performers that included Don Knotts, Louis Nye, Tom Poston, and Bill Dana. Allen was known for his quick wit, improvisational ability, and willingness to experiment with unusual television formats.\n\nIn addition to his television career, Allen was a prolific composer and songwriter, credited with writing thousands of songs. He also appeared in films, including \"The Benny Goodman Story,\" in which he portrayed legendary bandleader Benny Goodman. Allen wrote numerous books covering humor, entertainment, social issues, and other subjects.\n\nSteve Allen died on October 30, 2000, at age 78. His pioneering work in late-night television, comedy, music, and broadcasting helped shape modern American entertainment, and his autographs and memorabilia remain of interest to collectors of classic television and Hollywood history.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0038",
+    "product_images": [
+      "images/HEC-0038.jpg"
+    ],
+    "full_description": "Pat Boone is an American singer, actor, television personality, and author who became one of the most successful entertainers of the 1950s and early 1960s. Born Charles Eugene Boone on June 1, 1934, in Jacksonville, Florida, he grew up in Nashville, Tennessee, and developed a clean-cut image that made him especially popular with mainstream audiences.\n\nBoone became a major recording star with hits including \"Ain't That a Shame,\" \"April Love,\" \"Love Letters in the Sand,\" \"Moody River,\" and \"I'll Be Home.\" During the early rock-and-roll era, he also recorded pop versions of several rhythm-and-blues songs, helping bring that material to a broader audience.\n\nHis success in music led to a career in motion pictures. Boone starred in films including \"Bernardine,\" \"April Love,\" \"Journey to the Center of the Earth,\" \"State Fair,\" and \"The Main Attraction.\" He also hosted the television variety program \"The Pat Boone Chevy Showroom\" from 1957 to 1960, featuring many well-known musical performers.\n\nOver the decades, Boone remained active in recording, television, radio, writing, and public appearances. His musical career has included pop, gospel, country, and even a novelty heavy-metal album.\n\nWith millions of records sold and a career spanning more than seven decades, Pat Boone remains a significant figure in American popular music and entertainment history. His records, signed photographs, movie memorabilia, and autographs continue to appeal to collectors of 1950s music, classic Hollywood, and vintage celebrity material.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0039",
+    "product_images": [
+      "images/HEC-0039.jpg"
+    ],
+    "full_description": "\"It's a Wonderful Life\" is a 1946 American Christmas fantasy drama directed by Frank Capra and starring James Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell, and Henry Travers. The film has become one of the most beloved classics in American cinema.\n\nJames Stewart stars as George Bailey, a good-hearted man from the small town of Bedford Falls who repeatedly sacrifices his own dreams in order to help his family, friends, and community. After a financial crisis threatens everything he has worked for, George becomes overwhelmed and wishes that he had never been born.\n\nHis guardian angel, Clarence Odbody, played by Henry Travers, is sent to help him. Clarence shows George what Bedford Falls and the lives of the people around him would have been like if George had never existed. The experience allows George to understand how deeply his actions have affected others and how valuable his life truly is.\n\nDonna Reed co-stars as George's devoted wife, Mary Bailey, while Lionel Barrymore portrays the ruthless businessman Henry F. Potter, one of classic Hollywood's most memorable villains.\n\nAlthough \"It's a Wonderful Life\" was not an immediate box-office triumph, its reputation grew enormously through repeated television broadcasts. Today it is closely associated with the Christmas season and is admired for its themes of family, friendship, sacrifice, hope, and community. Memorabilia and autographs connected with the film remain especially popular with collectors of classic Hollywood and Christmas movie history.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0040",
+    "product_images": [
+      "images/HEC-0040.jpg"
+    ],
+    "full_description": "Andy Griffith (Deceased) was an American actor, comedian, singer, and television producer best known for two of the most enduring roles in American television history. Born Andy Samuel Griffith on June 1, 1926, in Mount Airy, North Carolina, he first gained national attention as a comic monologist and performer.\n\nGriffith became a major star with \"The Andy Griffith Show,\" which aired from 1960 to 1968. He played Sheriff Andy Taylor, the calm, good-natured lawman of the fictional town of Mayberry. The series also starred Don Knotts as Barney Fife and Ron Howard as Opie Taylor. Its warm humor, memorable characters, and small-town setting helped make it one of television's most beloved classic sitcoms.\n\nGriffith later found another long-running television success with \"Matlock,\" portraying Atlanta defense attorney Ben Matlock from 1986 to 1995. The role introduced him to a new generation of viewers and became almost as closely associated with him as Sheriff Andy Taylor.\n\nHis film work included \"A Face in the Crowd,\" in which he gave a powerful dramatic performance as ambitious entertainer Lonesome Rhodes, as well as \"No Time for Sergeants\" and \"Waitress.\"\n\nGriffith also had a lifelong interest in music and recorded numerous gospel and country albums. He died on July 3, 2012, at age 86. His television work, especially \"The Andy Griffith Show\" and \"Matlock,\" continues to make him a favorite among collectors of classic television memorabilia and autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0041",
+    "product_images": [
+      "images/HEC-0041.jpg"
+    ],
+    "full_description": "\"Quantum Leap\" is an American science-fiction television series that originally aired from 1989 to 1993. Created by Donald P. Bellisario, the series starred Scott Bakula as physicist Dr. Sam Beckett and Dean Stockwell as his friend and project observer, Admiral Al Calavicci.\n\nThe story follows Sam Beckett after an experiment with time travel goes wrong. Sam becomes trapped \"leaping\" through time, temporarily taking the place of different people within his own lifetime. In each episode, he must determine what has gone wrong in that person's life and correct it before he can leap again.\n\nSam is assisted by Al, who appears to him as a hologram that only Sam can normally see and hear. Al receives information from the project's computer, Ziggy, helping Sam understand the people and historical circumstances surrounding each leap.\n\nThe series mixed science fiction with drama, comedy, romance, and real historical events. Episodes addressed subjects including racism, war, disability, family relationships, crime, and social change, while maintaining the central mystery of whether Sam would ever return home.\n\n\"Quantum Leap\" developed a devoted following and became one of the most memorable science-fiction television programs of its era. Scott Bakula's portrayal of Sam Beckett and Dean Stockwell's performance as Al remain closely associated with the series, making cast autographs, photographs, and other \"Quantum Leap\" memorabilia especially popular with science-fiction and classic television collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0042",
+    "product_images": [
+      "images/HEC-0042.jpg"
+    ],
+    "full_description": "Teri Garr (Deceased) was an American actress, comedian, and dancer known for her distinctive comic timing and memorable performances in film and television. Born Terry Ann Garr on December 11, 1944, in Lakewood, Ohio, she began her entertainment career as a dancer and appeared in several movies and television programs before becoming a prominent character actress.\n\nGarr earned widespread recognition for her role as Inga in Mel Brooks' comedy \"Young Frankenstein\" (1974), starring alongside Gene Wilder, Peter Boyle, Marty Feldman, and Cloris Leachman. She also appeared in Steven Spielberg's \"Close Encounters of the Third Kind\" and played Sandy Lester in the hit comedy \"Tootsie,\" a performance that earned her an Academy Award nomination for Best Supporting Actress.\n\nHer other notable film credits include \"The Conversation,\" \"Oh, God!,\" \"One from the Heart,\" \"Mr. Mom,\" \"After Hours,\" and \"Let It Ride.\" Garr was equally familiar to television audiences, making numerous guest appearances and becoming a frequent and popular guest on \"The Tonight Show Starring Johnny Carson.\"\n\nKnown for her warm screen presence and ability to combine comedy with vulnerability, Garr worked successfully with many of Hollywood's leading directors and actors.\n\nTeri Garr died on October 29, 2024, at age 79. Her performances in \"Young Frankenstein,\" \"Tootsie,\" \"Close Encounters of the Third Kind,\" and other films continue to make her a recognizable favorite among classic movie fans and collectors of Hollywood autographs and memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0043",
+    "product_images": [
+      "images/HEC-0043.jpg"
+    ],
+    "full_description": "Abbott and Costello were an American comedy team consisting of Bud Abbott (Deceased) and Lou Costello (Deceased), one of the most successful comedy partnerships in entertainment history. They became famous for rapid-fire wordplay, misunderstandings, slapstick humor, and carefully timed routines.\n\nBud Abbott, born William Alexander Abbott on October 2, 1897, generally played the confident, fast-talking straight man. Lou Costello, born Louis Francis Cristillo on March 6, 1906, played the excitable, confused comic character. Their contrasting personalities made them an ideal team.\n\nThey first became popular in vaudeville and radio before moving into motion pictures. Their breakthrough film was \"Buck Privates\" (1941), which was followed by a long series of successful comedies including \"In the Navy,\" \"Hold That Ghost,\" \"Who Done It?,\" \"The Naughty Nineties,\" and \"Abbott and Costello Meet Frankenstein.\" They also appeared with several famous Universal movie monsters, including Dracula, the Wolf Man, and the Mummy.\n\nTheir most famous comedy routine, \"Who's on First?,\" became one of the best-known sketches in American comedy history. The routine centers on a baseball team whose players have confusing names such as Who, What, and I Don't Know.\n\nAbbott and Costello also starred in radio and television programs and remained major entertainers throughout the 1940s and 1950s. Lou Costello died on March 3, 1959, and Bud Abbott died on April 24, 1974. Their films and comedy routines remain popular with classic movie fans and collectors of vintage entertainment memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0044",
+    "product_images": [
+      "images/HEC-0044.jpg"
+    ],
+    "full_description": "Milton Berle (Deceased) was an American comedian, actor, and television personality who became one of the first major stars of American television. Born Mendel Berlinger on July 12, 1908, in New York City, he began performing as a child actor and later worked in vaudeville, radio, nightclubs, movies, and Broadway.\n\nBerle achieved enormous national fame as the host of \"Texaco Star Theater,\" which became a television sensation beginning in 1948. His popularity was so great that he became known as \"Mr. Television\" and \"Uncle Miltie.\" At a time when television ownership was rapidly expanding, Berle helped make the new medium a central part of American entertainment.\n\nHis comedy style included rapid-fire jokes, slapstick, outrageous costumes, musical numbers, and frequent interaction with celebrity guests. He was especially famous for appearing in comic disguises and occasionally dressing in women's clothing for laughs.\n\nIn addition to television, Berle appeared in numerous films, including \"It's a Mad, Mad, Mad, Mad World,\" \"Always Leave Them Laughing,\" and \"Sun Valley Serenade.\" He also made many guest appearances on television programs throughout his long career.\n\nMilton Berle died on March 27, 2002, at age 93. His pioneering work during television's earliest years helped establish the variety-show format and made him one of the most important figures in broadcasting history. His autographs, photographs, and television memorabilia remain popular with collectors of classic comedy and early television.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0045",
+    "product_images": [
+      "images/HEC-0045.jpg"
+    ],
+    "full_description": "Jack Lemmon (Deceased) was an American actor celebrated for his versatility in comedy and drama and for a career that spanned more than five decades. Born John Uhler Lemmon III on February 8, 1925, in Newton, Massachusetts, he became one of the most respected leading men of classic Hollywood.\n\nLemmon was especially known for his collaborations with director Billy Wilder. He starred opposite Tony Curtis and Marilyn Monroe in \"Some Like It Hot\" and later appeared in Wilder films including \"The Apartment,\" \"Irma la Douce,\" \"The Fortune Cookie,\" and \"Avanti!\" His nervous energy, expressive reactions, and ability to make ordinary characters both funny and sympathetic became trademarks of his performances.\n\nHe also formed a memorable screen partnership with Walter Matthau. The two appeared together in films including \"The Odd Couple,\" \"The Front Page,\" \"Grumpy Old Men,\" and \"Grumpier Old Men,\" becoming one of cinema's most beloved comedy pairings.\n\nLemmon's dramatic work was equally acclaimed. He won Academy Awards for \"Mister Roberts\" and \"Save the Tiger\" and received additional nominations for performances in films such as \"The China Syndrome,\" \"Missing,\" and \"Glengarry Glen Ross.\"\n\nJack Lemmon died on June 27, 2001, at age 76. His combination of comedy, warmth, vulnerability, and dramatic skill made him one of the most admired actors of his generation, and his autographs and movie memorabilia remain popular with collectors of classic Hollywood.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0046",
+    "product_images": [
+      "images/HEC-0046.jpg"
+    ],
+    "full_description": "Muhammad Ali (Deceased) was an American professional boxer, Olympic gold medalist, and cultural icon widely regarded as one of the greatest heavyweight fighters in boxing history. Born Cassius Marcellus Clay Jr. on January 17, 1942, in Louisville, Kentucky, he began boxing as a teenager and won a gold medal in the light heavyweight division at the 1960 Summer Olympics in Rome.\n\nAli became world heavyweight champion in 1964 when he defeated Sonny Liston in a major upset. Soon afterward, he announced his conversion to Islam and adopted the name Muhammad Ali. Known for his speed, footwork, quick reflexes, and colorful personality, he famously described his style with the phrase \"float like a butterfly, sting like a bee.\"\n\nHis career included legendary fights against Joe Frazier, George Foreman, Ken Norton, and Sonny Liston. Among his most famous bouts were the \"Fight of the Century\" against Frazier, the \"Rumble in the Jungle\" against Foreman, and the \"Thrilla in Manila\" rematch with Frazier.\n\nAli was also known for his outspoken opposition to the Vietnam War, a stance that cost him several prime years of his boxing career before his right to fight was restored.\n\nMuhammad Ali retired with a professional record of 56 wins and 5 losses. He died on June 3, 2016, at age 74. His boxing achievements, charisma, and worldwide fame continue to make his autographs, photographs, and sports memorabilia highly desirable to collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0047",
+    "product_images": [
+      "images/HEC-0047.jpg"
+    ],
+    "full_description": "Eddy Arnold (Deceased) was an American country music singer whose smooth vocal style helped bring country music to a wider popular audience. Born Richard Edward Arnold on May 15, 1918, near Henderson, Tennessee, he became one of the most successful recording artists in country music history.\n\nNicknamed the \"Tennessee Plowboy,\" Arnold first gained attention performing on radio before joining the \"Grand Ole Opry.\" He became a major recording star during the 1940s and 1950s with songs including \"Bouquet of Roses,\" \"Anytime,\" \"Make the World Go Away,\" \"Cattle Call,\" and \"I'll Hold You in My Heart.\"\n\nArnold was especially important in the development of the polished \"Nashville Sound,\" which blended traditional country music with pop-oriented arrangements, background vocals, and orchestration. His crossover appeal helped introduce country music to listeners who might not otherwise have followed the genre.\n\nOver his long career, Arnold placed an extraordinary number of songs on the country charts and sold millions of records. He was inducted into the Country Music Hall of Fame in 1966 and remained a respected figure in Nashville for decades.\n\nEddy Arnold died on May 8, 2008, at age 89. His warm baritone voice, long list of hit recordings, and influence on the evolution of country music have made him an enduring figure among fans and collectors of classic country music, vintage records, photographs, and celebrity autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0048",
+    "product_images": [
+      "images/HEC-0048.jpg"
+    ],
+    "full_description": "Perry Como (Deceased) was an American singer, television personality, and entertainer whose relaxed vocal style and warm personality made him one of the most popular performers of the 20th century. Born Pierino Ronald Como on May 18, 1912, in Canonsburg, Pennsylvania, he began his career singing with big bands before becoming a successful solo recording artist.\n\nComo became known for his smooth baritone voice and easygoing delivery. His many hit recordings included \"Catch a Falling Star,\" \"Magic Moments,\" \"It's Impossible,\" \"And I Love You So,\" \"Papa Loves Mambo,\" and \"Hot Diggity.\"\n\nHe was also a major television star. Programs such as \"The Perry Como Show\" and \"Perry Como's Kraft Music Hall\" made him a familiar presence in American homes for decades. His television specials, particularly his Christmas programs, became annual favorites and featured many well-known guest stars.\n\nComo received numerous honors during his career, including Grammy Awards and Emmy Awards, and he was inducted into the Television Hall of Fame. He was also awarded three stars on the Hollywood Walk of Fame for his work in recording, radio, and television.\n\nPerry Como died on May 12, 2001, at age 88. His gentle singing style, enduring hit songs, and long television career continue to make him a favorite among fans of traditional pop music and collectors of vintage entertainment memorabilia and celebrity autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0049",
+    "product_images": [
+      "images/HEC-0049.jpg"
+    ],
+    "full_description": "Joan Baez is an American folk singer, songwriter, musician, and activist whose distinctive soprano voice and socially conscious music made her one of the most influential performers of the 1960s folk revival. Born Joan Chandos Baez on January 9, 1941, in Staten Island, New York, she began performing professionally while still a teenager.\n\nBaez gained national attention after appearing at the Newport Folk Festival and released her self-titled debut album, \"Joan Baez,\" in 1960. She became known for traditional folk songs, ballads, protest music, and interpretations of songs by contemporary writers.\n\nHer best-known recordings include \"Diamonds & Rust,\" \"The Night They Drove Old Dixie Down,\" \"We Shall Overcome,\" and \"There But for Fortune.\" Baez also played an important role in introducing audiences to Bob Dylan, recording several of his songs and performing with him during the early years of his career.\n\nThroughout her life, Baez has been closely associated with civil rights, peace, and humanitarian causes. She performed at the 1963 March on Washington and became one of the most recognizable musical voices of the American protest movement.\n\nBaez continued recording and touring for decades and was inducted into the Rock and Roll Hall of Fame in 2017. Her combination of folk music, political activism, and cultural influence has made her an enduring figure in American music history and a popular subject among collectors of folk music memorabilia, signed photographs, records, and celebrity autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0050",
+    "product_images": [
+      "images/HEC-0050.jpg"
+    ],
+    "full_description": "Faye Dunaway is an American actress known for her intense screen presence and performances in some of the most acclaimed films of the 1960s and 1970s. Born Dorothy Faye Dunaway on January 14, 1941, in Bascom, Florida, she studied acting before beginning her career on the stage and in television.\n\nDunaway became an international star as bank robber Bonnie Parker in \"Bonnie and Clyde\" (1967), opposite Warren Beatty. The film became a landmark of American cinema and earned Dunaway her first Academy Award nomination for Best Actress.\n\nShe went on to star in major films including \"The Thomas Crown Affair,\" \"Little Big Man,\" \"The Three Musketeers,\" \"Chinatown,\" \"The Towering Inferno,\" and \"Three Days of the Condor.\" Her performance as television executive Diana Christensen in \"Network\" (1976) won her the Academy Award for Best Actress.\n\nDunaway also portrayed actress Joan Crawford in \"Mommie Dearest\" (1981), a controversial film that later developed a strong cult following. Her other work has included television productions, stage appearances, and international films.\n\nOver the course of her career, Faye Dunaway has received numerous awards and nominations and has been recognized as one of the defining actresses of the New Hollywood era. Her roles in \"Bonnie and Clyde,\" \"Chinatown,\" and \"Network\" remain especially celebrated, making her photographs, signed memorabilia, and autographs popular with collectors of classic and modern Hollywood.",
+    "authentication_info": "",
+    "condition_notes": "Good condition - Slight crease at far left border of photo",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0051",
+    "product_images": [
+      "images/HEC-0051.jpg"
+    ],
+    "full_description": "Bo Derek is an American actress, model, and producer who became an international sex symbol after starring in the hit romantic comedy \"10\" (1979). Born Mary Cathleen Collins on November 20, 1956, in Long Beach, California, she began working in film while still a teenager.\n\nDerek achieved worldwide fame playing Jenny Hanley in \"10,\" opposite Dudley Moore and Julie Andrews. Her appearance in the film, particularly the famous beach sequence in which she wore her hair in cornrow braids, became one of the most recognizable images of late-1970s popular culture.\n\nShe later starred in several films directed by her husband, John Derek, including \"Tarzan, the Ape Man,\" \"Bolero,\" and \"Ghosts Can't Do It.\" Although some of these movies received poor critical reviews, Derek remained a highly recognizable celebrity and continued appearing in films, television programs, and magazines.\n\nHer other screen work has included \"Orca,\" \"A Change of Seasons,\" \"Tommy Boy,\" and guest appearances on numerous television series. Beyond acting, Derek has been involved in animal welfare and veterans' causes and has served on organizations supporting military veterans and horse protection.\n\nBo Derek's association with \"10\" and her status as a major pop-culture figure of the 1970s and 1980s have made her photographs, movie memorabilia, and autographs popular with collectors of Hollywood and celebrity memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0052",
+    "product_images": [
+      "images/HEC-0052.jpg"
+    ],
+    "full_description": "\"She Lives\" is a 1973 American television movie starring Desi Arnaz Jr. and Season Hubley. The drama tells the story of a young couple whose relationship is tested by a devastating medical diagnosis.\n\nDesi Arnaz Jr. plays Andy Reed, a young man who falls in love with Pam Rainey, played by Season Hubley. Their romance changes dramatically when Pam is diagnosed with a serious illness. Faced with the possibility of losing her, Andy becomes determined to find a way to help her and refuses to simply accept the grim outlook given to them.\n\nThe story follows Andy's search for hope and treatment while exploring the emotional strain placed on both characters. Rather than focusing only on illness, \"She Lives\" is largely a romantic drama about devotion, fear, persistence, and the desire to hold on to a future together.\n\nThe film was made for television during a period when networks frequently produced serious dramatic movies dealing with difficult social and personal subjects. It gave Desi Arnaz Jr., already well known as the son of Lucille Ball and Desi Arnaz, an opportunity to take on a more dramatic role.\n\n\"She Lives\" remains of interest to fans of 1970s television movies and to collectors of memorabilia associated with Desi Arnaz Jr., Season Hubley, and classic made-for-TV productions.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0053",
+    "product_images": [
+      "images/HEC-0053.jpg"
+    ],
+    "full_description": "\"The Secret of Dr. Kildare\" is a 1939 American medical drama starring Lew Ayres as Dr. James Kildare and Lionel Barrymore as the demanding but brilliant Dr. Leonard Gillespie. It was part of MGM's popular series of Dr. Kildare films based on characters created by author Frederick Schiller Faust, who wrote under the name Max Brand.\n\nIn the film, young Dr. Kildare is working under Dr. Gillespie at Blair General Hospital while continuing to develop his skills as a physician. The story centers on a wealthy young woman suffering from a mysterious condition that has left her nearly blind. Kildare becomes convinced that her problem may have a psychological rather than purely physical cause and begins investigating her personal circumstances in hopes of finding a cure.\n\nAt the same time, Kildare must balance his medical responsibilities with the expectations of Dr. Gillespie, whose stern manner often hides genuine concern for his young prot\u00e9g\u00e9. Their relationship became one of the defining elements of the film series.\n\n\"The Secret of Dr. Kildare\" combines medical mystery, drama, and character development and helped strengthen Lew Ayres' association with the role of the idealistic young doctor. Lionel Barrymore's portrayal of Dr. Gillespie also became one of his most recognizable later-career performances.\n\nThe film remains of interest to fans and collectors of classic Hollywood, vintage medical dramas, and MGM motion pictures from the 1930s.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0054",
+    "product_images": [
+      "images/HEC-0054.jpg"
+    ],
+    "full_description": "The Judds were an American country music duo consisting of mother Naomi Judd (Deceased) and daughter Wynonna Judd. Formed in the early 1980s, The Judds became one of the most successful country acts of the decade, known for their close family harmonies, traditional country sound, and strong emotional songwriting.\n\nThe duo achieved widespread success with hit songs including \"Mama He's Crazy,\" \"Why Not Me,\" \"Grandpa (Tell Me 'Bout the Good Old Days),\" \"Love Is Alive,\" \"Rockin' with the Rhythm of the Rain,\" and \"Have Mercy.\" Their recordings earned multiple Grammy Awards, Country Music Association honors, and Academy of Country Music awards.\n\nThe Judds released several successful albums, including \"Why Not Me,\" \"Rockin' with the Rhythm,\" \"Heartland,\" and \"River of Time.\" Their combination of country, bluegrass, folk, and acoustic influences helped define mainstream country music during the 1980s.\n\nThe duo stopped performing regularly in 1991 after Naomi Judd was diagnosed with hepatitis C, although Naomi and Wynonna reunited periodically for concerts and television appearances. Wynonna continued with a successful solo country music career.\n\nNaomi Judd died in 2022 at age 76. The Judds were inducted into the Country Music Hall of Fame shortly afterward, recognizing their lasting influence on country music and their status as one of the genre's most celebrated family acts.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0055",
+    "product_images": [
+      "images/HEC-0055.jpg"
+    ],
+    "full_description": "Gary Cooper (Deceased) was an American actor and one of the most enduring leading men of Hollywood\u2019s Golden Age. Born Frank James Cooper on May 7, 1901, in Helena, Montana, he became known for his quiet, natural acting style, rugged screen presence, and portrayals of courageous, principled men.\n\nCooper rose to stardom during the late silent era and became a major box-office attraction throughout the 1930s, 1940s, and 1950s. His best-known films include \"A Farewell to Arms,\" \"Mr. Deeds Goes to Town,\" \"Beau Geste,\" \"Meet John Doe,\" \"The Pride of the Yankees,\" \"For Whom the Bell Tolls,\" and \"High Noon.\"\n\nHe won the Academy Award for Best Actor for \"Sergeant York\" and again for \"High Noon.\" In \"High Noon,\" Cooper played Marshal Will Kane, a lawman forced to face a group of killers largely on his own. The performance became one of the defining roles of his career.\n\nCooper was equally successful in Westerns, romantic dramas, war films, and comedies. His restrained delivery and straightforward manner helped create a uniquely American screen persona associated with honesty, independence, and moral strength.\n\nGary Cooper died on May 13, 1961, at age 60. His long career, iconic performances, and association with some of Hollywood\u2019s greatest films have made his photographs, autographs, and movie memorabilia highly desirable among collectors of classic Hollywood.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0056",
+    "product_images": [
+      "images/HEC-0056.jpg"
+    ],
+    "full_description": "James Caan (Deceased) was an American actor best known for his intense, charismatic performances in film and television. Born James Edmund Caan on March 26, 1940, in The Bronx, New York, he began acting in television before becoming a major Hollywood star.\n\nCaan achieved lasting fame as the hot-tempered Sonny Corleone in Francis Ford Coppola\u2019s \"The Godfather\" (1972). His performance earned him an Academy Award nomination for Best Supporting Actor and became one of the most memorable roles in the landmark crime film.\n\nHe also starred in a wide range of movies, including \"Brian\u2019s Song,\" \"Rollerball,\" \"The Gambler,\" \"Misery,\" \"Thief,\" \"A Bridge Too Far,\" \"Honeymoon in Vegas,\" and \"Elf.\" In the television movie \"Brian\u2019s Song,\" Caan portrayed football player Brian Piccolo opposite Billy Dee Williams as Gale Sayers, earning widespread praise for his dramatic performance.\n\nCaan was known for playing tough, forceful characters, but he also demonstrated strong ability in comedy and more vulnerable dramatic roles. His portrayal of novelist Paul Sheldon in \"Misery\" opposite Kathy Bates introduced him to another generation of movie audiences.\n\nLater in his career, Caan continued appearing in films and television, including the series \"Las Vegas.\"\n\nJames Caan died on July 6, 2022, at age 82. His work in \"The Godfather,\" \"Brian\u2019s Song,\" \"Misery,\" and other major productions has made him an enduring figure in American cinema and a popular subject among collectors of Hollywood autographs and memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0057",
+    "product_images": [
+      "images/HEC-0057.jpg"
+    ],
+    "full_description": "\"All in the Family\" is an American television sitcom that originally aired from 1971 to 1979 and became one of the most influential programs in television history. Created by Norman Lear and based on the British series \"Till Death Us Do Part,\" the show used comedy to address controversial social and political issues rarely discussed so openly on television at the time.\n\nThe series starred Carroll O'Connor as Archie Bunker, a stubborn, outspoken working-class man living in Queens, New York. Jean Stapleton played his kindhearted wife, Edith Bunker. Their daughter Gloria, played by Sally Struthers, lived with them along with her husband Michael Stivic, portrayed by Rob Reiner. Archie frequently clashed with Michael, whom he mockingly called \"Meathead,\" over politics, race, religion, women's rights, and changing social attitudes.\n\nDespite Archie's prejudices and abrasive personality, the series often used his views to expose hypocrisy and challenge stereotypes. Edith became one of television's most beloved characters, while the chemistry among the four principal cast members helped make the show both funny and emotionally powerful.\n\n\"All in the Family\" was a major ratings success and won numerous Emmy Awards. It also produced several successful spin-offs, including \"The Jeffersons,\" \"Maude,\" and \"Archie Bunker's Place.\"\n\nThe show's groundbreaking approach to serious subjects helped transform American television comedy and continues to make cast autographs, photographs, and memorabilia popular with collectors of classic television.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0058",
+    "product_images": [
+      "images/HEC-0058.jpg"
+    ],
+    "full_description": "John Astin is an American actor and director best known for portraying Gomez Addams in the classic television series \"The Addams Family.\" Born March 30, 1930, in Baltimore, Maryland, Astin developed a career spanning television, film, theater, and voice acting.\n\nAstin became a television icon as the enthusiastic, romantic, and eccentric Gomez Addams opposite Carolyn Jones as Morticia Addams. \"The Addams Family\" originally aired from 1964 to 1966 and became a lasting favorite in syndication, helping make Gomez one of Astin's signature roles.\n\nHe also appeared in numerous films and television programs, including \"West Side Story,\" \"That Touch of Mink,\" \"Move Over, Darling,\" \"Freaky Friday,\" and \"National Lampoon's European Vacation.\" His television credits include guest appearances on \"Batman,\" \"Murder, She Wrote,\" \"Night Court,\" and many other series.\n\nAstin also portrayed the Riddler on \"Batman\" after Frank Gorshin temporarily left the role, giving him another connection to 1960s television pop culture. In addition to acting, he worked as a director and became involved in teaching theater and acting.\n\nWith a career extending across many decades, John Astin remains especially associated with \"The Addams Family\" and the character of Gomez Addams. His autographs, photographs, and memorabilia remain popular with collectors of classic television, comedy, and 1960s entertainment.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0059",
+    "product_images": [
+      "images/HEC-0059.jpg"
+    ],
+    "full_description": "Valerie Bertinelli is an American actress, television personality, and author best known for her long-running role as Barbara Cooper Royer on the popular sitcom \"One Day at a Time.\" Born April 23, 1960, in Wilmington, Delaware, she began acting as a teenager and quickly became one of television's most recognizable young stars of the 1970s and 1980s.\n\nBertinelli joined \"One Day at a Time\" in 1975, starring alongside Bonnie Franklin, Mackenzie Phillips, and Pat Harrington Jr. The series followed a divorced mother raising two teenage daughters and became known for mixing comedy with serious family and social issues. Bertinelli remained with the show throughout its original nine-season run.\n\nShe later appeared in numerous television movies and series, including \"Sydney,\" \"Caf\u00e9 Americain,\" \"Touched by an Angel,\" and \"Hot in Cleveland,\" where she starred with Betty White, Jane Leeves, and Wendie Malick.\n\nBeyond acting, Bertinelli became a familiar presence on food and lifestyle television. She hosted \"Valerie's Home Cooking\" and appeared on other Food Network programs, expanding her career into cooking and television hosting.\n\nValerie Bertinelli has remained a popular figure in American entertainment for decades. Her work on \"One Day at a Time,\" \"Hot in Cleveland,\" and television food programs has made her especially recognizable to fans and collectors of classic television, sitcom memorabilia, signed photographs, and celebrity autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0060",
+    "product_images": [
+      "images/HEC-0060.jpg"
+    ],
+    "full_description": "Jacqueline Bisset is an English actress known for her elegance, versatility, and extensive career in American and European film and television. Born Winifred Jacqueline Fraser Bisset on September 13, 1944, in Weybridge, Surrey, England, she began working as a model before moving into acting during the 1960s.\n\nBisset gained early attention in films such as \"The Detective,\" \"Bullitt,\" and \"Airport.\" Her role opposite Steve McQueen in \"Bullitt\" helped establish her as a major international star. She later appeared in a wide variety of dramas, thrillers, romances, and period films.\n\nHer notable movie credits include \"The Deep,\" \"Murder on the Orient Express,\" \"Day for Night,\" \"The Greek Tycoon,\" \"Rich and Famous,\" \"Under the Volcano,\" and \"Class.\" Fran\u00e7ois Truffaut's \"Day for Night\" became particularly acclaimed and won the Academy Award for Best Foreign Language Film.\n\nBisset also built a substantial television career, appearing in miniseries and television movies such as \"Joan of Arc\" and \"Dancing on the Edge.\" Her work has earned numerous award nominations, and she won a Golden Globe for her performance in \"Dancing on the Edge.\"\n\nWith a career spanning more than five decades, Jacqueline Bisset remains one of the most recognizable British actresses of her generation. Her association with classic films such as \"Bullitt,\" \"The Deep,\" and \"Murder on the Orient Express\" makes her photographs, autographs, and movie memorabilia popular with collectors of classic Hollywood and international cinema.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0061",
+    "product_images": [
+      "images/HEC-0061.jpg"
+    ],
+    "full_description": "\"Creature from the Black Lagoon\" is a 1954 American science-fiction horror film produced by Universal-International and directed by Jack Arnold. The movie introduced one of Universal's most famous monsters, the Gill-man, and became a major classic of 1950s horror cinema.\n\nThe story follows a scientific expedition traveling into the Amazon after the discovery of a fossilized skeletal hand that appears to belong to an unknown amphibious humanoid species. The expedition includes Dr. David Reed, played by Richard Carlson, and Kay Lawrence, played by Julie Adams. While exploring a remote lagoon, the group discovers that a living creature of the same species still exists.\n\nThe Gill-man, portrayed underwater by Ricou Browning and on land by Ben Chapman, becomes fascinated with Kay and repeatedly approaches the expedition. The scientists struggle between their desire to study the creature and the growing danger it poses to the group.\n\n\"Creature from the Black Lagoon\" was originally released in 3-D, taking advantage of the format's popularity during the 1950s. Its underwater photography and eerie lagoon setting helped give the film a distinctive look.\n\nThe Gill-man became part of the celebrated Universal Monsters tradition alongside Dracula, Frankenstein's monster, the Wolf Man, and the Mummy. The film was followed by \"Revenge of the Creature\" in 1955 and \"The Creature Walks Among Us\" in 1956.\n\nToday, \"Creature from the Black Lagoon\" remains a favorite among classic horror fans and collectors of Universal Monsters memorabilia, movie posters, photographs, and autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0062",
+    "product_images": [
+      "images/HEC-0062.jpg"
+    ],
+    "full_description": "Jacqueline Bisset is an English actress known for her elegance, versatility, and extensive career in American and European film and television. Born Winifred Jacqueline Fraser Bisset on September 13, 1944, in Weybridge, Surrey, England, she began working as a model before moving into acting during the 1960s.\n\nBisset gained early attention in films such as \"The Detective,\" \"Bullitt,\" and \"Airport.\" Her role opposite Steve McQueen in \"Bullitt\" helped establish her as a major international star. She later appeared in a wide variety of dramas, thrillers, romances, and period films.\n\nHer notable movie credits include \"The Deep,\" \"Murder on the Orient Express,\" \"Day for Night,\" \"The Greek Tycoon,\" \"Rich and Famous,\" \"Under the Volcano,\" and \"Class.\" Fran\u00e7ois Truffaut's \"Day for Night\" became particularly acclaimed and won the Academy Award for Best Foreign Language Film.\n\nBisset also built a substantial television career, appearing in miniseries and television movies such as \"Joan of Arc\" and \"Dancing on the Edge.\" Her work has earned numerous award nominations, and she won a Golden Globe for her performance in \"Dancing on the Edge.\"\n\nWith a career spanning more than five decades, Jacqueline Bisset remains one of the most recognizable British actresses of her generation. Her association with classic films such as \"Bullitt,\" \"The Deep,\" and \"Murder on the Orient Express\" makes her photographs, autographs, and movie memorabilia popular with collectors of classic Hollywood and international cinema.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0063",
+    "product_images": [
+      "images/HEC-0063.jpg"
+    ],
+    "full_description": "Tom Cruise is an American actor and producer who became one of the most successful and recognizable movie stars of his generation. Born Thomas Cruise Mapother IV on July 3, 1962, in Syracuse, New York, he began acting professionally in the early 1980s and quickly emerged as a leading man.\n\nCruise gained widespread attention with films including \"Risky Business\" and \"Top Gun,\" the latter establishing him as a major international star. He went on to appear in a long series of successful movies such as \"Rain Man,\" \"Born on the Fourth of July,\" \"A Few Good Men,\" \"The Firm,\" \"Jerry Maguire,\" \"Eyes Wide Shut,\" \"Minority Report,\" \"Collateral,\" and \"The Last Samurai.\"\n\nHe is especially associated with the \"Mission: Impossible\" film series, in which he stars as IMF agent Ethan Hunt. Cruise has also served as a producer on the franchise and became known for performing many of his own elaborate action stunts.\n\nHis performance in \"Born on the Fourth of July\" earned him a Golden Globe Award and an Academy Award nomination. He received additional Oscar nominations for \"Jerry Maguire\" and \"Magnolia.\"\n\nCruise returned to one of his most famous roles as Pete \"Maverick\" Mitchell in \"Top Gun: Maverick\" (2022), which became a major worldwide box-office success.\n\nWith a film career spanning more than four decades, Tom Cruise remains one of Hollywood's most prominent action and dramatic stars, making his autographs, photographs, and movie memorabilia popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0064",
+    "product_images": [
+      "images/HEC-0064.jpg"
+    ],
+    "full_description": "Sammy Davis Jr. (Deceased) was an American singer, dancer, actor, comedian, and entertainer whose extraordinary versatility made him one of the most celebrated performers of the 20th century. Born Samuel George Davis Jr. on December 8, 1925, in Harlem, New York, he began performing professionally as a small child with his father and uncle.\n\nDavis became known for his talents as a singer, tap dancer, impressionist, musician, and dramatic actor. His popular recordings included \"The Candy Man,\" \"I've Gotta Be Me,\" \"What Kind of Fool Am I?,\" and \"Mr. Bojangles.\"\n\nHe was also a prominent member of the famous Rat Pack alongside Frank Sinatra, Dean Martin, Peter Lawford, and Joey Bishop. Their nightclub performances and appearances in films such as \"Ocean's 11\" helped define the glamorous Las Vegas entertainment scene of the early 1960s.\n\nDavis appeared in numerous films and television programs, including \"Porgy and Bess,\" \"Robin and the 7 Hoods,\" \"Sweet Charity,\" and \"Cannonball Run II.\" He was also a successful Broadway performer and received acclaim for his work in productions such as \"Golden Boy.\"\n\nThroughout his career, Davis broke racial barriers in entertainment and became an important figure in American popular culture. He died on May 16, 1990, at age 64.\n\nSammy Davis Jr.'s music, films, Rat Pack association, and distinctive stage presence continue to make his autographs, photographs, records, and entertainment memorabilia highly desirable among collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0065",
+    "product_images": [
+      "images/HEC-0065.jpg"
+    ],
+    "full_description": "Angie Dickinson is an American actress best known for her work in classic films and television, particularly the groundbreaking police drama \"Police Woman.\" Born Angeline Brown on September 30, 1931, in Kulm, North Dakota, she began her career in television during the 1950s before becoming a prominent Hollywood actress.\n\nDickinson appeared in numerous popular films, including \"Rio Bravo,\" opposite John Wayne and Dean Martin, \"Ocean's 11\" with Frank Sinatra and the Rat Pack, \"The Killers,\" \"Point Blank,\" \"Big Bad Mama,\" and \"Dressed to Kill.\" Her combination of glamour, confidence, and dramatic ability made her a familiar presence in both crime dramas and major studio productions.\n\nShe became especially famous as Sergeant Suzanne \"Pepper\" Anderson in the television series \"Police Woman,\" which aired from 1974 to 1978. The show was notable for featuring a woman in the leading role of a serious police drama and helped establish Dickinson as one of television's most recognizable actresses of the 1970s. Her performance earned her a Golden Globe Award and multiple Emmy Award nominations.\n\nDickinson also made many guest appearances on television and continued acting in films and TV productions for decades.\n\nWith a career spanning more than half a century, Angie Dickinson remains closely associated with classic Hollywood, crime films, the Rat Pack era, and 1970s television, making her photographs, autographs, and memorabilia popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0066",
+    "product_images": [
+      "images/HEC-0066.jpg"
+    ],
+    "full_description": "Sally Field is an American actress and director whose career has spanned television, film, and stage for more than six decades. Born November 6, 1946, in Pasadena, California, she first became widely known through television comedies before establishing herself as one of Hollywood's most respected dramatic actresses.\n\nField gained early fame starring in \"Gidget\" and later \"The Flying Nun.\" Although those lighthearted roles made her a television favorite, she worked hard to expand into more serious material and earned critical acclaim for the television movie \"Sybil.\"\n\nHer film career includes major roles in \"Smokey and the Bandit,\" \"Norma Rae,\" \"Absence of Malice,\" \"Places in the Heart,\" \"Steel Magnolias,\" \"Mrs. Doubtfire,\" \"Forrest Gump,\" and \"Lincoln.\" She won the Academy Award for Best Actress for both \"Norma Rae\" and \"Places in the Heart.\"\n\nField is also remembered for her long-running screen partnership with Burt Reynolds, particularly in \"Smokey and the Bandit.\" Later generations came to know her as Mrs. Gump, the devoted mother of Tom Hanks' character in \"Forrest Gump.\"\n\nHer television work includes \"Brothers & Sisters,\" for which she received an Emmy Award, as well as numerous other dramatic performances.\n\nSally Field remains one of the most admired actresses of her generation. Her roles in classic television, award-winning dramas, and popular films have made her autographs, photographs, and entertainment memorabilia especially appealing to collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0067",
+    "product_images": [
+      "images/HEC-0067.jpg"
+    ],
+    "full_description": "Angie Dickinson is an American actress best known for her work in classic films and television, especially the popular crime drama \"Police Woman.\" Born Angeline Brown on September 30, 1931, in Kulm, North Dakota, she began appearing on television during the 1950s before becoming a major Hollywood star.\n\nDickinson gained wide recognition with her role as Feathers in the Western classic \"Rio Bravo\" (1959), starring John Wayne and Dean Martin. She later appeared in films including \"Ocean's 11,\" \"The Killers,\" \"Point Blank,\" \"Big Bad Mama,\" and \"Dressed to Kill.\" Her combination of glamour, confidence, and dramatic ability made her a popular leading actress in both crime films and major studio productions.\n\nShe became especially famous as Sergeant Suzanne \"Pepper\" Anderson in the television series \"Police Woman,\" which aired from 1974 to 1978. The series was notable for featuring a woman as the central character in a serious police drama and helped make Dickinson one of television's most recognizable actresses of the 1970s. Her performance earned her a Golden Globe Award and several Emmy Award nominations.\n\nDickinson also made numerous guest appearances on television and continued acting in films and television productions for decades.\n\nWith a career spanning more than half a century, Angie Dickinson remains closely associated with classic Hollywood, the Rat Pack era, crime films, and 1970s television. Her photographs, autographs, and memorabilia remain popular with collectors of vintage Hollywood and classic television.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0068",
+    "product_images": [
+      "images/HEC-0068.jpg"
+    ],
+    "full_description": "Tom Cruise is an American actor and producer who became one of the most successful and recognizable movie stars of his generation. Born Thomas Cruise Mapother IV on July 3, 1962, in Syracuse, New York, he began acting professionally in the early 1980s and quickly emerged as a leading man.\n\nCruise gained widespread attention with \"Risky Business\" and became an international star with \"Top Gun,\" playing naval aviator Pete \"Maverick\" Mitchell. He went on to star in major films including \"Rain Man,\" \"Born on the Fourth of July,\" \"A Few Good Men,\" \"The Firm,\" \"Interview with the Vampire,\" \"Jerry Maguire,\" \"Eyes Wide Shut,\" \"Minority Report,\" \"The Last Samurai,\" and \"Collateral.\"\n\nHe is especially associated with the \"Mission: Impossible\" film series, in which he portrays IMF agent Ethan Hunt. Cruise has also served as a producer on the franchise and became famous for performing many of his own elaborate and dangerous action stunts.\n\nHis dramatic performances earned Academy Award nominations for \"Born on the Fourth of July,\" \"Jerry Maguire,\" and \"Magnolia.\" He has also received several Golden Globe Awards during his career.\n\nCruise returned to one of his signature roles in \"Top Gun: Maverick\" (2022), which became an enormous worldwide box-office success.\n\nWith a career spanning more than four decades, Tom Cruise remains one of Hollywood's most prominent stars. His association with \"Top Gun,\" \"Mission: Impossible,\" and numerous acclaimed films makes his autographs, photographs, and movie memorabilia especially popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0069",
+    "product_images": [
+      "images/HEC-0069.jpg"
+    ],
+    "full_description": "John Forsythe (Deceased) was an American actor whose long career in film and television made him one of the most recognizable voices and personalities in classic television. Born Jacob Lincoln Freund on January 29, 1918, in Penns Grove, New Jersey, he began acting on stage before moving into motion pictures and television.\n\nForsythe became especially famous as the voice of the mysterious Charles \"Charlie\" Townsend on \"Charlie's Angels.\" Although Charlie was rarely seen, Forsythe's distinctive voice introduced the Angels' assignments and became one of the show's most memorable elements.\n\nHe was also widely known for playing wealthy oil executive Blake Carrington on the prime-time television drama \"Dynasty,\" which aired during the 1980s. His performance opposite Joan Collins and Linda Evans helped make the series an international hit and earned Forsythe Golden Globe Awards.\n\nEarlier in his career, he starred in the television sitcom \"Bachelor Father\" and appeared in films including Alfred Hitchcock's \"The Trouble with Harry,\" \"Topaz,\" and \"In Cold Blood.\"\n\nForsythe also worked extensively in radio, theater, and television throughout a career spanning more than five decades. He later returned as the voice of Charlie in the feature films \"Charlie's Angels\" and \"Charlie's Angels: Full Throttle.\"\n\nJohn Forsythe died on April 1, 2010, at age 92. His roles in \"Charlie's Angels,\" \"Dynasty,\" and \"Bachelor Father\" continue to make his autographs, photographs, and television memorabilia popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0070",
+    "product_images": [
+      "images/HEC-0070.jpg"
+    ],
+    "full_description": "James Garner (Deceased) was an American actor known for his easygoing charm, dry humor, and natural screen presence in both television and motion pictures. Born James Scott Bumgarner on April 7, 1928, in Norman, Oklahoma, he served in the Korean War before beginning his acting career during the 1950s.\n\nGarner became a television star as gambler and reluctant hero Bret Maverick in the Western series \"Maverick,\" which premiered in 1957. His relaxed, witty approach helped distinguish the show from more traditional Westerns and made him one of television's most popular leading men.\n\nHe later achieved another major success as private investigator Jim Rockford in \"The Rockford Files,\" which aired from 1974 to 1980. The role earned Garner an Emmy Award and became one of the defining performances of his career.\n\nGarner also starred in many successful films, including \"The Great Escape,\" \"The Americanization of Emily,\" \"Grand Prix,\" \"Support Your Local Sheriff!,\" \"Victor/Victoria,\" \"Murphy's Romance,\" and \"Space Cowboys.\" His performance in \"Murphy's Romance\" earned him an Academy Award nomination for Best Actor.\n\nLater in his career, Garner appeared in \"The Notebook\" as the older version of Noah Calhoun, introducing him to a new generation of movie audiences.\n\nJames Garner died on July 19, 2014, at age 86. His memorable work in \"Maverick,\" \"The Rockford Files,\" and numerous classic films continues to make his autographs, photographs, and memorabilia popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0071",
+    "product_images": [
+      "images/HEC-0071.jpg"
+    ],
+    "full_description": "\"Get Smart\" is an American television comedy series that originally aired from 1965 to 1970. Created by Mel Brooks and Buck Henry, the show was a clever parody of spy movies and secret-agent television programs that were extremely popular during the 1960s.\n\nThe series starred Don Adams as Maxwell Smart, Agent 86 of the secret intelligence organization CONTROL. Smart was confident and enthusiastic but frequently clumsy, accident-prone, and completely unaware of many of his own mistakes. Barbara Feldon co-starred as the highly capable Agent 99, who regularly helped Smart escape dangerous situations.\n\nCONTROL battled the evil organization KAOS, whose agents were constantly plotting against the United States and the rest of the free world. Edward Platt played the long-suffering Chief of CONTROL, who often struggled to manage Smart's unpredictable behavior.\n\n\"Get Smart\" became famous for its inventive gadgets and recurring jokes, including Maxwell Smart's shoe phone, the Cone of Silence, and catchphrases such as \"Would you believe...?\" and \"Missed it by that much.\"\n\nThe series won several Emmy Awards and developed a lasting following through reruns and syndication. It later inspired reunion projects, feature films, and a 2008 movie adaptation.\n\n\"Get Smart\" remains one of television's best-known spy comedies, and memorabilia associated with Don Adams, Barbara Feldon, and the series continues to appeal to collectors of classic television and 1960s pop culture.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0072",
+    "product_images": [
+      "images/HEC-0072.jpg"
+    ],
+    "full_description": "Erin Gray is an American actress and model best known for her roles in the science-fiction television series \"Buck Rogers in the 25th Century\" and the sitcom \"Silver Spoons.\" Born January 7, 1950, in Honolulu, Hawaii, she began her career as a successful fashion model before moving into acting.\n\nGray became widely recognized as Colonel Wilma Deering in \"Buck Rogers in the 25th Century,\" which aired from 1979 to 1981. Starring opposite Gil Gerard as Buck Rogers, she played a confident and capable military officer in a futuristic world. Her sleek costumes and commanding screen presence helped make Wilma Deering one of the most memorable female science-fiction characters of the era.\n\nShe later became familiar to television audiences as Kate Summers Stratton on \"Silver Spoons,\" starring alongside Ricky Schroder. The popular sitcom aired during the 1980s and gave Gray another long-running television role.\n\nGray also appeared in numerous other television programs, movies, and guest roles, including \"Magnum, P.I.,\" \"The Fall Guy,\" \"Murder, She Wrote,\" \"Baywatch,\" and \"Profiler.\" She has continued making appearances at science-fiction conventions and fan events.\n\nErin Gray remains especially popular with collectors because of her association with \"Buck Rogers in the 25th Century\" and classic 1970s and 1980s television. Her autographs, signed photographs, and science-fiction memorabilia continue to attract fans of vintage television and space-adventure series.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0073",
+    "product_images": [
+      "images/HEC-0073.jpg"
+    ],
+    "full_description": "Tippi Hedren is an American actress, former fashion model, and animal-rights advocate best known for her starring roles in Alfred Hitchcock\u2019s films \"The Birds\" and \"Marnie.\" Born Nathalie Kay Hedren on January 19, 1930, in New Ulm, Minnesota, she began her career as a successful model before being discovered for motion pictures.\n\nHedren became internationally famous as Melanie Daniels in Hitchcock\u2019s \"The Birds\" (1963). The suspense classic follows a series of unexplained and increasingly violent bird attacks on residents of a small California coastal town. Her performance made her one of the most recognizable actresses of the early 1960s.\n\nShe worked with Hitchcock again in \"Marnie\" (1964), starring opposite Sean Connery. Hedren played the troubled title character, a woman with a mysterious past and compulsive behavior. The role gave her the opportunity to take on a darker and more psychologically complex performance.\n\nHer later film work included \"A Countess from Hong Kong,\" \"Roar,\" \"Pacific Heights,\" and numerous television appearances. Hedren also became widely known for her commitment to animal welfare, especially the protection of big cats. She founded the Shambala Preserve in California to provide sanctuary for exotic animals.\n\nTippi Hedren is also the mother of actress Melanie Griffith and grandmother of actress Dakota Johnson. Her association with \"The Birds,\" \"Marnie,\" Alfred Hitchcock, and classic Hollywood continues to make her autographs, photographs, and movie memorabilia popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0074",
+    "product_images": [
+      "images/HEC-0074.jpg"
+    ],
+    "full_description": "Charlton Heston (Deceased) was an American actor whose commanding voice, imposing presence, and heroic screen persona made him one of the most recognizable stars of classic Hollywood. Born John Charles Carter on October 4, 1923, in Wilmette, Illinois, he began acting on stage before moving into film and television.\n\nHeston became especially famous for starring in large-scale historical and biblical epics. He portrayed Moses in Cecil B. DeMille's \"The Ten Commandments\" (1956), one of the defining roles of his career. He later won the Academy Award for Best Actor for his performance as Judah Ben-Hur in \"Ben-Hur\" (1959), which became one of Hollywood's most celebrated epic films.\n\nHis other notable movies include \"The Greatest Show on Earth,\" \"Touch of Evil,\" \"El Cid,\" \"55 Days at Peking,\" \"The Agony and the Ecstasy,\" \"The War Lord,\" and \"Khartoum.\" Heston also became strongly associated with science-fiction through films such as \"Planet of the Apes,\" \"The Omega Man,\" and \"Soylent Green.\"\n\nOver the course of his career, he portrayed larger-than-life historical figures, military leaders, adventurers, and survivors, while also appearing in television and on stage.\n\nCharlton Heston died on April 5, 2008, at age 84. His performances in \"The Ten Commandments,\" \"Ben-Hur,\" and \"Planet of the Apes\" remain iconic, making his autographs, photographs, and movie memorabilia highly desirable among collectors of classic Hollywood and science-fiction history.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0075",
+    "product_images": [
+      "images/HEC-0075.jpg"
+    ],
+    "full_description": "Holly Hunter is an American actress known for her distinctive voice, intense screen presence, and acclaimed performances in both comedy and drama. Born March 20, 1958, in Conyers, Georgia, she studied drama before beginning her professional career in theater and film.\n\nHunter gained widespread attention with the Coen brothers' comedy \"Raising Arizona\" (1987), starring opposite Nicolas Cage. She played Edwina \"Ed\" McDunnough, a police officer who becomes involved in a wildly comic kidnapping scheme. The film became a cult favorite and helped establish Hunter as a major screen actress.\n\nShe went on to earn critical acclaim for films including \"Broadcast News,\" \"The Piano,\" \"The Firm,\" \"Home for the Holidays,\" \"Crash,\" and \"Thirteen.\" Her performance as Ada McGrath in \"The Piano\" (1993) won her the Academy Award for Best Actress.\n\nHunter also became familiar to family audiences as the voice of Helen Parr, also known as Elastigirl, in Pixar's \"The Incredibles\" and \"Incredibles 2.\"\n\nHer television work has included the drama series \"Saving Grace,\" as well as numerous television films and guest appearances. Over her career, Hunter has received Academy Award, Emmy Award, Golden Globe, and other major acting honors.\n\nWith memorable roles in \"Raising Arizona,\" \"Broadcast News,\" \"The Piano,\" and \"The Incredibles,\" Holly Hunter remains one of the most respected actresses of her generation and a popular name among collectors of film and television autographs and memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0076",
+    "product_images": [
+      "images/HEC-0076.jpg"
+    ],
+    "full_description": "\"The Beverly Hillbillies\" is an American television sitcom that originally aired from 1962 to 1971. Created by Paul Henning, the series became one of the most popular comedies of the 1960s and is remembered for its fish-out-of-water humor, colorful characters, and catchy theme song.\n\nThe show starred Buddy Ebsen as Jed Clampett, a poor but good-natured backwoodsman who accidentally strikes oil on his land and becomes enormously wealthy. Jed moves his family from the Ozarks to Beverly Hills, California, where their simple rural ways clash comically with the wealthy and sophisticated world around them.\n\nIrene Ryan played the feisty Granny, Donna Douglas portrayed beautiful tomboy Elly May Clampett, and Max Baer Jr. played the dim-witted but lovable Jethro Bodine. Raymond Bailey co-starred as banker Milburn Drysdale, who desperately tried to keep the Clampetts and their fortune at his bank, while Nancy Kulp played his secretary, Miss Jane Hathaway.\n\nMuch of the comedy came from misunderstandings between the Clampetts and their Beverly Hills neighbors. Despite their wealth, the family remained practical, generous, and largely unimpressed by high society.\n\n\"The Beverly Hillbillies\" was a major ratings success and remained popular for years in syndication. Its memorable cast, theme song, and distinctive characters have made photographs, autographs, and memorabilia from the series especially popular with collectors of classic television and 1960s entertainment.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0077",
+    "product_images": [
+      "images/HEC-0077.jpg"
+    ],
+    "full_description": "Holly Hunter is an American actress known for her distinctive voice, intense screen presence, and acclaimed performances in both comedy and drama. Born March 20, 1958, in Conyers, Georgia, she studied drama before beginning her professional career in theater and film.\n\nHunter gained widespread attention with the Coen brothers' comedy \"Raising Arizona\" (1987), starring opposite Nicolas Cage. She played Edwina \"Ed\" McDunnough, a police officer who becomes involved in a wildly comic kidnapping scheme. The film became a cult favorite and helped establish Hunter as a major screen actress.\n\nShe went on to earn critical acclaim for films including \"Broadcast News,\" \"The Piano,\" \"The Firm,\" \"Home for the Holidays,\" \"Crash,\" and \"Thirteen.\" Her performance as Ada McGrath in \"The Piano\" (1993) won her the Academy Award for Best Actress.\n\nHunter also became familiar to family audiences as the voice of Helen Parr, also known as Elastigirl, in Pixar's \"The Incredibles\" and \"Incredibles 2.\"\n\nHer television work has included the drama series \"Saving Grace,\" as well as numerous television films and guest appearances. Over her career, Hunter has received Academy Award, Emmy Award, Golden Globe, and other major acting honors.\n\nWith memorable roles in \"Raising Arizona,\" \"Broadcast News,\" \"The Piano,\" and \"The Incredibles,\" Holly Hunter remains one of the most respected actresses of her generation and a popular name among collectors of film and television autographs and memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0078",
+    "product_images": [
+      "images/HEC-0078.jpg"
+    ],
+    "full_description": "Charlton Heston (Deceased) was an American actor whose commanding voice, imposing presence, and heroic screen persona made him one of the most recognizable stars of classic Hollywood. Born John Charles Carter on October 4, 1923, in Wilmette, Illinois, he began acting on stage before moving into film and television.\n\nHeston became especially famous for starring in large-scale historical and biblical epics. He portrayed Moses in Cecil B. DeMille's \"The Ten Commandments\" (1956), one of the defining roles of his career. He later won the Academy Award for Best Actor for his performance as Judah Ben-Hur in \"Ben-Hur\" (1959), which became one of Hollywood's most celebrated epic films.\n\nHis other notable movies include \"The Greatest Show on Earth,\" \"Touch of Evil,\" \"El Cid,\" \"55 Days at Peking,\" \"The Agony and the Ecstasy,\" \"The War Lord,\" and \"Khartoum.\" Heston also became strongly associated with science fiction through films such as \"Planet of the Apes,\" \"The Omega Man,\" and \"Soylent Green.\"\n\nOver the course of his career, he portrayed larger-than-life historical figures, military leaders, adventurers, and survivors, while also appearing in television and on stage.\n\nCharlton Heston died on April 5, 2008, at age 84. His performances in \"The Ten Commandments,\" \"Ben-Hur,\" and \"Planet of the Apes\" remain iconic, making his autographs, photographs, and movie memorabilia highly desirable among collectors of classic Hollywood and science-fiction history.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0079",
+    "product_images": [
+      "images/HEC-0079.jpg"
+    ],
+    "full_description": "Angela Lansbury (Deceased) was a British-American actress and singer whose remarkable career spanned more than seven decades across film, television, and the stage. Born Angela Brigid Lansbury on October 16, 1925, in London, England, she moved to the United States as a teenager and soon began working in Hollywood.\n\nLansbury earned an Academy Award nomination for her film debut in \"Gaslight\" (1944), followed by another nomination for \"The Picture of Dorian Gray\" and a third for \"The Manchurian Candidate.\" Her film career also included \"National Velvet,\" \"Bedknobs and Broomsticks,\" and \"Beauty and the Beast,\" in which she provided the voice of Mrs. Potts and performed the film's famous title song.\n\nShe became best known to television audiences as mystery writer and amateur detective Jessica Fletcher in \"Murder, She Wrote.\" The series aired from 1984 to 1996 and became one of television's most popular and enduring mystery programs.\n\nLansbury was also a celebrated Broadway performer, winning multiple Tony Awards for productions including \"Mame,\" \"Dear World,\" \"Gypsy,\" and \"Sweeney Todd.\"\n\nAngela Lansbury died on October 11, 2022, at age 96. Her work in \"Murder, She Wrote,\" classic Hollywood films, Broadway musicals, and Disney productions made her one of the most beloved entertainers of her generation and a popular subject among collectors of television, movie, and theater autographs and memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0080",
+    "product_images": [
+      "images/HEC-0080.jpg"
+    ],
+    "full_description": "Jack Lemmon (Deceased) was an American actor known for his remarkable ability to move effortlessly between comedy and serious drama. Born John Uhler Lemmon III on February 8, 1925, in Newton, Massachusetts, he became one of the most respected and popular performers of his generation.\n\nLemmon worked frequently with director Billy Wilder and starred in several classic films, including \"Some Like It Hot,\" \"The Apartment,\" \"Irma la Douce,\" \"The Fortune Cookie,\" and \"Avanti!\" His nervous energy, expressive reactions, and natural comic timing made him especially effective at playing ordinary men caught in difficult or absurd situations.\n\nHe also formed one of Hollywood's most memorable screen partnerships with Walter Matthau. The two appeared together in films including \"The Odd Couple,\" \"The Front Page,\" \"Grumpy Old Men,\" and \"Grumpier Old Men.\"\n\nLemmon was equally accomplished in dramatic roles. He won Academy Awards for \"Mister Roberts\" and \"Save the Tiger\" and received additional Oscar nominations for films including \"The Apartment,\" \"Days of Wine and Roses,\" \"The China Syndrome,\" \"Missing,\" and \"Glengarry Glen Ross.\"\n\nJack Lemmon died on June 27, 2001, at age 76. His combination of humor, warmth, vulnerability, and dramatic skill made him one of the great actors of American cinema, and his autographs, photographs, and movie memorabilia remain popular with collectors of classic Hollywood.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0081",
+    "product_images": [
+      "images/HEC-0081.jpg"
+    ],
+    "full_description": "Cheryl Ladd is an American actress, singer, and author best known for starring as Kris Munroe in the hit television series \"Charlie's Angels.\" Born Cheryl Jean Stoppelmoor on July 12, 1951, in Huron, South Dakota, she began her entertainment career as a singer before moving into television and acting.\n\nLadd joined \"Charlie's Angels\" in 1977 at the beginning of the show's second season, replacing Farrah Fawcett as a regular cast member. She played Kris Munroe, the younger sister of Fawcett's character Jill Munroe, and starred alongside Kate Jackson and Jaclyn Smith. Ladd remained with the series through its final season in 1981 and became one of the show's most recognizable stars.\n\nHer other television work includes \"One West Waikiki,\" \"Las Vegas,\" and numerous television movies. She also appeared in films such as \"Purple Hearts,\" \"Millennium,\" and \"Poison Ivy.\" In addition to acting, Ladd recorded several albums and had success as a pop singer during the late 1970s and early 1980s.\n\nLadd has also appeared on stage and written books, including works for children and about golf.\n\nHer long association with \"Charlie's Angels,\" along with her television, film, and music career, has made Cheryl Ladd a popular figure among collectors of 1970s television, classic Hollywood memorabilia, signed photographs, and celebrity autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0082",
+    "product_images": [
+      "images/HEC-0082.jpg"
+    ],
+    "full_description": "Jerry Lewis (Deceased) was an American comedian, actor, singer, filmmaker, and humanitarian whose energetic physical comedy made him one of the most recognizable entertainers of the 20th century. Born Joseph Levitch on March 16, 1926, in Newark, New Jersey, he began performing at a young age and later formed a hugely successful comedy partnership with singer Dean Martin.\n\nMartin and Lewis became one of America's most popular entertainment teams of the late 1940s and 1950s, appearing in nightclubs, radio, television, and films. Their movies included \"My Friend Irma,\" \"At War with the Army,\" \"The Stooge,\" \"Artists and Models,\" and \"Hollywood or Bust.\"\n\nAfter the partnership ended in 1956, Lewis built a successful solo career. He starred in and often directed films such as \"The Bellboy,\" \"The Ladies Man,\" \"The Errand Boy,\" and \"The Nutty Professor.\" His filmmaking style emphasized visual comedy, exaggerated characters, and inventive camera techniques.\n\nLewis also appeared in more dramatic roles, including a memorable performance in Martin Scorsese's \"The King of Comedy.\" Beyond entertainment, he became closely associated with the Muscular Dystrophy Association and hosted its annual Labor Day telethon for decades, helping raise enormous sums for medical research and patient support.\n\nJerry Lewis died on August 20, 2017, at age 91. His work in comedy, film directing, television, and charity made him an enduring figure in American entertainment and a popular subject among collectors of classic Hollywood memorabilia and autographs.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0083",
+    "product_images": [
+      "images/HEC-0083.jpg"
+    ],
+    "full_description": "\"M*A*S*H\" is an American television comedy-drama series that originally aired from 1972 to 1983. Developed by Larry Gelbart and based on the 1970 film \"M*A*S*H,\" the series followed the doctors, nurses, and staff of the 4077th Mobile Army Surgical Hospital during the Korean War.\n\nAlan Alda starred as Captain Benjamin Franklin \"Hawkeye\" Pierce, a gifted surgeon whose humor and rebellious attitude helped him cope with the horrors of war. The ensemble cast also included Loretta Swit as Major Margaret \"Hot Lips\" Houlihan, Jamie Farr as Corporal Maxwell Klinger, William Christopher as Father Mulcahy, and Harry Morgan as Colonel Sherman Potter.\n\nEarlier cast members included Wayne Rogers as Trapper John McIntyre, McLean Stevenson as Lt. Colonel Henry Blake, and Larry Linville as Major Frank Burns. Mike Farrell later joined as B.J. Hunnicutt, while David Ogden Stiers played Major Charles Emerson Winchester III.\n\n\"M*A*S*H\" became famous for blending comedy with serious stories about death, injury, friendship, fear, and the emotional cost of war. The show gradually became more dramatic while retaining its humor and strong character relationships.\n\nThe final episode, \"Goodbye, Farewell and Amen,\" aired in 1983 and became one of the most-watched television broadcasts in American history.\n\n\"M*A*S*H\" remains one of the most acclaimed and enduring television series ever produced, making cast autographs, photographs, scripts, and memorabilia especially popular with collectors of classic television and military-themed entertainment.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0084",
+    "product_images": [
+      "images/HEC-0084.jpg"
+    ],
+    "full_description": "Sophia Loren is an Italian actress and international film icon whose beauty, charisma, and dramatic talent made her one of the most celebrated stars of classic European and Hollywood cinema. Born Sofia Costanza Brigida Villani Scicolone on September 20, 1934, in Rome, Italy, she began entering beauty contests as a teenager before moving into motion pictures.\n\nLoren became a major star during the 1950s and 1960s, appearing in both Italian and American productions. Her notable films include \"Houseboat,\" \"It Started in Naples,\" \"El Cid,\" \"Yesterday, Today and Tomorrow,\" \"Marriage Italian Style,\" \"Arabesque,\" and \"A Special Day.\"\n\nOne of her most acclaimed performances came in \"Two Women\" (1960), directed by Vittorio De Sica. Loren portrayed a mother struggling to protect her daughter during World War II and won the Academy Award for Best Actress, becoming the first performer to win an acting Oscar for a primarily non-English-language performance.\n\nLoren frequently appeared opposite leading stars such as Cary Grant, Clark Gable, Charlton Heston, Gregory Peck, and Marcello Mastroianni. Her long collaboration with Mastroianni became especially important in Italian cinema.\n\nOver the course of her career, Loren received numerous international honors, including an Academy Honorary Award recognizing her contributions to world cinema.\n\nSophia Loren remains one of the most recognizable actresses of her generation. Her films, glamorous image, and lasting international fame continue to make her autographs, photographs, and movie memorabilia highly popular with collectors of classic Hollywood and European cinema.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0085",
+    "product_images": [
+      "images/HEC-0085.jpg"
+    ],
+    "full_description": "Cheryl Ladd is an American actress, singer, and author best known for playing Kris Munroe on the hit television series \"Charlie's Angels.\" Born Cheryl Jean Stoppelmoor on July 12, 1951, in Huron, South Dakota, she began her entertainment career as a singer before becoming a successful television actress.\n\nLadd joined \"Charlie's Angels\" in 1977 for the show's second season after Farrah Fawcett left the regular cast. She played Kris Munroe, the younger sister of Fawcett's character Jill Munroe, and starred alongside Kate Jackson and Jaclyn Smith. Ladd quickly became a popular member of the cast and remained with the series until it ended in 1981.\n\nHer other television work includes \"One West Waikiki,\" \"Las Vegas,\" and numerous television movies. She also appeared in films including \"Purple Hearts,\" \"Millennium,\" and \"Poison Ivy.\" In addition to acting, Ladd enjoyed a recording career and released several albums during the late 1970s and early 1980s.\n\nShe has also worked on stage and written books, including children's books and a book about golf.\n\nCheryl Ladd remains closely associated with \"Charlie's Angels\" and 1970s television. Her long career in television, film, and music, along with her enduring popularity as Kris Munroe, has made her photographs, autographs, and entertainment memorabilia especially popular with collectors of classic television and Hollywood memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0086",
+    "product_images": [
+      "images/HEC-0086.jpg"
+    ],
+    "full_description": "Donna Mills is an American actress and producer best known for her long-running role as Abby Cunningham on the prime-time television drama \"Knots Landing.\" Born Donna Jean Miller on December 11, 1940, in Chicago, Illinois, she began her career on stage before moving into television and film.\n\nMills appeared in numerous television programs during the 1960s and 1970s and gained wider attention in the psychological thriller \"Play Misty for Me\" (1971), starring Clint Eastwood and Jessica Walter. She also appeared in many television movies and guest roles before landing the part that would define much of her career.\n\nIn 1980, Mills joined \"Knots Landing\" as Abby Cunningham, an ambitious, glamorous, and often manipulative character who quickly became one of the show's most popular figures. She remained a regular cast member until 1989 and later returned for reunion projects. Her performance helped establish her as one of the best-known stars of 1980s prime-time television.\n\nMills continued working steadily after \"Knots Landing,\" appearing in television movies, independent films, and series such as \"General Hospital.\" She has also worked as a producer and remained active in entertainment for decades.\n\nDonna Mills' association with \"Knots Landing,\" along with her extensive television and film career, has made her photographs, autographs, and memorabilia popular with collectors of classic television, soap operas, and 1980s entertainment.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0087",
+    "product_images": [
+      "images/HEC-0087.jpg"
+    ],
+    "full_description": "Sophia Loren is an Italian actress and international film icon whose beauty, charisma, and dramatic talent made her one of the most celebrated stars of classic European and Hollywood cinema. Born Sofia Costanza Brigida Villani Scicolone on September 20, 1934, in Rome, Italy, she began entering beauty contests as a teenager before moving into motion pictures.\n\nLoren became a major star during the 1950s and 1960s, appearing in both Italian and American productions. Her notable films include \"Houseboat,\" \"It Started in Naples,\" \"El Cid,\" \"Yesterday, Today and Tomorrow,\" \"Marriage Italian Style,\" \"Arabesque,\" and \"A Special Day.\"\n\nOne of her most acclaimed performances came in \"Two Women\" (1960), directed by Vittorio De Sica. Loren portrayed a mother struggling to protect her daughter during World War II and won the Academy Award for Best Actress, becoming the first performer to win an acting Oscar for a primarily non-English-language performance.\n\nLoren frequently appeared opposite leading stars such as Cary Grant, Clark Gable, Charlton Heston, Gregory Peck, and Marcello Mastroianni. Her long collaboration with Mastroianni became especially important in Italian cinema.\n\nOver the course of her career, Loren received numerous international honors, including an Academy Honorary Award recognizing her contributions to world cinema.\n\nSophia Loren remains one of the most recognizable actresses of her generation. Her films, glamorous image, and lasting international fame continue to make her autographs, photographs, and movie memorabilia highly popular with collectors of classic Hollywood and European cinema.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0088",
+    "product_images": [
+      "images/HEC-0088.jpg"
+    ],
+    "full_description": "Robert Mitchum (Deceased) was an American actor known for his relaxed screen presence, deep voice, and ability to portray tough, morally complex characters. Born Robert Charles Durman Mitchum on August 6, 1917, in Bridgeport, Connecticut, he became one of the defining stars of film noir and classic Hollywood.\n\nMitchum rose to prominence during the 1940s and earned an Academy Award nomination for Best Supporting Actor for \"The Story of G.I. Joe.\" He became especially associated with crime dramas and film noir, starring in classics such as \"Out of the Past,\" \"Crossfire,\" and \"The Big Steal.\"\n\nOne of his most famous performances came in \"The Night of the Hunter\" (1955), in which he played the sinister preacher Harry Powell. He later gave another memorable villainous performance as Max Cady in \"Cape Fear\" (1962), opposite Gregory Peck.\n\nMitchum also appeared in major films including \"River of No Return\" with Marilyn Monroe, \"Heaven Knows, Mr. Allison,\" \"The Sundowners,\" \"El Dorado,\" \"Ryan's Daughter,\" and \"The Longest Day.\" His career extended into television, including the popular miniseries \"The Winds of War\" and \"War and Remembrance.\"\n\nRobert Mitchum died on July 1, 1997, at age 79. His distinctive style and memorable performances in film noir, Westerns, war films, and thrillers continue to make his autographs, photographs, and movie memorabilia popular with collectors of classic Hollywood.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0089",
+    "product_images": [
+      "images/HEC-0089.jpg"
+    ],
+    "full_description": "\"The Partridge Family\" is an American musical sitcom that originally aired from 1970 to 1974. The series starred Shirley Jones as Shirley Partridge, a widowed mother who forms a pop group with her five children and travels with them performing concerts.\n\nDavid Cassidy played Keith Partridge, the group's teenage lead singer and guitarist, while Susan Dey portrayed Laurie Partridge. The younger children were Danny, Chris, and Tracy Partridge, played by Danny Bonaduce, Jeremy Gelbwaks and later Brian Forster, and Suzanne Crough. Dave Madden co-starred as the family's frequently exasperated manager, Reuben Kincaid.\n\nThe show followed the family's adventures both at home and on the road, combining sitcom storylines with musical performances. The fictional group became a real recording success, with David Cassidy and Shirley Jones contributing vocals to records released under the Partridge Family name.\n\nTheir biggest hit was \"I Think I Love You,\" which reached No. 1 on the Billboard Hot 100 in 1970. Other popular songs included \"I'll Meet You Halfway,\" \"Doesn't Somebody Want to Be Wanted,\" and \"I Woke Up in Love This Morning.\"\n\n\"The Partridge Family\" became a major part of early-1970s pop culture and helped make David Cassidy one of the era's biggest teen idols. The show's music, colorful touring bus, cast photographs, records, and autographs remain especially popular with collectors of classic television, 1970s music, and vintage celebrity memorabilia.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0090",
+    "product_images": [
+      "images/HEC-0090.jpg"
+    ],
+    "full_description": "Markie Post (Deceased) was an American actress best known for her roles in popular television comedies of the 1980s and 1990s. Born Marjorie Armstrong Post on November 4, 1950, in Palo Alto, California, she worked behind the scenes on television game shows before becoming a successful actress.\n\nPost gained early recognition as bail bondswoman Terri Michaels on \"The Fall Guy,\" starring Lee Majors. She later became especially famous for playing public defender Christine Sullivan on the hit sitcom \"Night Court.\" Joining the series in 1985, Post starred alongside Harry Anderson, John Larroquette, and Richard Moll. Her warm, intelligent, and often idealistic character became one of the show's central figures.\n\nShe later starred opposite John Ritter in the sitcom \"Hearts Afire,\" playing political reporter Georgie Anne Lahti. Post also appeared in many television movies and guest roles on programs including \"Cheers,\" \"The Love Boat,\" \"Fantasy Island,\" \"Scrubs,\" and \"Chicago P.D.\"\n\nHer film work included a memorable appearance in \"There's Something About Mary\" as the mother of Cameron Diaz's character.\n\nMarkie Post died on August 7, 2021, at age 70. Her performances in \"Night Court,\" \"The Fall Guy,\" and \"Hearts Afire\" made her a familiar and well-liked television personality, and her autographs, photographs, and memorabilia remain popular with collectors of classic television and 1980s entertainment.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0091",
+    "product_images": [
+      "images/HEC-0091.jpg"
+    ],
+    "full_description": "\"RoboCop\" is a 1987 American science-fiction action film directed by Paul Verhoeven and starring Peter Weller as police officer Alex Murphy, who is transformed into the powerful cyborg law-enforcement officer known as RoboCop.\n\nSet in a crime-ridden near-future Detroit, the story follows Murphy after he is brutally attacked and killed by a gang led by criminal Clarence Boddicker, played by Kurtwood Smith. The powerful corporation Omni Consumer Products uses Murphy's remains as part of an experimental program, rebuilding him as a heavily armored cyborg designed to fight crime.\n\nAs RoboCop begins patrolling Detroit, fragments of Murphy's memories gradually return. He starts investigating his own death and discovers corruption connecting Boddicker's gang with senior executives at OCP. Nancy Allen co-stars as Officer Anne Lewis, Murphy's former police partner, who recognizes that part of the man she knew still exists inside RoboCop.\n\nThe film became known for combining intense action with dark comedy, satire, and criticism of corporate greed, privatization, sensationalized news media, and consumer culture. RoboCop's distinctive armor, mechanical movements, and famous line \"Dead or alive, you're coming with me\" quickly became part of popular culture.\n\n\"RoboCop\" was a critical and commercial success and led to sequels, television productions, comics, video games, toys, and a 2014 remake. The original film remains a science-fiction classic, and memorabilia associated with Peter Weller, RoboCop, and the 1987 movie is especially popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0092",
+    "product_images": [
+      "images/HEC-0092.jpg"
+    ],
+    "full_description": "Jane Russell (Deceased) was an American actress, singer, and Hollywood sex symbol who became one of the most recognizable stars of the 1940s and 1950s. Born Ernestine Jane Geraldine Russell on June 21, 1921, in Bemidji, Minnesota, she was discovered by producer Howard Hughes and quickly attracted attention for her beauty and strong screen presence.\n\nRussell made her film debut in \"The Outlaw\" (1943), a Western that became controversial because of its provocative advertising and the emphasis placed on her appearance. The publicity helped make her a major Hollywood star.\n\nShe went on to appear in films including \"His Kind of Woman,\" \"Macao,\" \"The Las Vegas Story,\" \"Foxfire,\" and \"The Tall Men.\" One of her most famous roles came opposite Marilyn Monroe in \"Gentlemen Prefer Blondes\" (1953), in which Russell played the confident and witty Dorothy Shaw. The film became a classic musical comedy and remains one of the best-known movies of both actresses.\n\nRussell also had a successful singing career and performed in nightclubs and on television. Her deep, distinctive voice complemented her glamorous screen image and helped her remain a popular entertainer for decades.\n\nJane Russell died on February 28, 2011, at age 89. Her association with \"The Outlaw,\" \"Gentlemen Prefer Blondes,\" and classic Hollywood glamour continues to make her photographs, autographs, and movie memorabilia popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0093",
+    "product_images": [
+      "images/HEC-0093.jpg"
+    ],
+    "full_description": "Theresa Russell is an American actress known for her intense, unconventional performances in films spanning drama, crime, mystery, and psychological thrillers. Born Theresa Lynn Paup on March 20, 1957, in San Diego, California, she began modeling as a teenager before turning to acting.\n\nRussell made an impressive film debut opposite Robert De Niro in \"The Last Tycoon\" (1976), directed by Elia Kazan. She soon gained attention for taking on complex and often provocative roles that distinguished her from many actresses of her generation.\n\nShe became closely associated with director Nicolas Roeg, whom she later married. Their collaborations included \"Bad Timing,\" \"Eureka,\" \"Insignificance,\" \"Track 29,\" and \"Cold Heaven.\" Russell's performances in these films helped establish her reputation for portraying emotionally complicated and psychologically challenging characters.\n\nShe also starred in the popular thriller \"Black Widow\" (1987), playing a mysterious woman who marries wealthy men who subsequently die under suspicious circumstances. Her other film credits include \"Straight Time,\" \"The Razor's Edge,\" \"Impulse,\" \"Kafka,\" \"Wild Things,\" and \"Spider-Man 3.\"\n\nOver the course of her career, Russell has worked with respected directors and actors in both mainstream and independent productions. Her willingness to take on difficult and unconventional roles has earned her a distinctive place in modern film history.\n\nTheresa Russell remains especially recognizable to collectors of 1970s and 1980s cinema, psychological thrillers, and Hollywood memorabilia, with signed photographs and autographs continuing to attract film fans.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0094",
+    "product_images": [
+      "images/HEC-0094.jpg"
+    ],
+    "full_description": "Connie Sellecca is an American actress, producer, and former model best known for her television work in the late 1970s, 1980s, and 1990s. Born Concetta Sellecchia on May 25, 1955, in The Bronx, New York, she began her career as a fashion model before moving into acting.\n\nSellecca first gained wide attention as Lisa Benton in the adventure series \"The Greatest American Hero,\" which aired from 1981 to 1983. She starred alongside William Katt and Robert Culp, playing the girlfriend and later wife of reluctant superhero Ralph Hinkley.\n\nShe became even more closely associated with the television drama \"Hotel,\" which aired from 1983 to 1988. Sellecca played Christine Francis, an executive at San Francisco's elegant St. Gregory Hotel, opposite James Brolin. Her performance earned her a Golden Globe nomination and helped make her one of the recognizable television stars of the 1980s.\n\nSellecca also appeared in numerous television movies and miniseries, including \"The Bermuda Depths,\" \"International Airport,\" and \"She\u2019s Dressed to Kill.\" Later in her career, she continued appearing in television projects while also working as a producer and businesswoman.\n\nConnie Sellecca's roles in \"The Greatest American Hero\" and \"Hotel\" remain the best-known parts of her acting career. Her photographs, autographs, and television memorabilia continue to interest collectors of classic 1980s television and vintage celebrity material.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0095",
+    "product_images": [
+      "images/HEC-0095.jpg"
+    ],
+    "full_description": "Jean Simmons (Deceased) was a British-American actress whose elegant screen presence and dramatic versatility made her one of the most distinguished stars of classic Hollywood. Born Jean Merilyn Simmons on January 31, 1929, in London, England, she began acting as a teenager and quickly earned acclaim in British films.\n\nSimmons gained international attention with roles in \"Great Expectations,\" \"Black Narcissus,\" and \"Hamlet.\" Her performance as Ophelia opposite Laurence Olivier in \"Hamlet\" earned her an Academy Award nomination for Best Supporting Actress.\n\nAfter moving to Hollywood, Simmons starred in a wide range of major productions. Her notable films include \"The Robe,\" \"The Egyptian,\" \"Guys and Dolls,\" \"The Big Country,\" \"Elmer Gantry,\" \"Spartacus,\" and \"The Grass Is Greener.\" In \"Guys and Dolls,\" she starred opposite Marlon Brando, Frank Sinatra, and Vivian Blaine, demonstrating both her dramatic and musical talents.\n\nSimmons continued working successfully in film and television for decades. Her later career included acclaimed television performances in \"The Thorn Birds\" and \"North & South,\" and she won an Emmy Award for the miniseries \"The Thorn Birds.\"\n\nJean Simmons died on January 22, 2010, at age 80. Her long career in British cinema, classic Hollywood, epic films, musicals, and television made her one of the most respected actresses of her generation, and her autographs, photographs, and movie memorabilia remain popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0096",
+    "product_images": [
+      "images/HEC-0096.jpg"
+    ],
+    "full_description": "Sylvester Stallone is an American actor, filmmaker, screenwriter, and producer best known for creating and portraying two of cinema's most famous action heroes, Rocky Balboa and John Rambo. Born Sylvester Gardenzio Stallone on July 6, 1946, in New York City, he struggled for years as an actor before achieving international fame.\n\nStallone's breakthrough came with \"Rocky\" (1976), which he wrote and starred in as an underdog Philadelphia boxer given a chance to fight the heavyweight champion. The film became a major critical and commercial success, won the Academy Award for Best Picture, and earned Stallone Oscar nominations for both acting and screenwriting.\n\nHe returned as Rocky in numerous sequels and later reprised the character in \"Creed\" and \"Creed II.\" Stallone also became closely associated with Vietnam veteran John Rambo, beginning with \"First Blood\" (1982) and continuing through several sequels.\n\nHis other notable films include \"Cobra,\" \"Tango & Cash,\" \"Cliffhanger,\" \"Demolition Man,\" \"Cop Land,\" \"The Expendables,\" and \"Guardians of the Galaxy Vol. 2.\" He also created and starred in \"The Expendables\" franchise, bringing together many well-known action stars.\n\nWith a career spanning more than five decades, Sylvester Stallone remains one of the most recognizable action stars in movie history. His association with \"Rocky,\" \"Rambo,\" and classic action cinema makes his photographs, autographs, and movie memorabilia especially popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0097",
+    "product_images": [
+      "images/HEC-0097.jpg"
+    ],
+    "full_description": "Shirley Temple (Deceased) was an American actress, singer, dancer, and diplomat who became one of the most famous child stars in Hollywood history. Born Shirley Temple Black on April 23, 1928, in Santa Monica, California, she began appearing in films as a very young child and quickly became a major box-office attraction during the 1930s.\n\nTemple was known for her curly hair, cheerful personality, singing, and tap-dancing ability. Her most famous films include \"Bright Eyes,\" \"Curly Top,\" \"Heidi,\" \"The Little Colonel,\" \"Captain January,\" \"Rebecca of Sunnybrook Farm,\" and \"The Little Princess.\" Her performance of \"On the Good Ship Lollipop\" in \"Bright Eyes\" became one of the best-known songs associated with her career.\n\nAt the height of the Great Depression, Temple's upbeat films made her enormously popular with audiences. She received a special Juvenile Academy Award in 1935 in recognition of her contribution to motion pictures.\n\nAs she grew older, Temple continued acting but eventually left Hollywood and began a second distinguished career in public service. She served as a United States ambassador to Ghana and later to Czechoslovakia, as well as holding other diplomatic posts.\n\nShirley Temple died on February 10, 2014, at age 85. Her classic films, instantly recognizable image, and extraordinary childhood career continue to make her photographs, dolls, autographs, and movie memorabilia highly popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0098",
+    "product_images": [
+      "images/HEC-0098.jpg"
+    ],
+    "full_description": "Shirley Temple (Deceased) was an American actress, singer, dancer, and diplomat who became one of the most famous child stars in Hollywood history. Born Shirley Temple Black on April 23, 1928, in Santa Monica, California, she began appearing in films as a very young child and quickly became a major box-office attraction during the 1930s.\n\nTemple was known for her curly hair, cheerful personality, singing, and tap-dancing ability. Her most famous films include \"Bright Eyes,\" \"Curly Top,\" \"Heidi,\" \"The Little Colonel,\" \"Captain January,\" \"Rebecca of Sunnybrook Farm,\" and \"The Little Princess.\" Her performance of \"On the Good Ship Lollipop\" in \"Bright Eyes\" became one of the best-known songs associated with her career.\n\nAt the height of the Great Depression, Temple's upbeat films made her enormously popular with audiences. She received a special Juvenile Academy Award in 1935 in recognition of her contribution to motion pictures.\n\nAs she grew older, Temple continued acting but eventually left Hollywood and began a second distinguished career in public service. She served as a United States ambassador to Ghana and later to Czechoslovakia, as well as holding other diplomatic posts.\n\nShirley Temple died on February 10, 2014, at age 85. Her classic films, instantly recognizable image, and extraordinary childhood career continue to make her photographs, dolls, autographs, and movie memorabilia highly popular with collectors.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0099",
+    "product_images": [
+      "images/HEC-0099.jpg"
+    ],
+    "full_description": "Jean Simmons (Deceased) was a British-American actress whose elegance, intelligence, and dramatic versatility made her one of the most respected stars of classic Hollywood. Born Jean Merilyn Simmons on January 31, 1929, in London, England, she began acting as a teenager and quickly gained attention in British films.\n\nSimmons appeared in acclaimed productions including \"Great Expectations,\" \"Black Narcissus,\" and \"Hamlet.\" Her portrayal of Ophelia opposite Laurence Olivier in \"Hamlet\" earned her an Academy Award nomination for Best Supporting Actress.\n\nAfter moving to Hollywood, Simmons became a major star and appeared in numerous important films. Her credits include \"The Robe,\" \"The Egyptian,\" \"Guys and Dolls,\" \"The Big Country,\" \"Elmer Gantry,\" \"Spartacus,\" and \"The Grass Is Greener.\" In \"Guys and Dolls,\" she starred opposite Marlon Brando, Frank Sinatra, and Vivian Blaine, demonstrating both her acting and musical abilities.\n\nSimmons continued working successfully in film and television for decades. Her later television work included \"North & South\" and the popular miniseries \"The Thorn Birds,\" for which she won an Emmy Award.\n\nJean Simmons died on January 22, 2010, at age 80. Her long career in British cinema, Hollywood epics, musicals, dramas, and television made her one of the most admired actresses of her generation, and her autographs, photographs, and movie memorabilia remain popular with collectors of classic Hollywood.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
   }
 ];

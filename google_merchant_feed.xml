@@ -3364,5 +3364,775 @@
       <g:price>80.00 USD</g:price>
       <g:condition>used</g:condition>
     </item>
+    <item>
+      <g:id>HEC-0023</g:id>
+      <g:title>Richard Petty - NASCAR</g:title>
+      <g:description>8x10 Color Photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0023</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0023.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0024</g:id>
+      <g:title>John Candy</g:title>
+      <g:description>6x4 inch color postcad.</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0024</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0024.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0025</g:id>
+      <g:title>Elvis Presley - The King</g:title>
+      <g:description>6x4 inch color poatcard.</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0025</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0025.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>11.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0026</g:id>
+      <g:title>Grace Slick - Jefferson Airplane</g:title>
+      <g:description>8x10 Color photograph.</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0026</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0026.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0027</g:id>
+      <g:title>Kyle Petty - NASCAR</g:title>
+      <g:description>8x10 Color photo.</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0027</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0027.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0028</g:id>
+      <g:title>Ray Bolger - Wizard of Oz</g:title>
+      <g:description>8x10 Color photo as the Scarecrow</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0028</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0028.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0029</g:id>
+      <g:title>Joan Baez - The Night They Drove Old Dixie Down</g:title>
+      <g:description>8x10 inch B&amp;W photo from Woodstock</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0029</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0029.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0030</g:id>
+      <g:title>Doris Day - Que Sera, Sera (Whatever Will Be, Will Be)</g:title>
+      <g:description>8x10 Color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0030</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0030.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0031</g:id>
+      <g:title>June Allyson - The Glenn Miller Story</g:title>
+      <g:description>8x10 color photograph from</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0031</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0031.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0032</g:id>
+      <g:title>W.C. Fields and Mae West</g:title>
+      <g:description>8x10 B&amp;W photo from "My Little Chicadee"</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0032</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0032.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>15.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0033</g:id>
+      <g:title>Pierce Brosnan - James Bond</g:title>
+      <g:description>8x10 color photograph as Bond.</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0033</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0033.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0034</g:id>
+      <g:title>Charlie's Angels</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0034</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0034.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>19.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0035</g:id>
+      <g:title>Marlo Thomas - That Girl</g:title>
+      <g:description>8x10 Color Photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0035</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0035.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0036</g:id>
+      <g:title>Pat Boone - April Love</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0036</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0036.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0037</g:id>
+      <g:title>Steve Allen</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0037</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0037.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0038</g:id>
+      <g:title>Pat Boone - Moody River</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0038</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0038.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0039</g:id>
+      <g:title>It's a Wonderful Life</g:title>
+      <g:description>8x10 B&amp;W photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0039</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0039.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>16.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0040</g:id>
+      <g:title>Andy Griffith - The Andy Griffith Show</g:title>
+      <g:description>8x10 color photograph as Sherrif Andy Taylor</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0040</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0040.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>19.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0041</g:id>
+      <g:title>Quantum Leap - Scott Bakula and  Dean Stockwell</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0041</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0041.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0042</g:id>
+      <g:title>Teri Garr - Young Frankenstein</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0042</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0042.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0043</g:id>
+      <g:title>Abbott &amp; Costello - Abbott and Costello Meet Frankenstein</g:title>
+      <g:description>8x10 B&amp;W photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0043</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0043.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0044</g:id>
+      <g:title>Milton Berle - Uncle Miltie</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0044</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0044.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0045</g:id>
+      <g:title>Jack Lemmon - Some Like It Hot</g:title>
+      <g:description>8x10 B&amp;W photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0045</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0045.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0046</g:id>
+      <g:title>Muhammad Ali - Float like a butterfly, sting like a bee</g:title>
+      <g:description>8x10 color photogrph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0046</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0046.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>20.00 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0047</g:id>
+      <g:title>Eddy Arnold - Make the World Go Away</g:title>
+      <g:description>8x10 B&amp;W photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0047</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0047.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0048</g:id>
+      <g:title>Perry Como</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0048</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0048.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0049</g:id>
+      <g:title>Joad Baez - Diamonds &amp; Rust</g:title>
+      <g:description>8x10 B&amp;W photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0049</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0049.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0050</g:id>
+      <g:title>Faye Dunaway - Bonnie &amp; Clyde</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0050</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0050.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0051</g:id>
+      <g:title>Bo Derek - "10"</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0051</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0051.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0052</g:id>
+      <g:title>She Lives - Desi Arnaz Jr. and Season Hubley</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0052</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0052.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0053</g:id>
+      <g:title>The Secret of Dr. Kildare - Lew Ayre and Loraine Day</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0053</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0053.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0054</g:id>
+      <g:title>The Judds - Naomi and Wynonna</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0054</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0054.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0055</g:id>
+      <g:title>Gary Cooper - The pride of the Yankees</g:title>
+      <g:description>8x10 color photograph as lou Gehrig</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0055</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0055.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>19.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0056</g:id>
+      <g:title>James Caan - The Godfathe</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0056</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0056.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0057</g:id>
+      <g:title>All In The Family - Carroll O'Connor, Jean Stapleton, Sally Struthers, Rob Reiner</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0057</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0057.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>18.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0058</g:id>
+      <g:title>John Astin - The Addams Family</g:title>
+      <g:description>8x10 color photograp as Gomez Addamd</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0058</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0058.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>17.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0059</g:id>
+      <g:title>Valerie Bertinelli - Hot in Cleveland</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0059</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0059.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0060</g:id>
+      <g:title>Jacqueline Bisset - Bullitt</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0060</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0060.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0061</g:id>
+      <g:title>Creature of the Black Lagoon</g:title>
+      <g:description>8x10 photograph of the Creature</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0061</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0061.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0062</g:id>
+      <g:title>Jacqueline Bisset - Airport</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0062</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0062.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0063</g:id>
+      <g:title>Tom Cruise - Top Gun</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0063</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0063.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0064</g:id>
+      <g:title>Sammy Davis Jr. - One of the Rat Pack</g:title>
+      <g:description>8X10 COLOR PHOTOGRAPH</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0064</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0064.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>19.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0065</g:id>
+      <g:title>Angie Dickensen - Police Woman</g:title>
+      <g:description>8x10 Color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0065</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0065.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0066</g:id>
+      <g:title>Sally Field</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0066</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0066.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0067</g:id>
+      <g:title>Angie Dickensen - Rio Bravo</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0067</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0067.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0068</g:id>
+      <g:title>Tom Cruise - Mission: Impossible</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0068</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0068.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>18.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0069</g:id>
+      <g:title>John Forsythe - Charlie's Angels - Bachelor Father</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0069</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0069.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.00 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0070</g:id>
+      <g:title>James Garner - The Rockford Files</g:title>
+      <g:description>8x10 color photograph as Rockford</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0070</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0070.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0071</g:id>
+      <g:title>Get Smart - Don Adams and Barbara Feldon</g:title>
+      <g:description>8x10 color photograph as Maxwell Smart and Agent "99"</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0071</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0071.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0072</g:id>
+      <g:title>Erin Gray - Buck Rogers in the 25th Century</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0072</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0072.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0073</g:id>
+      <g:title>Tippi Hedren - The Birds</g:title>
+      <g:description>8x10 color photograph from The Birds</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0073</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0073.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0074</g:id>
+      <g:title>Charlton Heston - The Ten Commandments</g:title>
+      <g:description>8x10 color photograph as Moses</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0074</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0074.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>19.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0075</g:id>
+      <g:title>Holly Hunter - Raising Arizona</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0075</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0075.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0076</g:id>
+      <g:title>The Beverly Hillbillies</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0076</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0076.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>15.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0077</g:id>
+      <g:title>Holly Hunter - The Incredibles</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0077</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0077.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0078</g:id>
+      <g:title>Charlton Heston - Planet of the Apes</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0078</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0078.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0079</g:id>
+      <g:title>Angela Lansbury - Murder, She Wrote</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0079</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0079.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0080</g:id>
+      <g:title>Jack Lemmon  - The Odd Couple</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0080</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0080.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0081</g:id>
+      <g:title>Cheryl Ladd - Charlie's Angels</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0081</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0081.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0082</g:id>
+      <g:title>Jerry Lewis - The Nutty Professor</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0082</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0082.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0083</g:id>
+      <g:title>M*A*S*H</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0083</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0083.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>20.00 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0084</g:id>
+      <g:title>Sophia Loren - Houseboat</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0084</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0084.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>13.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0085</g:id>
+      <g:title>Cheryl Ladd - Las Vegas</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0085</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0085.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0086</g:id>
+      <g:title>Donna Mills - Knots Landing</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0086</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0086.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0087</g:id>
+      <g:title>Sophia Loren - El Cid</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0087</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0087.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0088</g:id>
+      <g:title>Robert Mitchum - The Night of the Hunter</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0088</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0088.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>18.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0089</g:id>
+      <g:title>The Partridge Family - I Think I Love You</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0089</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0089.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>18.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0090</g:id>
+      <g:title>Markie Post - Night Court</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0090</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0090.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0091</g:id>
+      <g:title>Robocop</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0091</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0091.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0092</g:id>
+      <g:title>Jane Russell - The Outlaw</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0092</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0092.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0093</g:id>
+      <g:title>Theresa Russell - The Last Tycoon</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0093</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0093.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0094</g:id>
+      <g:title>Connie Selleca - The Greatest American Hero</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0094</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0094.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>10.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0095</g:id>
+      <g:title>Jean Simmons - The Actress</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0095</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0095.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0096</g:id>
+      <g:title>Sylvester Stallone - Rocky, Rambo</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0096</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0096.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>16.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0097</g:id>
+      <g:title>Shirley Temple - Bright Eyes, Curly Top</g:title>
+      <g:description>8x10 B&amp;W photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0097</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0097.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>20.00 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0098</g:id>
+      <g:title>Shirley Temple - Heidi, The Little Princess</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0098</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0098.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>20.00 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0099</g:id>
+      <g:title>Jean Simmons - Spartacus, Guys and Dolls</g:title>
+      <g:description>8x10 color photograph</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0099</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0099.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>16.99 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
   </channel>
 </rss>
