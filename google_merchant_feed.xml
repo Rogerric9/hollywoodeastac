@@ -4154,5 +4154,265 @@
       <g:price>14.99 USD</g:price>
       <g:condition>used</g:condition>
     </item>
+    <item>
+      <g:id>HEC-0102</g:id>
+      <g:title>Dionne Warwick - I Say A Little Prayer</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0102</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0102.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0103</g:id>
+      <g:title>Lesley Gore - It's My Party</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0103</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0103.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0104</g:id>
+      <g:title>Bobby Goldsboro - Voodoo Woman</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0104</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0104.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0105</g:id>
+      <g:title>Bread - Make It With You</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0105</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0105.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0106</g:id>
+      <g:title>Lulu - To Sir With Love</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0106</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0106.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0107</g:id>
+      <g:title>Carpenters - We've Only Just Begun</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0107</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0107.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0108</g:id>
+      <g:title>Duane Eddy - Peter Gunn</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0108</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0108.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0109</g:id>
+      <g:title>Jerry Lee Lewis - Walking The Floor Over You</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0109</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0109.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0110</g:id>
+      <g:title>The Rolling Stones - Heart Of Stone</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0110</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0110.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0111</g:id>
+      <g:title>O'Jays - Love Train</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0111</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0111.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0112</g:id>
+      <g:title>Olivia Newton John - Hopelessly Devoted To You</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0112</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0112.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0113</g:id>
+      <g:title>Wink Martindale - Deck Of Cards</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0113</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0113.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0114</g:id>
+      <g:title>Edison Lighthouse - Love grows</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0114</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0114.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0115</g:id>
+      <g:title>Mamas and Papas - Monday, Monday</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0115</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0115.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0116</g:id>
+      <g:title>The Everly Brothers - Walk Righ Back</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0116</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0116.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0117</g:id>
+      <g:title>Jay And The Americans - Cara-Mia</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0117</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0117.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0118</g:id>
+      <g:title>Three Dog Night - One Man Band</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0118</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0118.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0119</g:id>
+      <g:title>Tommy Roe - Hooray For Hazel</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0119</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0119.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0120</g:id>
+      <g:title>Crosby, Stills, Nash &amp; Young - Ohio</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0120</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0120.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0121</g:id>
+      <g:title>Pat Boone - April Love</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0121</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0121.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0122</g:id>
+      <g:title>The Diamonds - Little Darlin'</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0122</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0122.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0123</g:id>
+      <g:title>The Coasters - Poison Ivy</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0123</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0123.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0124</g:id>
+      <g:title>The Temptations - Cloud Nine</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0124</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0124.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0125</g:id>
+      <g:title>Olivia Newton John - Physical</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0125</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0125.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0126</g:id>
+      <g:title>Glen Campbell - Rhinestone Cowboy</g:title>
+      <g:description>45 RPM, 7-inch vinyl</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0126</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0126.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0127</g:id>
+      <g:title>Jimmy Durante - Young At Heart</g:title>
+      <g:description>45 RPM, 7-inch single</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0127</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0127.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
   </channel>
 </rss>

@@ -4191,5 +4191,265 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0102",
+    "product_images": [
+      "images/HEC-0102.jpg"
+    ],
+    "full_description": "Dionne Warwick is an American singer and actress whose elegant, distinctive voice made her one of the most successful pop vocalists of the 1960s and beyond. Born Marie Dionne Warrick in East Orange, New Jersey, in 1940, she began singing in church and later performed as a background vocalist before launching her solo career.\n\nWarwick became closely associated with the songwriting team of Burt Bacharach and Hal David, recording a remarkable series of hits including \"Walk On By,\" \"Anyone Who Had a Heart,\" \"I Say a Little Prayer,\" \"Do You Know the Way to San Jose,\" and \"I'll Never Fall in Love Again.\" Her sophisticated blend of pop, soul, and R&B helped define the sound of an era.\n\nHer career continued successfully through later decades. In the 1980s she enjoyed major hits including \"Heartbreaker,\" written by the Bee Gees, and \"That's What Friends Are For,\" recorded with Elton John, Gladys Knight, and Stevie Wonder. The latter became a major charity single benefiting AIDS research.\n\nWarwick has earned multiple Grammy Awards and has remained a prominent figure in popular music for more than six decades. Known for her polished vocal style and remarkable song interpretation, Dionne Warwick is regarded as one of the most important and enduring female recording artists in American popular music.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0103",
+    "product_images": [
+      "images/HEC-0103.jpg"
+    ],
+    "full_description": "Lesley Gore (Deceased) was an American singer, songwriter, actress, and television personality best known for a string of major pop hits during the 1960s. Born Lesley Sue Goldstein in Brooklyn, New York, in 1946, she was still a teenager when producer Quincy Jones discovered her and helped launch her recording career.\n\nGore became an overnight star in 1963 with \"It's My Party,\" which reached No. 1 on the Billboard Hot 100. She quickly followed it with other successful singles including \"Judy's Turn to Cry,\" \"She's a Fool,\" \"You Don't Own Me,\" \"That's the Way Boys Are,\" and \"Maybe I Know.\" \"You Don't Own Me\" became especially enduring for its message of independence and has remained one of the defining pop recordings of the 1960s.\n\nIn addition to her music career, Gore made television appearances, including a recurring role on the 1960s \"Batman\" series as Pussycat, one of Catwoman's associates. She later continued writing and performing and co-wrote the Academy Award-nominated song \"Out Here on My Own\" for the 1980 film \"Fame.\"\n\nLesley Gore died in 2015 at age 68. Her distinctive voice, memorable recordings, and combination of youthful pop and independent-minded songs secured her place as one of the most recognizable female singers of the 1960s.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0104",
+    "product_images": [
+      "images/HEC-0104.jpg"
+    ],
+    "full_description": "Bobby Goldsboro is an American singer, songwriter, guitarist, and television personality best known for a series of pop and country hits during the 1960s and 1970s. Born in 1941 in Marianna, Florida, and raised in Alabama, he began his professional career as a guitarist in Roy Orbison's band before establishing himself as a solo recording artist.\n\nGoldsboro scored his biggest success in 1968 with \"Honey,\" a sentimental ballad that reached No. 1 on the Billboard Hot 100 and became one of the year's best-selling records. His other notable hits include \"See the Funny Little Clown,\" \"Little Things,\" \"It's Too Late,\" \"Autumn of My Life,\" and \"Watching Scotty Grow.\" His recordings often combined pop, country, and easy-listening styles, with an emphasis on storytelling and emotional lyrics.\n\nIn addition to performing, Goldsboro became a successful songwriter whose compositions were recorded by other artists. He also hosted \"The Bobby Goldsboro Show,\" a syndicated television variety series that aired during the 1970s.\n\nLater in life, Goldsboro expanded his creative work into children's entertainment, writing and producing animated television projects. His career has spanned music, television, songwriting, and animation, while songs such as \"Honey\" have remained closely associated with the softer, melodic side of late-1960s popular music.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0105",
+    "product_images": [
+      "images/HEC-0105.jpg"
+    ],
+    "full_description": "Bread was an American soft rock band formed in Los Angeles in 1968, best known for a series of melodic hit songs during the early 1970s. The group's classic lineup featured David Gates, James Griffin, Robb Royer, and Mike Botts, with Larry Knechtel later joining the band.\n\nBread became one of the most successful soft rock groups of its era, combining gentle arrangements, polished harmonies, and emotionally direct songwriting. David Gates wrote and sang many of the band's best-known songs, including \"Make It with You,\" \"If,\" \"Everything I Own,\" \"Diary,\" \"Baby I'm-a Want You,\" and \"The Guitar Man.\" \"Make It with You\" reached No. 1 on the Billboard Hot 100 in 1970 and helped establish Bread as a major pop act.\n\nThe band was especially popular for romantic ballads, though its albums also included more rock-oriented material written by James Griffin and other members. Bread broke up in the 1970s but later reunited for tours and performances.\n\nDavid Gates also enjoyed a successful solo career, while James Griffin continued working as a songwriter and musician. Bread's smooth sound became strongly identified with 1970s soft rock, and songs such as \"If,\" \"Everything I Own,\" and \"Baby I'm-a Want You\" remain staples of oldies and adult contemporary radio.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0106",
+    "product_images": [
+      "images/HEC-0106.jpg"
+    ],
+    "full_description": "Lulu is a Scottish singer, actress, and television personality who became an international star during the 1960s. Born Marie McDonald McLaughlin Lawrie in Glasgow in 1948, she began performing professionally as a teenager and quickly became known for her powerful, soulful voice.\n\nShe scored an early British hit with \"Shout\" in 1964, a high-energy recording that helped establish her as one of the leading young female singers of the era. Lulu achieved major international success with \"To Sir with Love,\" the title song from the 1967 film in which she appeared alongside Sidney Poitier. The song reached No. 1 on the Billboard Hot 100 in the United States and became one of her signature recordings.\n\nLulu represented the United Kingdom in the 1969 Eurovision Song Contest with \"Boom Bang-a-Bang,\" sharing first place in an unusual four-way tie. She continued recording throughout the 1970s and later enjoyed renewed chart success, including \"I Could Never Miss You (More Than I Do)\" and collaborations with other major artists.\n\nIn addition to her recording career, Lulu has appeared extensively on British television and stage productions. Her distinctive voice, energetic performance style, and long career in music and entertainment have made her one of Scotland's most recognizable popular performers.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0107",
+    "product_images": [
+      "images/HEC-0107.jpg"
+    ],
+    "full_description": "The Carpenters were an American pop duo consisting of siblings Karen Carpenter and Richard Carpenter. Formed in the late 1960s, they became one of the most successful recording acts of the 1970s, known for polished arrangements, memorable melodies, and Karen Carpenter's distinctive contralto voice.\n\nTheir breakthrough came with \"(They Long to Be) Close to You,\" which reached No. 1 on the Billboard Hot 100 in 1970. They followed with a long series of hits including \"We've Only Just Begun,\" \"Rainy Days and Mondays,\" \"Superstar,\" \"Top of the World,\" \"Yesterday Once More,\" and \"Please Mr. Postman.\" Richard Carpenter handled much of the arranging, composing, and production, while Karen was both the group's lead vocalist and an accomplished drummer.\n\nThe Carpenters developed a smooth pop sound that blended elements of soft rock, easy listening, and traditional vocal pop. Their recordings were especially noted for layered harmonies and carefully crafted studio production.\n\nKaren Carpenter died in 1983 at age 32. Richard Carpenter later continued to preserve and promote the duo's musical legacy through reissues, performances, and archival projects. The Carpenters remain one of the defining pop acts of the 1970s, and their recordings continue to be widely recognized for their vocal quality, emotional warmth, and sophisticated arrangements.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0108",
+    "product_images": [
+      "images/HEC-0108.jpg"
+    ],
+    "full_description": "Duane Eddy (Deceased) was an American guitarist whose distinctive \"twangy\" instrumental sound made him one of the most influential rock and roll musicians of the late 1950s and early 1960s. Born in Corning, New York, in 1938, he began playing guitar at an early age and developed a low-register style that became instantly recognizable.\n\nWorking with producer Lee Hazlewood, Eddy recorded a series of instrumental hits that helped define the sound of early rock guitar. His best-known recordings include \"Rebel-'Rouser,\" \"Forty Miles of Bad Road,\" \"Because They're Young,\" and \"Peter Gunn.\" His use of echo, strong bass-string melodies, and dramatic arrangements gave his records a cinematic quality that influenced generations of guitarists.\n\nEddy became one of the first major instrumental stars of the rock era and sold millions of records worldwide. He also appeared in films and contributed music to motion pictures and television. His guitar style influenced artists across rock, country, surf music, and later popular music.\n\nDuane Eddy was inducted into the Rock and Roll Hall of Fame in 1994. He died in 2024 at age 86. His pioneering guitar sound remains closely associated with the birth of instrumental rock and continues to be recognized as an important influence on modern electric guitar playing.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0109",
+    "product_images": [
+      "images/HEC-0109.jpg"
+    ],
+    "full_description": "Jerry Lee Lewis (Deceased) was an American singer, songwriter, and pianist who became one of the most electrifying figures of early rock and roll. Born in Ferriday, Louisiana, in 1935, he developed a flamboyant piano style that blended country, gospel, rhythm and blues, and boogie-woogie.\n\nLewis rose to fame in the late 1950s with Sun Records, the legendary Memphis label that also launched Elvis Presley, Johnny Cash, and Carl Perkins. His breakthrough hits included \"Whole Lotta Shakin' Goin' On\" and \"Great Balls of Fire,\" both of which became rock and roll classics. His energetic performances, pounding piano playing, and rebellious stage presence earned him the nickname \"The Killer.\"\n\nAlthough controversy temporarily damaged his career in the late 1950s, Lewis later reinvented himself as a successful country music performer. During the late 1960s and 1970s, he recorded numerous country hits, including \"Another Place, Another Time,\" \"What Made Milwaukee Famous,\" and \"She Even Woke Me Up to Say Goodbye.\"\n\nLewis was inducted into the Rock and Roll Hall of Fame in 1986 and later into the Country Music Hall of Fame. He remained an influential and widely recognized performer for decades. Jerry Lee Lewis died in 2022 at age 87, leaving behind a legacy as one of the most important and dynamic pioneers of rock and roll.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0110",
+    "product_images": [
+      "images/HEC-0110.jpg"
+    ],
+    "full_description": "The Rolling Stones are an English rock band formed in London in 1962. The group became one of the most influential and enduring bands in rock history, known for a blues-based sound, rebellious image, and decades of hit recordings and live performances.\n\nThe classic lineup featured Mick Jagger on vocals, Keith Richards on guitar, Brian Jones on guitar and other instruments, Bill Wyman on bass, and Charlie Watts on drums. Jones died in 1969 and was replaced by Mick Taylor, who was later succeeded by Ronnie Wood. Jagger and Richards became the band's principal songwriting team.\n\nThe Rolling Stones achieved international fame during the 1960s with hits including \"(I Can't Get No) Satisfaction,\" \"The Last Time,\" \"Paint It Black,\" \"Ruby Tuesday,\" \"Jumpin' Jack Flash,\" and \"Honky Tonk Women.\" Their success continued through the 1970s and beyond with songs such as \"Brown Sugar,\" \"Angie,\" \"It's Only Rock 'n Roll (But I Like It),\" \"Miss You,\" and \"Start Me Up.\"\n\nThe band was inducted into the Rock and Roll Hall of Fame in 1989. Despite lineup changes and the deaths of Brian Jones and Charlie Watts, the Rolling Stones have continued recording and performing for more than six decades. Their combination of blues, rock, rhythm and blues, and distinctive songwriting has made them one of the most successful and recognizable rock bands in music history.",
+    "authentication_info": "",
+    "condition_notes": "Fair condition - chip on edge of record.  Does not affect playabliity.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0111",
+    "product_images": [
+      "images/HEC-0111.jpg"
+    ],
+    "full_description": "The O'Jays are an American R&B and soul vocal group best known for a series of major hits during the 1970s. Formed in Canton, Ohio, in the late 1950s, the group eventually became identified with the powerful Philadelphia soul sound created by producers and songwriters Kenny Gamble and Leon Huff.\n\nThe best-known lineup featured Eddie Levert, Walter Williams, and William Powell. The O'Jays achieved their commercial breakthrough in 1972 with \"Back Stabbers,\" which became a major pop and R&B hit. They followed it with enduring favorites including \"Love Train,\" \"For the Love of Money,\" \"I Love Music,\" \"Use Ta Be My Girl,\" and \"Darlin' Darlin' Baby (Sweet, Tender, Love).\"\n\nTheir recordings combined rich vocal harmonies, strong rhythms, orchestral arrangements, and socially conscious lyrics. \"Love Train\" became one of their signature songs, while \"For the Love of Money\" gained lasting recognition for its distinctive bass line and cautionary message about greed.\n\nThe O'Jays remained popular for decades and continued performing long after their peak chart years. They were inducted into the Rock and Roll Hall of Fame in 2005. With their polished harmonies, energetic performances, and long string of memorable recordings, the O'Jays are regarded as one of the most important vocal groups in the history of soul and R&B music.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0112",
+    "product_images": [
+      "images/HEC-0112.jpg"
+    ],
+    "full_description": "Olivia Newton-John (Deceased) was a British-Australian singer and actress who became one of the most popular entertainers of the 1970s and 1980s. Born in Cambridge, England, in 1948, she moved with her family to Australia as a child and began performing professionally while still young.\n\nNewton-John first found success as a country-pop singer with hits including \"If Not for You,\" \"Let Me Be There,\" \"I Honestly Love You,\" and \"Have You Never Been Mellow.\" Her career reached a new level in 1978 when she starred opposite John Travolta in the musical film \"Grease.\" The movie became a worldwide phenomenon, and songs such as \"You're the One That I Want,\" \"Summer Nights,\" and \"Hopelessly Devoted to You\" became enduring favorites.\n\nShe successfully reinvented her musical image in the late 1970s and early 1980s with a more contemporary pop sound. Her 1981 hit \"Physical\" became one of the biggest songs of the decade and spent ten weeks at No. 1 on the Billboard Hot 100.\n\nNewton-John continued recording, acting, and performing for many years and became widely respected for her charitable and advocacy work. She died in 2022 at age 73. Her warm vocal style, major pop hits, and iconic performance in \"Grease\" made her one of the most beloved entertainers of her generation.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0113",
+    "product_images": [
+      "images/HEC-0113.jpg"
+    ],
+    "full_description": "Wink Martindale (Deceased) was an American radio personality, television host, producer, and singer best known for hosting numerous television game shows over a career spanning more than six decades. Born Winston Conrad Martindale in Jackson, Tennessee, in 1933, he began working in radio while still a teenager and later became a familiar voice and face in American broadcasting.\n\nMartindale first gained national attention as a disc jockey and television personality. In 1959, he also had a recording hit with \"Deck of Cards,\" a spoken-word song that reached the Top 10 on the Billboard Hot 100.\n\nHe became especially well known as a game-show host, appearing on programs including \"Gambit,\" \"Tic-Tac-Dough,\" \"High Rollers,\" and \"Debt.\" His polished delivery, distinctive voice, and easygoing manner made him a popular and recognizable television personality from the 1960s through the 1990s and beyond.\n\nIn addition to hosting, Martindale worked as a producer and remained active in broadcasting, game-show history, and entertainment-related projects for many years. He was also known for preserving and discussing classic television through interviews and archival programs.\n\nWink Martindale died in 2025 at age 91. His long career in radio, television, music, and game shows made him one of the most familiar personalities in American popular entertainment.",
+    "authentication_info": "None",
+    "condition_notes": "OK",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0114",
+    "product_images": [
+      "images/HEC-0114.jpg"
+    ],
+    "full_description": "**Edison Lighthouse** was a British pop group best known for the 1970 hit \"Love Grows (Where My Rosemary Goes).\" The song became an international success, reaching No. 1 on the UK Singles Chart and becoming a major hit in the United States and several other countries.\n\nEdison Lighthouse was primarily a studio-created act assembled around singer Tony Burrows, a prolific session vocalist who also sang lead on recordings by several other British pop groups of the era. \"Love Grows (Where My Rosemary Goes)\" was written by Tony Macaulay and Barry Mason and featured the bright, melodic sound associated with late-1960s and early-1970s British pop.\n\nBecause Burrows was involved with several studio projects at the same time, a separate touring version of Edison Lighthouse was formed to perform the song publicly. This has sometimes caused confusion over the group's membership and history.\n\nAlthough Edison Lighthouse never matched the enormous success of \"Love Grows,\" the record has remained a popular oldies favorite and is frequently included on compilations celebrating the pop music of the early 1970s. Its catchy melody, upbeat arrangement, and instantly recognizable chorus helped make Edison Lighthouse one of the memorable one-hit pop acts of the era.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0115",
+    "product_images": [
+      "images/HEC-0115.jpg"
+    ],
+    "full_description": "The Mamas & the Papas were an American folk-rock vocal group whose rich harmonies and distinctive California sound made them one of the most popular groups of the 1960s. The classic lineup consisted of John Phillips, Michelle Phillips, Denny Doherty, and Cass Elliot.\n\nFormed in 1965, the group quickly became associated with the emerging folk-rock movement. Their breakthrough hit, \"California Dreamin',\" became one of the defining songs of the decade. They followed it with other major hits including \"Monday, Monday,\" \"I Saw Her Again,\" \"Dedicated to the One I Love,\" \"Creeque Alley,\" and \"Words of Love.\"\n\nJohn Phillips was the group's principal songwriter and arranger, while the combination of Cass Elliot's powerful voice, Denny Doherty's smooth lead vocals, and Michelle Phillips' harmonies gave the group its unmistakable sound. Their music blended folk, pop, and rock influences with polished vocal arrangements.\n\nDespite their success, personal tensions and complicated relationships within the group contributed to its breakup by the end of the 1960s. The members later pursued individual careers, with Cass Elliot becoming especially successful as a solo performer.\n\nThe Mamas & the Papas were inducted into the Rock and Roll Hall of Fame in 1998. Their recordings remain closely identified with 1960s popular music, and songs such as \"California Dreamin'\" and \"Monday, Monday\" continue to be widely recognized classics.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0116",
+    "product_images": [
+      "images/HEC-0116.jpg"
+    ],
+    "full_description": "The Everly Brothers were an influential American rock and roll and country duo consisting of brothers Don Everly and Phil Everly. Known for their close, distinctive vocal harmonies, they became one of the most important musical acts of the late 1950s and early 1960s and had a major influence on later artists including The Beatles, Simon & Garfunkel, and The Beach Boys.\n\nThe brothers achieved their first major success in 1957 with \"Bye Bye Love,\" which became a hit on the pop, country, and R&B charts. They followed it with a remarkable string of popular recordings including \"Wake Up Little Susie,\" \"All I Have to Do Is Dream,\" \"Bird Dog,\" \"Devoted to You,\" \"Cathy's Clown,\" and \"When Will I Be Loved.\"\n\nTheir sound blended country music, rock and roll, and pop, with Don usually singing the lower harmony and Phil the higher part. Their seamless vocal style became one of the most recognizable sounds in early rock music.\n\nThe Everly Brothers experienced personal and professional tensions and temporarily split in 1973, but reunited a decade later and continued performing together for many years. They were among the first artists inducted into the Rock and Roll Hall of Fame in 1986.\n\nPhil Everly died in 2014, and Don Everly died in 2021. The Everly Brothers remain celebrated as pioneers of harmony-based rock and roll whose recordings helped shape generations of popular music.",
+    "authentication_info": "",
+    "condition_notes": "OK",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0117",
+    "product_images": [
+      "images/HEC-0117.jpg"
+    ],
+    "full_description": "Jay and the Americans were an American pop and rock vocal group that enjoyed a string of hit records during the 1960s. Formed in New York, the group became known for polished harmonies, dramatic arrangements, and a style that blended pop, rock and roll, and vocal-group influences.\n\nThe group originally featured lead singer Jay Traynor, who sang on their first major hit, \"She Cried,\" in 1962. After Traynor left, David Blatt joined the group and adopted the stage name Jay Black. With Black's powerful and distinctive lead voice, Jay and the Americans achieved their greatest commercial success.\n\nTheir best-known recordings include \"Come a Little Bit Closer,\" \"Cara Mia,\" \"Only in America,\" \"Let's Lock the Door (And Throw Away the Key),\" and \"This Magic Moment.\" \"Come a Little Bit Closer,\" released in 1964, became one of their signature songs and remains a popular oldies favorite.\n\nJay Black's soaring vocals were especially prominent on \"Cara Mia,\" helping establish the group's recognizable sound. Jay and the Americans remained successful through much of the 1960s, even as popular music changed dramatically during the British Invasion and psychedelic era.\n\nThe group eventually disbanded in the 1970s but later reunited in various forms. Their recordings continue to receive airplay on oldies stations and appear frequently on collections of classic 1960s pop music.",
+    "authentication_info": "",
+    "condition_notes": "OK",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0118",
+    "product_images": [
+      "images/HEC-0118.jpg"
+    ],
+    "full_description": "Three Dog Night was an American rock band that became one of the most successful groups of the late 1960s and early 1970s. Formed in Los Angeles in 1967, the group was known for its three lead vocalists\u2014Danny Hutton, Chuck Negron, and Cory Wells\u2014whose contrasting voices gave the band a distinctive and versatile sound.\n\nRather than relying mainly on songs written by band members, Three Dog Night became famous for recording material by talented songwriters who were not yet widely known. Their hits included songs written by Randy Newman, Harry Nilsson, Laura Nyro, Paul Williams, Hoyt Axton, and others.\n\nThe group scored numerous major hits, including \"One,\" \"Easy to Be Hard,\" \"Eli's Coming,\" \"Mama Told Me (Not to Come),\" \"Joy to the World,\" \"Black and White,\" \"An Old Fashioned Love Song,\" \"Never Been to Spain,\" and \"Shambala.\" \"Joy to the World,\" featuring the memorable opening line about Jeremiah the bullfrog, became one of the biggest singles of 1971.\n\nThree Dog Night achieved remarkable chart success, placing more than 20 songs in the Billboard Top 40 between 1969 and 1975. Their music blended rock, pop, soul, and rhythm and blues, helping them appeal to a broad audience.\n\nAlthough the original lineup eventually broke apart, various versions of Three Dog Night continued touring in later decades. The band's large collection of hit singles remains a familiar part of classic rock and oldies radio.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0119",
+    "product_images": [
+      "images/HEC-0119.jpg"
+    ],
+    "full_description": "Tommy Roe is an American pop singer and songwriter best known for a string of upbeat hits during the 1960s. Born Thomas David Roe on May 9, 1942, in Atlanta, Georgia, he became associated with the catchy, melodic style later described as bubblegum pop.\n\nRoe scored his first major hit with \"Sheila\" in 1962. The song reached No. 1 on the Billboard Hot 100 and established him as a successful young recording artist. He followed it with other popular singles including \"Everybody,\" \"Sweet Pea,\" \"Hooray for Hazel,\" and \"Dizzy.\"\n\n\"Dizzy,\" released in 1969, became one of Roe's biggest successes, also reaching No. 1 in the United States and becoming an international hit. His recordings were known for memorable hooks, lighthearted lyrics, and polished pop arrangements.\n\nTommy Roe was unusual among many pop singers of the era because he wrote or co-wrote much of his own material. His music bridged the transition from early rock and roll into the more polished pop sounds of the late 1960s.\n\nAlthough his greatest chart success came during the 1960s, Roe continued performing and remained a familiar figure on oldies and nostalgia concert circuits. Songs such as \"Sheila\" and \"Dizzy\" remain enduring examples of 1960s American pop music.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0120",
+    "product_images": [
+      "images/HEC-0120.jpg"
+    ],
+    "full_description": "Crosby, Stills, Nash & Young were a highly influential folk-rock supergroup known for intricate vocal harmonies, strong songwriting, and a blend of rock, folk, and country influences. The group consisted of David Crosby, Stephen Stills, Graham Nash, and Neil Young.\n\nCrosby, Stills & Nash first formed in 1968, bringing together former members of The Byrds, Buffalo Springfield, and The Hollies. Their self-titled 1969 debut album featured songs such as \"Suite: Judy Blue Eyes,\" \"Marrakesh Express,\" and \"Guinnevere\" and quickly established them as a major force in American rock music.\n\nNeil Young joined soon afterward, and the expanded group became Crosby, Stills, Nash & Young. Their 1970 album \"D\u00e9j\u00e0 Vu\" was a major commercial and critical success and included enduring songs such as \"Teach Your Children,\" \"Our House,\" \"Woodstock,\" and \"Carry On.\" The group also recorded the protest song \"Ohio,\" written by Young after the 1970 Kent State shootings.\n\nCSNY became closely associated with the counterculture and political atmosphere of the late 1960s and early 1970s. Internal tensions and the members' successful solo careers led to frequent breakups and reunions over the years.\n\nDavid Crosby died in 2023. Crosby, Stills, Nash & Young remain celebrated for their exceptional harmonies, influential songwriting, and lasting impact on folk rock and popular music.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0121",
+    "product_images": [
+      "images/HEC-0121.jpg"
+    ],
+    "full_description": "Pat Boone is an American singer, actor, television personality, and author who became one of the most successful popular entertainers of the 1950s and early 1960s. Born Charles Eugene Boone on June 1, 1934, in Jacksonville, Florida, he grew up in Nashville, Tennessee, and developed an early interest in singing.\n\nBoone rose to fame with polished pop recordings that appealed to a broad mainstream audience. Among his best-known hits are \"Ain't That a Shame,\" \"I'll Be Home,\" \"Love Letters in the Sand,\" \"April Love,\" \"Friendly Persuasion,\" and \"Moody River.\" During the 1950s, he was one of Elvis Presley's strongest competitors on the record charts and became known for his clean-cut image and smooth vocal style.\n\nHis success extended beyond music. Boone starred in several films, including \"Bernardine,\" \"April Love,\" and \"Journey to the Center of the Earth.\" He also hosted the television variety program \"The Pat Boone Chevy Showroom\" from 1957 to 1960.\n\nBoone later recorded gospel, country, and inspirational music and remained active in entertainment for decades. He has also written books and made frequent television appearances.\n\nWith dozens of charting singles and a career spanning music, film, television, and live performance, Pat Boone remains one of the most recognizable American entertainers to emerge from the early rock and roll era.",
+    "authentication_info": "",
+    "condition_notes": "Fair",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0122",
+    "product_images": [
+      "images/HEC-0122.jpg"
+    ],
+    "full_description": "The Diamonds were a Canadian vocal quartet that became one of the most popular singing groups of the 1950s. Formed in Toronto, the group was known for smooth harmonies, energetic performances, and recordings that helped bring rhythm and blues songs to a wider pop audience.\n\nThe group's classic lineup included Dave Somerville, Ted Kowalski, Phil Levitt, and Bill Reed. They achieved their greatest success in 1957 with \"Little Darlin',\" which became a major hit and one of the most recognizable songs of the early rock and roll era.\n\nThe Diamonds also recorded popular versions of songs such as \"Why Do Fools Fall in Love,\" \"The Stroll,\" \"Silhouettes,\" and \"Church Bells May Ring.\" Their music blended traditional pop vocal harmony with the developing sounds of rock and roll and doo-wop.\n\nAlthough lineup changes occurred over the years, The Diamonds continued performing long after their peak chart success. Their polished vocal style and upbeat stage presence made them favorites on oldies and nostalgia programs.\n\nThe Diamonds remain closely associated with the early years of rock and roll, and \"Little Darlin'\" continues to be one of the best-known vocal-group recordings of the 1950s.",
+    "authentication_info": "",
+    "condition_notes": "Fair",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0123",
+    "product_images": [
+      "images/HEC-0123.jpg"
+    ],
+    "full_description": "The Coasters were an American rhythm and blues and rock and roll vocal group whose humorous songs, lively performances, and clever storytelling made them one of the most distinctive groups of the 1950s and early 1960s.\n\nThe group developed from an earlier Los Angeles vocal group called The Robins and became closely associated with the songwriting and production team of Jerry Leiber and Mike Stoller. Their recordings combined rhythm and blues with comedy, character sketches, and catchy vocal arrangements.\n\nThe Coasters scored a long series of memorable hits, including \"Searchin',\" \"Young Blood,\" \"Yakety Yak,\" \"Charlie Brown,\" \"Along Came Jones,\" \"Poison Ivy,\" and \"Little Egypt.\" \"Yakety Yak\" became one of their biggest successes, reaching No. 1 on the Billboard rhythm and blues chart and becoming a major pop hit.\n\nTheir songs often featured humorous situations involving teenagers, parents, school, romance, and exaggerated characters. The distinctive saxophone work heard on many of their recordings also became an important part of their sound.\n\nThe Coasters experienced numerous lineup changes over the years, but their classic recordings remained popular on oldies radio and in films, television programs, and compilation albums.\n\nThe Coasters were inducted into the Rock and Roll Hall of Fame in 1987. Their combination of rhythm and blues, rock and roll, humor, and vocal harmony helped make them one of the most influential and entertaining vocal groups of their era.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0124",
+    "product_images": [
+      "images/HEC-0124.jpg"
+    ],
+    "full_description": "The Temptations are an American vocal group that became one of Motown's most successful and influential acts. Formed in Detroit in the early 1960s, the group became famous for smooth harmonies, coordinated choreography, stylish stage performances, and a long series of hit records.\n\nThe classic lineup included Otis Williams, Melvin Franklin, Eddie Kendricks, Paul Williams, and David Ruffin. Their breakthrough came with \"The Way You Do the Things You Do,\" followed by major hits such as \"My Girl,\" \"Ain't Too Proud to Beg,\" \"Get Ready,\" \"I Wish It Would Rain,\" and \"You're My Everything.\"\n\nIn the late 1960s and early 1970s, The Temptations expanded their sound with more socially conscious and psychedelic-influenced recordings. Songs such as \"Cloud Nine,\" \"Ball of Confusion,\" and \"Papa Was a Rollin' Stone\" showed the group's ability to evolve with changing musical styles.\n\nOver the decades, The Temptations experienced numerous personnel changes, but Otis Williams remained a constant member and continued the group's legacy. Their music combined soul, pop, rhythm and blues, and later funk influences.\n\nThe Temptations were inducted into the Rock and Roll Hall of Fame in 1989. With enduring songs, polished performances, and one of the most recognizable sounds in Motown history, they remain one of the most celebrated vocal groups in American popular music.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0125",
+    "product_images": [
+      "images/HEC-0125.jpg"
+    ],
+    "full_description": "Olivia Newton-John (Deceased) was a British-Australian singer and actress who became one of the most successful female entertainers of the 1970s and 1980s. Born on September 26, 1948, in Cambridge, England, she moved with her family to Australia as a child and began performing professionally while still young.\n\nNewton-John first achieved international success as a pop and country singer with hits including \"If Not for You,\" \"Let Me Be There,\" \"I Honestly Love You,\" and \"Have You Never Been Mellow.\" Her warm voice and wholesome image made her a major recording star.\n\nHer career reached another level in 1978 when she starred opposite John Travolta in the movie musical \"Grease.\" As Sandy Olsson, Newton-John performed some of the film's most memorable songs, including \"Hopelessly Devoted to You,\" \"Summer Nights,\" and \"You're the One That I Want.\" \"Grease\" became one of the most successful movie musicals of all time.\n\nShe continued her success with songs such as \"A Little More Love,\" \"Magic,\" and the 1981 hit \"Physical,\" which became one of the biggest singles of the decade.\n\nNewton-John remained active in music, film, and charitable work for many years. She died on August 8, 2022, at age 73. Her recordings and her performance in \"Grease\" remain an enduring part of popular culture.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0126",
+    "product_images": [
+      "images/HEC-0126.jpg"
+    ],
+    "full_description": "Glen Campbell (1936\u20132017) (Deceased) was an American singer, guitarist, songwriter, and actor whose smooth voice and exceptional musicianship made him one of the most successful crossover entertainers of the 1960s and 1970s. Born in Billstown, Arkansas, Campbell began playing guitar as a child and eventually moved to Los Angeles, where he became a highly sought-after session musician.\n\nCampbell was part of the celebrated group of studio musicians later known as \"The Wrecking Crew,\" performing on recordings by artists including Frank Sinatra, Elvis Presley, the Beach Boys, and the Monkees. He also toured with the Beach Boys during the mid-1960s.\n\nHis solo career brought enormous success with hits such as \"Gentle on My Mind,\" \"By the Time I Get to Phoenix,\" \"Wichita Lineman,\" \"Galveston,\" \"Rhinestone Cowboy,\" and \"Southern Nights.\" His recordings blended country, pop, and folk influences and helped introduce country music to a broader mainstream audience.\n\nFrom 1969 to 1972, Campbell hosted the popular television variety series \"The Glen Campbell Goodtime Hour.\" He also appeared in films, most notably opposite John Wayne in the 1969 Western \"True Grit.\"\n\nDuring his career, Campbell won numerous Grammy Awards and was inducted into the Country Music Hall of Fame in 2005. After being diagnosed with Alzheimer's disease, he publicly documented his final concert tour and struggle with the illness. He died in 2017 at age 81, leaving behind a lasting legacy as one of America's most distinctive singers and guitarists.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0127",
+    "product_images": [
+      "images/HEC-0127.jpg"
+    ],
+    "full_description": "Jimmy Durante (1893\u20131980) (Deceased) was an American comedian, actor, singer, and pianist known for his gravelly voice, oversized nose, and warm, sentimental style. Nicknamed \"The Schnozzola,\" Durante became one of the most recognizable entertainers of the 20th century.\n\nBorn in New York City, Durante began his career as a pianist in clubs and vaudeville before forming a successful comedy act with Lou Clayton and Eddie Jackson. His distinctive personality soon led to work in radio, movies, television, and recordings.\n\nDurante appeared in numerous films, including \"The Phantom President,\" \"The Man Who Came to Dinner,\" \"It\u2019s a Mad, Mad, Mad, Mad World,\" and \"The Great Rupert.\" He was especially effective at combining comedy with genuine emotion, often ending performances with his famous farewell, \"Good night, Mrs. Calabash, wherever you are.\"\n\nOn radio and television, Durante became a beloved variety performer whose fractured English, musical numbers, and playful catchphrases made him instantly recognizable. His recordings included sentimental songs such as \"September Song,\" \"As Time Goes By,\" and \"Make Someone Happy.\"\n\nDurante's voice also became familiar to later generations through the 1969 animated television special \"Frosty the Snowman,\" which he narrated and for which he performed the title song.\n\nJimmy Durante died in 1980 at age 86. His unique voice, comic timing, musical talent, and affectionate stage personality made him one of the most enduring entertainers of classic American show business.",
+    "authentication_info": "",
+    "condition_notes": "Good condition",
+    "miscellaneous": ""
   }
 ];
