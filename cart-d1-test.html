@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GT-K4ZWZCK7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'GT-K4ZWZCK7');
+  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart | Hollywood East Autographs</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Hollywood East Autographs and Collectibles</h1>
+
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="catalog.html?type=autograph">Autographs</a>
+    <a href="catalog.html?type=collectible">Collectibles</a>
+    <a href="cart.html" class="cart-menu-link" aria-label="Shopping cart">
+  <span class="cart-icon">
+    <svg class="cart-svg" viewBox="0 0 64 64" aria-hidden="true">
+      <path d="M12 18l7 24h30l7-24"></path>
+      <circle cx="25" cy="51" r="4"></circle>
+      <circle cx="47" cy="51" r="4"></circle>
+    </svg>
+    <span id="cart-count" class="cart-count">0</span>
+  </span>
+</a>
+    <a href="ordering.html">Ordering</a>
+    <a href="returns.html">Returns</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    </nav>
+
+  </header>
+
+  <main>
+    <section>
+      <h2>Shopping Cart</h2>
+
+    <div id="cart-items"></div>
+
+    <div class="order-summary">
+      <h3>Order Summary</h3>
+
+        <p class="cart-total-line">
+        Merchandise Total: $<span id="cart-total">0.00</span>
+        </p>
+
+        <p class="cart-total-line">
+        Shipping: $<span id="shipping-total">0.00</span>
+        </p>
+
+        <p class="cart-total-line">
+        Order Total: $<span id="order-total">0.00</span>
+        </p>
+
+        <p class="checkout-note">
+        Shipping is calculated from the items in your cart.
+        </p>
+
+        <p class="checkout-note">
+        Secure checkout is provided through PayPal.
+        </p>
+        <div id="paypal-button-container"></div>
+    </div>
+
+    <p>
+        <a href="catalog.html">Return to Catalog</a>
+    </p>
+
+    </section>
+  </main>
+
+<script src="https://www.paypal.com/sdk/js?client-id=AQcdvekY-BI0Gn5-W6xDYI-X4GtyDoIqZaurBj2yBG5O4Lx5OMINfk2hTETo-pkUuHvkFFanHAl02GqD&currency=USD&disable-funding=card"></script>
+<script src="inventory.js?v=2"></script>
+<script src="details.js?v=2"></script>
+<script src="shipping.js?v=1"></script>
+<script src="menu.js?v=2"></script>
+<script src="cart-d1-test.js"></script>
+
+</body>
+</html>
