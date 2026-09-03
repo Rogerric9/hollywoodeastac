@@ -226,7 +226,7 @@
     </item>
     <item>
       <g:id>HEA-0023</g:id>
-      <g:title>Any Grant</g:title>
+      <g:title>Amy Grant</g:title>
       <g:description>Signed 3x5 index card.  Added "God Bless You"</g:description>
       <g:link>https://hollywoodeastac.com/products/product.html?id=HEA-0023</g:link>
       <g:image_link>https://hollywoodeastac.com/images/HEA-0023.jpg</g:image_link>
@@ -4412,6 +4412,16 @@
       <g:image_link>https://hollywoodeastac.com/images/HEC-0127.jpg</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>4.95 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
+    <item>
+      <g:id>HEC-0128</g:id>
+      <g:title>Convert Pin To Necklace</g:title>
+      <g:description>Convert Pin Or Brooch To Necklace Or Pendan</g:description>
+      <g:link>https://hollywoodeastac.com/products/product.html?id=HEC-0128</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0128.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>7.99 USD</g:price>
       <g:condition>used</g:condition>
     </item>
   </channel>

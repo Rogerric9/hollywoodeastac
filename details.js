@@ -4451,5 +4451,17 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Good condition",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0128",
+    "product_images": [
+      "images/HEC-0128.jpg",
+      "images/PinConverterMain.jpg",
+      "images/PinConverterDirections.jpg"
+    ],
+    "full_description": "Up For Sale Is This Fantastic Set Of Three Gold Tone Converters: Pin Or Brooch To Necklace, Pendant.  For Small, Medium, Or Large Pins Or Brooches.\nSimply clip one of these converters onto you pin or brooch, add your chain and, voila, you have a necklace.      There are three sizes included to fit your smallest pin or brooch, a medium sized one, or a large one.\n\nThese converters are in brand new, unopened, in their original sealed factory packaging.\n\nYou will love these converters.      They're  awesome!",
+    "authentication_info": "",
+    "condition_notes": "Brand new in original factory packaging",
+    "miscellaneous": "Fabulous Set Of Three Gold Tone Converters: Pin Or Brooch To Necklace, Pendant.  For Small, Medium, Or Large Pins Or Brooches - Lot of 3 in Brand New Condition"
   }
 ];

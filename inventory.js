@@ -290,7 +290,7 @@ const inventory = [
     "type": "autograph",
     "category": "music",
     "category2": "",
-    "name": "Any Grant",
+    "name": "Amy Grant",
     "description": "Signed 3x5 index card.  Added \"God Bless You\"",
     "price": 80.0,
     "status": "",
@@ -4305,7 +4305,7 @@ const inventory = [
   {
     "product_id": "HEA-0313",
     "type": "autograph",
-    "category": "actor",
+    "category": "actress",
     "category2": "miscellaneous",
     "name": "Anjelica Huston - Academy Award  for  \"Prizzi's Honor\"",
     "description": "Signed 3x5 index card.   Not inscribed.",
@@ -4357,7 +4357,7 @@ const inventory = [
   {
     "product_id": "HEA-0317",
     "type": "autograph",
-    "category": "actor",
+    "category": "actress",
     "category2": "vintage",
     "name": "Laraine Day - Dr. Kildare",
     "description": "Signed 3x5 index card.   Not inscribed.",
@@ -5729,6 +5729,19 @@ const inventory = [
     "price": 4.95,
     "status": "",
     "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": ""
+  },
+  {
+    "product_id": "HEC-0128",
+    "type": "collectible",
+    "category": "miscellaneous",
+    "category2": "",
+    "name": "Convert Pin To Necklace",
+    "description": "Convert Pin Or Brooch To Necklace Or Pendan",
+    "price": 7.99,
+    "status": "",
+    "quantity_available": 3120,
     "shipping_class": "standard",
     "shipping_charge": ""
   }
