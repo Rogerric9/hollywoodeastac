@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GT-K4ZWZCK7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'GT-K4ZWZCK7');
+  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog | Hollywood East Autographs & Collectibles</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Hollywood East Autographs & Collectibles</h1>
+    <p>Authentic autographs from film, television, music, sports, and history</p>
+
+    <nav>
+      <a href="index.html">Home</a>
+
+      <div class="catalog-menu">
+        <a href="catalog.html?type=autograph" id="catalog-menu-link">Autographs</a>
+
+        <div id="category-dropdown" class="category-dropdown"></div>
+      </div>
+      <div class="collectibles-menu">
+        <a href="catalog.html?type=collectible" id="collectibles-menu-link">
+          Collectibles
+        </a>
+
+        <div
+          id="collectibles-category-dropdown"
+          class="category-dropdown"
+        ></div>
+      </div>
+      <a href="cart.html" class="cart-menu-link" aria-label="Shopping cart">
+  <span class="cart-icon">
+    <svg class="cart-svg" viewBox="0 0 64 64" aria-hidden="true">
+      <path d="M12 18l7 24h30l7-24"></path>
+      <circle cx="25" cy="51" r="4"></circle>
+      <circle cx="47" cy="51" r="4"></circle>
+    </svg>
+    <span id="cart-count" class="cart-count">0</span>
+  </span>
+</a>
+      <a href="ordering.html">Ordering</a>
+      <a href="returns.html">Returns</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </header>
+
+  <main>
+    <section>
+      <h2 id="category-heading"></h2>
+
+      <p id="catalog-description"></p>
+    <div class="catalog-search-area">
+      <label for="catalog-search">Search by name:</label>
+
+      <input
+        type="text"
+        id="catalog-search"
+        placeholder="Example: Davy Jones"
+      >
+
+      <button id="catalog-search-button" type="button" aria-label="Search">
+        🔍
+      </button>
+
+      <div class="catalog-grid-option">
+        <button id="catalog-grid-button" type="button">
+          See in Grid
+        </button>
+
+      <span id="catalog-grid-note" class="catalog-grid-note">
+        (Select an item from a grid list)
+      </span>
+      </div>
+
+    </div>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+  </main>
+
+<footer>
+  <p>&copy; 2026 Hollywood East Autographs & Collectibles</p>
+  <p><a href="product-index.html" style="color: white;">Product Index</a></p>
+</footer>
+
+<script src="catalog-d1-test.js"></script>
+<script src="menu.js"></script>
+
+</body>
+</html>
