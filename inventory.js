@@ -5208,7 +5208,7 @@ const inventory = [
     "description": "8x10 color photograph",
     "price": 14.99,
     "status": "",
-    "quantity_available": 1,
+    "quantity_available": 2,
     "shipping_class": "standard",
     "shipping_charge": ""
   },
@@ -5742,19 +5742,6 @@ const inventory = [
     "price": 7.99,
     "status": "",
     "quantity_available": 3120,
-    "shipping_class": "standard",
-    "shipping_charge": ""
-  },
-  {
-    "product_id": "HEC-0129",
-    "type": "collectible",
-    "category": "photos",
-    "category2": "",
-    "name": "Sophia Loren",
-    "description": "Color 8x10 photograph.",
-    "price": 14.95,
-    "status": "",
-    "quantity_available": 1,
     "shipping_class": "standard",
     "shipping_charge": ""
   }

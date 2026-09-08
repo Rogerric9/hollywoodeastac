@@ -4048,7 +4048,7 @@ const productDetails = [
       "images/HEC-0087.jpg"
     ],
     "full_description": "Sophia Loren is an Italian actress and international film icon whose beauty, charisma, and dramatic talent made her one of the most celebrated stars of classic European and Hollywood cinema. Born Sofia Costanza Brigida Villani Scicolone on September 20, 1934, in Rome, Italy, she began entering beauty contests as a teenager before moving into motion pictures.\r\n\r\nLoren became a major star during the 1950s and 1960s, appearing in both Italian and American productions. Her notable films include \"Houseboat,\" \"It Started in Naples,\" \"El Cid,\" \"Yesterday, Today and Tomorrow,\" \"Marriage Italian Style,\" \"Arabesque,\" and \"A Special Day.\"\r\n\r\nOne of her most acclaimed performances came in \"Two Women\" (1960), directed by Vittorio De Sica. Loren portrayed a mother struggling to protect her daughter during World War II and won the Academy Award for Best Actress, becoming the first performer to win an acting Oscar for a primarily non-English-language performance.\r\n\r\nLoren frequently appeared opposite leading stars such as Cary Grant, Clark Gable, Charlton Heston, Gregory Peck, and Marcello Mastroianni. Her long collaboration with Mastroianni became especially important in Italian cinema.\r\n\r\nOver the course of her career, Loren received numerous international honors, including an Academy Honorary Award recognizing her contributions to world cinema.\r\n\r\nSophia Loren remains one of the most recognizable actresses of her generation. Her films, glamorous image, and lasting international fame continue to make her autographs, photographs, and movie memorabilia highly popular with collectors of classic Hollywood and European cinema.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
   },
@@ -4463,15 +4463,5 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Brand new in original factory packaging",
     "miscellaneous": "Fabulous Set Of Three Gold Tone Converters: Pin Or Brooch To Necklace, Pendant.  For Small, Medium, Or Large Pins Or Brooches - Lot of 3 in Brand New Condition"
-  },
-  {
-    "product_id": "HEC-0129",
-    "product_images": [
-      "images/HEC-0129.jpg"
-    ],
-    "full_description": "Sophia Loren is an Italian actress and one of the most celebrated international film stars of the 20th century. Born Sofia Villani Scicolone in Rome in 1934, she rose to prominence in Italian cinema during the 1950s before becoming a major star in Hollywood and throughout Europe.\n\nKnown for her beauty, charisma, and dramatic range, Loren appeared in films such as Houseboat, El Cid, Yesterday, Today and Tomorrow, Marriage Italian Style, and A Special Day. Her performance in Vittorio De Sica\u2019s Two Women earned her the Academy Award for Best Actress, making her the first performer to win an acting Oscar for a foreign-language role.\n\nLoren worked with many of the era\u2019s leading actors, including Cary Grant, Clark Gable, Charlton Heston, Marlon Brando, Peter O\u2019Toole, and frequent co-star Marcello Mastroianni. Over a career spanning many decades, she became an enduring symbol of Italian cinema and received numerous honors, including an Honorary Academy Award recognizing her contributions to motion pictures.",
-    "authentication_info": "None",
-    "condition_notes": "Excellent",
-    "miscellaneous": ""
   }
 ];
