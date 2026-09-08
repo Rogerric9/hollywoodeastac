@@ -223,9 +223,6 @@
     <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0066</loc>
   </url>
   <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0001</loc>
-  </url>
-  <url>
     <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0067</loc>
   </url>
   <url>
@@ -295,9 +292,6 @@
     <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0090</loc>
   </url>
   <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0091</loc>
-  </url>
-  <url>
     <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0092</loc>
   </url>
   <url>
@@ -323,63 +317,6 @@
   </url>
   <url>
     <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0100</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0002</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0003</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0004</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0005</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0006</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0007</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0008</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0009</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0010</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0011</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0012</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0013</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0014</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0015</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0016</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0017</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0018</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0019</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0020</loc>
   </url>
   <url>
     <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0101</loc>
@@ -488,9 +425,6 @@
   </url>
   <url>
     <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0137</loc>
-  </url>
-  <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0021</loc>
   </url>
   <url>
     <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0138</loc>
@@ -982,9 +916,6 @@
     <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0300</loc>
   </url>
   <url>
-    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0022</loc>
-  </url>
-  <url>
     <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0301</loc>
   </url>
   <url>
@@ -1034,6 +965,72 @@
   </url>
   <url>
     <loc>https://hollywoodeastac.com/products/product.html?id=HEA-0317</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0001</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0002</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0003</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0004</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0005</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0006</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0007</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0008</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0009</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0010</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0011</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0012</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0013</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0014</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0015</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0016</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0017</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0018</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0019</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0020</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0021</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0022</loc>
   </url>
   <url>
     <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0023</loc>
@@ -1352,5 +1349,8 @@
   </url>
   <url>
     <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0128</loc>
+  </url>
+  <url>
+    <loc>https://hollywoodeastac.com/products/product.html?id=HEC-0129</loc>
   </url>
 </urlset>
