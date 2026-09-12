@@ -3166,6 +3166,101 @@ const productDetails = [
     "miscellaneous": ""
   },
   {
+    "product_id": "HEA-0318",
+    "product_images": [
+      "images/HEA-0318.jpg"
+    ],
+    "full_description": "The Bee Gees were a British-Australian pop group formed by brothers Barry, Robin, and Maurice Gibb. Born on the Isle of Man and raised partly in Manchester, England, the brothers moved with their family to Australia in the late 1950s, where they began performing professionally.\n\nThe group first achieved international success in the late 1960s with songs such as \u201cTo Love Somebody,\u201d \u201cMassachusetts,\u201d and \u201cI Started a Joke.\u201d During the 1970s, the Bee Gees reinvented their sound and became closely associated with the disco era. Their contributions to the 1977 film *Saturday Night Fever* included the hits \u201cStayin\u2019 Alive,\u201d \u201cNight Fever,\u201d and \u201cHow Deep Is Your Love,\u201d helping make the soundtrack one of the best-selling albums of all time.\n\nThe Bee Gees were also highly successful songwriters, writing or producing hits for artists including Barbra Streisand, Dionne Warwick, Kenny Rogers, Dolly Parton, and Diana Ross. Their distinctive vocal harmonies and Barry Gibb\u2019s falsetto became trademarks of their sound.\n\nMaurice Gibb died in 2003, and Robin Gibb died in 2012. Barry Gibb continued performing and recording as a solo artist. The Bee Gees were inducted into the Rock and Roll Hall of Fame in 1997 and remain one of the most commercially successful groups in popular music history.",
+    "authentication_info": "None",
+    "condition_notes": "Very good condition.",
+    "miscellaneous": "Framed and ready for hanging."
+  },
+  {
+    "product_id": "HEA-0319",
+    "product_images": [
+      "images/HEA-0319.jpg"
+    ],
+    "full_description": "Paul Anka (born July 30, 1941) is a Canadian-American singer, songwriter, and actor who became one of the biggest teen idols of the late 1950s and early 1960s. Born in Ottawa, Ontario, he achieved international fame while still a teenager with his 1957 hit \u201cDiana,\u201d which he wrote himself.\n\nAnka went on to record a long string of popular songs, including \u201cLonely Boy,\u201d \u201cPut Your Head on My Shoulder,\u201d \u201cPuppy Love,\u201d and \u201cYou\u2019re Having My Baby.\u201d He also became a highly successful songwriter for other performers. He wrote the English lyrics to \u201cMy Way,\u201d famously recorded by Frank Sinatra, and composed \u201cShe\u2019s a Lady,\u201d which became a major hit for Tom Jones. He also wrote the theme music associated with *The Tonight Show Starring Johnny Carson*.\n\nIn addition to recording and songwriting, Anka appeared in films and television and became a successful Las Vegas and nightclub performer. His career has lasted more than six decades, and he is regarded as one of the most successful singer-songwriters to emerge from the early rock-and-roll era.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0320",
+    "product_images": [
+      "images/HEA-0320.jpg"
+    ],
+    "full_description": "Deceased \u2014 Neil Sedaka was an American singer, songwriter, composer, and pianist who became one of pop music\u2019s most successful hitmakers. Born March 13, 1939, in Brooklyn, New York, he was a classically trained pianist who studied at the Juilliard School before turning his attention to popular music.\n\nSedaka rose to fame in the late 1950s and early 1960s with hits including \u201cOh! Carol,\u201d \u201cCalendar Girl,\u201d \u201cHappy Birthday Sweet Sixteen,\u201d and \u201cBreaking Up Is Hard to Do.\u201d He frequently collaborated with lyricist Howard Greenfield, and together they wrote numerous songs for Sedaka and other performers.\n\nAfter his popularity declined during the British Invasion, Sedaka achieved a major comeback in the 1970s with songs such as \u201cLaughter in the Rain\u201d and \u201cBad Blood.\u201d He also co-wrote \u201cLove Will Keep Us Together,\u201d which became a major hit for Captain & Tennille.\n\nOver a career spanning more than six decades, Sedaka wrote hundreds of songs and became recognized as one of the most prolific pop composers of his generation. He was inducted into the Songwriters Hall of Fame in 1983.\n\nNeil Sedaka died on February 27, 2026, at the age of 86.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Sedaka has signed this LP by a Neil Sedaka tribute band called Kings Road.  He has whimsically added this comment:  \"PS - Never saw this one!\""
+  },
+  {
+    "product_id": "HEA-0321",
+    "product_images": [
+      "images/HEA-0321.jpg"
+    ],
+    "full_description": "James Taylor is an American singer-songwriter and guitarist known for his warm voice, introspective songwriting, and distinctive acoustic style. He was born March 12, 1948, in Boston, Massachusetts, and grew up in North Carolina.\n\nTaylor became one of the leading singer-songwriters of the 1970s. His breakthrough album, Sweet Baby James, was released in 1970 and included the classic song \u201cFire and Rain.\u201d He also became widely known for his recording of Carole King\u2019s \u201cYou\u2019ve Got a Friend,\u201d which reached No. 1 on the Billboard Hot 100.\n\nOther well-known Taylor songs include \u201cCarolina in My Mind,\u201d \u201cShower the People,\u201d \u201cMexico,\u201d \u201cHandy Man,\u201d and \u201cHow Sweet It Is (To Be Loved by You).\u201d His music blends folk, pop, rock, and country influences and often features personal, reflective lyrics.\n\nTaylor has sold millions of records worldwide and has received numerous Grammy Awards. He was inducted into both the Rock and Roll Hall of Fame and the Songwriters Hall of Fame in 2000.\n\nHe remains one of the most respected and influential singer-songwriters of his generation.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": "Framed and ready for hanging."
+  },
+  {
+    "product_id": "HEA-0322",
+    "product_images": [
+      "images/HEA-0322.jpg"
+    ],
+    "full_description": "Gary Lewis and the Playboys were an American pop-rock group formed in the 1960s and led by singer and drummer Gary Lewis, the son of comedian and actor Jerry Lewis.\n\nThe group became one of the most successful American bands of the mid-1960s, beginning with their 1965 No. 1 hit \u201cThis Diamond Ring.\u201d They followed it with a string of popular singles including \u201cCount Me In,\u201d \u201cSave Your Heart for Me,\u201d \u201cEverybody Loves a Clown,\u201d \u201cShe\u2019s Just My Style,\u201d and \u201cSure Gonna Miss Her.\u201d\n\nGary Lewis served as the group\u2019s lead vocalist and drummer, and their records were known for catchy melodies, polished arrangements, and a clean pop sound that appealed strongly to teenage audiences. Producer Snuff Garrett played an important role in shaping the group\u2019s recordings.\n\nThe Playboys\u2019 chart success declined after Gary Lewis entered the U.S. Army in 1967 during the Vietnam War era. After his military service, Lewis resumed performing, and various versions of Gary Lewis and the Playboys continued appearing in concerts and oldies shows.\n\nThe group remains closely associated with the upbeat pop sound of the mid-1960s and is remembered for a remarkably consistent run of hit singles.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEA-0323",
+    "product_images": [
+      "images/HEA-0323.jpg"
+    ],
+    "full_description": "The Ventures are an American instrumental rock band formed in Tacoma, Washington, in 1958. The group became one of the most influential instrumental bands in rock history and helped popularize the electric guitar sound of the early 1960s.\n\nThe band was founded by guitarists Don Wilson and Bob Bogle. They were later joined by Nokie Edwards and drummer Mel Taylor, forming the lineup most closely associated with the group\u2019s classic years.\n\nThe Ventures achieved their breakthrough with the 1960 instrumental hit \u201cWalk, Don\u2019t Run.\u201d They followed it with many other popular recordings, including \u201cPerfidia,\u201d \u201cHawaii Five-O,\u201d \u201cWipe Out,\u201d and \u201cApache.\u201d Their music became known for crisp electric guitar work, strong rhythms, and a distinctive surf-rock and instrumental style.\n\nThe group was especially popular in Japan, where they developed a large and devoted following. Their recordings also had a major influence on generations of guitarists and instrumental rock musicians.\n\nThe Ventures were inducted into the Rock and Roll Hall of Fame in 2008. Although several original and longtime members have died, the group has continued performing with later members carrying on its musical legacy.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition - Framed and ready for hanging.",
+    "miscellaneous": "This lineup \u2014 Nokie Edwards, Don Wilson, Bob Spalding, and Leon Taylor \u2014 was together mainly in the early 2000s, roughly 2004\u20132005.\n\nThe key point is that Bob Spalding became a regular member around 2004, Leon Taylor had already taken over drums in 1996, Don Wilson was still active, and Nokie Edwards was still appearing with the group during that period."
+  },
+  {
+    "product_id": "HEA-0324",
+    "product_images": [
+      "images/HEA-0324.jpg",
+      "images/DickSmothersLP.jpg",
+      "images/TomSmothersLP.jpg"
+    ],
+    "full_description": "Deceased, Tom Smothers (February 2, 1937 \u2013 December 26, 2023) and Dick Smothers (November 20, 1938 \u2013 July 16, 2024) were the American comedy and musical duo known as the Smothers Brothers.\n\nThe brothers became famous for combining folk music, comedy, satire, and humorous onstage arguments. Tom usually played the confused, easily offended brother, while Dick served as the more serious straight man.\n\nThey began performing professionally in the late 1950s, appearing in folk clubs and on college campuses. Tom played acoustic guitar and Dick played double bass. Their musical performances frequently turned into comic arguments, which became the trademark of their act.\n\nTheir most famous television program was The Smothers Brothers Comedy Hour, which aired on CBS from 1967 to 1969. The show featured comedy, music, political satire, and commentary on controversial subjects including the Vietnam War, civil rights, and government policies.\n\nThe program became especially notable for its conflicts with CBS over censorship. The brothers repeatedly challenged network restrictions on political and social material, and CBS eventually cancelled the show in 1969.\n\nThe Smothers Brothers continued performing together for decades afterward in concerts, clubs, television appearances, and specials. Their television work also helped provide early opportunities for performers and writers such as Steve Martin and Rob Reiner.\n\nThey are remembered as one of the most influential comedy teams of the 1960s, combining music and humor while helping expand the boundaries of political and social satire on American television.",
+    "authentication_info": "None",
+    "condition_notes": "Good condition.   Minor tear at bottom seam.",
+    "miscellaneous": "Framed and ready to hang."
+  },
+  {
+    "product_id": "HEA-0325",
+    "product_images": [
+      "images/HEA-0325.jpg",
+      "images/DavidJonesLP.jpg"
+    ],
+    "full_description": "Deceased, Davy Jones (December 30, 1945 \u2013 February 29, 2012) was an English singer, actor, and entertainer best known as a member of the popular 1960s rock group The Monkees.\n\nBorn David Thomas Jones in Manchester, England, he began his career as a child actor. He appeared on British television and later performed as the Artful Dodger in the stage musical Oliver! His work in the production brought him to the United States, where he appeared with the cast on The Ed Sullivan Show in 1964.\n\nIn 1965, Jones was selected to become one of the four members of The Monkees, alongside Micky Dolenz, Michael Nesmith, and Peter Tork. The group was created for the television series The Monkees, which premiered in 1966 and quickly became a major success.\n\nJones sang lead vocals on several well-known Monkees recordings, including \u201cDaydream Believer,\u201d \u201cI Wanna Be Free,\u201d and \u201cValleri.\u201d His youthful appearance and British accent made him particularly popular with teenage audiences.\n\nAfter The Monkees originally disbanded, Jones continued recording music, acting, and performing as a solo entertainer. He frequently reunited with other members of The Monkees for tours and special appearances.\n\nJones also became an accomplished horseman and maintained a lifelong interest in horse racing. He owned and trained horses and occasionally competed as an amateur jockey.\n\nDavy Jones died from a heart attack on February 29, 2012, at the age of 66. He remains closely associated with the music and television culture of the 1960s and is remembered as one of The Monkees' most recognizable members.",
+    "authentication_info": "None",
+    "condition_notes": "OK.  Album cover shows normal age-related wear, including split seams.",
+    "miscellaneous": "Album comes framed and ready to hang."
+  },
+  {
+    "product_id": "HEA-0326",
+    "product_images": [
+      "images/HEA-0326.jpg",
+      "images/RodArgentLP.jpg",
+      "images/JimRodfordLP.jpg"
+    ],
+    "full_description": "Argent was an English rock band formed in 1969 by keyboardist Rod Argent, following the breakup of his earlier group, The Zombies. The original lineup consisted of Rod Argent, guitarist and vocalist Russ Ballard, bassist Jim Rodford, and drummer Bob Henrit.\n\nThe band developed a distinctive sound combining progressive rock, hard rock, strong vocal harmonies, and prominent keyboard work. Rod Argent\u2019s Hammond organ was a major part of the group\u2019s sound, while Russ Ballard contributed much of the songwriting and lead guitar work.\n\nArgent\u2019s best-known song is \u201cHold Your Head Up,\u201d released in 1972. The song became an international hit and remains the recording most closely associated with the band. Another important Argent song, \u201cGod Gave Rock and Roll to You,\u201d was written by Russ Ballard and later became widely known through versions by other artists, including Kiss.\n\nThe band released several albums during the 1970s, including Argent, Ring of Hands, All Together Now, In Deep, Nexus, and Circus. In Deep, released in 1973, included \u201cGod Gave Rock and Roll to You\u201d and represented the classic Argent lineup of Rod Argent, Russ Ballard, Jim Rodford, and Bob Henrit.\n\nRuss Ballard left the group in 1974 to pursue a solo career and became a successful songwriter for other performers. Argent continued with lineup changes before breaking up in 1976.\n\nRod Argent later reunited with Colin Blunstone and other members of The Zombies. Jim Rodford also became a longtime member of The Kinks and later performed with The Zombies. Bob Henrit likewise played with The Kinks.\n\nArgent is remembered as an important British rock group of the early 1970s, particularly for its combination of powerful keyboards, melodic songwriting, and progressive-rock influences.",
+    "authentication_info": "None",
+    "condition_notes": "Pretty good.   Some seam tears on the cover.",
+    "miscellaneous": "This comes framed and ready for hanging.   Also included is a letter of confirmation of authenticy from the person who obtained these signatures in-person."
+  },
+  {
     "product_id": "HEC-0001",
     "product_images": [
       "images/HEC-0001.jpg"
@@ -3988,7 +4083,7 @@ const productDetails = [
       "images/HEC-0081.jpg"
     ],
     "full_description": "Cheryl Ladd is an American actress, singer, and author best known for starring as Kris Munroe in the hit television series \"Charlie's Angels.\" Born Cheryl Jean Stoppelmoor on July 12, 1951, in Huron, South Dakota, she began her entertainment career as a singer before moving into television and acting.\r\n\r\nLadd joined \"Charlie's Angels\" in 1977 at the beginning of the show's second season, replacing Farrah Fawcett as a regular cast member. She played Kris Munroe, the younger sister of Fawcett's character Jill Munroe, and starred alongside Kate Jackson and Jaclyn Smith. Ladd remained with the series through its final season in 1981 and became one of the show's most recognizable stars.\r\n\r\nHer other television work includes \"One West Waikiki,\" \"Las Vegas,\" and numerous television movies. She also appeared in films such as \"Purple Hearts,\" \"Millennium,\" and \"Poison Ivy.\" In addition to acting, Ladd recorded several albums and had success as a pop singer during the late 1970s and early 1980s.\r\n\r\nLadd has also appeared on stage and written books, including works for children and about golf.\r\n\r\nHer long association with \"Charlie's Angels,\" along with her television, film, and music career, has made Cheryl Ladd a popular figure among collectors of 1970s television, classic Hollywood memorabilia, signed photographs, and celebrity autographs.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
   },
