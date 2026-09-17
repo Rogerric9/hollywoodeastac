@@ -86,7 +86,7 @@ const productDetails = [
       "images/HEA-0009.jpg"
     ],
     "full_description": "Fats Domino - Deceased (February 26, 1928\u2013October 24, 2017) was an American singer, pianist, and songwriter who became one of the pioneers of rock and roll. Known for his warm voice and distinctive New Orleans piano style, he recorded enduring hits such as *Blueberry Hill*, *Ain\u2019t That a Shame*, and *I\u2019m Walkin\u2019*.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excelleny condition.",
     "miscellaneous": ""
   },
@@ -106,7 +106,7 @@ const productDetails = [
       "images/HEA-0011.jpg"
     ],
     "full_description": "C. Everett Koop - Deceased  (October 14, 1916\u2013February 25, 2013) was an American pediatric surgeon and public health official who served as Surgeon General of the United States from 1982 to 1989. He became widely known for his outspoken leadership on smoking, AIDS awareness, and preventive health.\r\n\r\nKoop became one of the country\u2019s strongest anti-smoking public-health advocates. He emphasized the dangers of smoking and secondhand smoke and helped make the Surgeon General\u2019s office a much more visible force in tobacco education",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
   },
@@ -156,7 +156,7 @@ const productDetails = [
       "images/HEA-0016.jpg"
     ],
     "full_description": "Rosemary Clooney - Deceased (May 23, 1928 \u2013 June 29, 2002) was an American singer and actress known for her warm, expressive voice and classic pop recordings. She rose to fame in the 1950s with hits including \u201cCome On-a My House,\u201d \u201cHey There,\u201d and \u201cMambo Italiano.\u201d Clooney also appeared in films such as *White Christmas* and enjoyed a successful later career as a respected jazz and standards vocalist.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellant condition.",
     "miscellaneous": ""
   },
@@ -1380,7 +1380,7 @@ const productDetails = [
       "images/JamesStewartSig.jpg"
     ],
     "full_description": "(Deceased) James \u201cJimmy\u201d Stewart (May 20, 1908 \u2013 July 2, 1997) was an American actor known for his distinctive voice, natural screen presence, and portrayals of honest, everyday heroes. His classic films include Mr. Smith Goes to Washington, The Philadelphia Story, It\u2019s a Wonderful Life, Rear Window, Vertigo, and The Man Who Shot Liberty Valance. Stewart also served as a decorated U.S. Army Air Forces pilot during World War II and became one of Hollywood\u2019s most respected and beloved stars.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": "Photo is of Stewart and June allyson.   This item comes in a 17x13 inch frame, ready for hanging."
   },
@@ -2451,7 +2451,7 @@ const productDetails = [
       "images/HEA-0246.jpg"
     ],
     "full_description": "Beverly Garland (Deceased) (October 17, 1926 \u2013 December 5, 2008) was an American actress known for a long career in film and television, particularly in crime dramas, Westerns, science fiction, and family television.\r\n\r\nBorn Beverly Lucy Fessenden in Santa Cruz, California, she began acting in the 1950s and quickly became a familiar face in low-budget feature films and television programs. Her movie credits included It Conquered the World (1956), Not of This Earth (1957), The Alligator People (1959), and numerous Westerns and crime films.\r\n\r\nGarland was especially successful on television. She starred in the groundbreaking series Decoy from 1957 to 1958, playing an undercover policewoman, one of the earliest American television series built around a female law-enforcement lead.\r\n\r\nShe later became well known as Barbara Harper Douglas on My Three Sons and appeared in many other series, including Perry Mason, Gunsmoke, The Twilight Zone, Lois & Clark: The New Adventures of Superman, and 7th Heaven.\r\n\r\nGarland was admired for her versatility and durability as a character actress, with a career that extended for more than five decades.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
   },
@@ -2481,7 +2481,7 @@ const productDetails = [
       "images/HEA-0249.jpg"
     ],
     "full_description": "Susan Dey (born December 10, 1952) is an American former actress and model best known for her roles on The Partridge Family and L.A. Law.\r\n\r\nBorn in Pekin, Illinois, Dey began her career as a model before being cast as Laurie Partridge on The Partridge Family, which aired from 1970 to 1974. The popular musical sitcom made her a widely recognized television star while still in her teens.\r\n\r\nDey later successfully moved into more dramatic roles. Her most acclaimed performance came as attorney Grace Van Owen on the legal drama L.A. Law, which she joined in 1986. The role earned her a Golden Globe Award and multiple Emmy nominations.\r\n\r\nHer other television and film credits include Looker (1981), Echo Park (1985), Love & War, and numerous television movies.\r\n\r\nDey became known for making a successful transition from a young sitcom star to a respected dramatic actress. She largely withdrew from acting in the early 2000s and has since maintained a relatively private life.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": "Earned a Golden Globe Award and multiple Emmy nominations for her role as attorney Grace Van Owen on the legal drama L.A. Law."
   },
@@ -2811,7 +2811,7 @@ const productDetails = [
       "images/HEA-0282.jpg"
     ],
     "full_description": "Denise Crosby\r\n\r\nDenise Crosby is an American actress best known for portraying Lieutenant Tasha Yar on the television series Star Trek: The Next Generation. She was born on November 24, 1957, in Hollywood, California, and is the granddaughter of entertainer Bing Crosby.\r\n\r\nCrosby joined Star Trek: The Next Generation when the series premiered in 1987. Her character, Tasha Yar, served as the USS Enterprise\u2019s security chief during the first season. Although Crosby left the regular cast, she later returned for several memorable appearances, including alternate-timeline and related roles.\r\n\r\nOutside Star Trek, Crosby has appeared in numerous films and television programs. Her film credits include 48 Hrs., Pet Sematary, and Deep Impact. She has also made guest appearances on series such as The X-Files, NYPD Blue, Dexter, The Walking Dead, and Ray Donovan.\r\n\r\nCrosby also produced and hosted the documentary Trekkies and its sequel, which explored the devoted worldwide fan culture surrounding Star Trek.\r\n\r\nShe remains a popular figure at science-fiction conventions and is closely associated with the enduring legacy of the Star Trek franchise.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Good condition.   Some minor tape residue on upper right side of card.",
     "miscellaneous": ""
   },
@@ -2861,7 +2861,7 @@ const productDetails = [
       "images/HEA-0287.jpg"
     ],
     "full_description": "Harry Dean Stanton (Deceased)\r\n\r\nHarry Dean Stanton was an American actor and musician known for his distinctive presence and long career as a character actor. He was born on July 14, 1926, in West Irvine, Kentucky.\r\n\r\nStanton served in the U.S. Navy during World War II before pursuing acting. He began appearing in films and television during the 1950s and became one of Hollywood\u2019s most recognizable supporting performers.\r\n\r\nHis notable films included Cool Hand Luke, The Godfather Part II, Alien, Escape from New York, Christine, Repo Man, Pretty in Pink, and The Green Mile. One of his rare leading roles came in Wim Wenders\u2019 acclaimed 1984 film Paris, Texas, in which his performance received widespread praise.\r\n\r\nStanton also appeared frequently on television, including a recurring role on the HBO series Big Love and a memorable appearance in Twin Peaks.\r\n\r\nIn addition to acting, Stanton was an accomplished singer and musician who performed regularly with his own band.\r\n\r\nHarry Dean Stanton died on September 15, 2017, at age 91. His career spanned more than six decades and included well over 100 film and television roles.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Good condition",
     "miscellaneous": ""
   },
@@ -2871,7 +2871,7 @@ const productDetails = [
       "images/HEA-0288.jpg"
     ],
     "full_description": "Jean Simmons (Deceased)\r\n\r\nJean Simmons was a British-American actress whose career spanned more than six decades in film, television, and theater. She was born on January 31, 1929, in London, England.\r\n\r\nSimmons began acting as a teenager and gained early acclaim for her performance as the young Estella in Great Expectations. She later received an Academy Award nomination for playing Ophelia in Laurence Olivier\u2019s Hamlet.\r\n\r\nAfter moving to Hollywood, Simmons became a major star of the 1950s and 1960s. Her notable films included Guys and Dolls, The Robe, Spartacus, The Big Country, Elmer Gantry, and The Happy Ending, for which she received a second Academy Award nomination.\r\n\r\nShe worked opposite many leading actors, including Marlon Brando, Gregory Peck, Burt Lancaster, Kirk Douglas, and Richard Burton.\r\n\r\nSimmons later enjoyed a successful television career and won an Emmy Award for her performance in the miniseries The Thorn Birds.\r\n\r\nJean Simmons died on January 22, 2010, at age 80, from lung cancer.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Good condition",
     "miscellaneous": ""
   },
@@ -3001,7 +3001,7 @@ const productDetails = [
       "images/HEA-0301.jpg"
     ],
     "full_description": "Kevin McCarthy (Deceased) was an American actor best known for starring as Dr. Miles Bennell in the classic 1956 science-fiction film \"Invasion of the Body Snatchers.\" His intense performance helped make the film one of the most enduring and influential science-fiction movies of the 1950s.\r\n\r\nBorn February 15, 1914, in Seattle, Washington, McCarthy earned major recognition for portraying Biff Loman in the 1951 film adaptation of Arthur Miller's \"Death of a Salesman.\" His performance earned him an Academy Award nomination for Best Supporting Actor and a Golden Globe Award.\r\n\r\nMcCarthy enjoyed a career spanning more than seven decades, working extensively in motion pictures, television, and theater. He appeared in numerous films and television series and later made a memorable cameo in the 1978 remake of \"Invasion of the Body Snatchers.\"\r\n\r\nKevin McCarthy died on September 11, 2010, at age 96. His strong association with \"Invasion of the Body Snatchers,\" classic science-fiction cinema, and vintage Hollywood makes his autograph especially desirable to collectors of movie memorabilia, horror, and science-fiction autographs.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": "Portrayed Biff Loman in the 1951 film adaptation of Arthur Miller\u2019s Death of a Salesman. The performance brought him an Academy Award nomination for Best Supporting Actor and a Golden Globe Award."
   },
@@ -3171,7 +3171,7 @@ const productDetails = [
       "images/HEA-0318.jpg"
     ],
     "full_description": "The Bee Gees were a British-Australian pop group formed by brothers Barry, Robin, and Maurice Gibb. Born on the Isle of Man and raised partly in Manchester, England, the brothers moved with their family to Australia in the late 1950s, where they began performing professionally.\n\nThe group first achieved international success in the late 1960s with songs such as \u201cTo Love Somebody,\u201d \u201cMassachusetts,\u201d and \u201cI Started a Joke.\u201d During the 1970s, the Bee Gees reinvented their sound and became closely associated with the disco era. Their contributions to the 1977 film *Saturday Night Fever* included the hits \u201cStayin\u2019 Alive,\u201d \u201cNight Fever,\u201d and \u201cHow Deep Is Your Love,\u201d helping make the soundtrack one of the best-selling albums of all time.\n\nThe Bee Gees were also highly successful songwriters, writing or producing hits for artists including Barbra Streisand, Dionne Warwick, Kenny Rogers, Dolly Parton, and Diana Ross. Their distinctive vocal harmonies and Barry Gibb\u2019s falsetto became trademarks of their sound.\n\nMaurice Gibb died in 2003, and Robin Gibb died in 2012. Barry Gibb continued performing and recording as a solo artist. The Bee Gees were inducted into the Rock and Roll Hall of Fame in 1997 and remain one of the most commercially successful groups in popular music history.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Very good condition.",
     "miscellaneous": "Framed and ready for hanging."
   },
@@ -3233,7 +3233,7 @@ const productDetails = [
       "images/TomSmothersLP.jpg"
     ],
     "full_description": "Deceased, Tom Smothers (February 2, 1937 \u2013 December 26, 2023) and Dick Smothers (November 20, 1938 \u2013 July 16, 2024) were the American comedy and musical duo known as the Smothers Brothers.\n\nThe brothers became famous for combining folk music, comedy, satire, and humorous onstage arguments. Tom usually played the confused, easily offended brother, while Dick served as the more serious straight man.\n\nThey began performing professionally in the late 1950s, appearing in folk clubs and on college campuses. Tom played acoustic guitar and Dick played double bass. Their musical performances frequently turned into comic arguments, which became the trademark of their act.\n\nTheir most famous television program was The Smothers Brothers Comedy Hour, which aired on CBS from 1967 to 1969. The show featured comedy, music, political satire, and commentary on controversial subjects including the Vietnam War, civil rights, and government policies.\n\nThe program became especially notable for its conflicts with CBS over censorship. The brothers repeatedly challenged network restrictions on political and social material, and CBS eventually cancelled the show in 1969.\n\nThe Smothers Brothers continued performing together for decades afterward in concerts, clubs, television appearances, and specials. Their television work also helped provide early opportunities for performers and writers such as Steve Martin and Rob Reiner.\n\nThey are remembered as one of the most influential comedy teams of the 1960s, combining music and humor while helping expand the boundaries of political and social satire on American television.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Good condition.   Minor tear at bottom seam.",
     "miscellaneous": "Framed and ready to hang."
   },
@@ -3244,7 +3244,7 @@ const productDetails = [
       "images/DavidJonesLP.jpg"
     ],
     "full_description": "Deceased, Davy Jones (December 30, 1945 \u2013 February 29, 2012) was an English singer, actor, and entertainer best known as a member of the popular 1960s rock group The Monkees.\n\nBorn David Thomas Jones in Manchester, England, he began his career as a child actor. He appeared on British television and later performed as the Artful Dodger in the stage musical Oliver! His work in the production brought him to the United States, where he appeared with the cast on The Ed Sullivan Show in 1964.\n\nIn 1965, Jones was selected to become one of the four members of The Monkees, alongside Micky Dolenz, Michael Nesmith, and Peter Tork. The group was created for the television series The Monkees, which premiered in 1966 and quickly became a major success.\n\nJones sang lead vocals on several well-known Monkees recordings, including \u201cDaydream Believer,\u201d \u201cI Wanna Be Free,\u201d and \u201cValleri.\u201d His youthful appearance and British accent made him particularly popular with teenage audiences.\n\nAfter The Monkees originally disbanded, Jones continued recording music, acting, and performing as a solo entertainer. He frequently reunited with other members of The Monkees for tours and special appearances.\n\nJones also became an accomplished horseman and maintained a lifelong interest in horse racing. He owned and trained horses and occasionally competed as an amateur jockey.\n\nDavy Jones died from a heart attack on February 29, 2012, at the age of 66. He remains closely associated with the music and television culture of the 1960s and is remembered as one of The Monkees' most recognizable members.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "OK.  Album cover shows normal age-related wear, including split seams.",
     "miscellaneous": "Album comes framed and ready to hang."
   },
@@ -3256,7 +3256,7 @@ const productDetails = [
       "images/JimRodfordLP.jpg"
     ],
     "full_description": "Argent was an English rock band formed in 1969 by keyboardist Rod Argent, following the breakup of his earlier group, The Zombies. The original lineup consisted of Rod Argent, guitarist and vocalist Russ Ballard, bassist Jim Rodford, and drummer Bob Henrit.\n\nThe band developed a distinctive sound combining progressive rock, hard rock, strong vocal harmonies, and prominent keyboard work. Rod Argent\u2019s Hammond organ was a major part of the group\u2019s sound, while Russ Ballard contributed much of the songwriting and lead guitar work.\n\nArgent\u2019s best-known song is \u201cHold Your Head Up,\u201d released in 1972. The song became an international hit and remains the recording most closely associated with the band. Another important Argent song, \u201cGod Gave Rock and Roll to You,\u201d was written by Russ Ballard and later became widely known through versions by other artists, including Kiss.\n\nThe band released several albums during the 1970s, including Argent, Ring of Hands, All Together Now, In Deep, Nexus, and Circus. In Deep, released in 1973, included \u201cGod Gave Rock and Roll to You\u201d and represented the classic Argent lineup of Rod Argent, Russ Ballard, Jim Rodford, and Bob Henrit.\n\nRuss Ballard left the group in 1974 to pursue a solo career and became a successful songwriter for other performers. Argent continued with lineup changes before breaking up in 1976.\n\nRod Argent later reunited with Colin Blunstone and other members of The Zombies. Jim Rodford also became a longtime member of The Kinks and later performed with The Zombies. Bob Henrit likewise played with The Kinks.\n\nArgent is remembered as an important British rock group of the early 1970s, particularly for its combination of powerful keyboards, melodic songwriting, and progressive-rock influences.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Pretty good.   Some seam tears on the cover.",
     "miscellaneous": "This comes framed and ready for hanging.   Also included is a letter of confirmation of authenticy from the person who obtained these signatures in-person."
   },
@@ -4083,7 +4083,7 @@ const productDetails = [
       "images/HEC-0081.jpg"
     ],
     "full_description": "Cheryl Ladd is an American actress, singer, and author best known for starring as Kris Munroe in the hit television series \"Charlie's Angels.\" Born Cheryl Jean Stoppelmoor on July 12, 1951, in Huron, South Dakota, she began her entertainment career as a singer before moving into television and acting.\r\n\r\nLadd joined \"Charlie's Angels\" in 1977 at the beginning of the show's second season, replacing Farrah Fawcett as a regular cast member. She played Kris Munroe, the younger sister of Fawcett's character Jill Munroe, and starred alongside Kate Jackson and Jaclyn Smith. Ladd remained with the series through its final season in 1981 and became one of the show's most recognizable stars.\r\n\r\nHer other television work includes \"One West Waikiki,\" \"Las Vegas,\" and numerous television movies. She also appeared in films such as \"Purple Hearts,\" \"Millennium,\" and \"Poison Ivy.\" In addition to acting, Ladd recorded several albums and had success as a pop singer during the late 1970s and early 1980s.\r\n\r\nLadd has also appeared on stage and written books, including works for children and about golf.\r\n\r\nHer long association with \"Charlie's Angels,\" along with her television, film, and music career, has made Cheryl Ladd a popular figure among collectors of 1970s television, classic Hollywood memorabilia, signed photographs, and celebrity autographs.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
   },
@@ -4143,7 +4143,7 @@ const productDetails = [
       "images/HEC-0087.jpg"
     ],
     "full_description": "Sophia Loren is an Italian actress and international film icon whose beauty, charisma, and dramatic talent made her one of the most celebrated stars of classic European and Hollywood cinema. Born Sofia Costanza Brigida Villani Scicolone on September 20, 1934, in Rome, Italy, she began entering beauty contests as a teenager before moving into motion pictures.\r\n\r\nLoren became a major star during the 1950s and 1960s, appearing in both Italian and American productions. Her notable films include \"Houseboat,\" \"It Started in Naples,\" \"El Cid,\" \"Yesterday, Today and Tomorrow,\" \"Marriage Italian Style,\" \"Arabesque,\" and \"A Special Day.\"\r\n\r\nOne of her most acclaimed performances came in \"Two Women\" (1960), directed by Vittorio De Sica. Loren portrayed a mother struggling to protect her daughter during World War II and won the Academy Award for Best Actress, becoming the first performer to win an acting Oscar for a primarily non-English-language performance.\r\n\r\nLoren frequently appeared opposite leading stars such as Cary Grant, Clark Gable, Charlton Heston, Gregory Peck, and Marcello Mastroianni. Her long collaboration with Mastroianni became especially important in Italian cinema.\r\n\r\nOver the course of her career, Loren received numerous international honors, including an Academy Honorary Award recognizing her contributions to world cinema.\r\n\r\nSophia Loren remains one of the most recognizable actresses of her generation. Her films, glamorous image, and lasting international fame continue to make her autographs, photographs, and movie memorabilia highly popular with collectors of classic Hollywood and European cinema.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
   },
@@ -4403,7 +4403,7 @@ const productDetails = [
       "images/HEC-0113.jpg"
     ],
     "full_description": "Wink Martindale (Deceased) was an American radio personality, television host, producer, and singer best known for hosting numerous television game shows over a career spanning more than six decades. Born Winston Conrad Martindale in Jackson, Tennessee, in 1933, he began working in radio while still a teenager and later became a familiar voice and face in American broadcasting.\r\n\r\nMartindale first gained national attention as a disc jockey and television personality. In 1959, he also had a recording hit with \"Deck of Cards,\" a spoken-word song that reached the Top 10 on the Billboard Hot 100.\r\n\r\nHe became especially well known as a game-show host, appearing on programs including \"Gambit,\" \"Tic-Tac-Dough,\" \"High Rollers,\" and \"Debt.\" His polished delivery, distinctive voice, and easygoing manner made him a popular and recognizable television personality from the 1960s through the 1990s and beyond.\r\n\r\nIn addition to hosting, Martindale worked as a producer and remained active in broadcasting, game-show history, and entertainment-related projects for many years. He was also known for preserving and discussing classic television through interviews and archival programs.\r\n\r\nWink Martindale died in 2025 at age 91. His long career in radio, television, music, and game shows made him one of the most familiar personalities in American popular entertainment.",
-    "authentication_info": "None",
+    "authentication_info": "",
     "condition_notes": "OK",
     "miscellaneous": ""
   },
@@ -4558,5 +4558,235 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Brand new in original factory packaging",
     "miscellaneous": "Fabulous Set Of Three Gold Tone Converters: Pin Or Brooch To Necklace, Pendant.  For Small, Medium, Or Large Pins Or Brooches - Lot of 3 in Brand New Condition"
+  },
+  {
+    "product_id": "HEC-0129",
+    "product_images": [
+      "images/HEC-0129.jpg"
+    ],
+    "full_description": "This is a en ounce bar of .9999 fine silver.  It measures 3.25 x 1.75 inches and bears the stamped imprint of an eeagle.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0130",
+    "product_images": [
+      "images/HEC-0130.jpg"
+    ],
+    "full_description": "A ten-ounce bar of .9999 fine silver measuring 3.25 x 1.5 x .25 inches.   This bar bears the stamp of the Wall Street Mint.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0131",
+    "product_images": [
+      "images/HEC-0131.jpg",
+      "images/ReaganSilverRound.jpg"
+    ],
+    "full_description": "A one troy ounce round of .9999 fine silver bearing the image of Ronald reagan.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0132",
+    "product_images": [
+      "images/HEC-0132.jpg",
+      "images/LadyLibertySilverRound.jpg"
+    ],
+    "full_description": "One troy ounce .9999 fine silver round bearin the image of Lady Liberty.",
+    "authentication_info": "",
+    "condition_notes": "Excelent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0133",
+    "product_images": [
+      "images/HEC-0133.jpg",
+      "images/BuffaloSilverRound.jpg"
+    ],
+    "full_description": "Once ounce .9999 fine silver round bearing the image of the American Bison, also know as the Buffalo.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition.",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0134",
+    "product_images": [
+      "images/HEC-0134.jpg",
+      "images/Trump1SilverRound.jpg"
+    ],
+    "full_description": "One troy ounce .9999 fine silver round featuring the image of Donald J. Trump, 46th president.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0135",
+    "product_images": [
+      "images/HEC-0135.jpg",
+      "images/Trump2SilverRound.jpg"
+    ],
+    "full_description": "One ounce .999 fine ilver round bearing the image of Donald J. Tuump, 46th president.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0136",
+    "product_images": [
+      "images/HEC-0136.jpg",
+      "images/Trump3SilverRound.jpg"
+    ],
+    "full_description": "One troy ounce .9999 fine silver round featuring the image of Donald J. Trump.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0137",
+    "product_images": [
+      "images/HEC-0137.jpg",
+      "images/Indian1SilverRound.jpg"
+    ],
+    "full_description": "One troy ounce .9999 file silver featuring the image of an Indian chief.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0138",
+    "product_images": [
+      "images/HEC-0138.jpg",
+      "images/Indian2SilverRound.jpg"
+    ],
+    "full_description": "One troy ounce .9999 fine silver round featuring the image of an Indian chief on the obverse and the Americam Bison on the reverse.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0139",
+    "product_images": [
+      "images/HEC-0139.jpg"
+    ],
+    "full_description": "1 troy ounce .9999 silver round - featuring the image of an Indian Chief on the obverse and the americm Buffalo on the reverse.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0140",
+    "product_images": [
+      "images/HEC-0140.jpg",
+      "images/Liberty1SilverRound.jpg"
+    ],
+    "full_description": "One ounce .9999 fine silver round featuring portrait of Liberty on the obverse and the American Eagle on the reverse.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0141",
+    "product_images": [
+      "images/HEC-0141.jpg",
+      "images/GoldEagleNecklace.jpg",
+      "images/NecklaceObverse.jpg",
+      "images/NecklaceReverse.jpg"
+    ],
+    "full_description": "A beautiful necklace with gold-tone chain enclosing a genuine 2016 American Eagle coin containing 1/10 ounce of 24K find gold.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Will be sent USPS Priority Mail insured."
+  },
+  {
+    "product_id": "HEC-0142",
+    "product_images": [
+      "images/HEC-0142.jpg",
+      "images/Gold2016Reverse.jpg"
+    ],
+    "full_description": "An American Eagle 1/10 ounce fine gold coin. 2015 date.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "This will be sent USPS Priority Mail insured."
+  },
+  {
+    "product_id": "HEC-0143",
+    "product_images": [
+      "images/HEC-0143.jpg",
+      "images/Gold2016-2-Reverse.jpg"
+    ],
+    "full_description": "An American Eagle 1/10 ounce fine gold coin. 2016 date.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Will be sent USPS Priority Mail insured."
+  },
+  {
+    "product_id": "HEC-0144",
+    "product_images": [
+      "images/HEC-0144.jpg",
+      "images/Gold2016-3-Reverse.jpg"
+    ],
+    "full_description": "An American Eagle 1/10 ounce fine gold coin. 2016 date.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Will be sent USPS Priority Mail insured."
+  },
+  {
+    "product_id": "HEC-0145",
+    "product_images": [
+      "images/HEC-0145.jpg",
+      "images/Gold2009Reverse.jpg"
+    ],
+    "full_description": "An American Eagle 1/10 ounce fine gold coin. 2009 date.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Will be sent USPS Priority Mail insured."
+  },
+  {
+    "product_id": "HEC-0146",
+    "product_images": [
+      "images/HEC-0146.jpg",
+      "images/Gold1999-2-Reverse.jpg"
+    ],
+    "full_description": "An American Eagle 1/10 ounce fine gold coin. 1999 date.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Will be sent USPS Priority Mail insured."
+  },
+  {
+    "product_id": "HEC-0147",
+    "product_images": [
+      "images/HEC-0147.jpg",
+      "images/Gold2017Reverse.jpg"
+    ],
+    "full_description": "An American Eagle 1/10 ounce fine gold coin. 2017 date.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Will be sent USPS Priority Mail insured."
+  },
+  {
+    "product_id": "HEC-0148",
+    "product_images": [
+      "images/HEC-0148.jpg",
+      "images/Gold1999Reverse.jpg"
+    ],
+    "full_description": "An American Eagle 1/10 ounce fine gold coin. 1999 date.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Will be sent USPS Priority Mail insured."
+  },
+  {
+    "product_id": "HEC-0149",
+    "product_images": [
+      "images/HEC-0149.jpg",
+      "images/Gold2016-4-Reverse.jpg"
+    ],
+    "full_description": "An American Eagle 1/10 ounce fine gold coin. 2016 date.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "Will be sent USPS Priority Mail insured."
   }
 ];

@@ -304,7 +304,11 @@ if (details && details.full_description) {
   `;
 }
 
-  if (details && details.authentication_info) {
+  if (
+    details &&
+    details.authentication_info &&
+    details.authentication_info.trim().toLowerCase() !== "none"
+  ) {
     productAuthentication.innerHTML = `
       <h3>Authentication</h3>
       <p>${details.authentication_info}</p>
