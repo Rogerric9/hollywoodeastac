@@ -76,7 +76,7 @@ const productDetails = [
       "images/LaurenBacall.jpg"
     ],
     "full_description": "Lauren Bacall was an American actress celebrated for her distinctive voice, elegant screen presence, and roles in classic films such as To Have and Have Not, The Big Sleep, Key Largo, and How to Marry a Millionaire. She was married to actor Humphrey Bogart from 1945 until his death in 1957, and the two became one of Hollywood\u2019s most famous couples.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition.",
     "miscellaneous": "This autograph comes with a beautiful color 8x10 photograph of Lauren bacall.  (The photo is not signed.)"
   },

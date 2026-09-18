@@ -97,7 +97,7 @@ const inventory = [
     "category2": "actress",
     "name": "Lauren Bacall",
     "description": "signed 3x5 index card.",
-    "price": 40.0,
+    "price": 75.0,
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
