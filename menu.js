@@ -184,4 +184,26 @@ function buildCollectibleCategoryMenu() {
   updateMenuCartCount();
   buildAutographCategoryMenu();
   buildCollectibleCategoryMenu();
+
+  const isProductionSite =
+    window.location.hostname === "hollywoodeastac.com" ||
+    window.location.hostname === "www.hollywoodeastac.com";
+
+  const isD1TestPage =
+    window.location.pathname.includes("d1-test");
+
+  if (isProductionSite && !isD1TestPage) {
+    const cloudflareAnalytics = document.createElement("script");
+
+    cloudflareAnalytics.type = "module";
+    cloudflareAnalytics.src =
+      "https://static.cloudflareinsights.com/beacon.min.js";
+
+    cloudflareAnalytics.setAttribute(
+      "data-cf-beacon",
+      '{"token":"abfe50921978482ea5b66347f24e6c17"}'
+    );
+
+    document.head.appendChild(cloudflareAnalytics);
+  }
 })();
