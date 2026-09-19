@@ -4697,7 +4697,7 @@ const productDetails = [
       "images/NecklaceReverse.jpg"
     ],
     "full_description": "A beautiful necklace with gold-tone chain enclosing a genuine 2016 American Eagle coin containing 1/10 ounce of 24K find gold.",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "Excellent condition",
     "miscellaneous": "Will be sent USPS Priority Mail insured."
   },

@@ -6023,7 +6023,7 @@ const inventory = [
     "type": "collectible",
     "category": "coins and bullion",
     "category2": "",
-    "name": "Gold Eagle Necklace - Holds 1/10 Oz. American Eagle Gold Coin",
+    "name": "Gold Eagle Necklace - Contains 1/10 Oz. American Eagle Gold Coin",
     "description": "Necklace containing a 1/10 ounce fine gold eagle coin.",
     "price": 800.0,
     "status": "",
