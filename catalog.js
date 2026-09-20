@@ -311,7 +311,7 @@ function displayProducts() {
       <div class="product-card">
         
       <a
-        href="products/product.html?id=${product.product_id}"
+        href="products/${product.product_id.toLowerCase()}.html"
         style="display:inline-block; padding:0; border:0; outline:0; box-shadow:none; background:none;"
       >
         <img
@@ -330,7 +330,7 @@ function displayProducts() {
 
         <p class="price">$${product.price}</p>
 
-        <a class="button" href="products/product.html?id=${product.product_id}">
+        <a class="button" href="products/${product.product_id.toLowerCase()}.html">
             View Details
         </a>
 
@@ -394,7 +394,7 @@ document.addEventListener("click", event => {
     const productId = productRow.dataset.productId;
 
     window.location.href =
-      `products/product.html?id=${encodeURIComponent(productId)}`;
+      `products/${productId.toLowerCase()}.html`;
 
     return;
   }

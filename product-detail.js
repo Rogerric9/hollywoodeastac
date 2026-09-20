@@ -1,5 +1,4 @@
-const urlParameters = new URLSearchParams(window.location.search);
-const productId = urlParameters.get("id");
+const productId = document.body.dataset.productId;
 
 const product = inventory.find(item => item.product_id === productId);
 const details = productDetails.find(item => item.product_id === productId);
@@ -7,223 +6,9 @@ const details = productDetails.find(item => item.product_id === productId);
 const mainProductImage = document.getElementById("main-product-image");
 const previousImageButton = document.getElementById("previous-image");
 const nextImageButton = document.getElementById("next-image");
-
-const productName = document.getElementById("product-name");
-const productNumber = document.getElementById("product-number");
-const productPrice = document.getElementById("product-price");
-const productShipping = document.getElementById("product-shipping");
-const productDescription = document.getElementById("product-description");
-const productAuthentication = document.getElementById("product-authentication");
-const productCondition = document.getElementById("product-condition");
-const productMiscellaneous = document.getElementById("product-miscellaneous");
 const addToCartButton = document.getElementById("add-to-cart-button");
 
-if (!product) {
-  document.title =
-    "Product Not Found | Hollywood East Autographs & Collectibles";
-
-  const robotsMeta = document.createElement("meta");
-  robotsMeta.setAttribute("name", "robots");
-  robotsMeta.setAttribute("content", "noindex, follow");
-  document.head.appendChild(robotsMeta);
-
-  const canonicalLink = document.querySelector(
-    'link[rel="canonical"]'
-  );
-
-  if (canonicalLink) {
-    canonicalLink.setAttribute(
-      "href",
-      "https://hollywoodeastac.com/products/product.html"
-    );
-  }
-
-  const metaDescription = document.querySelector(
-    'meta[name="description"]'
-  );
-
-  if (metaDescription) {
-    metaDescription.setAttribute(
-      "content",
-      "The requested Hollywood East product could not be found."
-    );
-  }
-
-  const structuredDataElement = document.getElementById(
-    "product-structured-data"
-  );
-
-  if (structuredDataElement) {
-    structuredDataElement.textContent = "{}";
-  }
-
-  productName.textContent = "Product Not Found";
-  productDescription.innerHTML =
-    "<p>Sorry, this product could not be found.</p>";
-  addToCartButton.style.display = "none";
-} else {
-  const seoTitleProductName = String(product.name || "")
-    .replace(/[.,;:!?]+$/, "")
-    .trim();
-
-  if (product.type === "autograph") {
-    document.title =
-      `${seoTitleProductName} Autograph | Hollywood East Autographs & Collectibles`;
-  } else {
-    document.title =
-      `${seoTitleProductName} | Hollywood East Autographs & Collectibles`;
-  }
-  let canonicalLink = document.querySelector(
-    'link[rel="canonical"]'
-  );
-
-  if (!canonicalLink) {
-    canonicalLink = document.createElement("link");
-    canonicalLink.setAttribute("rel", "canonical");
-    document.head.appendChild(canonicalLink);
-  }
-
-  canonicalLink.setAttribute(
-    "href",
-    `https://hollywoodeastac.com/products/product.html?id=${encodeURIComponent(product.product_id)}`
-  );
-
-  const metaDescription = document.querySelector(
-    'meta[name="description"]'
-  );
-
-  const shortDescription = product.description || "";
-
-  const fullDescription =
-    details && details.full_description
-      ? (
-          Array.isArray(details.full_description)
-            ? details.full_description.join(" ")
-            : details.full_description
-        )
-      : "";
-
-  const descriptionText = [
-    shortDescription,
-    fullDescription
-  ]
-    .filter(Boolean)
-    .join(" ");
-
-  const cleanedDescription = String(descriptionText)
-    .replace(/\s+/g, " ")
-    .trim();
-
-  const seoProductName = String(product.name || "")
-    .replace(/[.,;:!?]+$/, "")
-    .trim();
-
-  if (metaDescription) {
-    const finalDescription = cleanedDescription
-      ? (
-          product.type === "autograph"
-            ? `${seoProductName} autograph. ${cleanedDescription}`
-            : `${seoProductName}. ${cleanedDescription}`
-        )
-      : (
-          product.type === "autograph"
-            ? `View this ${seoProductName} autograph from Hollywood East Autographs & Collectibles.`
-            : `View ${seoProductName} from Hollywood East Autographs & Collectibles.`
-        );
-
-    const metaDescriptionText =
-      finalDescription.length > 300
-        ? finalDescription.slice(0, 300).replace(/\s+\S*$/, "")
-        : finalDescription;
-
-    metaDescription.setAttribute(
-      "content",
-      metaDescriptionText
-    );
-  }
-  let shippingAmount = 0;
-
-  if (product.shipping_class === "standard") {
-    shippingAmount = SHIPPING_CONFIG.standardSingle;
-  } else if (product.shipping_class === "framed") {
-    shippingAmount = SHIPPING_CONFIG.framedFirst;
-  } else if (product.shipping_class === "plaque") {
-    shippingAmount = SHIPPING_CONFIG.plaqueFirst;
-  } else if (product.shipping_class === "custom") {
-    shippingAmount = Number(product.shipping_charge);
-  }
-  const structuredDataElement = document.getElementById(
-    "product-structured-data"
-  );
-
-  if (structuredDataElement) {
-    const productUrl =
-      "https://hollywoodeastac.com/products/" +
-      `product.html?id=${encodeURIComponent(product.product_id)}`;
-
-    const structuredProductData = {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": String(product.name || "")
-        .replace(/[.,;:!?]+$/, "")
-        .trim(),
-      "description": cleanedDescription ||
-        `View ${seoProductName} from Hollywood East Autographs & Collectibles.`,
-      "sku": product.product_id,
-      "url": productUrl,
-      "image":
-        details &&
-        details.product_images &&
-        details.product_images.length > 0
-          ? details.product_images.map(
-              imagePath =>
-                `https://hollywoodeastac.com/${imagePath}`
-            )
-          : [
-              "https://hollywoodeastac.com/images/no-image-available.jpg"
-            ],
-      "offers": {
-        "@type": "Offer",
-        "url": productUrl,
-        "priceCurrency": "USD",
-        "price": Number(product.price).toFixed(2),
-        "availability":
-          product.status === "not-for-sale"
-            ? "https://schema.org/OutOfStock"
-            : Number(product.quantity_available) > 0
-              ? "https://schema.org/InStock"
-              : "https://schema.org/OutOfStock",
-        "itemCondition": "https://schema.org/UsedCondition",
-        "shippingDetails": {
-          "@type": "OfferShippingDetails",
-          "shippingDestination": {
-            "@type": "DefinedRegion",
-            "addressCountry": "US"
-          },
-          "shippingRate": {
-            "@type": "MonetaryAmount",
-            "value": shippingAmount.toFixed(2),
-            "currency": "USD"
-          }
-        },
-        "seller": {
-          "@type": "Organization",
-          "name": "Hollywood East Autographs & Collectibles"
-        }
-      }
-    };
-
-    structuredDataElement.textContent =
-      JSON.stringify(structuredProductData);
-  }
-
-  productName.textContent = product.name;
-  productNumber.textContent = `Product No. ${product.product_id}`;
-  productPrice.textContent = `$${product.price}`;
-
-  productShipping.textContent =
-    `Shipping: $${shippingAmount.toFixed(2)}`;
-
+if (product) {
   const photoList =
     details &&
     details.product_images &&
@@ -272,99 +57,25 @@ if (!product) {
     }
   });
 
-  showCurrentPhoto();
-
-productDescription.innerHTML = "";
-
-if (product.description) {
-  productDescription.innerHTML += `
-    <h3>Description</h3>
-    <p>${product.description}</p>
-  `;
-}
-
-
-if (details && details.full_description) {
-  const fullDescriptionParagraphs = Array.isArray(
-    details.full_description
-  )
-    ? details.full_description
-    : [details.full_description];
-
-  productDescription.innerHTML += `
-    <div class="full-description-section">
-      <h3>Full Description</h3>
-
-      <div class="full-description-scroll">
-        ${fullDescriptionParagraphs
-          .map(paragraph => `<p>${paragraph}</p>`)
-          .join("")}
-      </div>
-    </div>
-  `;
-}
-
-  if (
-    details &&
-    details.authentication_info &&
-    details.authentication_info.trim().toLowerCase() !== "none"
-  ) {
-    productAuthentication.innerHTML = `
-      <h3>Authentication</h3>
-      <p>${details.authentication_info}</p>
-    `;
-  }
-
-  if (details && details.condition_notes) {
-    productCondition.innerHTML = `
-      <h3>Condition</h3>
-      <p>${details.condition_notes}</p>
-    `;
-  }
-
-  if (
-    details &&
-    details.miscellaneous &&
-    String(details.miscellaneous).trim() !== ""
-  ) {
-    const miscellaneousParagraphs = Array.isArray(
-      details.miscellaneous
-    )
-      ? details.miscellaneous
-      : [details.miscellaneous];
-
-    productMiscellaneous.innerHTML = `
-      <h3>Miscellaneous</h3>
-
-      <div class="full-description-scroll">
-        ${miscellaneousParagraphs
-          .map(paragraph => `<p>${paragraph}</p>`)
-          .join("")}
-      </div>
-    `;
-  } else {
-    productMiscellaneous.innerHTML = "";
-  }
-
-   function updateAddToCartButton() {
+  function updateAddToCartButton() {
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
     const quantityAvailable = product.quantity_available || 1;
 
     const existingCartItem = cart.find(item => item.product_id === product.product_id);
 
     const productStatus = product.status
-    ? product.status.trim().toLowerCase()
-    : "";
+      ? product.status.trim().toLowerCase()
+      : "";
 
     if (productStatus === "not-for-sale") {
-        addToCartButton.textContent = "Not For Sale";
-        addToCartButton.disabled = true;
+      addToCartButton.textContent = "Not For Sale";
+      addToCartButton.disabled = true;
     } else if (existingCartItem && existingCartItem.quantity >= quantityAvailable) {
-        addToCartButton.textContent = "Already in Cart";
-        addToCartButton.disabled = true;
+      addToCartButton.textContent = "Already in Cart";
+      addToCartButton.disabled = true;
     } else {
-        addToCartButton.textContent = "Add to Cart";
-        addToCartButton.disabled = false;
+      addToCartButton.textContent = "Add to Cart";
+      addToCartButton.disabled = false;
     }
   }
 
