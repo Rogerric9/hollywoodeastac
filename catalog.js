@@ -24,18 +24,55 @@ let currentSearchText = "";
 let isGridView = false;
 
 /* Page heading and description */
+const pageHeadingText = selectedCategory
+  ? `${selectedCategory.replace(/\b\w/g, letter => letter.toUpperCase())} ${typeHeading}`
+  : `All ${typeHeading}`;
+
 if (categoryHeading) {
-  categoryHeading.textContent = selectedCategory
-    ? selectedCategory.replace(/\b\w/g, letter => letter.toUpperCase())
-    : `All ${typeHeading}`;
+  categoryHeading.textContent = pageHeadingText;
 }
 
+const catalogDescriptionText =
+  selectedTypeLower === "collectible"
+    ? "Browse our growing selection of collectibles."
+    : "Browse our growing selection of authentic autographs.";
+
 if (catalogDescription) {
-  catalogDescription.textContent =
-    selectedTypeLower === "collectible"
-      ? "Browse our growing selection of collectibles."
-      : "Browse our growing selection of authentic autographs.";
+  catalogDescription.textContent = catalogDescriptionText;
 }
+
+document.title = `${pageHeadingText} | Hollywood East Autographs & Collectibles`;
+
+const metaDescriptionTag = document.querySelector('meta[name="description"]');
+
+if (metaDescriptionTag) {
+  metaDescriptionTag.setAttribute(
+    "content",
+    selectedCategory
+      ? `Browse ${pageHeadingText.toLowerCase()} for sale at Hollywood East Autographs & Collectibles.`
+      : `${catalogDescriptionText} Shop at Hollywood East Autographs & Collectibles.`
+  );
+}
+
+let catalogCanonicalLink = document.querySelector('link[rel="canonical"]');
+
+if (!catalogCanonicalLink) {
+  catalogCanonicalLink = document.createElement("link");
+  catalogCanonicalLink.setAttribute("rel", "canonical");
+  document.head.appendChild(catalogCanonicalLink);
+}
+
+const canonicalParams = new URLSearchParams();
+canonicalParams.set("type", selectedTypeLower);
+
+if (selectedCategory) {
+  canonicalParams.set("category", selectedCategory.trim());
+}
+
+catalogCanonicalLink.setAttribute(
+  "href",
+  `https://hollywoodeastac.com/catalog.html?${canonicalParams.toString()}`
+);
 
 /* Build category dropdown for autographs only */
 const categoryMap = new Map();
