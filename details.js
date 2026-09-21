@@ -4788,5 +4788,16 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": "Will be sent USPS Priority Mail insured."
+  },
+  {
+    "product_id": "HEC-0150",
+    "product_images": [
+      "images/HEC-0150.jpg",
+      "images/IndianSilver1LotOf5.jpg"
+    ],
+    "full_description": "Five roy ounces of .999 fine silver.   Lot includes 5 Indian head obverse silver rounds with Americam bison on th ereverse.",
+    "authentication_info": "",
+    "condition_notes": "Excellent",
+    "miscellaneous": "Will be shipped insured USPS Priorit Mail."
   }
 ];

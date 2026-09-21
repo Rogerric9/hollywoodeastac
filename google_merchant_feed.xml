@@ -4714,5 +4714,15 @@
       <g:price>625.00 USD</g:price>
       <g:condition>used</g:condition>
     </item>
+    <item>
+      <g:id>HEC-0150</g:id>
+      <g:title>Indian Head Silver Rounds - 1 Troy Ounce .999 Fine Silver - Lot of 5</g:title>
+      <g:description>One troy ounce .999 fine silver Indian Head Silver Rounds - Lot of 5</g:description>
+      <g:link>https://hollywoodeastac.com/products/hec-0150.html</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0150.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>350.00 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
   </channel>
 </rss>

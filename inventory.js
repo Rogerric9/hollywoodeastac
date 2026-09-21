@@ -6134,5 +6134,18 @@ const inventory = [
     "quantity_available": 1,
     "shipping_class": "custom",
     "shipping_charge": 14.95
+  },
+  {
+    "product_id": "HEC-0150",
+    "type": "collectible",
+    "category": "coins and bullion",
+    "category2": "",
+    "name": "Indian Head Silver Rounds - 1 Troy Ounce .999 Fine Silver - Lot of 5",
+    "description": "One troy ounce .999 fine silver Indian Head Silver Rounds - Lot of 5",
+    "price": 350.0,
+    "status": "",
+    "quantity_available": 2,
+    "shipping_class": "custom",
+    "shipping_charge": 14.99
   }
 ];
