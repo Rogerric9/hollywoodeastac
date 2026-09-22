@@ -6631,8 +6631,8 @@ const inventory = [
     "price": 1.0,
     "status": "",
     "quantity_available": 1,
-    "shipping_class": "standard",
-    "shipping_charge": "",
+    "shipping_class": "custom",
+    "shipping_charge": 0.01,
     "accepts_offers": true
   }
 ];

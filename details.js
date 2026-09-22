@@ -4806,7 +4806,7 @@ const productDetails = [
       "images/HEC-0151.jpg"
     ],
     "full_description": "Test me",
-    "authentication_info": "",
+    "authentication_info": "None",
     "condition_notes": "",
     "miscellaneous": ""
   }
