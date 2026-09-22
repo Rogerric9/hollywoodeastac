@@ -86,6 +86,39 @@
 <script>
   const productGrid = document.getElementById("product-grid");
 
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  function updateAddToCartButtons() {
+    document.querySelectorAll(".add-to-cart").forEach(button => {
+      const productId = button.dataset.productId;
+      const product = inventory.find(item => item.product_id === productId);
+
+      if (!product) {
+        button.textContent = "Unavailable";
+        button.disabled = true;
+        return;
+      }
+
+      const quantityAvailable = product.quantity_available || 1;
+      const existingCartItem = cart.find(item => item.product_id === productId);
+
+      const productStatus = product.status
+        ? product.status.trim().toLowerCase()
+        : "";
+
+      if (productStatus === "not-for-sale") {
+        button.textContent = "Not For Sale";
+        button.disabled = true;
+      } else if (existingCartItem && existingCartItem.quantity >= quantityAvailable) {
+        button.textContent = "Already in Cart";
+        button.disabled = true;
+      } else {
+        button.textContent = "Add to Cart";
+        button.disabled = false;
+      }
+    });
+  }
+
   classicHollywoodProducts.forEach((product) => {
     const details = productDetails.find(
       (item) => item.product_id === product.product_id
@@ -128,6 +161,55 @@
         </button>
       </div>
     `;
+  });
+
+  updateAddToCartButtons();
+
+  document.addEventListener("click", event => {
+    if (!event.target.classList.contains("add-to-cart")) {
+      return;
+    }
+
+    const button = event.target;
+    const productId = button.dataset.productId;
+    const product = inventory.find(item => item.product_id === productId);
+
+    if (!product) {
+      alert("This product is unavailable.");
+      return;
+    }
+
+    const quantityAvailable = product.quantity_available || 1;
+    const existingCartItem = cart.find(item => item.product_id === productId);
+
+    if (existingCartItem) {
+      if (existingCartItem.quantity < quantityAvailable) {
+        existingCartItem.quantity += 1;
+        alert(`${product.name} has been added to your cart.`);
+      } else {
+        alert("This item is already in your cart.");
+        updateAddToCartButtons();
+        return;
+      }
+    } else {
+      cart.push({
+        product_id: product.product_id,
+        name: product.name,
+        price: product.price,
+        quantity: 1,
+        shipping_class: product.shipping_class || "standard",
+        shipping_charge: product.shipping_charge || ""
+      });
+      alert(`${product.name} has been added to your cart.`);
+    }
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+
+    if (window.updateMenuCartCount) {
+      window.updateMenuCartCount();
+    }
+
+    updateAddToCartButtons();
   });
 </script>
 
