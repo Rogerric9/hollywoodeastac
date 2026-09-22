@@ -362,6 +362,7 @@ if (product) {
           renderOfferPaypalButtons(result.offer_id);
         } else {
           submitOfferButton.disabled = false;
+          makeOfferButton.style.display = "inline-block";
         }
       } catch (error) {
         console.error("Offer submission failed.", error);
