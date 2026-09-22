@@ -16,6 +16,36 @@
   const collectiblesMenu = collectiblesMenuLink
     ? collectiblesMenuLink.closest(".collectibles-menu")
     : null;
+
+  const specialtyMenuLink = document.getElementById(
+    "specialty-menu-link"
+  );
+
+  const specialtyMenu = specialtyMenuLink
+    ? specialtyMenuLink.closest(".specialty-menu")
+    : null;
+
+  function enableTouchOpenMenu(menuLink, menu) {
+    if (!menuLink || !menu) {
+      return;
+    }
+
+    menuLink.addEventListener("click", event => {
+      const isTouchDevice = window.matchMedia("(hover: none)").matches;
+
+      if (isTouchDevice && !menu.classList.contains("open")) {
+        event.preventDefault();
+        menu.classList.add("open");
+      }
+    });
+
+    document.addEventListener("click", event => {
+      if (!menu.contains(event.target)) {
+        menu.classList.remove("open");
+      }
+    });
+  }
+
   function updateMenuCartCount() {
     if (!menuCartCount) {
       return;
@@ -164,22 +194,9 @@ function buildCollectibleCategoryMenu() {
 
   window.updateMenuCartCount = updateMenuCartCount;
 
-  if (catalogMenuLink && catalogMenu) {
-    catalogMenuLink.addEventListener("click", event => {
-      const isTouchDevice = window.matchMedia("(hover: none)").matches;
-
-      if (isTouchDevice && !catalogMenu.classList.contains("open")) {
-        event.preventDefault();
-        catalogMenu.classList.add("open");
-      }
-    });
-
-    document.addEventListener("click", event => {
-      if (!catalogMenu.contains(event.target)) {
-        catalogMenu.classList.remove("open");
-      }
-    });
-  }
+  enableTouchOpenMenu(catalogMenuLink, catalogMenu);
+  enableTouchOpenMenu(collectiblesMenuLink, collectiblesMenu);
+  enableTouchOpenMenu(specialtyMenuLink, specialtyMenu);
 
   updateMenuCartCount();
   buildAutographCategoryMenu();

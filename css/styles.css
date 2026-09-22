@@ -97,7 +97,8 @@ nav a:hover {
 /* Catalog category dropdown */
 
 .catalog-menu,
-.collectibles-menu {
+.collectibles-menu,
+.specialty-menu {
   position: relative;
   display: inline-block;
 }
@@ -131,7 +132,9 @@ nav a:hover {
 .catalog-menu:hover .category-dropdown,
 .catalog-menu.open .category-dropdown,
 .collectibles-menu:hover .category-dropdown,
-.collectibles-menu.open .category-dropdown {
+.collectibles-menu.open .category-dropdown,
+.specialty-menu:hover .category-dropdown,
+.specialty-menu.open .category-dropdown {
   display: block;
 }
 /* Catalog shopping-cart display */
