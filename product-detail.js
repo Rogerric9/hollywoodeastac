@@ -138,4 +138,237 @@ if (product) {
     updateAddToCartButton();
     updateViewCartLink();
   });
+
+  const OFFER_WORKER_URL =
+    "https://hollywood-east-checkout.steve-kanski.workers.dev";
+
+  const makeOfferSection = document.getElementById("make-offer-section");
+  const makeOfferButton = document.getElementById("make-offer-button");
+  const makeOfferForm = document.getElementById("make-offer-form");
+  const offerBuyerEmailInput = document.getElementById("offer-buyer-email");
+  const offerPriceInput = document.getElementById("offer-price-input");
+  const submitOfferButton = document.getElementById("submit-offer-button");
+  const cancelOfferButton = document.getElementById("cancel-offer-button");
+  const offerStatusMessage = document.getElementById("offer-status-message");
+  const offerPaypalButtonContainer = document.getElementById(
+    "offer-paypal-button-container"
+  );
+
+  function renderOfferPaypalButtons(offerId) {
+    if (!window.paypal || !offerPaypalButtonContainer) {
+      console.error("PayPal SDK did not load.");
+      return;
+    }
+
+    offerPaypalButtonContainer.style.display = "block";
+
+    paypal.Buttons({
+      createOrder: async function () {
+        const response = await fetch(
+          `${OFFER_WORKER_URL}/create-paypal-order`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              items: [
+                {
+                  product_id: product.product_id,
+                  quantity: 1,
+                  offer_id: offerId
+                }
+              ]
+            })
+          }
+        );
+
+        const result = await response.json();
+
+        if (
+          !response.ok ||
+          !result.success ||
+          !result.order_id
+        ) {
+          const message =
+            result.message ||
+            "The PayPal order could not be created.";
+
+          alert(message);
+          throw new Error(message);
+        }
+
+        return result.order_id;
+      },
+
+      onApprove: async function (data) {
+        const response = await fetch(
+          `${OFFER_WORKER_URL}/capture-paypal-order`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              order_id: data.orderID
+            })
+          }
+        );
+
+        const result = await response.json();
+
+        if (
+          !response.ok ||
+          !result.success ||
+          result.status !== "COMPLETED"
+        ) {
+          if (
+            result.status === "PENDING" &&
+            result.pending_reason === "PENDING_REVIEW"
+          ) {
+            alert(
+              "PayPal is reviewing this payment. Your order is not " +
+              "complete yet. Please do not retry the payment or " +
+              "submit another order. Hollywood East will wait for " +
+              "PayPal to complete its review."
+            );
+
+            return;
+          }
+
+          alert(
+            result.message ||
+            "Payment could not be verified. Please contact " +
+            "Hollywood East before retrying."
+          );
+
+          return;
+        }
+
+        alert("Payment completed. Thank you!");
+
+        offerPaypalButtonContainer.innerHTML = "";
+        offerStatusMessage.textContent = "Payment completed. Thank you!";
+      },
+
+      onCancel: async function (data) {
+        try {
+          const response = await fetch(
+            `${OFFER_WORKER_URL}/release-paypal-reservation`,
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json"
+              },
+              body: JSON.stringify({
+                order_id: data.orderID
+              })
+            }
+          );
+
+          const result = await response.json();
+
+          if (!response.ok || !result.success) {
+            console.error(
+              "The canceled offer reservation could not be released.",
+              result
+            );
+          }
+        } catch (error) {
+          console.error(
+            "The canceled offer reservation could not be released.",
+            error
+          );
+        }
+      },
+
+      onError: function (error) {
+        console.error("Offer PayPal checkout error.", error);
+      }
+    }).render("#offer-paypal-button-container");
+  }
+
+  if (
+    product.accepts_offers &&
+    makeOfferSection
+  ) {
+    makeOfferSection.style.display = "block";
+  }
+
+  if (makeOfferButton && makeOfferForm) {
+    makeOfferButton.addEventListener("click", () => {
+      makeOfferForm.style.display = "flex";
+      makeOfferButton.style.display = "none";
+    });
+  }
+
+  if (cancelOfferButton && makeOfferForm && makeOfferButton) {
+    cancelOfferButton.addEventListener("click", () => {
+      makeOfferForm.style.display = "none";
+      makeOfferButton.style.display = "inline-block";
+      offerStatusMessage.textContent = "";
+    });
+  }
+
+  if (submitOfferButton) {
+    submitOfferButton.addEventListener("click", async () => {
+      const buyerEmail = offerBuyerEmailInput.value.trim();
+      const offerPrice = Number(offerPriceInput.value);
+
+      if (!buyerEmail) {
+        offerStatusMessage.textContent =
+          "Please enter your email address.";
+        return;
+      }
+
+      if (!Number.isFinite(offerPrice) || offerPrice <= 0) {
+        offerStatusMessage.textContent =
+          "Please enter a valid offer amount.";
+        return;
+      }
+
+      submitOfferButton.disabled = true;
+      offerStatusMessage.textContent = "Submitting your offer...";
+
+      try {
+        const response = await fetch(
+          `${OFFER_WORKER_URL}/submit-offer`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              product_id: product.product_id,
+              offer_price: offerPrice,
+              buyer_email: buyerEmail
+            })
+          }
+        );
+
+        const result = await response.json();
+
+        if (!response.ok || !result.success) {
+          offerStatusMessage.textContent =
+            result.message || "Your offer could not be submitted.";
+          submitOfferButton.disabled = false;
+          return;
+        }
+
+        offerStatusMessage.textContent = result.message || "";
+        makeOfferForm.style.display = "none";
+
+        if (result.status === "accepted") {
+          renderOfferPaypalButtons(result.offer_id);
+        } else {
+          submitOfferButton.disabled = false;
+        }
+      } catch (error) {
+        console.error("Offer submission failed.", error);
+        offerStatusMessage.textContent =
+          "Your offer could not be submitted. Please try again.";
+        submitOfferButton.disabled = false;
+      }
+    });
+  }
 }

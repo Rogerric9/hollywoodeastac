@@ -97,6 +97,25 @@
 
     <p id="product-price" class="product-price">$40</p>
 
+
+    <div id="make-offer-section" class="make-offer-section" style="display:none">
+      <button id="make-offer-button" type="button" class="make-offer-button">
+        Make Offer
+      </button>
+
+      <div id="make-offer-form" class="make-offer-form" style="display:none">
+        <input type="email" id="offer-buyer-email" class="offer-input"
+          placeholder="Your email address">
+        <input type="number" id="offer-price-input" class="offer-input"
+          placeholder="Your offer ($)" step="0.01" min="0">
+        <button id="submit-offer-button" type="button">Submit Offer</button>
+        <button id="cancel-offer-button" type="button">Cancel</button>
+      </div>
+
+      <p id="offer-status-message" class="offer-status-message"></p>
+
+      <div id="offer-paypal-button-container" style="display:none"></div>
+    </div>
     <p id="product-shipping" class="product-shipping">Shipping: $10.99</p>
 
     <div id="product-description"><h3>Description</h3>
@@ -127,7 +146,8 @@ Cover: VG+  some minor color fading on back.</p></div>
   <script src="../details.js?v=3"></script>
   <script src="../shipping.js?v=1"></script>
   <script src="../menu.js?v=2"></script>
-  <script src="../product-detail.js?v=5"></script>
+  <script src="https://www.paypal.com/sdk/js?client-id=AbzbF1HUweTdFeYOkWwEYMOXbgBzb6XV8_5SDkykVxfXd8Yg_C2WU6cAvJSNFEMdcs-3tJb8qZibxN9v&currency=USD"></script>
+  <script src="../product-detail.js?v=6"></script>
 
 </body>
 </html>
