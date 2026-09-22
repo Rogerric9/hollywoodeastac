@@ -4724,5 +4724,15 @@
       <g:price>350.00 USD</g:price>
       <g:condition>used</g:condition>
     </item>
+    <item>
+      <g:id>HEC-0151</g:id>
+      <g:title>Test Product - Do not buy.</g:title>
+      <g:description>Test product - Not to be sold</g:description>
+      <g:link>https://hollywoodeastac.com/products/hec-0151.html</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0151.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>1.00 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
   </channel>
 </rss>

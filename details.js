@@ -4799,5 +4799,15 @@ const productDetails = [
     "authentication_info": "",
     "condition_notes": "Excellent",
     "miscellaneous": "Will be shipped insured USPS Priorit Mail."
+  },
+  {
+    "product_id": "HEC-0151",
+    "product_images": [
+      "images/HEC-0151.jpg"
+    ],
+    "full_description": "Test me",
+    "authentication_info": "",
+    "condition_notes": "",
+    "miscellaneous": ""
   }
 ];

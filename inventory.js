@@ -10,7 +10,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "plaque",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0002",
@@ -23,7 +24,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0003",
@@ -36,7 +38,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0004",
@@ -49,7 +52,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0005",
@@ -62,7 +66,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0006",
@@ -75,7 +80,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0007",
@@ -88,7 +94,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0008",
@@ -101,7 +108,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0009",
@@ -114,7 +122,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0010",
@@ -127,7 +136,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0011",
@@ -140,7 +150,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0012",
@@ -153,7 +164,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "plaque",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0013",
@@ -166,7 +178,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0014",
@@ -179,7 +192,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0015",
@@ -192,7 +206,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0016",
@@ -205,7 +220,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0017",
@@ -218,7 +234,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0018",
@@ -231,7 +248,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0019",
@@ -244,7 +262,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0020",
@@ -257,7 +276,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0021",
@@ -270,7 +290,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0022",
@@ -283,7 +304,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0023",
@@ -296,7 +318,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0024",
@@ -309,7 +332,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0025",
@@ -322,7 +346,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0027",
@@ -335,7 +360,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0028",
@@ -348,7 +374,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0029",
@@ -361,7 +388,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0030",
@@ -374,7 +402,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0031",
@@ -387,7 +416,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0032",
@@ -400,7 +430,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0033",
@@ -413,7 +444,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0034",
@@ -426,7 +458,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0035",
@@ -439,7 +472,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0036",
@@ -452,7 +486,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0037",
@@ -465,7 +500,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0038",
@@ -478,7 +514,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0039",
@@ -491,7 +528,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0040",
@@ -504,7 +542,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0041",
@@ -517,7 +556,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0042",
@@ -530,7 +570,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0043",
@@ -543,7 +584,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0044",
@@ -556,7 +598,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0045",
@@ -569,7 +612,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0046",
@@ -582,7 +626,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0047",
@@ -595,7 +640,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0048",
@@ -608,7 +654,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0049",
@@ -621,7 +668,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0050",
@@ -634,7 +682,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0051",
@@ -647,7 +696,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0052",
@@ -660,7 +710,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0053",
@@ -673,7 +724,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0054",
@@ -686,7 +738,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0055",
@@ -699,7 +752,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0056",
@@ -712,7 +766,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0057",
@@ -725,7 +780,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0058",
@@ -738,7 +794,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0059",
@@ -751,7 +808,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0060",
@@ -764,7 +822,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0061",
@@ -777,7 +836,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0062",
@@ -790,7 +850,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0063",
@@ -803,7 +864,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0064",
@@ -816,7 +878,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0065",
@@ -829,7 +892,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0066",
@@ -842,7 +906,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0067",
@@ -855,7 +920,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0068",
@@ -868,7 +934,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0069",
@@ -881,7 +948,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0070",
@@ -894,7 +962,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0071",
@@ -907,7 +976,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0072",
@@ -920,7 +990,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0074",
@@ -933,7 +1004,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0075",
@@ -946,7 +1018,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0076",
@@ -959,7 +1032,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0077",
@@ -972,7 +1046,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0078",
@@ -985,7 +1060,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0079",
@@ -998,7 +1074,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0080",
@@ -1011,7 +1088,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0081",
@@ -1024,7 +1102,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0082",
@@ -1037,7 +1116,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0083",
@@ -1050,7 +1130,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0084",
@@ -1063,7 +1144,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0085",
@@ -1076,7 +1158,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0086",
@@ -1089,7 +1172,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0087",
@@ -1102,7 +1186,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0088",
@@ -1115,7 +1200,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0089",
@@ -1128,7 +1214,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0090",
@@ -1141,7 +1228,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0091",
@@ -1154,7 +1242,8 @@ const inventory = [
     "status": "sold",
     "quantity_available": 0,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0092",
@@ -1167,7 +1256,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0093",
@@ -1180,7 +1270,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0094",
@@ -1193,7 +1284,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0095",
@@ -1206,7 +1298,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0096",
@@ -1219,7 +1312,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0097",
@@ -1232,7 +1326,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0098",
@@ -1245,7 +1340,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0099",
@@ -1258,7 +1354,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0100",
@@ -1271,7 +1368,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0101",
@@ -1284,7 +1382,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0102",
@@ -1297,7 +1396,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0103",
@@ -1310,7 +1410,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 12.0
+    "shipping_charge": 12.0,
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0104",
@@ -1323,7 +1424,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0105",
@@ -1336,7 +1438,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0106",
@@ -1349,7 +1452,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0107",
@@ -1362,7 +1466,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0108",
@@ -1375,7 +1480,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0109",
@@ -1388,7 +1494,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0110",
@@ -1401,7 +1508,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0111",
@@ -1414,7 +1522,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0112",
@@ -1427,7 +1536,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0113",
@@ -1440,7 +1550,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0114",
@@ -1453,7 +1564,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0115",
@@ -1466,7 +1578,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0116",
@@ -1479,7 +1592,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0117",
@@ -1492,7 +1606,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0118",
@@ -1505,7 +1620,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0119",
@@ -1518,7 +1634,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0120",
@@ -1531,7 +1648,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0121",
@@ -1544,7 +1662,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0122",
@@ -1557,7 +1676,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0123",
@@ -1570,7 +1690,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0124",
@@ -1583,7 +1704,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0125",
@@ -1596,7 +1718,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0126",
@@ -1609,7 +1732,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0127",
@@ -1622,7 +1746,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0128",
@@ -1635,7 +1760,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0129",
@@ -1648,7 +1774,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0130",
@@ -1661,7 +1788,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0131",
@@ -1674,7 +1802,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0132",
@@ -1687,7 +1816,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0133",
@@ -1700,7 +1830,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0135",
@@ -1713,7 +1844,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "plaque",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0136",
@@ -1726,7 +1858,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "plaque",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0137",
@@ -1739,7 +1872,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0138",
@@ -1752,7 +1886,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "framed",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0139",
@@ -1765,7 +1900,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "framed",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0140",
@@ -1778,7 +1914,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0141",
@@ -1791,7 +1928,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0142",
@@ -1804,7 +1942,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0143",
@@ -1817,7 +1956,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0144",
@@ -1830,7 +1970,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0145",
@@ -1843,7 +1984,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0146",
@@ -1856,7 +1998,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0147",
@@ -1869,7 +2012,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0148",
@@ -1882,7 +2026,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0149",
@@ -1895,7 +2040,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0150",
@@ -1908,7 +2054,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0151",
@@ -1921,7 +2068,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0152",
@@ -1934,7 +2082,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0153",
@@ -1947,7 +2096,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0154",
@@ -1960,7 +2110,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0155",
@@ -1973,7 +2124,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0156",
@@ -1986,7 +2138,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0157",
@@ -1999,7 +2152,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0158",
@@ -2012,7 +2166,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0159",
@@ -2025,7 +2180,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0160",
@@ -2038,7 +2194,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0161",
@@ -2051,7 +2208,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0162",
@@ -2064,7 +2222,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0163",
@@ -2077,7 +2236,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0164",
@@ -2090,7 +2250,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0165",
@@ -2103,7 +2264,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0166",
@@ -2116,7 +2278,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0167",
@@ -2129,7 +2292,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0168",
@@ -2142,7 +2306,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0169",
@@ -2155,7 +2320,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0170",
@@ -2168,7 +2334,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0171",
@@ -2181,7 +2348,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0172",
@@ -2194,7 +2362,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0173",
@@ -2207,7 +2376,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0174",
@@ -2220,7 +2390,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0175",
@@ -2233,7 +2404,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0176",
@@ -2246,7 +2418,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0177",
@@ -2259,7 +2432,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0178",
@@ -2272,7 +2446,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0179",
@@ -2285,7 +2460,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0180",
@@ -2298,7 +2474,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0181",
@@ -2311,7 +2488,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0182",
@@ -2324,7 +2502,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0183",
@@ -2337,7 +2516,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0184",
@@ -2350,7 +2530,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0185",
@@ -2363,7 +2544,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0186",
@@ -2376,7 +2558,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0187",
@@ -2389,7 +2572,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0188",
@@ -2402,7 +2586,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0189",
@@ -2415,7 +2600,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0190",
@@ -2428,7 +2614,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0191",
@@ -2441,7 +2628,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0192",
@@ -2454,7 +2642,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0193",
@@ -2467,7 +2656,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0194",
@@ -2480,7 +2670,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0195",
@@ -2493,7 +2684,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0196",
@@ -2506,7 +2698,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0197",
@@ -2519,7 +2712,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0198",
@@ -2532,7 +2726,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0199",
@@ -2545,7 +2740,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0200",
@@ -2558,7 +2754,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0201",
@@ -2571,7 +2768,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0202",
@@ -2584,7 +2782,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0203",
@@ -2597,7 +2796,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0204",
@@ -2610,7 +2810,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0205",
@@ -2623,7 +2824,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0206",
@@ -2636,7 +2838,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0207",
@@ -2649,7 +2852,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "framed",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0208",
@@ -2662,7 +2866,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "framed",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0209",
@@ -2675,7 +2880,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0210",
@@ -2688,7 +2894,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0211",
@@ -2701,7 +2908,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0212",
@@ -2714,7 +2922,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0213",
@@ -2727,7 +2936,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0214",
@@ -2740,7 +2950,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0215",
@@ -2753,7 +2964,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0216",
@@ -2766,7 +2978,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0217",
@@ -2779,7 +2992,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0218",
@@ -2792,7 +3006,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0219",
@@ -2805,7 +3020,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0220",
@@ -2818,7 +3034,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0221",
@@ -2831,7 +3048,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0222",
@@ -2844,7 +3062,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0223",
@@ -2857,7 +3076,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0224",
@@ -2870,7 +3090,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0225",
@@ -2883,7 +3104,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0226",
@@ -2896,7 +3118,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0227",
@@ -2909,7 +3132,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0228",
@@ -2922,7 +3146,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0229",
@@ -2935,7 +3160,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0230",
@@ -2948,7 +3174,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0231",
@@ -2961,7 +3188,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0232",
@@ -2974,7 +3202,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0233",
@@ -2987,7 +3216,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0234",
@@ -3000,7 +3230,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0235",
@@ -3013,7 +3244,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0236",
@@ -3026,7 +3258,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0237",
@@ -3039,7 +3272,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0238",
@@ -3052,7 +3286,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0239",
@@ -3065,7 +3300,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0240",
@@ -3078,7 +3314,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0241",
@@ -3091,7 +3328,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0242",
@@ -3104,7 +3342,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0243",
@@ -3117,7 +3356,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0244",
@@ -3130,7 +3370,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0245",
@@ -3143,7 +3384,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0246",
@@ -3156,7 +3398,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0247",
@@ -3169,7 +3412,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0248",
@@ -3182,7 +3426,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0249",
@@ -3195,7 +3440,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0250",
@@ -3208,7 +3454,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0251",
@@ -3221,7 +3468,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0252",
@@ -3234,7 +3482,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0253",
@@ -3247,7 +3496,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0254",
@@ -3260,7 +3510,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0255",
@@ -3273,7 +3524,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0256",
@@ -3286,7 +3538,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0257",
@@ -3299,7 +3552,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0258",
@@ -3312,7 +3566,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0259",
@@ -3325,7 +3580,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0260",
@@ -3338,7 +3594,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0261",
@@ -3351,7 +3608,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0262",
@@ -3364,7 +3622,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0263",
@@ -3377,7 +3636,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0264",
@@ -3390,7 +3650,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0265",
@@ -3403,7 +3664,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0266",
@@ -3416,7 +3678,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0267",
@@ -3429,7 +3692,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0268",
@@ -3442,7 +3706,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0269",
@@ -3455,7 +3720,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0270",
@@ -3468,7 +3734,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0271",
@@ -3481,7 +3748,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0272",
@@ -3494,7 +3762,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0273",
@@ -3507,7 +3776,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0274",
@@ -3520,7 +3790,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0275",
@@ -3533,7 +3804,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0276",
@@ -3546,7 +3818,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0277",
@@ -3559,7 +3832,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0278",
@@ -3572,7 +3846,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0279",
@@ -3585,7 +3860,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0280",
@@ -3598,7 +3874,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0281",
@@ -3611,7 +3888,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0282",
@@ -3624,7 +3902,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0283",
@@ -3637,7 +3916,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0284",
@@ -3650,7 +3930,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0285",
@@ -3663,7 +3944,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0286",
@@ -3676,7 +3958,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0287",
@@ -3689,7 +3972,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0288",
@@ -3702,7 +3986,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0289",
@@ -3715,7 +4000,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0290",
@@ -3728,7 +4014,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0291",
@@ -3741,7 +4028,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0292",
@@ -3754,7 +4042,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0293",
@@ -3767,7 +4056,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0294",
@@ -3780,7 +4070,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0295",
@@ -3793,7 +4084,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0296",
@@ -3806,7 +4098,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0297",
@@ -3819,7 +4112,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0298",
@@ -3832,7 +4126,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0299",
@@ -3845,7 +4140,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0300",
@@ -3858,7 +4154,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0301",
@@ -3871,7 +4168,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0302",
@@ -3884,7 +4182,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0303",
@@ -3897,7 +4196,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0304",
@@ -3910,7 +4210,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0305",
@@ -3923,7 +4224,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0306",
@@ -3936,7 +4238,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0307",
@@ -3949,7 +4252,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0308",
@@ -3962,7 +4266,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0309",
@@ -3975,7 +4280,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0310",
@@ -3988,7 +4294,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0311",
@@ -4001,7 +4308,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0312",
@@ -4014,7 +4322,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0313",
@@ -4027,7 +4336,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0314",
@@ -4040,7 +4350,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0315",
@@ -4053,7 +4364,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0316",
@@ -4066,7 +4378,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0317",
@@ -4079,7 +4392,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0318",
@@ -4092,7 +4406,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "framed",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0319",
@@ -4105,7 +4420,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0320",
@@ -4118,7 +4434,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0321",
@@ -4131,7 +4448,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "framed",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0322",
@@ -4144,7 +4462,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0323",
@@ -4157,7 +4476,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "framed",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0324",
@@ -4170,7 +4490,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "framed",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0325",
@@ -4183,7 +4504,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "framed",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEA-0326",
@@ -4196,7 +4518,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "framed",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0001",
@@ -4209,7 +4532,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.95
+    "shipping_charge": 10.95,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0002",
@@ -4222,7 +4546,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0003",
@@ -4235,7 +4560,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0004",
@@ -4248,7 +4574,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0005",
@@ -4261,7 +4588,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0006",
@@ -4274,7 +4602,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0007",
@@ -4287,7 +4616,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0008",
@@ -4300,7 +4630,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0009",
@@ -4313,7 +4644,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0010",
@@ -4326,7 +4658,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0011",
@@ -4339,7 +4672,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0012",
@@ -4352,7 +4686,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 12.99
+    "shipping_charge": 12.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0013",
@@ -4365,7 +4700,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0014",
@@ -4378,7 +4714,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0015",
@@ -4391,7 +4728,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0016",
@@ -4404,7 +4742,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0017",
@@ -4417,7 +4756,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0018",
@@ -4430,7 +4770,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0019",
@@ -4443,7 +4784,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0020",
@@ -4456,7 +4798,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 10.99
+    "shipping_charge": 10.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0021",
@@ -4469,7 +4812,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0022",
@@ -4482,7 +4826,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0023",
@@ -4495,7 +4840,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0024",
@@ -4508,7 +4854,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0025",
@@ -4521,7 +4868,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0026",
@@ -4534,7 +4882,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0027",
@@ -4547,7 +4896,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0028",
@@ -4560,7 +4910,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0029",
@@ -4573,7 +4924,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0030",
@@ -4586,7 +4938,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0031",
@@ -4599,7 +4952,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0032",
@@ -4612,7 +4966,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0033",
@@ -4625,7 +4980,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0034",
@@ -4638,7 +4994,8 @@ const inventory = [
     "status": "",
     "quantity_available": 3,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0035",
@@ -4651,7 +5008,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0036",
@@ -4664,7 +5022,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0037",
@@ -4677,7 +5036,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0038",
@@ -4690,7 +5050,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0039",
@@ -4703,7 +5064,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0040",
@@ -4716,7 +5078,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0041",
@@ -4729,7 +5092,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0042",
@@ -4742,7 +5106,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0043",
@@ -4755,7 +5120,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0044",
@@ -4768,7 +5134,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0045",
@@ -4781,7 +5148,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0046",
@@ -4794,7 +5162,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0047",
@@ -4807,7 +5176,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0048",
@@ -4820,7 +5190,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0049",
@@ -4833,7 +5204,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0050",
@@ -4846,7 +5218,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0051",
@@ -4859,7 +5232,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0052",
@@ -4872,7 +5246,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0053",
@@ -4885,7 +5260,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0054",
@@ -4898,7 +5274,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0055",
@@ -4911,7 +5288,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0056",
@@ -4924,7 +5302,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0057",
@@ -4937,7 +5316,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0058",
@@ -4950,7 +5330,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0059",
@@ -4963,7 +5344,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0060",
@@ -4976,7 +5358,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0061",
@@ -4989,7 +5372,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0062",
@@ -5002,7 +5386,8 @@ const inventory = [
     "status": "",
     "quantity_available": 4,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0063",
@@ -5015,7 +5400,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0064",
@@ -5028,7 +5414,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0065",
@@ -5041,7 +5428,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0066",
@@ -5054,7 +5442,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0067",
@@ -5067,7 +5456,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0068",
@@ -5080,7 +5470,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0069",
@@ -5093,7 +5484,8 @@ const inventory = [
     "status": "",
     "quantity_available": 3,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0070",
@@ -5106,7 +5498,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0071",
@@ -5119,7 +5512,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0072",
@@ -5132,7 +5526,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0073",
@@ -5145,7 +5540,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0074",
@@ -5158,7 +5554,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0075",
@@ -5171,7 +5568,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0076",
@@ -5184,7 +5582,8 @@ const inventory = [
     "status": "",
     "quantity_available": 3,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0077",
@@ -5197,7 +5596,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0078",
@@ -5210,7 +5610,8 @@ const inventory = [
     "status": "",
     "quantity_available": 3,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0079",
@@ -5223,7 +5624,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0080",
@@ -5236,7 +5638,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0081",
@@ -5249,7 +5652,8 @@ const inventory = [
     "status": "",
     "quantity_available": 3,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0082",
@@ -5262,7 +5666,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0083",
@@ -5275,7 +5680,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0084",
@@ -5288,7 +5694,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0085",
@@ -5301,7 +5708,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0086",
@@ -5314,7 +5722,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0087",
@@ -5327,7 +5736,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0088",
@@ -5340,7 +5750,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0089",
@@ -5353,7 +5764,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0090",
@@ -5366,7 +5778,8 @@ const inventory = [
     "status": "",
     "quantity_available": 5,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0091",
@@ -5379,7 +5792,8 @@ const inventory = [
     "status": "",
     "quantity_available": 3,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0092",
@@ -5392,7 +5806,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0093",
@@ -5405,7 +5820,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0094",
@@ -5418,7 +5834,8 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0095",
@@ -5431,7 +5848,8 @@ const inventory = [
     "status": "",
     "quantity_available": 3,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0096",
@@ -5444,7 +5862,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0097",
@@ -5457,7 +5876,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0098",
@@ -5470,7 +5890,8 @@ const inventory = [
     "status": "",
     "quantity_available": 5,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0099",
@@ -5483,7 +5904,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0100",
@@ -5496,7 +5918,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0101",
@@ -5509,7 +5932,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0102",
@@ -5522,7 +5946,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0103",
@@ -5535,7 +5960,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0104",
@@ -5548,7 +5974,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0105",
@@ -5561,7 +5988,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0106",
@@ -5574,7 +6002,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0107",
@@ -5587,7 +6016,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0108",
@@ -5600,7 +6030,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0109",
@@ -5613,7 +6044,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0110",
@@ -5626,7 +6058,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0111",
@@ -5639,7 +6072,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0112",
@@ -5652,7 +6086,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0113",
@@ -5665,7 +6100,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0114",
@@ -5678,7 +6114,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0115",
@@ -5691,7 +6128,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0116",
@@ -5704,7 +6142,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0117",
@@ -5717,7 +6156,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0118",
@@ -5730,7 +6170,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0119",
@@ -5743,7 +6184,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0120",
@@ -5756,7 +6198,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0121",
@@ -5769,7 +6212,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0122",
@@ -5782,7 +6226,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0123",
@@ -5795,7 +6240,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0124",
@@ -5808,7 +6254,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0125",
@@ -5821,7 +6268,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0126",
@@ -5834,7 +6282,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0127",
@@ -5847,7 +6296,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0128",
@@ -5860,7 +6310,8 @@ const inventory = [
     "status": "",
     "quantity_available": 3120,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0129",
@@ -5873,7 +6324,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 12.99
+    "shipping_charge": 12.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0130",
@@ -5886,7 +6338,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 12.99
+    "shipping_charge": 12.99,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0131",
@@ -5899,7 +6352,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0132",
@@ -5912,7 +6366,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0133",
@@ -5925,7 +6380,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0134",
@@ -5938,7 +6394,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0135",
@@ -5951,7 +6408,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0136",
@@ -5964,7 +6422,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0137",
@@ -5977,7 +6436,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0138",
@@ -5990,7 +6450,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0139",
@@ -6003,7 +6464,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0140",
@@ -6016,7 +6478,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "standard",
-    "shipping_charge": ""
+    "shipping_charge": "",
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0141",
@@ -6029,7 +6492,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 14.95
+    "shipping_charge": 14.95,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0142",
@@ -6042,7 +6506,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 14.95
+    "shipping_charge": 14.95,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0143",
@@ -6055,7 +6520,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 14.95
+    "shipping_charge": 14.95,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0144",
@@ -6068,7 +6534,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 14.95
+    "shipping_charge": 14.95,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0145",
@@ -6081,7 +6548,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 14.95
+    "shipping_charge": 14.95,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0146",
@@ -6094,7 +6562,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 14.95
+    "shipping_charge": 14.95,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0147",
@@ -6107,7 +6576,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 14.95
+    "shipping_charge": 14.95,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0148",
@@ -6120,7 +6590,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 14.95
+    "shipping_charge": 14.95,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0149",
@@ -6133,7 +6604,8 @@ const inventory = [
     "status": "",
     "quantity_available": 1,
     "shipping_class": "custom",
-    "shipping_charge": 14.95
+    "shipping_charge": 14.95,
+    "accepts_offers": false
   },
   {
     "product_id": "HEC-0150",
@@ -6146,6 +6618,21 @@ const inventory = [
     "status": "",
     "quantity_available": 2,
     "shipping_class": "custom",
-    "shipping_charge": 14.99
+    "shipping_charge": 14.99,
+    "accepts_offers": false
+  },
+  {
+    "product_id": "HEC-0151",
+    "type": "collectible",
+    "category": "miscellaneous",
+    "category2": "",
+    "name": "Test Product - Do not buy.",
+    "description": "Test product - Not to be sold",
+    "price": 1.0,
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": "",
+    "accepts_offers": true
   }
 ];
