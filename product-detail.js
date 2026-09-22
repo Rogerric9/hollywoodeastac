@@ -7,6 +7,27 @@ const mainProductImage = document.getElementById("main-product-image");
 const previousImageButton = document.getElementById("previous-image");
 const nextImageButton = document.getElementById("next-image");
 const addToCartButton = document.getElementById("add-to-cart-button");
+const viewCartLink = document.querySelector('a.back-link[href="../cart.html"]');
+
+function updateViewCartLink() {
+  if (!viewCartLink) {
+    return;
+  }
+
+  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  if (cart.length === 0) {
+    viewCartLink.classList.add("disabled-link");
+    viewCartLink.setAttribute("aria-disabled", "true");
+    viewCartLink.removeAttribute("href");
+  } else {
+    viewCartLink.classList.remove("disabled-link");
+    viewCartLink.removeAttribute("aria-disabled");
+    viewCartLink.setAttribute("href", "../cart.html");
+  }
+}
+
+updateViewCartLink();
 
 if (product) {
   const photoList =
@@ -115,5 +136,6 @@ if (product) {
     }
 
     updateAddToCartButton();
+    updateViewCartLink();
   });
 }

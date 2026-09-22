@@ -239,6 +239,17 @@ nav a:hover {
   background-color: #162840;
 }
 
+.back-link.disabled-link {
+  background-color: #9aa4b2;
+  color: #eef0f3 !important;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.back-link.disabled-link:hover {
+  background-color: #9aa4b2;
+}
+
 .add-to-cart {
   margin-top: 10px;
 }
