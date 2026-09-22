@@ -288,7 +288,22 @@ if (product) {
     }).render("#offer-paypal-button-container");
   }
 
-  if (
+  const urlOfferId = new URLSearchParams(
+    window.location.search
+  ).get("offer_id");
+
+  if (urlOfferId && makeOfferSection) {
+    makeOfferSection.style.display = "block";
+
+    if (makeOfferButton) {
+      makeOfferButton.style.display = "none";
+    }
+
+    offerStatusMessage.textContent =
+      "Your offer was accepted! You can check out below.";
+
+    renderOfferPaypalButtons(urlOfferId);
+  } else if (
     product.accepts_offers &&
     makeOfferSection
   ) {
