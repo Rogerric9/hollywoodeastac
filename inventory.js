@@ -4522,6 +4522,20 @@ const inventory = [
     "accepts_offers": false
   },
   {
+    "product_id": "HEA-0327",
+    "type": "autograph",
+    "category": "sports",
+    "category2": "vintage",
+    "name": "204 Sports Cards All Genuine Autographed: Baseball, Football, Baskball, Hockey",
+    "description": "Signature Rookies from mid-1910s.   All 204 cards are signed.",
+    "price": 400.0,
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "custom",
+    "shipping_charge": 14.95,
+    "accepts_offers": false
+  },
+  {
     "product_id": "HEC-0001",
     "type": "collectible",
     "category": "memorabilia",
