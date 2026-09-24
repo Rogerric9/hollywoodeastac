@@ -4,7 +4,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0001.jpg"
     ],
-    "full_description": "This is a great shot of Shaq from back when he played for the Orlando Magic.   It is mounted on a wooden placque covered by plexiglass.",
+    "full_description": "This is a great shot of Shaq from back when he played for the Orlando Magic.   It is mounted on a wooden plaque covered by plexiglass. Shaquille O\u2019Neal was the first overall pick of the 1992 NBA Draft by the Magic, where he won Rookie of the Year in his debut season and led the team to the 1995 NBA Finals. He went on to win four NBA championships \u2014 three straight with the Los Angeles Lakers (2000\u20132002) and one with the Miami Heat (2006) \u2014 earning NBA Most Valuable Player honors in 2000 and three NBA Finals MVP awards. A 15-time NBA All-Star, O\u2019Neal was inducted into the Naismith Memorial Basketball Hall of Fame in 2016.",
     "authentication_info": "",
     "condition_notes": "Very good condition.",
     "miscellaneous": ""
@@ -24,7 +24,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0003.jpg"
     ],
-    "full_description": "George P. Shultz was an American economist, diplomat, and statesman who served in several senior U.S. government positions, including Secretary of State under President Ronald Reagan from 1982 to 1989. He was known for his influential role in Cold War diplomacy, arms-control negotiations, and U.S. foreign policy.",
+    "full_description": "George P. Shultz (1920\u20132021) was an American economist, diplomat, and statesman who served in several senior U.S. government positions, including Secretary of State under President Ronald Reagan from 1982 to 1989. He was known for his influential role in Cold War diplomacy, arms-control negotiations, and U.S. foreign policy. Shultz is one of only two Americans to have held four different federal cabinet posts \u2014 Labor, Treasury, State, and the Office of Management and Budget \u2014 across two presidential administrations. Between his years in government, he served as president of the global engineering firm Bechtel Corporation while teaching at Stanford University. In January 1989, President Reagan awarded him the Presidential Medal of Freedom, the nation\u2019s highest civilian honor.",
     "authentication_info": "",
     "condition_notes": "Excellent",
     "miscellaneous": ""
@@ -34,7 +34,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0004.jpg"
     ],
-    "full_description": "Buddy Hackett was an American comedian and actor known for his energetic delivery, distinctive voice, and quick-witted humor. He appeared in films such as The Music Man, It\u2019s a Mad, Mad, Mad, Mad World, and The Love Bug, and also provided the voice of Scuttle in Disney\u2019s The Little Mermaid.",
+    "full_description": "Buddy Hackett (1924\u20132003) was an American comedian and actor known for his energetic delivery, distinctive voice, and quick-witted humor. He appeared in films such as The Music Man, It\u2019s a Mad, Mad, Mad, Mad World, and The Love Bug, and also provided the voice of Scuttle in Disney\u2019s The Little Mermaid. Hackett was one of Las Vegas\u2019s top nightclub headliners for decades and also found success on Broadway, winning the 1955 Donaldson Award for his performance in Lunatics and Lovers. He has a star on the Hollywood Walk of Fame and, in 2003, was posthumously honored with the Disney Legends Award for his contributions to the studio, including his beloved turn as Scuttle.",
     "authentication_info": "",
     "condition_notes": "Good condition.",
     "miscellaneous": ""
@@ -44,7 +44,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0005.jpg"
     ],
-    "full_description": "William F. Buckley Jr. was an American author, political commentator, and founder of *National Review*. A leading figure in the modern conservative movement, he was also known for hosting the long-running television program *Firing Line* and for his distinctive wit, vocabulary, and debating style.",
+    "full_description": "William F. Buckley Jr. (1925\u20132008) was an American author, political commentator, and founder of National Review. A leading figure in the modern conservative movement, he was also known for hosting the long-running television program Firing Line and for his distinctive wit, vocabulary, and debating style. Buckley hosted 1,429 episodes of Firing Line over more than three decades, earning a Television Emmy for Outstanding Achievement in 1969. He wrote more than 40 books, ranging from political commentary to a popular series of Cold War spy novels, and in 1991 received the Presidential Medal of Freedom, the nation\u2019s highest civilian honor.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
@@ -54,7 +54,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0006.jpg"
     ],
-    "full_description": "Cheryl Tiegs is an American model and television personality who became one of the most recognizable fashion and swimsuit models of the 1970s and 1980s. She appeared on numerous magazine covers, including Sports Illustrated, and helped define the era\u2019s image of the American supermodel.",
+    "full_description": "Cheryl Tiegs is an American model and television personality who became one of the most recognizable fashion and swimsuit models of the 1970s and 1980s. She appeared on numerous magazine covers, including Sports Illustrated, and helped define the era\u2019s image of the American supermodel. Often called America\u2019s first supermodel, Tiegs appeared in the Sports Illustrated Swimsuit Issue nine times, including three cover appearances in 1970, 1975, and 1983 \u2014 a first for any model \u2014 and was later inducted into the magazine\u2019s Swimsuit Hall of Fame. Her 1978 \u201cPink Bikini\u201d poster became one of the decade\u2019s defining images, and she graced the cover of Time magazine four times, including a 1978 story that dubbed her the \u201cAll-American Model.\u201d",
     "authentication_info": "",
     "condition_notes": "Excellent condition",
     "miscellaneous": ""
@@ -64,7 +64,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0007.jpg"
     ],
-    "full_description": "Warren Beatty is an American actor, director, producer, and screenwriter known for a career spanning more than six decades. His notable films include Bonnie and Clyde, Shampoo, Heaven Can Wait, Reds, and Dick Tracy. He has received numerous honors for his work both in front of and behind the camera.",
+    "full_description": "Warren Beatty is an American actor, director, producer, and screenwriter known for a career spanning more than six decades. His notable films include Bonnie and Clyde, Shampoo, Heaven Can Wait, Reds, and Dick Tracy. He has received numerous honors for his work both in front of and behind the camera. Beatty holds a rare distinction in Academy Award history: he is the only person ever nominated for acting, directing, writing, and producing the same film in two different years, first for Heaven Can Wait (1978) and again for Reds (1981), for which he won the Oscar for Best Director. Across his career he has earned fourteen Academy Award nominations in total, and in 1999 the Academy honored him with the Irving G. Thalberg Memorial Award for his body of work as a producer.",
     "authentication_info": "",
     "condition_notes": "Good condition.",
     "miscellaneous": ""
@@ -85,7 +85,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0009.jpg"
     ],
-    "full_description": "Fats Domino - Deceased (February 26, 1928\u2013October 24, 2017) was an American singer, pianist, and songwriter who became one of the pioneers of rock and roll. Known for his warm voice and distinctive New Orleans piano style, he recorded enduring hits such as *Blueberry Hill*, *Ain\u2019t That a Shame*, and *I\u2019m Walkin\u2019*.",
+    "full_description": "Fats Domino (February 26, 1928\u2013October 24, 2017) was an American singer, pianist, and songwriter, now deceased, who became one of the pioneers of rock and roll. Known for his warm voice and distinctive New Orleans piano style, he recorded enduring hits such as Blueberry Hill, Ain\u2019t That a Shame, and I\u2019m Walkin\u2019. Domino sold more than 110 million records over his career and placed 37 songs on the Billboard Hot 100, including eleven Top 10 hits between 1955 and 1960. He was inducted into the Rock and Roll Hall of Fame in 1986 as part of its very first class of honorees, and in 1987 the Recording Academy awarded him a Grammy Lifetime Achievement Award.",
     "authentication_info": "",
     "condition_notes": "Excelleny condition.",
     "miscellaneous": ""
@@ -95,7 +95,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0010.jpg"
     ],
-    "full_description": "Pat Sajak (born October 26, 1946) is an American television personality best known as the longtime host of the game show Wheel of Fortune. Known for his easygoing humor and rapport with contestants, he became one of the most familiar faces in American television during a career spanning several decades.",
+    "full_description": "Pat Sajak (born October 26, 1946) is an American television personality best known as the longtime host of the game show Wheel of Fortune. Known for his easygoing humor and rapport with contestants, he became one of the most familiar faces in American television during a career spanning several decades. Before television stardom, Sajak served as a U.S. Army radio disc jockey in Vietnam and later worked as a weatherman in Nashville and Los Angeles. He began hosting Wheel of Fortune in 1981 and remained at the podium for 42 years, winning three Daytime Emmy Awards for Outstanding Game Show Host and a Primetime Emmy in 2024, along with a star on the Hollywood Walk of Fame.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
@@ -125,7 +125,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0013.jpg"
     ],
-    "full_description": "This is a rare item indeed.   A beautiful 8x10 B&W photograph signed by Art Carney (Ed Norton) Joyce Randolph (Trixie Norton) and Audrey Meadows (Alice Kramdon).",
+    "full_description": "This is a rare item indeed.   A beautiful 8x10 B&W photograph signed by Art Carney (Ed Norton), Audrey Meadows (Alice Kramden), and Joyce Randolph (Trixie Norton). Carney\u2019s portrayal of Ed Norton earned him five Emmy Awards, and he later won the Academy Award for Best Actor for Harry and Tonto (1974), a rare leap from beloved television sidekick to Oscar-winning film star. Meadows (1922\u20131996) brought sharp comic timing to Alice Kramden opposite Jackie Gleason, becoming one of classic television\u2019s most memorable wives. Randolph, who died in 2024 at age 99, was the last surviving member of the show\u2019s core cast, and her gum-chewing Trixie remains one of The Honeymooners\u2019 most fondly remembered characters.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
@@ -1117,7 +1117,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0112.jpg"
     ],
-    "full_description": "Emma Samms (born August 28, 1960) is an English actress best known for playing Holly Sutton on the daytime soap opera General Hospital and Fallon Carrington Colby on Dynasty and its spin-off, The Colbys. She also appeared in the television miniseries Goliath Awaits and has returned to General Hospital several times over the course of her career.",
+    "full_description": "Emma Samms (born August 28, 1960) is an English actress best known for playing Holly Sutton on the daytime soap opera General Hospital and Fallon Carrington Colby on Dynasty and its spin-off, The Colbys. She also appeared in the television miniseries Goliath Awaits and has returned to General Hospital several times over the course of her career. Her chemistry with co-star Tristan Rogers turned Holly and Robert Scorpio into one of daytime television\u2019s most popular supercouples, and the character\u2019s popularity led producers to bring Holly back from the dead in a memorable 1992 storyline. On primetime, Samms took over the role of Fallon Carrington from Pamela Sue Martin, carrying the character through two seasons of The Colbys before returning to Dynasty for its final two seasons.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
@@ -1469,10 +1469,10 @@ const productDetails = [
     "product_images": [
       "images/HEA-0148.jpg"
     ],
-    "full_description": "",
+    "full_description": "Ricky Rudd was a NASCAR driver whose 32-year Cup Series career produced 23 wins, 194 top-five finishes, and 29 poles. Known as NASCAR\u2019s \u201cIronman\u201d for his record of 788 consecutive series starts, Rudd was the 1977 Rookie of the Year and won the 1992 IROC championship. He also thrived as a driver-owner, winning six races \u2014 including the 1997 Brickyard 400 \u2014 for his own Rudd Performance Motorsports team. He was named one of NASCAR\u2019s 75 Greatest Drivers in 2023 and inducted into the NASCAR Hall of Fame in 2025.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
-    "miscellaneous": "Ricky Rudd (born September 12, 1956) is an American former NASCAR driver known for his toughness, consistency, and long racing career. Nicknamed \u201cThe Rooster,\u201d he won 23 NASCAR Cup Series races, including the 1997 Brickyard 400, and recorded at least one victory in 16 consecutive seasons. Rudd was inducted into the NASCAR Hall of Fame as a member of the Class of 2025."
+    "miscellaneous": ""
   },
   {
     "product_id": "HEA-0149",
@@ -1790,7 +1790,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0180.jpg"
     ],
-    "full_description": "Cheryl Ladd (born July 12, 1951) is an American actress, singer and author best known for playing Kris Munroe on the television series Charlie\u2019s Angels. She joined the show in 1977 and remained through its final season. Ladd has also appeared in numerous films and television movies and recorded several pop albums during her career.",
+    "full_description": "Cheryl Ladd (born July 12, 1951) is an American actress, singer and author best known for playing Kris Munroe on the television series Charlie\u2019s Angels. She joined the show in 1977 and remained through its final season. Ladd has also appeared in numerous films and television movies and recorded several pop albums during her career. Before joining Charlie\u2019s Angels, Ladd \u2014 then performing as Cherie Moor \u2014 provided the singing voice of Melody on Hanna-Barbera\u2019s animated Josie and the Pussycats. She parlayed her Charlie\u2019s Angels fame into a recording career, releasing three pop albums and performing the national anthem at Super Bowl XIV in 1980.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
@@ -1800,7 +1800,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0181.jpg"
     ],
-    "full_description": "Walter Koenig (born September 14, 1936) is an American actor and writer best known for portraying Pavel Chekov in the original Star Trek television series and several Star Trek films. He later played the recurring villain Alfred Bester on Babylon 5. Koenig has also written novels, comic books and scripts during his long career.",
+    "full_description": "Walter Koenig (born September 14, 1936) is an American actor and writer best known for portraying Pavel Chekov in the original Star Trek television series and several Star Trek films. He later played the recurring villain Alfred Bester on Babylon 5. Koenig has also written novels, comic books and scripts during his long career. He reprised Chekov in all six original-cast Star Trek films and, decades later, returned to voice President Chekov in Star Trek: Picard (2023). His turn as the psychic, morally ambiguous Bester spanned twelve episodes of Babylon 5 and is often cited by fans as one of the show\u2019s most compelling recurring roles. Beyond acting, Koenig wrote for series including Land of the Lost and The Powers of Matthew Star, and penned the screenplay for the 2008 science-fiction thriller InAlienable.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
@@ -1920,7 +1920,7 @@ const productDetails = [
     "product_images": [
       "images/HEA-0193.jpg"
     ],
-    "full_description": "Barbara Feldon (born March 12, 1933) is an American actress and former model best known for playing Agent 99 on the television comedy Get Smart. Her poised, intelligent performance made her one of the show\u2019s most memorable characters. Feldon also appeared in films, television programs and commercials and later wrote about her life and career.",
+    "full_description": "Barbara Feldon (born March 12, 1933) is an American actress and former model best known for playing Agent 99 on the television comedy Get Smart. Her poised, intelligent performance made her one of the show\u2019s most memorable characters. Feldon also appeared in films, television programs and commercials and later wrote about her life and career. Her performance as Agent 99 earned her two Primetime Emmy nominations for Outstanding Lead Actress in a Comedy Series, in 1968 and 1969. Before Get Smart, she won the grand prize on the game show The $64,000 Question answering questions on William Shakespeare, and a popular Revlon commercial for \u201cTop Brass\u201d helped launch her television career. She later authored the memoirs Living Alone and Loving It and Getting Smarter.",
     "authentication_info": "",
     "condition_notes": "Excellent condition.",
     "miscellaneous": ""
