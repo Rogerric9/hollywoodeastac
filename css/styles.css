@@ -445,6 +445,39 @@ nav a:hover {
   overflow-wrap: anywhere;
 }
 
+.autograph-list-wrapper {
+  width: 100%;
+  max-height: 22em;
+  overflow-y: auto;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.autograph-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.autograph-list-table th,
+.autograph-list-table td {
+  border: 1px solid #cccccc;
+  padding: 6px 8px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.autograph-list-table thead th {
+  background-color: #1f3556;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.autograph-list-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
 #product-miscellaneous:empty {
   display: none;
 }
