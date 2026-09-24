@@ -181,6 +181,31 @@ nav a:hover {
   box-sizing: border-box;
 }
 
+/* Additional product images page */
+
+.more-images-section {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.more-images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.more-images-photo {
+  width: 100%;
+  max-width: 320px;
+  height: 320px;
+  object-fit: contain;
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
 .product-card a {
   color: #1f3556;
   text-decoration: none;
