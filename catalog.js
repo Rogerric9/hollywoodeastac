@@ -1,5 +1,31 @@
 const productGrid = document.getElementById("product-grid");
 
+const SALE_BATCH_WORKER_URL =
+  "https://hollywood-east-checkout.steve-kanski.workers.dev";
+
+let saleByProductId = {};
+
+async function loadCurrentSaleBatch() {
+  try {
+    const response = await fetch(
+      `${SALE_BATCH_WORKER_URL}/current-sale-batch`
+    );
+    const result = await response.json();
+
+    if (result && result.success && Array.isArray(result.items)) {
+      saleByProductId = {};
+
+      result.items.forEach(item => {
+        saleByProductId[item.product_id] = item;
+      });
+
+      displayProducts();
+    }
+  } catch (error) {
+    console.error("Could not check the current sale batch.", error);
+  }
+}
+
 const catalogCategoryDropdown = document.getElementById("category-dropdown");
 const categoryHeading = document.getElementById("category-heading");
 const catalogDescription = document.getElementById("catalog-description");
@@ -277,7 +303,14 @@ function displayProducts() {
       </thead>
 
       <tbody>
-        ${sortedProducts.map(product => `
+        ${sortedProducts.map(product => {
+          const activeSale = saleByProductId[product.product_id];
+
+          const priceMarkup = activeSale
+            ? `<span class="regular-price-crossed">$${activeSale.regular_price}</span> <span class="sale-price">$${activeSale.sale_price}</span>`
+            : `$${product.price}`;
+
+          return `
           <tr
             class="catalog-product-row"
             data-product-id="${product.product_id}"
@@ -287,9 +320,10 @@ function displayProducts() {
             </td>
             <td>${product.name}</td>
             <td>${product.description}</td>
-            <td>$${product.price}</td>
+            <td>${priceMarkup}</td>
           </tr>
-        `).join("")}
+        `;
+        }).join("")}
       </tbody>
     </table>
   `;
@@ -307,9 +341,15 @@ function displayProducts() {
         ? details.product_images[0]
         : "images/no-image-available.jpg";
 
+    const activeSale = saleByProductId[product.product_id];
+
+    const priceMarkup = activeSale
+      ? `<span class="regular-price-crossed">$${activeSale.regular_price}</span> <span class="sale-price">$${activeSale.sale_price}</span>`
+      : `$${product.price}`;
+
     productGrid.innerHTML += `
       <div class="product-card">
-        
+
       <a
         href="products/${product.product_id.toLowerCase()}.html"
         style="display:inline-block; padding:0; border:0; outline:0; box-shadow:none; background:none;"
@@ -328,7 +368,7 @@ function displayProducts() {
 
         <p>${product.description}</p>
 
-        <p class="price">$${product.price}</p>
+        <p class="price">${priceMarkup}</p>
 
         <a class="button" href="products/${product.product_id.toLowerCase()}.html">
             View Details
@@ -386,6 +426,7 @@ if (catalogSearchInput) {
 normalizeCart();
 updateCartCount();
 displayProducts();
+loadCurrentSaleBatch();
 
 document.addEventListener("click", event => {
   const productRow = event.target.closest(".catalog-product-row");
@@ -425,13 +466,22 @@ document.addEventListener("click", event => {
       return;
     }
   } else {
+    const activeSale = saleByProductId[product.product_id];
+
     cart.push({
       product_id: product.product_id,
       name: product.name,
-      price: product.price,
+      price: activeSale ? activeSale.sale_price : product.price,
       quantity: 1,
       shipping_class: product.shipping_class || "standard",
-      shipping_charge: product.shipping_charge || ""
+      shipping_charge: product.shipping_charge || "",
+      ...(activeSale
+        ? {
+            is_sale_price: true,
+            regular_price: activeSale.regular_price,
+            sale_expires_at: activeSale.batch_expires_at
+          }
+        : {})
     });
     alert(`${product.name} has been added to your cart.`);
   }
