@@ -478,8 +478,15 @@ nav a:hover {
   background-color: #f2f2f2;
 }
 
-#product-miscellaneous:empty {
+#product-miscellaneous:empty,
+#product-more-from-signer:empty {
   display: none;
+}
+
+.more-from-signer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .winners-table-wrapper {
