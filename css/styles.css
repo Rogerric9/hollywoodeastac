@@ -519,6 +519,17 @@ nav a:hover {
   white-space: nowrap;
 }
 
+.winners-table .result-won {
+  color: #1f7a1f;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.winners-table .result-nominated {
+  color: #555555;
+  white-space: nowrap;
+}
+
 .product-information h2 {
   margin-top: 0;
 }
