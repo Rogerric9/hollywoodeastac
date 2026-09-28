@@ -3,6 +3,82 @@ const productId = document.body.dataset.productId;
 const product = inventory.find(item => item.product_id === productId);
 const details = productDetails.find(item => item.product_id === productId);
 
+const SALE_BATCH_WORKER_URL =
+  "https://hollywood-east-checkout.steve-kanski.workers.dev";
+
+let activeSaleInfo = null;
+
+function formatPriceForDisplay(price) {
+  const priceValue = Number(price);
+
+  if (!Number.isFinite(priceValue)) {
+    return "0";
+  }
+
+  if (Number.isInteger(priceValue)) {
+    return String(priceValue);
+  }
+
+  return String(priceValue);
+}
+
+function formatSaleExpiry(isoString) {
+  const expires = new Date(isoString);
+
+  const datePart = expires.toLocaleDateString("en-US", {
+    month: "2-digit",
+    day: "2-digit",
+    year: "numeric"
+  });
+
+  const timePart = expires.toLocaleTimeString("en-US", {
+    hour: "numeric",
+    minute: "2-digit"
+  });
+
+  return `${datePart} at ${timePart}`;
+}
+
+async function checkForActiveSale() {
+  try {
+    const response = await fetch(
+      `${SALE_BATCH_WORKER_URL}/current-sale-batch`
+    );
+    const result = await response.json();
+
+    if (!result || !result.success || !Array.isArray(result.items)) {
+      return;
+    }
+
+    const saleForThisProduct = result.items.find(
+      item => item.product_id === productId
+    );
+
+    if (!saleForThisProduct) {
+      return;
+    }
+
+    activeSaleInfo = saleForThisProduct;
+
+    const priceElement = document.getElementById("product-price");
+
+    if (priceElement) {
+      priceElement.innerHTML =
+        `<span class="regular-price-crossed">$${formatPriceForDisplay(saleForThisProduct.regular_price)}</span> ` +
+        `<span class="sale-price">$${formatPriceForDisplay(saleForThisProduct.sale_price)}</span>`;
+
+      const expiryNote = document.createElement("p");
+      expiryNote.className = "sale-expiry-note";
+      expiryNote.textContent =
+        `Sale price good until ${formatSaleExpiry(saleForThisProduct.batch_expires_at)}`;
+
+      priceElement.insertAdjacentElement("afterend", expiryNote);
+    }
+  } catch (error) {
+    console.error("Could not check for an active sale.", error);
+  }
+}
+
 const mainProductImage = document.getElementById("main-product-image");
 const previousImageButton = document.getElementById("previous-image");
 const nextImageButton = document.getElementById("next-image");
@@ -101,6 +177,7 @@ if (product) {
   }
 
   updateAddToCartButton();
+  checkForActiveSale();
 
   addToCartButton.addEventListener("click", () => {
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -122,10 +199,17 @@ if (product) {
       cart.push({
         product_id: product.product_id,
         name: product.name,
-        price: product.price,
+        price: activeSaleInfo ? activeSaleInfo.sale_price : product.price,
         quantity: 1,
         shipping_class: product.shipping_class || "standard",
-        shipping_charge: product.shipping_charge || ""
+        shipping_charge: product.shipping_charge || "",
+        ...(activeSaleInfo
+          ? {
+              is_sale_price: true,
+              regular_price: activeSaleInfo.regular_price,
+              sale_expires_at: activeSaleInfo.batch_expires_at
+            }
+          : {})
       });
       alert(`${product.name} has been added to your cart.`);
     }

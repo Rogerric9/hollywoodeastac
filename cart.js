@@ -5,6 +5,124 @@ const cartTotal = document.getElementById("cart-total");
 const shippingTotal = document.getElementById("shipping-total");
 const orderTotal = document.getElementById("order-total");
 const paypalButtonContainer = document.getElementById("paypal-button-container");
+const expiredSaleNotice = document.getElementById("expired-sale-notice");
+
+const SALE_BATCH_WORKER_URL =
+  "https://hollywood-east-checkout.steve-kanski.workers.dev";
+
+async function fetchCurrentSaleBatch() {
+  try {
+    const response = await fetch(
+      `${SALE_BATCH_WORKER_URL}/current-sale-batch`
+    );
+    const result = await response.json();
+
+    if (result && result.success && Array.isArray(result.items)) {
+      return result.items;
+    }
+  } catch (error) {
+    console.error("Could not check the current sale batch.", error);
+  }
+
+  return [];
+}
+
+function reconcileCartSalePrices(saleBatchItems) {
+  const saleByProductId = {};
+
+  saleBatchItems.forEach(item => {
+    saleByProductId[item.product_id] = item;
+  });
+
+  const expiredItems = [];
+
+  cart.forEach(cartItem => {
+    if (!cartItem.is_sale_price) {
+      return;
+    }
+
+    const activeSale = saleByProductId[cartItem.product_id];
+
+    if (
+      activeSale &&
+      Number(activeSale.sale_price) === Number(cartItem.price)
+    ) {
+      cartItem.sale_expires_at = activeSale.batch_expires_at;
+      return;
+    }
+
+    const product = inventory.find(
+      item => item.product_id === cartItem.product_id
+    );
+
+    const newPrice = product
+      ? Number(product.price)
+      : Number(cartItem.regular_price) || Number(cartItem.price);
+
+    expiredItems.push({
+      name: cartItem.name,
+      old_price: Number(cartItem.price),
+      new_price: newPrice
+    });
+
+    cartItem.price = newPrice;
+    cartItem.is_sale_price = false;
+    delete cartItem.sale_expires_at;
+  });
+
+  if (expiredItems.length > 0) {
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }
+
+  return expiredItems;
+}
+
+function renderExpiredSaleNotice(expiredItems) {
+  if (!expiredSaleNotice) {
+    return;
+  }
+
+  if (expiredItems.length === 0) {
+    expiredSaleNotice.style.display = "none";
+    expiredSaleNotice.innerHTML = "";
+    return;
+  }
+
+  const multiple = expiredItems.length > 1;
+
+  const itemsListMarkup = expiredItems
+    .map(
+      item =>
+        `<li>${item.name}: was $${item.old_price.toFixed(2)}, now $${item.new_price.toFixed(2)}</li>`
+    )
+    .join("");
+
+  expiredSaleNotice.innerHTML = `
+    <p><strong>Heads up:</strong> the sale price on the following item${multiple ? "s" : ""} in
+    your cart ${multiple ? "have" : "has"} expired. ${multiple ? "They are" : "It is"} now shown
+    at the regular price below. You're welcome to keep ${multiple ? "them" : "it"} at the new
+    price, or use the Remove button to take ${multiple ? "them" : "it"} out of your cart.</p>
+    <ul>${itemsListMarkup}</ul>
+  `;
+  expiredSaleNotice.style.display = "block";
+}
+
+function buildExpiredSaleMessage(expiredItems) {
+  const multiple = expiredItems.length > 1;
+
+  const lines = expiredItems.map(
+    item =>
+      `- ${item.name}: was $${item.old_price.toFixed(2)}, now $${item.new_price.toFixed(2)}`
+  );
+
+  return (
+    `The sale price on the following item${multiple ? "s" : ""} in your cart ${multiple ? "have" : "has"} ` +
+    `expired since you added ${multiple ? "them" : "it"}:\n\n` +
+    lines.join("\n") +
+    `\n\nClick OK to continue checkout at the new price${multiple ? "s" : ""} shown above, or ` +
+    `Cancel to go back and review your cart.`
+  );
+}
 
 function normalizeCart() {
   cart = cart
@@ -141,9 +259,13 @@ function calculateShippingTotal() {
   return shippingTotal;
 }
 
-function displayCart() {
+async function displayCart() {
   normalizeCart();
   addProductFromUrl();
+
+  const saleBatchItems = await fetchCurrentSaleBatch();
+  const expiredItems = reconcileCartSalePrices(saleBatchItems);
+  renderExpiredSaleNotice(expiredItems);
 
   cartItems.innerHTML = "";
 
@@ -168,6 +290,10 @@ function displayCart() {
         ? details.product_images[0]
         : "images/no-image-available.jpg";
 
+    const priceMarkup = cartItem.is_sale_price
+      ? `<span class="cart-item-regular-price-crossed">$${cartItem.regular_price}</span> <span class="cart-item-sale-price">$${cartItem.price}</span>`
+      : `$${cartItem.price}`;
+
     cartItems.innerHTML += `
       <div class="cart-item">
         <img class="cart-item-image" src="${cartImage}" alt="${cartItem.name}">
@@ -177,7 +303,7 @@ function displayCart() {
 
           <p>Product No. ${cartItem.product_id}</p>
 
-          <p>Price: $${cartItem.price}</p>
+          <p>Price: ${priceMarkup}</p>
 
           <p>Quantity: ${cartItem.quantity}</p>
 
@@ -218,6 +344,19 @@ if (window.paypal) {
       if (!Array.isArray(cart) || cart.length === 0) {
         alert("Your cart is empty.");
         throw new Error("The cart is empty.");
+      }
+
+      const saleBatchItems = await fetchCurrentSaleBatch();
+      const expiredItems = reconcileCartSalePrices(saleBatchItems);
+
+      if (expiredItems.length > 0) {
+        displayCart();
+
+        const proceed = confirm(buildExpiredSaleMessage(expiredItems));
+
+        if (!proceed) {
+          throw new Error("Checkout canceled after a sale price expired.");
+        }
       }
 
       const checkoutItems = cart.map(cartItem => {
