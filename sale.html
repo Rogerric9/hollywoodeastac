@@ -12,18 +12,16 @@
   </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog | Hollywood East Autographs & Collectibles</title>
-    <meta
-      name="description"
-      content="Browse autographs and collectibles for sale at Hollywood East Autographs & Collectibles."
-    >
+    <title>Currently on Sale | Hollywood East Autographs &amp; Collectibles</title>
+    <meta name="description" content="Autographs and collectibles currently marked down for a limited time at Hollywood East Autographs & Collectibles.">
+    <link rel="canonical" href="https://hollywoodeastac.com/sale.html">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
   <header>
-    <h1 id="category-heading"></h1>
+    <h1>Currently on Sale</h1>
     <p>Authentic autographs from film, television, music, sports, and history</p>
 
     <nav>
@@ -80,44 +78,21 @@
 
   <main>
     <section>
-      <p id="catalog-description"></p>
-    <div class="catalog-search-area">
-      <label for="catalog-search">Search by name:</label>
+      <p id="sale-status-message">Loading current sale items...</p>
 
-      <input
-        type="text"
-        id="catalog-search"
-        placeholder="Example: Davy Jones"
-      >
-
-      <button id="catalog-search-button" type="button" aria-label="Search">
-        🔍
-      </button>
-
-      <div class="catalog-grid-option">
-        <button id="catalog-grid-button" type="button">
-          See in Grid
-        </button>
-
-      <span id="catalog-grid-note" class="catalog-grid-note">
-        (Select an item from a grid list)
-      </span>
-      </div>
-
-    </div>
-      <div id="product-grid" class="product-grid"></div>
+      <div id="sale-grid" class="product-grid"></div>
     </section>
   </main>
 
 <footer>
-  <p>&copy; 2026 Hollywood East Autographs & Collectibles</p>
+  <p>&copy; 2026 Hollywood East Autographs &amp; Collectibles</p>
   <p><a href="product-index.html" style="color: white;">Product Index</a></p>
 </footer>
 
-  <script src="inventory.js"></script>
-  <script src="details.js"></script>
-  <script src="catalog.js"></script>
-  <script src="menu.js"></script>
+<script src="inventory.js?v=2"></script>
+<script src="details.js?v=2"></script>
+<script src="menu.js?v=2"></script>
+<script src="sale.js?v=1"></script>
 
 </body>
 </html>
