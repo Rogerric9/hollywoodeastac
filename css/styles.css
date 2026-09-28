@@ -481,6 +481,43 @@ nav a:hover {
 #product-miscellaneous:empty {
   display: none;
 }
+
+.winners-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.winners-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.winners-table th,
+.winners-table td {
+  border: 1px solid #cccccc;
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.winners-table thead th {
+  background-color: #1f3556;
+  color: white;
+}
+
+.winners-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.winners-table .view-button {
+  display: inline-block;
+  padding: 4px 14px;
+  background-color: #b7ddff;
+  white-space: nowrap;
+}
+
 .product-information h2 {
   margin-top: 0;
 }
