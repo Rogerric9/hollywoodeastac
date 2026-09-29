@@ -4414,7 +4414,7 @@ const inventory = [
     "type": "autograph",
     "category": "music",
     "category2": "vintage",
-    "name": "Paul Anka - Sihned LP Album - Not inscribed.",
+    "name": "Paul Anka - Signed LP Album - Not inscribed.",
     "description": "Signed LP Album - Listen To Your Heart",
     "price": 140.0,
     "status": "",
