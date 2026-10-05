@@ -4842,5 +4842,16 @@ const productDetails = [
     "authentication_info": "None",
     "condition_notes": "",
     "miscellaneous": ""
+  },
+  {
+    "product_id": "HEC-0152",
+    "product_images": [
+      "images/HEC-0152.jpg",
+      "images/Gold2010Reverse.jpg"
+    ],
+    "full_description": "An American Eagle 1/10 ounce fine gold coin. 2010 date.",
+    "authentication_info": "",
+    "condition_notes": "Excellent condition",
+    "miscellaneous": "This will be sent USPS Priority Mail insured."
   }
 ];

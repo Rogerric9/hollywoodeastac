@@ -6364,7 +6364,7 @@ const inventory = [
     "description": "One troy ounce of .9999 fine silver.",
     "price": 100.0,
     "status": "",
-    "quantity_available": 1,
+    "quantity_available": 2,
     "shipping_class": "standard",
     "shipping_charge": "",
     "accepts_offers": false
@@ -6648,5 +6648,19 @@ const inventory = [
     "shipping_class": "custom",
     "shipping_charge": 0.01,
     "accepts_offers": true
+  },
+  {
+    "product_id": "HEC-0152",
+    "type": "collectible",
+    "category": "coins and bullion",
+    "category2": "",
+    "name": "Gold Eagle 1/10 Oz. American Eagle Gold Coin - 2010",
+    "description": "American Eagle gold coin 1/10 ounce fine gold.",
+    "price": 625.0,
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "custom",
+    "shipping_charge": 14.95,
+    "accepts_offers": false
   }
 ];

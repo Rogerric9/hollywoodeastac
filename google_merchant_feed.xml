@@ -4744,5 +4744,15 @@
       <g:price>1.00 USD</g:price>
       <g:condition>used</g:condition>
     </item>
+    <item>
+      <g:id>HEC-0152</g:id>
+      <g:title>Gold Eagle 1/10 Oz. American Eagle Gold Coin - 2010</g:title>
+      <g:description>American Eagle gold coin 1/10 ounce fine gold.</g:description>
+      <g:link>https://hollywoodeastac.com/products/hec-0152.html</g:link>
+      <g:image_link>https://hollywoodeastac.com/images/HEC-0152.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>625.00 USD</g:price>
+      <g:condition>used</g:condition>
+    </item>
   </channel>
 </rss>
