@@ -251,7 +251,8 @@
   .auth-form input[type="text"],
   .auth-form input[type="email"],
   .auth-form input[type="password"],
-  .auth-form input[type="text"].password-revealed{
+  .auth-form input[type="text"].password-revealed,
+  .auth-form textarea{
     background:var(--surface);
     border:1px solid var(--line);
     color:var(--ink);
@@ -260,6 +261,36 @@
     padding:10px 38px 10px 11px;
     border-radius:6px;
     width:100%;
+  }
+  .auth-form textarea{
+    padding-right:11px;
+    resize:vertical;
+  }
+  .prize-choices{
+    border:1px solid var(--line);
+    border-radius:6px;
+    padding:10px 12px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+  }
+  .prize-choices legend{
+    font-family:"Cinzel", Georgia, serif;
+    font-size:12px;
+    letter-spacing:0.04em;
+    color:var(--muted);
+    text-transform:uppercase;
+    padding:0 4px;
+  }
+  .prize-choices label{
+    flex-direction:row !important;
+    align-items:center;
+    text-transform:none !important;
+    letter-spacing:0 !important;
+    font-family:Arial, Helvetica, sans-serif !important;
+    font-size:14px !important;
+    color:var(--ink) !important;
+    gap:8px !important;
   }
   .auth-form input:focus-visible{ outline:2px solid var(--accent-2); outline-offset:1px; }
   .password-field{
@@ -437,6 +468,28 @@
     </form>
   </section>
 
+  <section id="prizeClaimPanel" class="auth-panel" hidden>
+    <p class="auth-message" id="prizeClaimMessage" aria-live="polite"></p>
+    <form id="prizeClaimForm" class="auth-form">
+      <p>You have broken every spell in Wyrmspire Hall. Choose the prize you would like to claim, and tell us where to send it.</p>
+      <fieldset class="prize-choices">
+        <legend>Choose your prize</legend>
+        <label><input type="radio" name="selected_prize" value="Prize 1" required /> Prize 1</label>
+        <label><input type="radio" name="selected_prize" value="Prize 2" /> Prize 2</label>
+        <label><input type="radio" name="selected_prize" value="Prize 3" /> Prize 3</label>
+        <label><input type="radio" name="selected_prize" value="Prize 4" /> Prize 4</label>
+        <label><input type="radio" name="selected_prize" value="Prize 5" /> Prize 5</label>
+      </fieldset>
+      <label>Your full name
+        <input type="text" name="winner_name" autocomplete="name" minlength="2" maxlength="120" required />
+      </label>
+      <label>Mailing address
+        <textarea name="mailing_address" rows="3" maxlength="500" required></textarea>
+      </label>
+      <button type="submit">Claim Prize</button>
+    </form>
+  </section>
+
   <div class="exits-row" id="exitsRow"></div>
   <form id="inputBar" autocomplete="off">
     <input id="cmdInput" name="cmd" type="text" placeholder="What will you do?" autocomplete="off" autocapitalize="off" spellcheck="false" />
@@ -454,12 +507,14 @@
   var IDENTITY_KEY = "wyrmspireIdentity";
   var avatarName = null;
   var saveToken = null;
-  var mode = "play"; // play | checkingContest | contestWonChoice | auth | confirmExit | saving | saveFailed | saveAuthExpired
+  var mode = "play"; // play | auth | claimPrize | confirmExit | saving | saveFailed | saveAuthExpired
   var authView = "signup";
   var authBusy = false;
   var reAuthInProgress = false;
   var authRevokedNoticeShown = false;
   var pendingResetToken = null;
+  var prizeClaimed = false;
+  var prizeClaimBusy = false;
 
   var solved = { ogre:false, dial:false, helmets:false, chest:false, document:false, mirrors:false, magpie:false, wine:false, well:false, finale:false };
   var inventory = { ogre:false, dial:false, helmets:false, chest:false, document:false, mirrors:false, magpie:false, wine:false, well:false };
@@ -1341,6 +1396,9 @@
   var pageEl = document.getElementById("page");
   var authPanel = document.getElementById("authPanel");
   var authMessageEl = document.getElementById("authMessage");
+  var prizeClaimPanel = document.getElementById("prizeClaimPanel");
+  var prizeClaimMessageEl = document.getElementById("prizeClaimMessage");
+  var prizeClaimForm = document.getElementById("prizeClaimForm");
   var AUTH_FORMS = {
     signup: document.getElementById("signupForm"),
     login: document.getElementById("loginForm"),
@@ -1459,18 +1517,12 @@
   function currentExits(){
     var list = [];
     if (current === "intro"){
-      if (mode === "contestWonChoice"){
-        return [{label:"enter anyway", action:"enter anyway"}, {label:"turn back", action:"turn back", quiet:true}];
-      }
-      if (mode === "checkingContest"){
-        return [];
-      }
       return [{label:"Begin", action:"begin", primary:true}];
     }
     if (mode === "authChoice"){
       return [{label:"Sign in", action:"sign in"}, {label:"Create Account", action:"create account", primary:true}];
     }
-    if (mode === "auth"){
+    if (mode === "auth" || mode === "claimPrize"){
       return [];
     }
 
@@ -1814,13 +1866,6 @@
     try { sessionStorage.removeItem(IDENTITY_KEY); } catch(e){}
   }
 
-  function checkContestStatus(){
-    return fetch(API_BASE + "/wyrmspire-contest-status")
-      .then(function(res){ return res.json(); })
-      .then(function(data){ return Boolean(data && data.completed); })
-      .catch(function(){ return false; });
-  }
-
   function postWyrmspire(path, body){
     return fetch(API_BASE + path, {
       method: "POST",
@@ -2014,6 +2059,7 @@
     copyKnownKeys(placed, state.placed, JEWEL_KEYS);
     jewelsPlaced = JEWEL_KEYS.filter(function(k){ return placed[k]; }).length;
     applyFlags(state.flags);
+    prizeClaimed = Boolean(state.prize_claimed);
 
     var room = resolveResumeRoom(state);
     visited = ["intro"];
@@ -2023,6 +2069,7 @@
     hideAuthPanel();
     renderStatusPill();
     turnTo(room, greetingLines);
+    maybeShowPrizeClaimPanel();
   }
 
   function showAuthView(view, message, prefillName){
@@ -2046,6 +2093,22 @@
     authPanel.hidden = true;
     form.hidden = false;
     authMessageEl.textContent = "";
+  }
+
+  function maybeShowPrizeClaimPanel(){
+    if (solved.finale && !prizeClaimed && mode === "play"){
+      mode = "claimPrize";
+      prizeClaimPanel.hidden = false;
+      form.hidden = true;
+      prizeClaimMessageEl.textContent = "";
+      renderExits();
+    }
+  }
+
+  function hidePrizeClaimPanel(){
+    prizeClaimPanel.hidden = true;
+    form.hidden = false;
+    prizeClaimMessageEl.textContent = "";
   }
 
   function setAuthBusy(isBusy, busyMessage){
@@ -2098,23 +2161,6 @@
     });
   }
 
-  function beginGame(){
-    mode = "checkingContest";
-    renderExits();
-    respond(["You step toward the threshold. Word of the hall's doings, it's said, travels faster than any traveller..."]);
-    checkContestStatus().then(function(completed){
-      if (completed){
-        mode = "contestWonChoice";
-        respond([
-          "...and word reaches you before you've even crossed the threshold: another soul has already claimed the hall's treasure, and the prize stands awarded.",
-          "You may still enter and see the tale through to its end, if you wish — but the prize is no longer yours to win."
-        ]);
-        renderExits();
-      } else {
-        proceedToNaming();
-      }
-    });
-  }
 
   function beginReAuth(view){
     reAuthInProgress = true;
@@ -2264,22 +2310,8 @@
     }
 
     if (current === "intro"){
-      if (mode === "contestWonChoice"){
-        if (/^enter anyway$/.test(low)){
-          proceedToNaming();
-        } else if (/^turn back$/.test(low)){
-          window.location.href = "index.html";
-        } else {
-          respond(["Enter anyway, or turn back?"]);
-        }
-        return;
-      }
-      if (mode === "checkingContest"){
-        respond(["The herald is still consulting the rolls. A moment, please."]);
-        return;
-      }
       if (/^(begin|start)$/.test(low)){
-        beginGame();
+        proceedToNaming();
       } else {
         respond(["Type BEGIN when you are ready, or use the button below."]);
       }
@@ -2453,6 +2485,7 @@
           "As the dance subsides, the King takes your arm and points to a door, previously unnoticed, set into the chamber's far wall. “Come,” he says. “There is one thing more I would show you.”",
           "<span class=\"system\">— Spell broken: the Tower — " + remainingLine() + " —</span>"
         ]);
+        maybeShowPrizeClaimPanel();
       }
       return;
     }
@@ -3059,6 +3092,42 @@
         applyAuthSuccess(result.data, true, ["Your password is reset. Welcome back, <strong>" + escapeHtml(result.data.avatar_name) + "</strong>."]);
       } else {
         authMessageEl.textContent = authErrorMessage(result.data.code);
+      }
+    });
+  });
+
+  prizeClaimForm.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    if (prizeClaimBusy) return;
+    var f = ev.target;
+    var selectedPrizeInput = f.querySelector("input[name=selected_prize]:checked");
+    var selectedPrize = selectedPrizeInput ? selectedPrizeInput.value : "";
+    var winnerName = f.winner_name.value;
+    var mailingAddress = f.mailing_address.value;
+
+    if (!selectedPrize){
+      prizeClaimMessageEl.textContent = "Please choose a prize.";
+      return;
+    }
+
+    prizeClaimBusy = true;
+    prizeClaimMessageEl.textContent = "Recording your claim...";
+    postWyrmspire("/wyrmspire-claim-prize", {
+      avatar_name: avatarName,
+      save_token: saveToken,
+      selected_prize: selectedPrize,
+      winner_name: winnerName,
+      mailing_address: mailingAddress
+    }).then(function(result){
+      prizeClaimBusy = false;
+      if (result.ok){
+        prizeClaimed = true;
+        hidePrizeClaimPanel();
+        mode = "play";
+        respond(["Your claim is recorded — " + escapeHtml(selectedPrize) + " will be on its way to you. Thank you for playing Wyrmspire Hall!"]);
+        renderExits();
+      } else {
+        prizeClaimMessageEl.textContent = "Something went wrong recording your claim. Please try again.";
       }
     });
   });
