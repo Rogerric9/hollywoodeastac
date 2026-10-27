@@ -1,0 +1,3083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wyrmspire Hall | Hollywood East Autographs &amp; Collectibles</title>
+<meta name="description" content="A text-adventure game from Hollywood East Autographs &amp; Collectibles. Break ten spells, gather nine jewels, and restore the King of Wyrmspire Hall.">
+<link rel="canonical" href="https://hollywoodeastac.com/wyrmspire.html">
+<style>
+  :root{
+    --bg:#100c0a;
+    --surface:#1b1512;
+    --surface-2:#241a16;
+    --ink:#e9dcc7;
+    --muted:#a3927c;
+    --accent:#8c2f2f;
+    --accent-2:#b98b3e;
+    --line:#3a2a22;
+    color-scheme: dark;
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;}
+  body{
+    margin:0;
+    background:
+      radial-gradient(ellipse 60% 40% at 50% 0%, rgba(185,139,62,0.10), transparent 60%),
+      radial-gradient(ellipse 80% 60% at 50% 100%, rgba(140,47,47,0.10), transparent 60%),
+      var(--bg);
+    color:var(--ink);
+    font-family:Arial, Helvetica, "Helvetica Neue", sans-serif;
+    display:flex;
+    flex-direction:column;
+    padding-left:max(16px, env(safe-area-inset-left,0px));
+    padding-right:max(16px, env(safe-area-inset-right,0px));
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  .app{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    max-width:720px;
+    width:100%;
+    margin:0 auto;
+    min-height:0;
+  }
+  header.bar{
+    position:sticky;
+    top:env(safe-area-inset-top,0px);
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    gap:12px;
+    padding:14px 4px 10px;
+    border-bottom:1px solid var(--line);
+    background:linear-gradient(var(--bg), rgba(16,12,10,0.85) 80%, transparent);
+    z-index:5;
+    flex-wrap:wrap;
+  }
+  header.bar h1{
+    font-family:"Cinzel", Georgia, serif;
+    font-weight:700;
+    font-size:clamp(18px,4vw,24px);
+    letter-spacing:0.06em;
+    margin:0;
+    color:var(--ink);
+    text-wrap:balance;
+  }
+  .status-pill{
+    font-family:"Cinzel", Georgia, serif;
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--accent-2);
+    border:1px solid var(--line);
+    background:var(--surface);
+    padding:5px 10px;
+    border-radius:999px;
+    white-space:nowrap;
+  }
+
+  main#page{
+    flex:1 1 auto;
+    min-height:0;
+    overflow-y:auto;
+    padding:26px 6px 18px;
+  }
+
+  .leaf{
+    max-width:640px;
+    margin:0 auto;
+  }
+  .leaf.turning{ animation: turnIn 380ms ease both; }
+  @media (prefers-reduced-motion: reduce){
+    .leaf.turning{ animation:none; }
+  }
+  @keyframes turnIn{
+    from{ opacity:0; transform: translateY(6px) scale(0.995); }
+    to{ opacity:1; transform:none; }
+  }
+
+  .page-eyebrow{
+    font-family:"Cinzel", Georgia, serif;
+    font-size:11px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin-bottom:6px;
+  }
+
+  .room-title{
+    font-family:"Cinzel", Georgia, serif;
+    font-weight:600;
+    font-size:clamp(20px,4.2vw,27px);
+    letter-spacing:0.04em;
+    color:var(--accent-2);
+    text-wrap:balance;
+    margin:0 0 18px;
+    padding-bottom:12px;
+    border-bottom:1px solid var(--line);
+  }
+
+  .prose p{
+    margin:0 0 0.9em;
+    font-size:16px;
+    line-height:1.68;
+    max-width:70ch;
+  }
+  .prose p:last-child{ margin-bottom:0; }
+  .prose blockquote{
+    margin:0.9em 0 0.9em 0.2em;
+    padding-left:14px;
+    border-left:2px solid var(--accent);
+    color:#f0e6d4;
+    font-style:italic;
+    white-space:pre-line;
+  }
+  .prose .system{ color:var(--muted); font-style:italic; }
+  .prose .hint{ color:#e0453c; }
+  .prose .jewel-found{ color:#e8c547; }
+  .prose .item-quill{ color:#8ec9e0; }
+  .prose .item-document{ color:#d1b26f; }
+  .prose .item-button{ color:#c0c0c0; }
+  .prose .item-buckle{ color:#b08d57; }
+  .prose .item-bead{ color:#7fd99a; }
+  .prose .item-spoon{ color:#a9b7c6; }
+  .prose .item-coin{ color:#c87f32; }
+  .prose .item-corkscrew{ color:#b5495b; }
+  .prose .item-diary{ color:#e0a060; }
+  .prose .item-banana{ color:#d6d26a; }
+  .prose .xyzzy{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    letter-spacing:0.02em;
+  }
+  .prose .diary-page{
+    margin:0.9em 0;
+    padding:14px 16px;
+    border:1px solid var(--line);
+    background:var(--surface-2);
+  }
+  .prose .diary-page p{
+    font-family:Georgia, "Times New Roman", serif;
+    font-style:italic;
+    font-size:18px;
+    line-height:1.9;
+    color:#f0e6d4;
+  }
+  .prose .diary-page .diary-meta{
+    display:block;
+    margin-top:10px;
+    font-family:"Cinzel", Georgia, serif;
+    font-size:11px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--muted);
+  }
+
+  .responses{
+    margin-top:22px;
+  }
+  .responses:empty{ margin-top:0; }
+  .response-block{
+    margin-top:18px;
+    padding-top:16px;
+    border-top:2px dashed #eddc7a;
+  }
+
+  .exits-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    padding:10px 4px 4px;
+    border-top:1px solid var(--line);
+    max-width:640px;
+    margin:0 auto;
+    width:100%;
+  }
+  .chip{
+    font-family:"Cinzel", Georgia, serif;
+    font-size:11.5px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--ink);
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:6px;
+    padding:7px 11px;
+    cursor:pointer;
+  }
+  .chip:hover{ border-color:var(--accent-2); color:var(--accent-2); }
+  .chip:focus-visible{ outline:2px solid var(--accent-2); outline-offset:2px; }
+  .chip.quiet{ color:var(--muted); }
+  .chip.primary{ border-color:var(--accent-2); color:var(--accent-2); }
+
+  .auth-panel{
+    max-width:640px;
+    margin:0 auto;
+    width:100%;
+    padding:4px 6px 14px;
+  }
+  .auth-message{
+    font-size:14px;
+    color:var(--accent-2);
+    min-height:1.2em;
+    margin:0 0 10px;
+  }
+  .auth-form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .auth-form[hidden]{
+    display:none;
+  }
+  .auth-form label{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+    font-family:"Cinzel", Georgia, serif;
+    font-size:12px;
+    letter-spacing:0.04em;
+    color:var(--muted);
+    text-transform:uppercase;
+  }
+  .auth-hint{
+    text-transform:none;
+    letter-spacing:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+  }
+  .auth-form input[type="text"],
+  .auth-form input[type="email"],
+  .auth-form input[type="password"],
+  .auth-form input[type="text"].password-revealed{
+    background:var(--surface);
+    border:1px solid var(--line);
+    color:var(--ink);
+    font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:15px;
+    padding:10px 38px 10px 11px;
+    border-radius:6px;
+    width:100%;
+  }
+  .auth-form input:focus-visible{ outline:2px solid var(--accent-2); outline-offset:1px; }
+  .password-field{
+    position:relative;
+    display:block;
+  }
+  .password-toggle{
+    position:absolute;
+    right:4px;
+    top:50%;
+    transform:translateY(-50%);
+    background:none;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+    line-height:1;
+    padding:6px;
+    color:var(--muted);
+  }
+  .password-toggle:hover{ color:var(--accent-2); }
+  .password-toggle:focus-visible{ outline:2px solid var(--accent-2); outline-offset:1px; }
+  .auth-remember{
+    flex-direction:row !important;
+    align-items:center;
+    text-transform:none !important;
+    letter-spacing:0 !important;
+    font-family:Arial, Helvetica, sans-serif !important;
+    font-size:13px !important;
+    color:var(--ink) !important;
+    gap:8px !important;
+  }
+  .auth-form button[type="submit"]{
+    font-family:"Cinzel", Georgia, serif;
+    font-size:13px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    background:var(--accent);
+    color:#f4e9d8;
+    border:1px solid #a5453f;
+    border-radius:6px;
+    padding:10px 16px;
+    cursor:pointer;
+  }
+  .auth-form button[type="submit"]:hover{ background:#a5453f; }
+  .auth-switch{
+    font-size:13px;
+    color:var(--muted);
+    margin:2px 0 0;
+  }
+  .auth-switch a{ color:var(--accent-2); }
+
+  form#inputBar{
+    display:flex;
+    gap:8px;
+    padding:10px 4px max(10px, env(safe-area-inset-bottom,0px));
+    border-top:1px solid var(--line);
+    background:linear-gradient(rgba(16,12,10,0.6), var(--bg) 30%);
+    max-width:640px;
+    margin:0 auto;
+    width:100%;
+  }
+  #cmdInput{
+    flex:1 1 auto;
+    min-width:0;
+    background:var(--surface);
+    border:1px solid var(--line);
+    color:var(--ink);
+    font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:15px;
+    padding:11px 12px;
+    border-radius:6px;
+  }
+  #cmdInput:focus-visible{ outline:2px solid var(--accent-2); outline-offset:1px; }
+  #inputBar button{
+    font-family:"Cinzel", Georgia, serif;
+    font-size:13px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    background:var(--accent);
+    color:#f4e9d8;
+    border:1px solid #a5453f;
+    border-radius:6px;
+    padding:0 16px;
+    cursor:pointer;
+  }
+  #inputBar button:hover{ background:#a5453f; }
+
+  @media (prefers-reduced-motion:no-preference){
+    .glow{ animation:flicker 7s ease-in-out infinite; }
+  }
+  @keyframes flicker{
+    0%,100%{ opacity:1; } 45%{ opacity:0.93; } 50%{ opacity:1; } 78%{ opacity:0.96; }
+  }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app glow">
+  <header class="bar">
+    <h1>Wyrmspire Hall</h1>
+    <span class="status-pill" id="statusPill">Spells broken: 0 / 10</span>
+  </header>
+  <main id="page" aria-live="polite">
+    <div class="leaf" id="leaf">
+      <div class="page-eyebrow" id="pageEyebrow"></div>
+      <h2 class="room-title" id="pageTitle"></h2>
+      <div class="prose" id="pageProse"></div>
+      <div class="prose responses" id="pageResponses"></div>
+    </div>
+  </main>
+
+  <section id="authPanel" class="auth-panel" hidden>
+    <p class="auth-message" id="authMessage" aria-live="polite"></p>
+
+    <form id="signupForm" class="auth-form">
+      <label>Avatar name
+        <input type="text" name="avatar_name" autocomplete="username" minlength="3" maxlength="20" required />
+      </label>
+      <label>Email <span class="auth-hint">(for account recovery only)</span>
+        <input type="email" name="email" autocomplete="email" required />
+      </label>
+      <label>Password
+        <span class="password-field"><input type="password" name="password" autocomplete="new-password" minlength="8" maxlength="128" required /><button type="button" class="password-toggle" aria-label="Show password">👁</button></span>
+      </label>
+      <label>Confirm password
+        <span class="password-field"><input type="password" name="confirm_password" autocomplete="new-password" minlength="8" maxlength="128" required /><button type="button" class="password-toggle" aria-label="Show password">👁</button></span>
+      </label>
+      <label class="auth-remember"><input type="checkbox" name="remember" checked /> Remember me on this device</label>
+      <button type="submit">Sign the rolls</button>
+      <p class="auth-switch">Returning traveller? <a href="#" data-auth-view="login">Sign in</a></p>
+    </form>
+
+    <form id="loginForm" class="auth-form" hidden>
+      <label>Avatar name
+        <input type="text" name="avatar_name" autocomplete="username" required />
+      </label>
+      <label>Password
+        <span class="password-field"><input type="password" name="password" autocomplete="current-password" required /><button type="button" class="password-toggle" aria-label="Show password">👁</button></span>
+      </label>
+      <label class="auth-remember"><input type="checkbox" name="remember" checked /> Remember me on this device</label>
+      <button type="submit">Sign in</button>
+      <p class="auth-switch">
+        <a href="#" data-auth-view="forgotName">Forgot name?</a> ·
+        <a href="#" data-auth-view="forgotPassword">Forgot password?</a><br>
+        New here? <a href="#" data-auth-view="signup">Sign the rolls</a>
+      </p>
+    </form>
+
+    <form id="forgotNameForm" class="auth-form" hidden>
+      <label>Email
+        <input type="email" name="email" autocomplete="email" required />
+      </label>
+      <button type="submit">Send name reminder</button>
+      <p class="auth-switch"><a href="#" data-auth-view="login">Back to sign in</a></p>
+    </form>
+
+    <form id="forgotPasswordForm" class="auth-form" hidden>
+      <label>Avatar name or email
+        <input type="text" name="identifier" required />
+      </label>
+      <button type="submit">Send reset link</button>
+      <p class="auth-switch"><a href="#" data-auth-view="login">Back to sign in</a></p>
+    </form>
+
+    <form id="resetPasswordForm" class="auth-form" hidden>
+      <label>New password
+        <span class="password-field"><input type="password" name="password" autocomplete="new-password" minlength="8" maxlength="128" required /><button type="button" class="password-toggle" aria-label="Show password">👁</button></span>
+      </label>
+      <label>Confirm new password
+        <span class="password-field"><input type="password" name="confirm_password" autocomplete="new-password" minlength="8" maxlength="128" required /><button type="button" class="password-toggle" aria-label="Show password">👁</button></span>
+      </label>
+      <button type="submit">Set new password</button>
+    </form>
+  </section>
+
+  <div class="exits-row" id="exitsRow"></div>
+  <form id="inputBar" autocomplete="off">
+    <input id="cmdInput" name="cmd" type="text" placeholder="What will you do?" autocomplete="off" autocapitalize="off" spellcheck="false" />
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var API_BASE = (location.hostname === "hollywoodeastac.com")
+    ? "https://hollywood-east-checkout.steve-kanski.workers.dev"
+    : "https://hollywood-east-checkout-test.steve-kanski.workers.dev";
+  var IDENTITY_KEY = "wyrmspireIdentity";
+  var avatarName = null;
+  var saveToken = null;
+  var mode = "play"; // play | checkingContest | contestWonChoice | auth | confirmExit | saving | saveFailed | saveAuthExpired
+  var authView = "signup";
+  var authBusy = false;
+  var reAuthInProgress = false;
+  var authRevokedNoticeShown = false;
+  var pendingResetToken = null;
+
+  var solved = { ogre:false, dial:false, helmets:false, chest:false, document:false, mirrors:false, magpie:false, wine:false, well:false, finale:false };
+  var inventory = { ogre:false, dial:false, helmets:false, chest:false, document:false, mirrors:false, magpie:false, wine:false, well:false };
+  var placed = { ogre:false, dial:false, helmets:false, chest:false, document:false, mirrors:false, magpie:false, wine:false, well:false };
+  var JEWEL_KEYS = ["ogre","dial","helmets","chest","document","mirrors","magpie","wine","well"];
+  var SOLVED_KEYS = JEWEL_KEYS.concat(["finale"]);
+  var jewelsPlaced = 0;
+  var EMOTION_LINES = [
+    "A wave of fear washes over you, cold and absolute, pressing in from every direction at once — not your own fear, you understand even as it grips you, but aimed, deliberate, a thing thrown rather than felt. Unbidden, words that are not your own sound inside your skull: “You will not leave this room.”",
+    "Anxiety floods in next, a racing, formless dread of some catastrophe you cannot name, your heart suddenly loud in your own ears, though nothing in the room has changed at all. A voice that is not yours whispers: “Leave this place now. Something wicked this way comes!”",
+    "A leaden discouragement settles over you, the absolute certainty that none of this — the jewels, the climb, any of it — will matter in the end. The thought arrives fully formed, not your own: “It is already too late.”",
+    "Guilt arrives like a hand on your chest, insisting, wordlessly but completely, that you have no right to touch what you are touching, that some older claim than yours is being violated with every jewel you set. “This is not yours to take,” something insists, in words you did not think.",
+    "Despair follows, vast and total, the sense that whatever you do now, it is already too late, has always already been too late. You hear a voice proclaim “Nothing you do here matters.”",
+    "Doubt creeps in, deeply penetrating. A voice informs you “You have chosen wrong.”",
+    "Shame rises, hot and sudden, convincing you, for one unbearable moment, that you are not equal to what you are doing, that someone better than you should be the one standing here. “You are not worthy of this,” the words insist, unasked.",
+    "Grief overwhelms you. “You have already lost yourself,” something tells you, though you cannot say what."
+  ];
+  var TOTAL_SPELLS = 10;
+  var CORRECT_DOOR = 4;
+  var buttonTaken = false;
+  var buckleTaken = false;
+  var beadTaken = false;
+  var spoonTaken = false;
+  var coinTaken = false;
+  var bananaTaken = false;
+  var visorClean = { red:false, blue:false, green:false, yellow:false, black:false };
+  var ATRIUM_ROOM_IDS = ["atrium_s", "atrium_sw", "atrium_nw", "atrium_n", "atrium_ne", "atrium_se"];
+  var atriumSeen = {};
+  var atriumLeaveWarnings = 0;
+  var heldBottleYear = null;
+  var corkscrewTaken = false;
+  var wineOpened = false;
+  var WINE_FLAVOR_LINES = [
+    "Ah, yes. A very fine vintage indeed.",
+    "A respectable year, by all accounts — though there is, of course, no one left to give the accounting.",
+    "This one, you suspect, was once held in very high regard. It holds nothing now but dust.",
+    "A pleasant little vintage, or so its long-dead cellarer surely believed.",
+    "Here is a bottle that has outlived everyone who might have enjoyed it.",
+    "Nothing remarkable here — only time, patiently doing what time does.",
+    "A fine year, no doubt, for those who were still counting years.",
+    "You judge this one, on no evidence whatsoever, to have been excellent.",
+    "This vintage, like all the rest, has kept its secrets rather better than its flavor.",
+    "An unremarkable bottle, dust-caked and silent, exactly like its neighbors."
+  ];
+  var OFFERABLE_ITEMS = {
+    quill: function(){ return quillTaken; },
+    document: function(){ return documentTaken; },
+    button: function(){ return buttonTaken; },
+    buckle: function(){ return buckleTaken; },
+    bead: function(){ return beadTaken; },
+    spoon: function(){ return spoonTaken; },
+    coin: function(){ return coinTaken; },
+    corkscrew: function(){ return corkscrewTaken; },
+    diary: function(){ return diaryTaken; },
+    banana: function(){ return bananaTaken; }
+  };
+  var awaitingOgre = false;
+  var awaitingWish = false;
+  var awaitingVisorColor = false;
+  var galleryFrameOpened = false;
+  var diaryOpen = false;
+  var diaryPage = 0;
+  var diaryTaken = false;
+  var quillTaken = false;
+  var documentTaken = false;
+  var corkscrewRevealed = false;
+
+  var ITEM_HOME = {
+    quill: "gallery", document: "gallery", button: "churchyard", buckle: "armory",
+    bead: "muster_hall", spoon: "kitchen", coin: "great_hall", corkscrew: "dining_hall", diary: "gallery",
+    banana: "atrium_s"
+  };
+  var itemLocation = {
+    quill: "gallery", document: "gallery", button: "churchyard", buckle: "armory",
+    bead: "muster_hall", spoon: "kitchen", coin: "great_hall", corkscrew: "dining_hall", diary: "gallery",
+    banana: "atrium_s"
+  };
+  var ITEM_DISPLAY_NAME = {
+    quill: "quill", document: "document", button: "button", buckle: "buckle",
+    bead: "bead", spoon: "spoon", coin: "coin", corkscrew: "corkscrew", diary: "diary",
+    banana: "banana"
+  };
+  var ITEM_GENERIC_LIE_TEXT = {
+    quill: "A quill lies here, its ink long since dried.",
+    document: "A curled, damp-stained document lies here.",
+    button: "A tarnished brass button lies here.",
+    buckle: "A small buckle of fine, pure silver lies here.",
+    bead: "A single jade bead lies here.",
+    spoon: "A single pewter spoon lies here, its shaft graven with runes no eye here can decipher.",
+    coin: "A single gold coin lies here.",
+    corkscrew: "A corkscrew lies here.",
+    diary: "A small diary, its leather cover softened by damp, lies here.",
+    banana: "A banana lies here."
+  };
+  var ITEM_NOUN_TO_KEY = {
+    quill: "quill", document: "document", paper: "document", deed: "document", scroll: "document",
+    button: "button", buckle: "buckle", bead: "bead", jade: "bead", spoon: "spoon", coin: "coin",
+    corkscrew: "corkscrew", diary: "diary", banana: "banana"
+  };
+
+  function getItemTaken(key){
+    switch (key){
+      case "quill": return quillTaken;
+      case "document": return documentTaken;
+      case "button": return buttonTaken;
+      case "buckle": return buckleTaken;
+      case "bead": return beadTaken;
+      case "spoon": return spoonTaken;
+      case "coin": return coinTaken;
+      case "corkscrew": return corkscrewTaken;
+      case "diary": return diaryTaken;
+      case "banana": return bananaTaken;
+    }
+    return false;
+  }
+
+  function setItemTaken(key, val){
+    switch (key){
+      case "quill": quillTaken = val; break;
+      case "document": documentTaken = val; break;
+      case "button": buttonTaken = val; break;
+      case "buckle": buckleTaken = val; break;
+      case "bead": beadTaken = val; break;
+      case "spoon": spoonTaken = val; break;
+      case "coin": coinTaken = val; break;
+      case "corkscrew": corkscrewTaken = val; break;
+      case "diary": diaryTaken = val; break;
+      case "banana": bananaTaken = val; break;
+    }
+  }
+
+  // Some items can't be seen/taken until a precondition is met, regardless
+  // of where they're currently located (the diary's recess must be opened;
+  // the corkscrew must be found by rummaging the drawer).
+  function isItemRevealed(key){
+    if (key === "diary") return galleryFrameOpened;
+    if (key === "corkscrew") return corkscrewRevealed;
+    return true;
+  }
+
+  // Ambient "X lies here" reminder for an item that was dropped somewhere
+  // other than its original home room (the home room describes it with its
+  // own richer sentence instead, gated the same way).
+  function itemReminderLines(){
+    var lines = [];
+    Object.keys(ITEM_HOME).forEach(function(key){
+      if (getItemTaken(key)) return;
+      if (!isItemRevealed(key)) return;
+      if (itemLocation[key] !== current) return;
+      if (itemLocation[key] === ITEM_HOME[key]) return;
+      lines.push(ITEM_GENERIC_LIE_TEXT[key]);
+    });
+    return lines;
+  }
+
+  var DIARY_PAGES = [
+    [
+      "The seventh day — or the eighth; I confess the counting of days has become, of late, a discipline I no longer trust myself to keep honestly.",
+      "I recordeth here what I have pieced together, not because the piecing does me any good — it does not, it has done nothing but rob me of the small mercy of not knowing — but because a record that explaineth nothing is worse, me think, than silence, and I have had silence enough to last what remaineth of my life twice over."
+    ],
+    [
+      "This house was not always called Wyrmspire. I have found the old name once, and once only, scratched beneath a floorboard in a hand I do not recognize and will not set down here, for I believeth the scratching of it cost the scratcher dear, and I wisheth not to spend that cost again by repeating it."
+    ],
+    [
+      "It was Theodric — of the Ashgrave line, though the line hath long since struck his name from its own mouth — who sold the name away, and the house with it. He was, by every account that survives him, a prodigal and a wastrel and worse, and when his debts grew taller than his patience for owing them, he went seeking a creditor less particular than the ones who had already refused him. Woe unto us — he found one.",
+      "I know not what shape it wore when it came to him, nor what riches it promised — only that Theodric signed to some bargain whose true price was not merely the gold and silver, but also the cursing of this house and everyone who should ever after call it home, himself first among them, though I doubteth he understood that part of the ledger until it was far too late to cross it out."
+    ],
+    [
+      "Whatever it was that granted Theodric's foul wish hath kept itself to the uppermost tower ever since, and keepeth there still, and I have neither the courage nor, I presume, the remaining lifespan to go and make its better acquaintance.",
+      "It hoardeth there what it hath taken — plate, cup and coin from every village for three days' ride, and, I am told, though I cannot myself vouch for it, the Ashgrave family's own heirlooms besides, gathered back in some grim and deliberate irony, as though the curse wished Theodric's own blood to pay interest on a debt he alone had signed for."
+    ],
+    [
+      "And legend holds that the King — for Wyrmspire had a King once, before it had a wyrm — layeth, even now, as in death in that same tower, so I am told, no more able to rise or speak or know his own name than the stones beneath him, for his crown was stripped of its blessed, enchanted jewels on the selfsame night the bargain was struck, and the king without those empowering jewels is no king at all, but only the form of one, -- waiting.",
+      "Whether the waiting endeth upon the return of the jewels, I cannot say with certainty — only that it is the one hope anyone from this household hath ever troubled to whisper aloud, and whispered hopes, in my experience, are usually the truest ones, being the only kind a frightened man will risk."
+    ]
+  ];
+
+  function diaryPageHTML(idx){
+    var body = DIARY_PAGES[idx].map(function(p){ return "<p>" + p + "</p>"; }).join("");
+    return "<div class=\"diary-page\">" + body + "<span class=\"diary-meta\">— page " + (idx+1) + " of " + DIARY_PAGES.length + " —</span></div>";
+  }
+  var visited = []; // history stack of room ids, "intro" included
+  var current = "intro";
+  var xyzzyReturnRoom = null;
+
+  var ROOMS = {
+    intro: {
+      title: "Wyrmspire Hall",
+      eyebrow: "A Text Adventure",
+      desc: [
+        "<span class=\"system\">— session resumed —</span>",
+        "Wise men say that ten spells — which must be broken, every one — were cast upon Wyrmspire Hall the night its last lord vanished, and that a dragon's hoard can be plundered only by the hand that breaks them all. Either Fool or Wizard, you have come, as all such men eventually come, to learn which of the two words describes you best.",
+        "Or so the wise men say. What they do not say — perhaps because none of them lived to learn it — is that breaking a spell is only half the work; what its breaking leaves behind must be gathered too, and kept, against a reckoning still to come."
+      ],
+      exits: {}
+    },
+
+    naming: {
+      title: "The Herald's Rolls",
+      eyebrow: "Before You Enter",
+      desc: [
+        "A herald, hunched and patient, sits at a low table just inside the gate's shadow, a great ledger open before him.",
+        "“Every soul who crosses must be recorded,” he says, not looking up. “Set your name and seal to the rolls below — or, if you have walked these halls before, simply tell me so, and I shall find your place.”"
+      ],
+      exits: {}
+    },
+
+    gate: {
+      title: "Gates of Wyrmspire Hall",
+      desc: [
+        "You awaken only to find yourself in the middle of a road, swallowed by a fog that betrays no discernible source, and shows no eagerness whatsoever to depart. Somewhere to your left a creek mutters over its stones.",
+        "Above you a ring of ravens hangs motionless upon the wind, wheeling about the manor's highest tower without ever once condescending to land.",
+        "The air carries upon it a faint and acrid trace of something scorched — an old smoke, though no flame is anywhere to be seen.",
+        "A large manor rises out of the mist before you, more fortress than house, its stonework blackened by age and by rains long past counting. Wrought-iron gates, taller than three men standing one upon the other, bar the drive; and between their bars stands an ogre in plate armor dented and eaten through with rust. A bell-pull, rusted near to uselessness, hangs at the gatepost; and carved into the stone beside it, worn by weather nearly to smoothness, are words you can, with effort, just make out.",
+        "A footpath, narrow and little used, breaks from the road at this same spot, vanishing northward along the tree line. The ogre's eyes follow you."
+      ],
+      exits: {},
+      examine: {
+        "gatepost|carving|words|stone|inscription": [
+          "You brush away moss and grime, and the carving comes clear enough to read:",
+          "<blockquote>I have no life, yet I can die.\nI have no lungs, yet I hunger for air.\nI cannot drink, for water is my death.\nWhat am I?</blockquote>"
+        ],
+        "ogre": function(){
+          return solved.ogre
+            ? ["The ogre no longer bars the way. He watches you go with the mild, incurious air of something already thinking of its next visitor."]
+            : ["Dented, rusting plate. Arms folded. An expression that has turned away a great many fools before you, and expects to turn away one more."];
+        }
+      }
+    },
+
+    footpath: {
+      title: "The Old Churchyard Path",
+      desc: [
+        "The footpath is older than its present neglect would suggest — cobbled once, though the stones have long abandoned any pretense of order, heaved and tilted by root and by year alike. The creek runs nearer to you here, its voice grown bolder beneath the trees than it dared to be at the gate. The scorched smell has left you; in its place rises the colder, greener smell of wet stone and of things older than stone.",
+        "The ravens have not followed. You are, for the present, alone — or feel yourself so, which in a place such as this may be no comfort, and may not, indeed, be true at all.",
+        "The path continues northward toward a small churchyard. A low chapel, roofless in places, stands at its far end."
+      ],
+      exits: { south: "gate", north: "churchyard" },
+      examine: {
+        "gate": [
+          "Behind you, through the fog, the gate you left stands as you left it."
+        ]
+      }
+    },
+
+    churchyard: {
+      title: "The Churchyard",
+      desc: function(){
+        var lines = [
+          "Five gravestones stand in a row, uniform in their weathering, uniform in the hand that carved them, each bearing the selfsame name:",
+          "<blockquote>EDMUND ASHGRAVE. Beloved of the Hall. Taken in the year of our Lord 1198.\nAVELINA ASHGRAVE. Beloved of the Hall. Taken in the year of our Lord 1204.\nGODFREY ASHGRAVE. Beloved of the Hall. Taken in the year of our Lord 1211.\nALIENOR ASHGRAVE. Beloved of the Hall. Taken in the year of our Lord 1219.\nOSWALD ASHGRAVE. Beloved of the Hall. Taken in the year of our Lord 1226.</blockquote>",
+          "A sixth stone stands apart from this orderly company, nearer the chapel wall, rougher in its cutting, as though set down by a hand less patient, or less willing to linger. It bears no name whatsoever, only",
+          "<blockquote>Taken in the year of our Lord 1347.</blockquote>"
+        ];
+        if (!buttonTaken && itemLocation.button === "churchyard"){
+          lines.push("A tarnished brass button lies half-buried in the earth near the sixth stone.");
+        }
+        lines.push("The chapel door before you bears no handle, only a dial of corroded iron, its numerals worn nearly past legibility, plainly awaiting a particular numerical combination.");
+        return lines;
+      },
+      exits: { south: "footpath" },
+      examine: {
+        "stones|headstones|graves|stone": [
+          "Five match. One does not. The one that does not is the one that troubles you."
+        ],
+        "dial|door": function(){
+          return solved.dial
+            ? ["The dial rests at 1347. The chapel door stands as you left it — open."]
+            : ["A dial of corroded iron, its numerals worn nearly past legibility, plainly awaiting a particular numerical combination."];
+        }
+      }
+    },
+
+    chapel: {
+      title: "Inside the Chapel",
+      desc: [
+        "The door gives way with a groan. You cross the threshold, and in crossing it feel, with a dread you can neither reason away nor wholly comprehend.",
+        "The chamber within is mean and narrow. The pews have fallen one against another. In the eastern corner the sky looks down through a fissure in the stone, pale and indifferent, as an eye might look upon a tomb it has long since ceased to mourn.",
+        "Where an altar once stood, there remains instead a plinth, low, bare, and terrible in its bareness.",
+        "Upon the walls hang the tattered remnants of tapestries, rotted past all legibility save one — one only — preserved by some accident of overhang and shadow.",
+        "Through a breach in the southern wall you discern the wan light of the grounds beyond, and past it, dim in the mist, a gate — ungirt, unwatched, unlocked. Its very openness fills you with a trepidation keener than any barred door could inspire; for a door that does not resist you is a door that has already judged you harmless, or worse, already welcomed you in."
+      ],
+      exits: { west: "churchyard", south: "grounds" },
+      examine: {
+        "tapestry|tapestries": [
+          "You draw nearer to the one tapestry that time and damp have not yet claimed entire, and by what little light the broken roof permits, you make out its design.",
+          "It shows a hall — this hall, or one so like it that the distinction scarcely signifies — and within it a robed figure, small and solitary against the weave, descending a stair with something cradled in both arms, something the threadbare silk no longer troubles to render clearly. Above the figure looms a shape too vast for the chamber that contains it, rendered not in menace but in a strange and terrible patience, as though it had all the time remaining to the world and knew it.",
+          "Along the tapestry's border, worked in thread once gold and now the color of old teeth, runs a line of lettering, archaic and cramped, which you are able, by tracing each character with a fingertip, to render thus:",
+          "<blockquote>THAT WHICH SLEEPS UNPAID SHALL WAKE UNASKED.</blockquote>",
+          "Beneath this, the weave frays into nothing, and whatever came after — a name, perhaps, or an answer — is lost to you entirely."
+        ]
+      }
+    },
+
+    grounds: {
+      title: "The Manor Grounds",
+      desc: [
+        "The gate passes you through without protest, without ceremony. You stand now upon a weed-infested parcel that was once a proud lawn. The manor rises close before you at last.",
+        "A low servants' door, iron-banded, is set into the stone not thirty paces off."
+      ],
+      exits: { west: "gate", north: "chapel", east: "kitchen" },
+      onEnterExit: {
+        east: [
+          "The door yields to no great effort — its bands eaten through with rust, its hinges long past any capacity for resistance. Beyond it, a narrow passage smells immediately and overwhelmingly of dust grown old enough to have opinions of its own, and beneath it, faint but unmistakable, the greasy ghost of cooking fires extinguished longer ago than any living hand could account for."
+        ]
+      }
+    },
+
+    kitchen: {
+      title: "The Old Kitchen",
+      desc: function(){
+        var lines = [
+          "You stand in what was once, by the evidence of a great blackened hearth and a wall of hooks gone to rust, the manor's kitchen — though it has not served that office, or any office, in a considerable while. Shelves line one wall, their jars long since surrendered to dust and to whatever patient chemistry governs things left alone in the dark. A door hangs open at the passage's far end, admitting a thin and reluctant daylight, through which you can make out the suggestion of a greater hall beyond. A narrow stair, unlit, descends into the earth at the passage's near end."
+        ];
+        if (!spoonTaken && itemLocation.spoon === "kitchen"){
+          lines.push("A single pewter spoon lies among the shelves, its shaft graven with runes no eye here can decipher.");
+        }
+        return lines;
+      },
+      exits: { west: "grounds", north: "great_hall", down: "cellar" }
+    },
+
+    cellar: {
+      title: "The Cellar",
+      desc: [
+        "The stair that descends from the kitchen above finally yields to a cellar, low-ceilinged and close, the air thick with a damp that has nowhere else in this house been quite so patient or so cold.",
+        "At the chamber's center, walled in old, round stone, stands a well — modest, unremarkable, the kind any house of this size might once have kept against siege or drought, its rope and windlass long since rotted away to nothing."
+      ],
+      exits: { up: "kitchen" },
+      blocked: {
+        north: "Whatever lies deeper down here, your account of it does not yet reach.",
+        south: "Whatever lies deeper down here, your account of it does not yet reach.",
+        east: "Whatever lies deeper down here, your account of it does not yet reach.",
+        west: "Whatever lies deeper down here, your account of it does not yet reach."
+      }
+    },
+
+    great_hall: {
+      title: "The Great Hall",
+      desc: function(){
+        var lines = [
+          "The passage opens unceremoniously into a space too vast for the modest door that admits you to it — a hall whose ceiling is lost somewhere above in shadow and cobweb, held aloft by columns of black stone that seem, in this light, less like architecture than like something that grew there and was merely tolerated. Before you, a grand stair climbs into darkness.",
+          "Doors lead off in several directions. To the west stands a door of cold, banded iron. To the north hangs the remains of a rotted curtain. And the stairway itself climbs toward whatever occupies the tower above."
+        ];
+        if (!coinTaken && itemLocation.coin === "great_hall"){
+          lines.push("A single gold coin lies half-buried in the dust at the foot of the grand stair, a date still faintly legible upon its face.");
+        }
+        return lines;
+      },
+      exits: { west: "armory", south: "kitchen", north: "gallery" },
+      onEnterExit: {
+        west: [
+          "The iron-bound door is cold under your palm — colder than the season or the stone around it can account for, the particular cold of metal that has never once been warmed by a hand welcome to touch it. It gives, all the same, with a sound like a held breath finally released."
+        ],
+        north: [
+          "The curtain, what remains of it, does not so much block the doorway as testify to a doorway that once required blocking. It parts at a touch — threadbare, weightless, a spider's memory of cloth — and lets you through without complaint."
+        ]
+      },
+      blocked: {
+        up: "You set your foot upon the first step, and the stair itself resists you, the air thickening like a breath held too long to release. An unseen force bars your way. Whatever waits above has no obligation to receive you until you are fully equipped."
+      }
+    },
+
+    tower_stair: {
+      title: "The Tower Stairway",
+      desc: [
+        "The stairway that climbs from the Great Hall no longer resists you. It spirals upward through stone older than anything else in this house, worn smooth at the center of each step by feet that climbed it long before yours, narrow enough that your shoulders brush both walls at every turn, with no landing, no window, no pause built into it anywhere — as though whoever built this stair intended it to be climbed in one single, committed breath, or not at all.",
+        "Midway up, the wrongness finds you again — the same flat, wordless certainty you first felt in the armory, far below, of being watched. It does not stay the same size. With every turn of the stair it grows, until by the time your legs have begun to ache in earnest, it no longer feels like being watched at all, but like being known — weighed, measured, already accounted for, the way a thing accounts for an obstacle it expects to remove.",
+        "You climb anyway. Somewhere above you, patient as it has been for longer than this house has had a name worth using, a door awaits."
+      ],
+      exits: { down: "great_hall", up: "tower_door" }
+    },
+
+    tower_door: {
+      title: "The Tower Door",
+      desc: [
+        "At the top of the ascent, the stairway ends at a single door — iron-black, seamless, no handle, no hinge visible from this side, set into stone that seems to have been shaped specifically to hold it rather than the other way around. Unlike everything else in this house, it does not look old. It looks, simply, as though it has been waiting.",
+        "As you draw near, it does not wait any longer. The door opens on its own, without sound, without resistance, the way a thing opens for someone it has already decided to let pass."
+      ],
+      exits: { down: "tower_stair", up: "king_chamber" },
+      examine: {
+        "door": [
+          "Iron-black and seamless, with no handle or hinge visible from this side. It already stands open."
+        ]
+      }
+    },
+
+    king_chamber: {
+      title: "The King's Chamber",
+      desc: function(){
+        var lines = [
+          "The chamber at the tower's summit is bare but for a single bed, and upon it lies the King — still as stone, his crown resting upon his brow, its nine settings empty."
+        ];
+        if (!solved.finale){
+          lines.push("The moment you cross the threshold, a wave of fear crashes over you, and with it, unbidden, words that are not your own sound inside your skull: “You should not be here!”");
+        }
+        return lines;
+      },
+      exits: { down: "tower_door" },
+      blocked: {
+        up: "Whatever lies above this chamber is not yet yours to reach."
+      },
+      examine: {
+        "king": function(){
+          if (solved.finale){
+            return ["The King stands now, himself again, the weight of the house's long curse no longer his alone to carry."];
+          }
+          var remainingSettings = 9 - jewelsPlaced;
+          var settingsPhrase = remainingSettings === 9
+            ? "its nine settings empty"
+            : (remainingSettings === 1
+              ? "only one setting still empty"
+              : remainingSettings + " of its settings still empty");
+          return ["Prone, still as stone, the King does not stir. His crown rests upon his brow, " + settingsPhrase + "."];
+        },
+        "crown": function(){
+          if (solved.finale) return ["Whole now, every setting filled, exactly as it should have been all along."];
+          var remaining = 9 - jewelsPlaced;
+          return [remaining + " of the crown's nine settings still wait empty."];
+        }
+      }
+    },
+
+    treasure_room: {
+      title: "The Treasure Room",
+      desc: [
+        "The King leads you up, higher still, by stairs you had not noticed on your climb, until a final door gives onto a chamber vaster than any you have yet seen in this house — heaped floor to shadowed ceiling with gold coin, silver plate, loose and set jewels, crowns, chains, goblets beyond counting: the plundered wealth of the manor, and of every village for three days' ride, piled here without order or care, the way only something with no use for beauty would keep it.",
+        "At the chamber's heart, the treasure lies undisturbed around a vast, coiled hollow — a depression shaped for something far larger than any man, its gold still faintly warm, though whatever rested there is gone now, and has been since the sound of wings first reached you.",
+        "The King surveys it all with an expression you cannot quite name, before he turns to you. “This was taken from my people, and from yours, and from a hundred others besides. Take what you can carry, and more. It is the least a king can offer the one who broke his chains.”",
+        "He presses coin and jewel and ancient, gleaming things into your hands — more wealth, in a single armful, than you have held in all your life.",
+        "Word of what has happened here does not stay contained within these walls for long. By whatever means such things travel, it reaches beyond Wyrmspire Hall entirely — to every soul who dared attempt this house alongside you, and to every soul who merely watched and wondered. The spells are broken. The jewels are found. And the name that will be remembered, from this day forward, as the one who broke them, is yours."
+      ],
+      exits: { down: "king_chamber" }
+    },
+
+    armory: {
+      title: "The Armory",
+      desc: function(){
+        var lines = [
+          "Beyond it, the corridor is narrow enough that your shoulders brush both walls, and along them, rank upon rank, stand suits of armor in their alcoves — some upright and whole, some slumped as though the men who wore them simply sat down inside them one day and never rose. Dust has silvered every visor, save one, three alcoves down, whose faceplate someone — or something — has wiped clean, its crest banded in tarnished gold.",
+          "The sound here is wrong in a way you cannot immediately name: not silence, exactly, but a hush too deliberate to be merely empty, as though the corridor is listening rather than simply being listened in. Your own footsteps land without the echo they ought to have.",
+          "The air carries the scent of iron, sharp and metallic at the back of your throat, close enough to blood that you find yourself swallowing against a taste that has no business being there at all — mingled beneath it, the dry-paper smell of rust patiently becoming dust becoming nothing.",
+          "And beneath all of that, beneath sight and sound and smell and the copper taste on your tongue and the cold still creeping up from your palm — beneath all of it sits something plainer and more certain than any of them: the flat, wordless knowledge that you are being watched.",
+          "The corridor continues west, past the clean-faced, gold-banded suit of armor."
+        ];
+        if (!buckleTaken && itemLocation.buckle === "armory"){
+          lines.push("A small buckle of fine, pure silver lies near the base of the one alcove whose faceplate has been wiped clean.");
+        }
+        return lines;
+      },
+      exits: { east: "great_hall", west: "sentinels_hall" },
+      examine: {
+        "armor|suits|alcove|alcoves": [
+          "Rank upon rank of them, dust-silvered, save the one three alcoves down whose faceplate has been wiped clean, its crest banded in tarnished gold."
+        ]
+      }
+    },
+
+    sentinels_hall: {
+      title: "The Sentinels' Hall",
+      desc: function(){
+        var visorLine;
+        if (solved.helmets){
+          visorLine = "Your torchlight finds five more suits of armor waiting, slumped in place against a wall, each helmet's visor standing open and empty now, their work already done.";
+        } else {
+          var dustyColors = Object.keys(visorClean).filter(function(c){ return !visorClean[c]; });
+          if (dustyColors.length === 5){
+            visorLine = "Your torchlight finds five more suits of armor waiting, slumped in place against a wall. Each helmet is marked at the crest with its own small band of color — red, blue, green, yellow, black. Each visor is thickly caked with dust.";
+          } else {
+            var cleanColors = Object.keys(visorClean).filter(function(c){ return visorClean[c]; });
+            visorLine = "Your torchlight finds five more suits of armor waiting, slumped in place against a wall, each helmet marked at the crest with its own small band of color. Clean now: " + cleanColors.join(", ") + ". Still dust-blind: " + dustyColors.join(", ") + ".";
+          }
+        }
+        return [
+          "You find yourself in a large chamber, much wider than the corridor behind you. The ceiling presses low, and your own breath sounds back at you off stone that has never been generous with its echoes. A deep, settled cold clings to the floor underfoot, the particular chill of a room that has not been warmed by so much as a passing torch in longer than any man now living could account for.",
+          visorLine,
+          "The sixth suit watches you, unblinking, the way the other five cannot.",
+          "Set into the opposite wall, cemented deep into the stone, hang six great iron rings, side by side, each worn smooth around its curve as though gripped, at some time long past, by hands that meant business."
+        ];
+      },
+      exits: { east: "armory" },
+      examine: {
+        "helmet|helmets|visor|visors|suits|armor": function(){
+          if (solved.helmets){
+            return ["All six helmets stand empty now, their work done, the niche in the wall open behind them."];
+          }
+          var dustyColors = Object.keys(visorClean).filter(function(c){ return !visorClean[c]; });
+          if (dustyColors.length === 5){
+            return ["Five visors, each banded in its own color — red, blue, green, yellow, black — thick with dust, unseeing. The sixth, banded in gold, already sees."];
+          }
+          var cleanColors = Object.keys(visorClean).filter(function(c){ return visorClean[c]; });
+          return ["Clean now: " + cleanColors.join(", ") + ". Still dust-blind: " + dustyColors.join(", ") + "."];
+        },
+        "rings|ring": [
+          "Six great iron rings, cemented into the stone, worn smooth around their curves as though gripped before, by hands that meant business."
+        ]
+      }
+    },
+
+    muster_hall: {
+      title: "The Muster Hall",
+      desc: function(){
+        var lines = [
+          "The corridor widens into a hall dominated, at first glance, by a glittering ceremonial sword — mounted above the far wall on iron brackets, its crossguard set with stones that still catch what little light reaches this room. Its blade is etched, edge to edge, in a script too ornamental to be anything but boastful. It is, unmistakably, the finest thing in the room, and your eye is drawn to it the way a moth is drawn to a flame.",
+          "Beneath it, on a plinth of its own, a shield bears a coat of arms worked in gold leaf — a coiled and gilded wyrm, handsome, deliberate, clearly meant to be admired.",
+          "Along the side walls, hung more modestly, seven banners stir faintly in some draft you cannot place.",
+          "At the hall's far end stands a chest, bound in iron."
+        ];
+        if (!beadTaken && itemLocation.bead === "muster_hall"){
+          lines.push("A single jade bead lies at the foot of the wall-mounted sword, fallen at some point from the jeweled crossguard above.");
+        }
+        return lines;
+      },
+      exits: { east: "sentinels_hall" },
+      examine: {
+        "sword": [
+          "Closer to it now, the sword is even finer than distance suggested — the stones in its crossguard flawless, or flawless enough that no hand still living could tell you otherwise. The script along its blade, read edge to edge, praises someone's lineage in language so ornate it has left actual meaning several sentences behind: valor without peer, glory undimmed, a name — illegible, worn past recovery — worthy of every word spent on it. It is, in short, exactly what a sword like this is for: being admired, not read for information. You find nothing in it resembling a rank, a number, or a reason to remember any particular letter of it."
+        ],
+        "shield": [
+          "The gold leaf has held up better than you'd expect, the wyrm's coiled shape still sharp at the edges despite everything else this room has surrendered to time. Around its rim runs a single motto, worked into the border: WHAT IS TAKEN IS EARNED — the kind of line a house commissions for itself, rather than one that survives being tested. Handsome. Assertive. And, so far as you can tell, entirely beside whatever point this room is actually making."
+        ],
+        "banner|banners": [
+          "Up close, the banners are plainer than either the sword or the shield by a wide margin — undyed backing, thread gone dull, nothing here that was ever meant to catch an eye. Seven of them, each embroidered with a word, easy enough to read at a glance from where you stand: RESOLVE. GLORY. CONSTANCY. ENDURANCE. UNITY. ARDOR. OATH.",
+          "They hang in no observable order — not by size, not by age, not by any logic the wall itself suggests. But stitched small into the lower corner of each, legible only if you look at that banner and no other, is a Roman numeral."
+        ],
+        "resolve(?:\\s+banner)?": ["Up close, this one bears the numeral IV, stitched small and worn, into its lower corner."],
+        "glory(?:\\s+banner)?": ["Up close, this one bears the numeral VI, stitched small and worn, into its lower corner."],
+        "constancy(?:\\s+banner)?": ["Up close, this one bears the numeral I, stitched small and worn, into its lower corner."],
+        "endurance(?:\\s+banner)?": ["Up close, this one bears the numeral VII, stitched small and worn, into its lower corner."],
+        "unity(?:\\s+banner)?": ["Up close, this one bears the numeral III, stitched small and worn, into its lower corner."],
+        "ardor(?:\\s+banner)?": ["Up close, this one bears the numeral V, stitched small and worn, into its lower corner."],
+        "oath(?:\\s+banner)?": ["Up close, this one bears the numeral II, stitched small and worn, into its lower corner."],
+        "chest": function(){
+          return solved.chest
+            ? ["The chest stands open, its dials still resting on C-O-U-R-A-G-E."]
+            : ["Its lid is fitted with seven small dials, each no wider than a coin, each engraved around its rim with the full English alphabet. Obviously, it wants a word."];
+        }
+      }
+    },
+
+    gallery: {
+      title: "The Gallery",
+      desc: function(){
+        var lines = [
+          "Beyond it, the passage opens into a long gallery, narrower than the Great Hall but far longer, running away from you into a dimness your torch does little to probe.",
+          "Framed portraits line both walls in unbroken procession — dozens of them, gilt frames dulled to the color of tarnished silver, canvases gone soft and dark with damp, faces reduced by time to little more than oval outlines: a jaw here, the ghost of a collar there, eyes that might once have followed you and are now simply gone.",
+          "Near the gallery's far end, the procession breaks — not with another portrait, but with its absence: a rectangle of wall paler than its surroundings, ringed with the ghost-outline of a frame that once hung there long enough to leave its shape behind, but hangs there no longer.",
+          "High above you the wind finds its way inside and settles into a long, low moan. Water, from somewhere up above, finds its way through stone it was never meant to pass, and falls, drop by unhurried drop, sullying the contents of the room.",
+          "The air is cooler here than the hall behind you, cooler and gentler both, carrying a smell less of rot than of rooms long closed and rarely grieved for. The wallpaper, where your shoulder brushes it yields — soft as old moldy bread.",
+          "At intervals along the gallery, more drab curtains hang."
+        ];
+        var documentHome = !documentTaken && itemLocation.document === "gallery";
+        var quillHome = !quillTaken && itemLocation.quill === "gallery";
+        if (documentHome && quillHome){
+          lines.push("In one corner, a small table holds a single document, its edges curled with damp, and beside it a quill, its ink long since dried in the well.");
+        } else if (documentHome){
+          lines.push("In one corner, a small table holds a single document, its edges curled with damp.");
+        } else if (quillHome){
+          lines.push("In one corner, a small table holds a quill, its ink long since dried in the well.");
+        }
+        lines.push("The gallery continues north, its far end lost in shadow, though you can make out, just at the edge of what little light reaches that far, the pale rectangle of a door. This nameless room seems to want only one thing: to be called by its builder's name.");
+        return lines;
+      },
+      exits: { south: "great_hall", north: "mirror_hall" },
+      onEnterExit: {
+        north: [
+          "The door gives way at a touch, and the passage beyond does not so much continue as transform — plain stone gives over, without any seam you can discover, to walls faced entirely in glass."
+        ]
+      },
+      leaveUnclaimedJewel: "The room sighs as you leave, knowing there is unfinished business there.",
+      examine: {
+        "portraits|portrait|paintings|canvases|canvas": [
+          "Most of the nameplates are corroded beyond recognition. Two, though, are still legible enough to read — WILL CROWTHER and DON WOODS."
+        ],
+        "wall|patch|outline|rectangle": [
+          "Near the gallery's far end, the procession breaks — not with another portrait, but with its absence: a rectangle of wall paler than its surroundings, ringed with the ghost-outline of a frame that once hung there long enough to leave its shape behind, but hangs there no longer."
+        ],
+        "crowther|crowther's frame|crowther frame": function(){
+          if (!galleryFrameOpened){
+            return ["Looking closer, you notice that the Crowther frame protrudes further out from the wall by a hair more than its neighbors — not much, not enough to catch a careless eye, but enough."];
+          }
+          var diaryNote = (!diaryTaken && itemLocation.diary === "gallery") ? " Beside it, in the recess, a small diary still rests." : "";
+          return ["The hidden frame hangs open on its hinge, the slashed portrait within, and beneath it the nameplate reading THEODRIC A——, the rest corroded away." + diaryNote];
+        },
+        "diary": function(){
+          if (!galleryFrameOpened){
+            return ["Nothing interesting here."];
+          }
+          if (diaryTaken){
+            return ["A small diary, its leather cover softened by damp, pages still mostly legible despite it. You already hold it."];
+          }
+          if (itemLocation.diary === "gallery"){
+            return ["A small diary rests in the recess beside the ruined portrait, its leather cover softened by damp. You have not yet taken it up."];
+          }
+          return ["Nothing interesting here."];
+        },
+        "document|paper|deed|scroll": function(){
+          if (!documentTaken){
+            documentTaken = true;
+            saveMilestoneIfSignedIn();
+          }
+          return solved.document
+            ? ["The document now bears a name in full: THEODRIC ASHGRAVE, signed beside the blank line that waited so long for it. The drawer it opened stands empty at your knee."]
+            : [
+                "You unroll the document with care it may not deserve, given how little of it the damp has spared. What survives reads, in the stiff, overlong language such things are always written in:",
+                "<blockquote>“DECLARATION AND DEED OF ROOM DESIGN, made and entered upon the completion of this gallery, and witnessing that the whole of its design, construction, and furnishing was undertaken at the sole direction and expense of the undersigned, to whom all credit and ownership of the same is hereby and permanently assigned.”</blockquote>",
+                "Beneath this, where a name should stand, waits a single blank line."
+              ];
+        }
+      }
+    },
+
+    mirror_hall: {
+      title: "The Hall of Mirrors",
+      desc: [
+        "The passage does not merely end here — it resolves, the way a fever resolves, into a chamber shaped as no chamber built by a sane and sober hand ought to be: eight walls, eight angles, each a mirror from floor to lintel, and set into each pane, flush with its surface as though grown there rather than hung, a door. A small brass plate marks each one — ONE through EIGHT — numbered in the manner of the doors of an inn, though what manner of inn offers nothing more of its rooms than a number, you cannot begin to guess.",
+        "No two of the eight mirrors agree on the matter of what you look like. The first stretches you thin as a candle-flame, taller than the door that frames you. The second does the opposite office, pressing you down into something squat and broad, better suited to crawling than to walking. The third shows you twice over, a reflection standing just behind its own reflection, the two never quite in step. The fourth ripples, as though you stood before troubled water rather than glass. The fifth smokes you over in shadow, your features guessed at rather than seen. The sixth has cracked, at some point this house declines to account for, into a hundred small facets, each holding a sliver of you and none the whole. The seventh turns you upside down, or perhaps turns the room upside down around you — you are no longer entirely certain which of the two of you is inverted. The eighth alone shows you exactly, mercilessly, as you are.",
+        "Of the eight doors arrayed before you, you understand — without being told, in the way you have come to understand a great many things in this house without being told — that only one will profit you, and that the other seven will not soon forgive the choosing."
+      ],
+      exits: { south: "gallery" },
+      examine: {
+        "door(?:\\s*\\d+)?|mirror(?:\\s*\\d+)?|doors|mirrors": ["It appears to be a door."]
+      }
+    },
+
+    furnace_room: {
+      title: "The Furnace Room",
+      desc: [
+        "You find yourself in a huge chamber. A dry, mineral warmth presses against your skin from everywhere and nowhere in particular, though the room offers nothing else remarkable beyond its heat and its two ways onward — one behind you, one ahead."
+      ],
+      exits: { north: "atrium_s" },
+      blocked: {
+        south: "The glass door you came through will not yield again from this side."
+      }
+    },
+
+    atrium_s: {
+      title: "The Atrium",
+      desc: function(){
+        var lines = [
+          "You emerge into a vast atrium, centrally set within the house as though the manor itself had been built in a ring around it. There is no ceiling here — only sky, grey and indifferent, framed on every side by balconies and galleries that must once have looked down upon something considerably more ordered than what remains.",
+          "What remains is forest, or near enough to one — a garden left to its own devices for longer than any garden ought to be left to anything, vines and brambles and nameless flowering things grown so entirely out of all proportion and intention that the eye searches in vain for any trace of the paths, beds, and borders that must once have disciplined them. Trees seemingly older than time itself press upward toward the grey light with the patient insistence of things that have had nowhere else to go, and a very great deal of time in which to go there."
+        ];
+        if (!bananaTaken && itemLocation.banana === "atrium_s"){
+          lines.push("From a gnarled gray branch above you a monkey-like creature screams and hurls a banana, striking you on the chest before falling to your feet.");
+        }
+        lines.push("High above, where the garden's oldest branches lace into a canopy even the grey sky struggles to penetrate, something small and quick flits from bough to bough, pausing now and again to watch you before vanishing back into the leaves.");
+        return lines;
+      },
+      exits: { north: "atrium_n", west: "atrium_sw", east: "atrium_se", south: "furnace_room" }
+    },
+
+    atrium_sw: {
+      title: "The Dry Fountain",
+      desc: [
+        "A few steps further, the undergrowth parts around a fountain, long since run dry, its basin cracked and choked with ivy that has clearly made its peace with never being disturbed again. Whatever figure once stood at its center, pouring water from some vessel, has been worn by rain and time past any identification — a shape more suggested than seen, its features dissolved into the same green patience that has claimed everything else here.",
+        "Somewhere above, a shadow slides swift across the cracked, dry stone of the basin — there and gone before you can look up and catch whatever cast it."
+      ],
+      exits: { east: "atrium_s", north: "atrium_nw" }
+    },
+
+    atrium_nw: {
+      title: "The Fallen Sundial",
+      desc: [
+        "Half-swallowed in creeping moss, a stone sundial lies toppled on its side, its gnomon snapped clean off at some point no one troubled to record. What numerals remain around its rim have worn past legibility.",
+        "A small shadow flits once across the sundial's broken face — quick, and gone, as though something aloft found the dead stone briefly worth noticing."
+      ],
+      exits: { east: "atrium_n", south: "atrium_sw" }
+    },
+
+    atrium_n: {
+      title: "The Garden's Heart",
+      desc: function(){
+        var lines = [
+          "The garden's growth presses closest here, as though every path in this tangle bent, eventually, toward this one spot. At its center stands the oldest tree you have yet seen in this place, vast and gnarled, its upper branches lost somewhere above in the grey."
+        ];
+        if (solved.magpie){
+          // nothing further to add here once she's gone
+        } else if (Object.keys(atriumSeen).length >= 5){
+          lines.push("Perched now on a low, half-collapsed trellis near the tree's roots — closer than she has let you come anywhere else in this garden — a magpie watches you with open, unhurried interest, the jewel you have come seeking held fast in her beak, glinting each time she tilts her head. She does not fly off. She does not look away. She watches you the way a merchant watches a customer who has not yet named a price.");
+        } else {
+          lines.push("High in those branches, that same quick, watching shape stirs again — closer now than it has been anywhere else in the garden, though still too far above to make out clearly.");
+        }
+        return lines;
+      },
+      exits: { south: "atrium_s", west: "atrium_nw", east: "atrium_ne", north: "music_room" },
+      examine: {
+        "magpie|bird": function(){
+          if (solved.magpie) return ["She is gone now, off wherever magpies go once a bargain is struck."];
+          if (Object.keys(atriumSeen).length >= 5) return ["A magpie, sleek and black-and-white, the jewel held fast in her beak. She watches you back with an attentiveness that feels less animal than mercantile."];
+          return ["High in the tree's upper branches, a small shape moves — quick, watchful, gone again before you can be certain what it is."];
+        },
+        "jewel": function(){
+          if (solved.magpie) return ["Nothing interesting here."];
+          if (Object.keys(atriumSeen).length >= 5) return ["Held fast in the magpie's beak, catching what little light reaches this deep into the garden. It stays just out of reach."];
+          return ["Nothing interesting here."];
+        }
+      }
+    },
+
+    music_room: {
+      title: "The Music Room",
+      desc: [
+        "Beyond the garden, the passage opens into a long, high-ceilinged chamber, grander by far than anything its ruin can now account for — a room plainly built, once, for music, and just as plainly abandoned to the same slow neglect as everything else in this house.",
+        "Tall windows line one wall, most of them shattered, their broken panes admitting a draft that never quite settles into a true wind, only a persistent, searching current of air that finds its way to every corner of the room in turn.",
+        "A harpsichord stands open-lidded near the room's center, its case warped, its strings — bared to the air by a lid no longer able to close over them — catching that same restless draft and trembling into sound: a thin, wavering hum, not quite music, not quite silence, rising and falling with each change in the wind's direction.",
+        "In the far corner, a small pipe organ leans half-collapsed against the wall, its bellows long since rotted away, most of its pipes crushed or cracked — save one, which the draft finds just often enough to coax out a single low, moaning note, startling in how nearly human it sounds, before the wind shifts again and the note dies.",
+        "Empty hooks line the nearby wall, evenly spaced, where other instruments plainly once hung — lutes, horns, something stringed and something bowed, gone now to wherever such things go when a house stops needing music."
+      ],
+      exits: { south: "atrium_n", north: "dining_hall" },
+      blocked: {
+        east: "Whatever lies beyond this chamber, your account of it does not yet reach.",
+        west: "Whatever lies beyond this chamber, your account of it does not yet reach."
+      }
+    },
+
+    dining_hall: {
+      title: "The Dining Hall",
+      desc: [
+        "Beyond it, the passage opens into a huge dining hall, long neglected, stretching the length of the chamber: a great table down its center, chairs ranked to either side, places still laid as though supper might yet be served to guests who will never come. Dust lies thick on everything — plates, goblets, a candelabra gone dark — undisturbed by any hand but the house's own slow decay.",
+        "Upon the back of one chair, midway down the table's length, sits a black cat — lean, unmoving, its eyes two points of dull red in the gloom. It does not startle at your entrance, nor does it stir to greet you; it only watches, and its gaze, you find, follows you with an attentiveness no mere animal ought to possess, tracking your every movement about the room without once blinking.",
+        "The walls are lined with cupboards and shelves of every ordinary kind a house such as this would once have kept stocked: a spice rack, its jars long emptied; a shelf of condiments gone to paste and dust; a drawer of tarnished flatware, forks and knives jumbled together; a cupboard built, in the old fashion, as a simple board for cups; a shelf of flagons, dented and dry; a cabinet of plates and serving dishes, stacked and undisturbed; a rack of linens, moth-eaten past any use. None of it looks as though it has been touched in longer than memory allows.",
+        "Against the far wall stands a towering wine rack, holding what must be hundreds upon hundreds of bottles, each one dust-caked, most labels faded past reading — though the year pressed or painted onto each bottle's neck remains legible enough, if you trouble to look closely.",
+        "Beside the rack, a thick, water-stained wine ledger lies open upon a small stand, its pages dense with entries recording deliveries and reserves stretching back centuries — far too many to make sense of at a glance, though the existence of such careful record-keeping suggests that someone, once, took this cellar's contents very seriously indeed."
+      ],
+      exits: { south: "music_room" },
+      blocked: {
+        north: "Whatever lies beyond this hall, your account of it does not yet reach.",
+        east: "Whatever lies beyond this hall, your account of it does not yet reach.",
+        west: "Whatever lies beyond this hall, your account of it does not yet reach."
+      },
+      examine: {
+        "cat|black cat": [
+          "A black cat, thin and still, its red eyes fixed on you without the faintest flicker of animal curiosity. It does not move. It does not need to."
+        ],
+        "ledger|wine ledger": [
+          "Entry after entry, in hands that changed over generations, record wine brought into this cellar — dates, quantities, the occasional terse note on quality."
+        ]
+      }
+    },
+
+    atrium_ne: {
+      title: "The Sunken Bench",
+      desc: [
+        "Beneath a low canopy of interlaced branches, a stone bench sits half-sunk into the earth, its surface softened by lichen into something closer to moss than stone. It is angled toward a view the overgrowth has long since reclaimed.",
+        "From somewhere in the canopy overhead comes a quick, chattering rustle of wings — there, then gone, before you think to look up and find its source."
+      ],
+      exits: { west: "atrium_n", south: "atrium_se" }
+    },
+
+    atrium_se: {
+      title: "The Rose Archway",
+      desc: [
+        "An archway, stone on either side, stands entirely consumed by roses gone feral — thorned canes thick as a man's wrist, woven so densely across the gap that whatever it once led to is no longer a question the garden troubles to answer. The blooms, where any survive at all, are the deep, bruised red of something that has bled rather than flowered.",
+        "Somewhere above the thorns, you hear a single sharp bird's cry — short, chattering — and then nothing, as though it had thought better of a second one."
+      ],
+      exits: { north: "atrium_ne", west: "atrium_s" }
+    },
+
+    maze_hub: {
+      title: "A Twisting Passage",
+      desc: [
+        "You land here — wherever here is — the stone passage around you splitting into four uncertain ways, none marked, none especially inviting."
+      ],
+      exits: { north: "maze_nw", south: "maze_se", east: "maze_ne", west: "maze_sw" }
+    },
+
+    maze_nw: {
+      title: "A Twisting Passage",
+      desc: [
+        "Another twisting passage, indistinguishable from the last at any but the closest look. A single stub of candle, long cold, sits abandoned in a wall-niche at your shoulder."
+      ],
+      exits: { south: "maze_hub", east: "maze_se", north: "maze_sw", west: "mirror_hall" },
+      onEnterExit: {
+        west: ["The passage gives way, all at once, to familiar glass — eight mirrored doors, none the worse for where you have been."]
+      }
+    },
+
+    maze_se: {
+      title: "A Twisting Passage",
+      desc: [
+        "Another twisting passage. Somewhere above or below — you cannot say which — water drips in a slow, uneven rhythm, as though counting something out."
+      ],
+      exits: { north: "maze_hub", west: "maze_nw", south: "maze_ne" }
+    },
+
+    maze_ne: {
+      title: "A Twisting Passage",
+      desc: [
+        "Another twisting passage. A faint draft stirs from some direction you cannot place, carrying with it the ghost of glass and dust."
+      ],
+      exits: { west: "maze_hub", north: "maze_se", south: "maze_sw" }
+    },
+
+    maze_sw: {
+      title: "A Twisting Passage",
+      desc: [
+        "Another twisting passage. The stone underfoot has worn into a shallow groove here, as though a great many feet had passed this exact spot before yours ever did."
+      ],
+      exits: { east: "maze_hub", north: "maze_ne", south: "maze_nw", west: "mirror_hall" },
+      onEnterExit: {
+        west: ["The passage gives way, all at once, to familiar glass — eight mirrored doors, none the worse for where you have been."]
+      }
+    },
+
+    xyzzy_well: {
+      title: "The Well House",
+      desc: [
+        "<span class=\"xyzzy\">YOU ARE INSIDE A BUILDING, A WELL HOUSE FOR A LARGE SPRING.</span>",
+        "<span class=\"xyzzy\">THERE ARE NO KEYS ON THE GROUND HERE.</span>",
+        "<span class=\"xyzzy\">THERE IS NO SHINY BRASS LAMP HERE.</span>",
+        "<span class=\"xyzzy\">THERE IS NO FOOD HERE.</span>",
+        "<span class=\"xyzzy\">THERE IS NO BOTTLE OF WATER HERE.</span>"
+      ],
+      exits: {}
+    }
+  };
+
+  // Testing aid: typing a location's exact name (case-insensitive, no
+  // fuzzy matching) teleports there directly.
+  var LOCATION_NAMES = {
+    "wyrmspire hall": "intro",
+    "gates of wyrmspire hall": "gate",
+    "the old churchyard path": "footpath",
+    "the churchyard": "churchyard",
+    "inside the chapel": "chapel",
+    "the manor grounds": "grounds",
+    "the old kitchen": "kitchen",
+    "the great hall": "great_hall",
+    "the armory": "armory",
+    "the sentinels' hall": "sentinels_hall",
+    "the sentinels hall": "sentinels_hall",
+    "the muster hall": "muster_hall",
+    "the gallery": "gallery",
+    "the hall of mirrors": "mirror_hall",
+    "the furnace room": "furnace_room",
+    "the atrium": "atrium_s",
+    "the dry fountain": "atrium_sw",
+    "the fallen sundial": "atrium_nw",
+    "the garden's heart": "atrium_n",
+    "the garden heart": "atrium_n",
+    "the sunken bench": "atrium_ne",
+    "the rose archway": "atrium_se",
+    "the music room": "music_room",
+    "the dining hall": "dining_hall",
+    "the cellar": "cellar",
+    "the tower stairway": "tower_stair",
+    "the tower door": "tower_door",
+    "the king's chamber": "king_chamber",
+    "the kings chamber": "king_chamber",
+    "the treasure room": "treasure_room"
+  };
+  // Allow dropping a leading "the " (e.g. "churchyard" as well as "the churchyard").
+  Object.keys(LOCATION_NAMES).forEach(function(name){
+    if (name.indexOf("the ") === 0){
+      var short = name.slice(4);
+      if (!LOCATION_NAMES[short]){
+        LOCATION_NAMES[short] = LOCATION_NAMES[name];
+      }
+    }
+  });
+
+  var DIR_WORDS = {
+    n:"north", north:"north", s:"south", south:"south",
+    e:"east", east:"east", w:"west", west:"west",
+    u:"up", up:"up", d:"down", down:"down",
+    "in":"in", enter:"in", out:"out", exit:"out", leave:"out"
+  };
+
+  var leaf = document.getElementById("leaf");
+  var pageEyebrow = document.getElementById("pageEyebrow");
+  var pageTitle = document.getElementById("pageTitle");
+  var pageProse = document.getElementById("pageProse");
+  var pageResponses = document.getElementById("pageResponses");
+  var exitsRow = document.getElementById("exitsRow");
+  var statusPill = document.getElementById("statusPill");
+  var form = document.getElementById("inputBar");
+  var input = document.getElementById("cmdInput");
+  var pageEl = document.getElementById("page");
+  var authPanel = document.getElementById("authPanel");
+  var authMessageEl = document.getElementById("authMessage");
+  var AUTH_FORMS = {
+    signup: document.getElementById("signupForm"),
+    login: document.getElementById("loginForm"),
+    forgotName: document.getElementById("forgotNameForm"),
+    forgotPassword: document.getElementById("forgotPasswordForm"),
+    resetPassword: document.getElementById("resetPasswordForm")
+  };
+
+  function paragraphize(lines){
+    return lines.map(function(l){
+      if (/^<(blockquote|div)/.test(l)) return l;
+      return "<p>" + l + "</p>";
+    }).join("");
+  }
+
+  var NUMBER_WORDS = ["zero","one","two","three","four","five","six","seven","eight","nine","ten"];
+  function numberWord(n){
+    return NUMBER_WORDS[n] !== undefined ? NUMBER_WORDS[n] : String(n);
+  }
+  function joinWithAnd(arr){
+    if (arr.length === 1) return arr[0];
+    if (arr.length === 2) return arr[0] + " and " + arr[1];
+    return arr.slice(0,-1).join(", ") + ", and " + arr[arr.length-1];
+  }
+  function solvedCount(){
+    return (solved.ogre?1:0) + (solved.dial?1:0) + (solved.helmets?1:0) + (solved.chest?1:0) + (solved.document?1:0) + (solved.mirrors?1:0) + (solved.magpie?1:0) + (solved.wine?1:0) + (solved.well?1:0) + (solved.finale?1:0);
+  }
+  function jewelKeysHeld(){
+    return JEWEL_KEYS.filter(function(k){ return inventory[k]; });
+  }
+  function hasAllNineJewels(){
+    return jewelKeysHeld().length === 9;
+  }
+  function allNineJewelsAccountedFor(){
+    return JEWEL_KEYS.every(function(k){ return inventory[k] || placed[k]; });
+  }
+
+  function remainingLine(){
+    var remaining = TOTAL_SPELLS - solvedCount();
+    if (remaining <= 0) return "All spells are broken";
+    if (remaining === 1) return "Only one remains";
+    return "Only " + numberWord(remaining) + " remain";
+  }
+
+  function renderStatusPill(){
+    statusPill.textContent = "Spells broken: " + solvedCount() + " / " + TOTAL_SPELLS;
+  }
+
+  function saveMilestoneIfSignedIn(){
+    if (avatarName && mode === "play"){
+      saveProgressToServer("milestone").then(function(result){
+        if (!result.ok && result.code === "not_authorized" && !authRevokedNoticeShown){
+          authRevokedNoticeShown = true;
+          respond(["A cold prickle runs up your spine — the raven that carries your record home returns confused, as though it no longer recognises you. Your seal may have been revoked. Type SIGN IN to keep your deeds recorded."]);
+        }
+      });
+    }
+  }
+
+  function updateStatus(){
+    renderStatusPill();
+    saveMilestoneIfSignedIn();
+  }
+
+  // Render a room's page without touching history (used for back/look).
+  function renderRoom(roomId, extraLinesBefore, extraLinesAfter, skipJewelReminder){
+    current = roomId;
+    var room = ROOMS[roomId];
+    if (/^atrium/.test(roomId) && !atriumSeen[roomId]){
+      atriumSeen[roomId] = true;
+      saveMilestoneIfSignedIn();
+    }
+
+    pageEyebrow.textContent = room.eyebrow || "";
+    pageEyebrow.style.display = room.eyebrow ? "" : "none";
+    pageTitle.textContent = room.title;
+    pageTitle.style.display = (roomId === "intro") ? "none" : "";
+    var roomDesc = (typeof room.desc === "function") ? room.desc() : room.desc;
+    pageProse.innerHTML = paragraphize((extraLinesBefore || []).concat(roomDesc).concat(extraLinesAfter || []).concat(skipJewelReminder ? [] : jewelReminderLines()).concat(itemReminderLines()));
+    pageResponses.innerHTML = "";
+
+    leaf.classList.remove("turning");
+    void leaf.offsetWidth; // restart animation
+    leaf.classList.add("turning");
+
+    pageEl.scrollTop = 0;
+    renderExits();
+  }
+
+  // Turn to a new page (full room replace) and record it in history.
+  function turnTo(roomId, extraLinesBefore, extraLinesAfter, skipJewelReminder){
+    visited.push(roomId);
+    renderRoom(roomId, extraLinesBefore, extraLinesAfter, skipJewelReminder);
+  }
+
+  // Return to the previous page in history without growing it.
+  function goBack(){
+    if (visited.length > 2){
+      visited.pop();
+      var prev = visited[visited.length-1];
+      renderRoom(prev);
+    } else {
+      respond(["There is nowhere behind you to go."]);
+    }
+  }
+
+  // Add a response within the CURRENT page (examine results, riddle text, wrong guesses, help, etc.)
+  function respond(lines){
+    var block = document.createElement("div");
+    block.className = "response-block";
+    block.innerHTML = paragraphize(lines);
+    pageResponses.appendChild(block);
+    pageEl.scrollTop = pageEl.scrollHeight;
+  }
+
+  function currentExits(){
+    var list = [];
+    if (current === "intro"){
+      if (mode === "contestWonChoice"){
+        return [{label:"enter anyway", action:"enter anyway"}, {label:"turn back", action:"turn back", quiet:true}];
+      }
+      if (mode === "checkingContest"){
+        return [];
+      }
+      return [{label:"Begin", action:"begin", primary:true}];
+    }
+    if (mode === "authChoice"){
+      return [{label:"Sign in", action:"sign in"}, {label:"Create Account", action:"create account", primary:true}];
+    }
+    if (mode === "auth"){
+      return [];
+    }
+
+    if (mode === "confirmExit"){
+      return [{label:"leave", action:"leave", primary:true}, {label:"stay", action:"stay", quiet:true}];
+    }
+    if (mode === "saving"){
+      return [];
+    }
+    if (mode === "saveFailed"){
+      return [{label:"try again", action:"try again"}, {label:"leave anyway", action:"leave anyway"}, {label:"stay", action:"stay", quiet:true}];
+    }
+    if (mode === "saveAuthExpired"){
+      return [{label:"sign in", action:"sign in", primary:true}, {label:"leave anyway", action:"leave anyway"}, {label:"stay", action:"stay", quiet:true}];
+    }
+
+    if (current === "xyzzy_well"){
+      return [{label:"exit", action:"exit", quiet:true}];
+    }
+
+    ["north","south","east","west"].forEach(function(dir){
+      list.push({label: dir, action: dir});
+    });
+
+    var curRoom = ROOMS[current];
+    if (curRoom && ((curRoom.exits && curRoom.exits.up) || (curRoom.blocked && curRoom.blocked.up))){
+      list.push({label:"up", action:"up"});
+    }
+    if (curRoom && ((curRoom.exits && curRoom.exits.down) || (curRoom.blocked && curRoom.blocked.down))){
+      list.push({label:"down", action:"down"});
+    }
+
+    if (visited.length > 2){ // more than intro + current
+      list.push({label:"back", action:"back", quiet:true});
+    }
+    list.push({label:"look", action:"look", quiet:true});
+    list.push({label:"help", action:"help", quiet:true});
+    list.push({label:"exit", action:"exit", quiet:true});
+    return list;
+  }
+
+  function renderExits(){
+    exitsRow.innerHTML = "";
+    currentExits().forEach(function(e){
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "chip" + (e.quiet ? " quiet" : "") + (e.primary ? " primary" : "");
+      b.textContent = e.label;
+      b.addEventListener("click", function(){
+        runCommand(e.action);
+      });
+      exitsRow.appendChild(b);
+    });
+  }
+
+  // If the noun was already mentioned in this room's own description, surface
+  // the sentence that mentioned it instead of claiming there's nothing there.
+  function describedElsewhere(noun){
+    var room = ROOMS[current];
+    if (!room.desc) return null;
+    var descLines = (typeof room.desc === "function") ? room.desc() : room.desc;
+    var escaped = noun.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    var wordPattern = new RegExp("\\b" + escaped + "s?\\b", "i");
+    for (var i=0;i<descLines.length;i++){
+      var plain = descLines[i].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+      if (!wordPattern.test(plain)) continue;
+      var sentences = plain.match(/[^.!?]+[.!?]+/g) || [plain];
+      for (var j=0;j<sentences.length;j++){
+        if (wordPattern.test(sentences[j])) return sentences[j].trim();
+      }
+      return plain;
+    }
+    return null;
+  }
+
+  function tryExamine(raw){
+    var m = raw.match(/^(?:examine|x|look at|read|inspect)\s+(?:the\s+)?(.+)$/i);
+    if (!m) return false;
+    var noun = m[1].trim().toLowerCase();
+    var room = ROOMS[current];
+    if (room.examine){
+      var keys = Object.keys(room.examine);
+      for (var i=0;i<keys.length;i++){
+        var pattern = new RegExp("^(" + keys[i] + ")$", "i");
+        if (pattern.test(noun)){
+          var val = room.examine[keys[i]];
+          var lines = (typeof val === "function") ? val() : val;
+          respond(lines);
+          return true;
+        }
+      }
+    }
+    // Recognized EXAMINE-style command, but nothing special defined for this
+    // noun — if the room's own description already mentioned it, repeat that
+    // instead of claiming there's nothing there.
+    var already = describedElsewhere(noun);
+    respond([already || "Nothing interesting here."]);
+    return true;
+  }
+
+  function ogreChallenge(){
+    respond([
+      "The ogre's arms uncross. He speaks slowly, the way something speaks when it has said the same words a thousand times and stopped caring whether you understand them.",
+      "<blockquote>“None pass the gate of Wyrmspire unpaid. Answer the riddle carved into every stone of this place, or turn back down the road you came by:\n\nI have no life, yet I can die.\nI have no lungs, yet I hunger for air.\nI cannot drink, for water is my death.\nWhat am I?”</blockquote>",
+      "“Solve the riddle to pass,” he adds, and waits, arms crossing again, in no apparent hurry."
+    ]);
+    awaitingOgre = true;
+  }
+
+  function ogreSolved(){
+    solved.ogre = true;
+    awaitingOgre = false;
+    updateStatus();
+    respond([
+      "The ogre's scowl doesn't change, but something in his shoulders does — the shrug of a creature who was hoping to be bored a while longer and is faintly disappointed not to be. He steps aside without a word. Behind him, the gates swing inward on hinges that shriek like something in pain, and Wyrmspire Hall opens before you at last.",
+      "Without looking back, he reaches into some fold of his ruined plate and flips something small and bright toward you — an underhand toss, more habit than courtesy — and it lands in the dust at your feet before you've thought to reach for it.",
+      "<span class=\"system\">— Spell broken: the Ogre's Riddle — " + remainingLine() + " —</span>",
+      "<span class=\"jewel-found\">A jewel, by the look of it, though he offers no explanation and you don't ask for one.</span>"
+    ]);
+  }
+
+  function ogreWrong(){
+    respond(["“Wrong.” The ogre doesn't even blink. “Try again, or don't. I've nowhere else to be.”"]);
+  }
+
+  function grantWishIfValid(wishedForRaw){
+    var wishedFor = wishedForRaw.trim().replace(/[.!]+$/,"");
+    if (solved.well){
+      respond(["The well is still now, its wish already spent."]);
+    } else if (/^jewels?$/.test(wishedFor)){
+      solved.well = true;
+      updateStatus();
+      respond([
+        "You lean over the rim and, feeling foolish even as you do it, wish — simply, plainly — for the jewel.",
+        "<span class=\"system\">— Spell broken: the Cellar — " + remainingLine() + " —</span>",
+        "<span class=\"jewel-found\">The water stirs, once, all on its own, and the jewel rises to the surface as though it had been waiting the whole time for someone to finally ask.</span>"
+      ]);
+    } else {
+      respond(["Two long-haired minstrels magically appear and sing: “I can't go for that, no (No) No can do” then disappear."]);
+    }
+  }
+
+  function dialSolved(){
+    solved.dial = true;
+    updateStatus();
+    respond([
+      "The dial gives with a grinding shudder, and the door swings inward on its own weight, unhurried, as though it has done this before and isn't impressed by the occasion. Something rattles loose from within the mechanism as it turns and comes to rest on the ground at your feet — a small, hard weight, cold as the iron dial that kept it.",
+      "<span class=\"system\">— Spell broken: the Churchyard Dial — " + remainingLine() + " —</span>",
+      "<span class=\"jewel-found\">A jewel glitters brightly in the dust.</span>"
+    ]);
+  }
+
+  function dialWrong(){
+    respond(["The dial resists your effort. Nothing happens — nothing, at least, that you can perceive."]);
+  }
+
+  function helmetsSolved(){
+    solved.helmets = true;
+    updateStatus();
+    respond([
+      "The last visor clears, and for one long moment nothing happens — and then, all six suits move at once, without a word passed between them, as though they had only ever been waiting for this.",
+      "They turn from the wall where they have stood for eons, cross the few paces to the rings cemented into the stone before them, and each closes a gauntleted fist around one of the six — and pull.",
+      "<span class=\"system\">— Spell broken: the Sentinels' Hall — " + remainingLine() + " —</span>",
+      "The six suits strain together. Stone grinds against stone, and a niche opens low in the wall, dust sifting from its edges.",
+      "<span class=\"jewel-found\">Within the niche sits a glittering jewel.</span>"
+    ]);
+  }
+
+  function cleanVisor(visorColor){
+    if (visorColor === "gold"){
+      respond(["That visor already gleams, and gains nothing further from the attempt."]);
+    } else if (solved.helmets){
+      respond(["The niche stands open already. There is nothing left here to clean."]);
+    } else if (visorClean[visorColor]){
+      respond(["That visor is clean already."]);
+    } else {
+      visorClean[visorColor] = true;
+      saveMilestoneIfSignedIn();
+      var stillDusty = Object.keys(visorClean).filter(function(c){ return !visorClean[c]; });
+      if (stillDusty.length === 0){
+        helmetsSolved();
+      } else {
+        respond(["Dust gives way beneath your sleeve, and the " + visorColor + "-banded visor gleams clean."]);
+      }
+    }
+  }
+
+  function chestSolved(){
+    solved.chest = true;
+    updateStatus();
+    respond([
+      "The seventh dial settles into place with the others, and for a moment nothing happens at all — and then, all at once, seven small clicks resolve into one much larger one, and the chest's lid lifts a finger's width on its own, as though it had simply been waiting, all this time, to be asked correctly.",
+      "<span class=\"system\">— Spell broken: the Muster Hall — " + remainingLine() + " —</span>",
+      "<span class=\"jewel-found\">Inside, resting on dust it has not disturbed in longer than you would like to guess, is a jewel.</span>"
+    ]);
+  }
+
+  function chestWrong(){
+    respond(["The dials turn easily enough. The lid does not. Whatever word this wants, it isn't the one you've given it."]);
+  }
+
+  function documentSolved(){
+    solved.document = true;
+    updateStatus();
+    respond([
+      "The quill moves more easily than its dried ink should allow, tracing out ASHGRAVE beside the name already given, as though the document itself were eager to be finished. For a moment, nothing happens — then, from somewhere inside the table, a sound: a single, deliberate click, followed by wood sliding against wood, a mechanism long unused remembering, reluctantly, how to work.",
+      "A drawer, previously indistinguishable from the table's plain construction, slides open at your knee.",
+      "<span class=\"system\">— Spell broken: the Gallery — " + remainingLine() + " —</span>",
+      "<span class=\"jewel-found\">Inside, resting on a bed of dust it has not disturbed in some considerable while, is a glittering jewel.</span>"
+    ]);
+  }
+
+  function documentWrong(){
+    respond(["The quill moves, but the document does not respond. Whatever name it wants, it is not the one you have just given it."]);
+  }
+
+  function rawJewelKeyHere(){
+    if (current === "gate" && solved.ogre) return "ogre";
+    if (current === "churchyard" && solved.dial) return "dial";
+    if (current === "sentinels_hall" && solved.helmets) return "helmets";
+    if (current === "muster_hall" && solved.chest) return "chest";
+    if (current === "gallery" && solved.document) return "document";
+    if (current === "furnace_room" && solved.mirrors) return "mirrors";
+    if (current === "atrium_n" && solved.magpie) return "magpie";
+    if (current === "dining_hall" && solved.wine) return "wine";
+    if (current === "cellar" && solved.well) return "well";
+    return null;
+  }
+
+  function jewelKeyHere(){
+    var key = rawJewelKeyHere();
+    if (key && placed[key]) return null;
+    return key;
+  }
+
+  // If this room's jewel was revealed but never taken, keep mentioning it
+  // in the room description so the player can come back for it later.
+  function jewelReminderLines(){
+    var key = jewelKeyHere();
+    if (key && !inventory[key]){
+      return ["<span class=\"jewel-found\">A glittering jewel lies here.</span>"];
+    }
+    return [];
+  }
+
+  function takeJewel(){
+    var key = jewelKeyHere();
+    if (!key){
+      var rawKey = rawJewelKeyHere();
+      if (rawKey && placed[rawKey]){
+        respond(["That jewel already rests in the King's crown."]);
+      } else {
+        respond(["There is nothing here for you to take."]);
+      }
+      return;
+    }
+    if (inventory[key]){
+      respond(["You already have it."]);
+      return;
+    }
+    var isFirstJewel = Object.keys(inventory).every(function(k){ return !inventory[k]; });
+    inventory[key] = true;
+    saveMilestoneIfSignedIn();
+    var lines = ["You take the jewel. It sits in your palm a moment before you tuck it away — light for something that seems to matter so much."];
+    if (isFirstJewel){
+      lines.push("You turn it over once in your palm, and somehow discern without being told that this will not be the only one, and gathering them all is crucial.");
+    }
+    renderRoom(current);
+    respond(lines);
+  }
+
+  var ROOM_HELP_HINTS = {
+    muster_hall: "A stout heart describes the solution.",
+    gate: function(){
+      return awaitingOgre ? "Keep thinking. You're getting warm." : null;
+    },
+    cellar: function(){
+      return (solved.well && (inventory.well || placed.well)) ? null : "♪ ♪ Makes no difference who you are. ♪ ♪";
+    }
+  };
+
+  function showHelp(){
+    var lines = [
+      "Somewhere within Wyrmspire Hall, ten spells wait to be broken. Whoever breaks all of them first — and only the first — claims what sleeps at the heart of the house, and their alias is revealed as the one who found it. A full pocket has never once hurt a man in a house like this.",
+      "<span class=\"system\">Movement: NORTH/N, SOUTH/S, EAST/E, WEST/W, UP/U, DOWN/D, IN, OUT, BACK.\nLooking: EXAMINE &lt;thing&gt;, READ &lt;thing&gt;.\nOther: TAKE JEWEL, INVENTORY (I), PUZZLES (progress), HELP.\nEach obstacle wants something different — a spoken answer, a dial turned to a number, a word spelled out. Read carefully and experiment. Solving one only reveals its jewel — you still have to take it.</span>"
+    ];
+    var roomHint = ROOM_HELP_HINTS[current];
+    if (typeof roomHint === "function") roomHint = roomHint();
+    if (roomHint) lines.push("<span class=\"hint\">" + roomHint + "</span>");
+    respond(lines);
+  }
+
+  function showPuzzles(){
+    respond([
+      "<span class=\"system\">Spells broken: " + solvedCount() + " of " + TOTAL_SPELLS +
+      "\n - The Ogre's Riddle: " + (solved.ogre?"broken":"unbroken") +
+      "\n - The Churchyard Dial: " + (solved.dial?"broken":"unbroken") +
+      "\n - The Sentinels' Hall: " + (solved.helmets?"broken":"unbroken") +
+      "\n - The Muster Hall: " + (solved.chest?"broken":"unbroken") +
+      "\n - The Gallery: " + (solved.document?"broken":"unbroken") +
+      "\n - The Hall of Mirrors: " + (solved.mirrors?"broken":"unbroken") +
+      "\n - The Atrium: " + (solved.magpie?"broken":"unbroken") +
+      "\n - The Dining Hall: " + (solved.wine?"broken":"unbroken") +
+      "\n - The Cellar: " + (solved.well?"broken":"unbroken") +
+      "\n - The Tower: " + (solved.finale?"broken":"unbroken") +
+      "</span>"
+    ]);
+  }
+
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];
+    });
+  }
+
+  function loadStoredIdentity(){
+    try {
+      var raw = localStorage.getItem(IDENTITY_KEY) || sessionStorage.getItem(IDENTITY_KEY);
+      if (!raw) return null;
+      var parsed = JSON.parse(raw);
+      if (parsed && parsed.avatarName && parsed.saveToken) return parsed;
+    } catch(e){}
+    return null;
+  }
+
+  function storeIdentity(name, token, remember){
+    var payload = JSON.stringify({avatarName:name, saveToken:token});
+    try {
+      if (remember){
+        localStorage.setItem(IDENTITY_KEY, payload);
+        sessionStorage.removeItem(IDENTITY_KEY);
+      } else {
+        sessionStorage.setItem(IDENTITY_KEY, payload);
+        localStorage.removeItem(IDENTITY_KEY);
+      }
+    } catch(e){}
+  }
+
+  function clearStoredIdentity(){
+    try { localStorage.removeItem(IDENTITY_KEY); } catch(e){}
+    try { sessionStorage.removeItem(IDENTITY_KEY); } catch(e){}
+  }
+
+  function checkContestStatus(){
+    return fetch(API_BASE + "/wyrmspire-contest-status")
+      .then(function(res){ return res.json(); })
+      .then(function(data){ return Boolean(data && data.completed); })
+      .catch(function(){ return false; });
+  }
+
+  function postWyrmspire(path, body){
+    return fetch(API_BASE + path, {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(body)
+    }).then(function(res){
+      return res.json().catch(function(){ return {}; }).then(function(data){
+        return {ok: Boolean(res.ok && data && data.success), status: res.status, data: data || {}};
+      });
+    }).catch(function(){
+      return {ok:false, status:0, data:{code:"network_error"}};
+    });
+  }
+
+  function buildCurrentFlags(){
+    return {
+      quillTaken: quillTaken,
+      documentTaken: documentTaken,
+      buttonTaken: buttonTaken,
+      buckleTaken: buckleTaken,
+      beadTaken: beadTaken,
+      spoonTaken: spoonTaken,
+      coinTaken: coinTaken,
+      corkscrewTaken: corkscrewTaken,
+      wineOpened: wineOpened,
+      diaryTaken: diaryTaken,
+      bananaTaken: bananaTaken,
+      galleryFrameOpened: galleryFrameOpened,
+      corkscrewRevealed: corkscrewRevealed,
+      itemLocation: {
+        quill: itemLocation.quill,
+        document: itemLocation.document,
+        button: itemLocation.button,
+        buckle: itemLocation.buckle,
+        bead: itemLocation.bead,
+        spoon: itemLocation.spoon,
+        coin: itemLocation.coin,
+        corkscrew: itemLocation.corkscrew,
+        diary: itemLocation.diary,
+        banana: itemLocation.banana
+      },
+      visorClean: {
+        red: visorClean.red,
+        blue: visorClean.blue,
+        green: visorClean.green,
+        yellow: visorClean.yellow,
+        black: visorClean.black
+      },
+      atriumSeen: ATRIUM_ROOM_IDS.reduce(function(acc, roomId){
+        acc[roomId] = Boolean(atriumSeen[roomId]);
+        return acc;
+      }, {})
+    };
+  }
+
+  function applyFlags(flags){
+    flags = flags || {};
+    quillTaken = Boolean(flags.quillTaken);
+    documentTaken = Boolean(flags.documentTaken);
+    buttonTaken = Boolean(flags.buttonTaken);
+    buckleTaken = Boolean(flags.buckleTaken);
+    beadTaken = Boolean(flags.beadTaken);
+    spoonTaken = Boolean(flags.spoonTaken);
+    coinTaken = Boolean(flags.coinTaken);
+    corkscrewTaken = Boolean(flags.corkscrewTaken);
+    wineOpened = Boolean(flags.wineOpened);
+    diaryTaken = Boolean(flags.diaryTaken);
+    bananaTaken = Boolean(flags.bananaTaken);
+    galleryFrameOpened = Boolean(flags.galleryFrameOpened);
+    corkscrewRevealed = Boolean(flags.corkscrewRevealed);
+    var incomingItemLocation = (flags.itemLocation && typeof flags.itemLocation === "object") ? flags.itemLocation : {};
+    Object.keys(ITEM_HOME).forEach(function(key){
+      var loc = incomingItemLocation[key];
+      itemLocation[key] = (typeof loc === "string" && ROOMS[loc]) ? loc : ITEM_HOME[key];
+    });
+    var incomingVisorClean = (flags.visorClean && typeof flags.visorClean === "object") ? flags.visorClean : {};
+    Object.keys(visorClean).forEach(function(color){
+      visorClean[color] = Boolean(incomingVisorClean[color]);
+    });
+    var incomingAtriumSeen = (flags.atriumSeen && typeof flags.atriumSeen === "object") ? flags.atriumSeen : {};
+    atriumSeen = {};
+    ATRIUM_ROOM_IDS.forEach(function(roomId){
+      if (incomingAtriumSeen[roomId]) atriumSeen[roomId] = true;
+    });
+  }
+
+  function saveProgressToServer(reason){
+    if (!avatarName || !saveToken) return Promise.resolve({ok:false, code:"no_identity"});
+    var payload = JSON.stringify({
+      avatar_name: avatarName,
+      save_token: saveToken,
+      current_room: current,
+      inventory: inventory,
+      solved: solved,
+      placed: placed,
+      flags: buildCurrentFlags(),
+      reason: reason
+    });
+
+    if (reason === "pagehide" && navigator.sendBeacon){
+      try {
+        var blob = new Blob([payload], {type:"text/plain"});
+        var sent = navigator.sendBeacon(API_BASE + "/wyrmspire-save-progress", blob);
+        return Promise.resolve({ok:sent, code:null});
+      } catch(e){
+        return Promise.resolve({ok:false, code:"network_error"});
+      }
+    }
+
+    var fetchOptions = {
+      method: "POST",
+      headers: {"Content-Type": reason === "pagehide" ? "text/plain" : "application/json"},
+      body: payload
+    };
+    if (reason === "pagehide") fetchOptions.keepalive = true;
+
+    return fetch(API_BASE + "/wyrmspire-save-progress", fetchOptions)
+      .then(function(res){ return res.json(); })
+      .then(function(data){
+        if (data && data.code === "not_authorized"){
+          saveToken = null;
+          clearStoredIdentity();
+          return {ok:false, code:"not_authorized"};
+        }
+        return {ok: Boolean(data && data.success), code: (data && data.code) || null};
+      })
+      .catch(function(){ return {ok:false, code:"network_error"}; });
+  }
+
+  function copyKnownKeys(target, source, keys){
+    keys.forEach(function(k){ target[k] = Boolean(source && source[k]); });
+  }
+
+  // Testing aid: wipe all in-memory progress and items back to their starting
+  // state and return to the Gate, as if the game had just begun. Does not
+  // touch the server — a saved account's progress can never be un-solved
+  // there by design, so this is a client-side-only replay tool.
+  function restartGame(){
+    Object.keys(solved).forEach(function(k){ solved[k] = false; });
+    Object.keys(inventory).forEach(function(k){ inventory[k] = false; });
+    Object.keys(placed).forEach(function(k){ placed[k] = false; });
+    jewelsPlaced = 0;
+    buttonTaken = false;
+    buckleTaken = false;
+    beadTaken = false;
+    spoonTaken = false;
+    coinTaken = false;
+    bananaTaken = false;
+    Object.keys(visorClean).forEach(function(k){ visorClean[k] = false; });
+    atriumSeen = {};
+    atriumLeaveWarnings = 0;
+    heldBottleYear = null;
+    corkscrewTaken = false;
+    wineOpened = false;
+    awaitingOgre = false;
+    galleryFrameOpened = false;
+    diaryOpen = false;
+    diaryPage = 0;
+    diaryTaken = false;
+    quillTaken = false;
+    documentTaken = false;
+    corkscrewRevealed = false;
+    Object.keys(ITEM_HOME).forEach(function(k){ itemLocation[k] = ITEM_HOME[k]; });
+    xyzzyReturnRoom = null;
+
+    mode = "play";
+    visited = ["intro"];
+    renderStatusPill();
+    turnTo("gate", ["<span class=\"system\">— Testing: the game has been reset to the very beginning. —</span>"]);
+  }
+
+  function resolveResumeRoom(state){
+    var roomId = state && state.current_room;
+    if (!roomId || !ROOMS[roomId] || roomId === "intro" || roomId === "xyzzy_well"){
+      return "gate";
+    }
+    var jewelsDone = JEWEL_KEYS.every(function(k){ return inventory[k] || placed[k]; });
+    if ((roomId === "tower_stair" || roomId === "tower_door" || roomId === "king_chamber") && !jewelsDone){
+      return "great_hall";
+    }
+    if (roomId === "treasure_room" && !solved.finale){
+      return "great_hall";
+    }
+    return roomId;
+  }
+
+  function restoreGameState(state, greetingLines){
+    state = state || {};
+    copyKnownKeys(solved, state.solved, SOLVED_KEYS);
+    copyKnownKeys(inventory, state.inventory, JEWEL_KEYS);
+    copyKnownKeys(placed, state.placed, JEWEL_KEYS);
+    jewelsPlaced = JEWEL_KEYS.filter(function(k){ return placed[k]; }).length;
+    applyFlags(state.flags);
+
+    var room = resolveResumeRoom(state);
+    visited = ["intro"];
+    mode = "play";
+    reAuthInProgress = false;
+    authRevokedNoticeShown = false;
+    hideAuthPanel();
+    renderStatusPill();
+    turnTo(room, greetingLines);
+  }
+
+  function showAuthView(view, message, prefillName){
+    authView = view;
+    mode = "auth";
+    authBusy = false;
+    authPanel.hidden = false;
+    form.hidden = true;
+    Object.keys(AUTH_FORMS).forEach(function(key){
+      AUTH_FORMS[key].hidden = (key !== view);
+    });
+    authMessageEl.textContent = message || "";
+    if (prefillName){
+      var nameField = AUTH_FORMS[view].querySelector("[name=avatar_name]");
+      if (nameField) nameField.value = prefillName;
+    }
+    renderExits();
+  }
+
+  function hideAuthPanel(){
+    authPanel.hidden = true;
+    form.hidden = false;
+    authMessageEl.textContent = "";
+  }
+
+  function setAuthBusy(isBusy, busyMessage){
+    authBusy = isBusy;
+    if (isBusy) authMessageEl.textContent = busyMessage || "One moment...";
+  }
+
+  function applyAuthSuccess(data, remember, greetingLines){
+    avatarName = data.avatar_name;
+    if (data.save_token) saveToken = data.save_token;
+    storeIdentity(avatarName, saveToken, remember);
+
+    if (reAuthInProgress){
+      reAuthInProgress = false;
+      authRevokedNoticeShown = false;
+      hideAuthPanel();
+      renderRoom(current);
+      respond(["Your seal is renewed. " + (greetingLines ? greetingLines.join(" ") : "")]);
+      saveProgressToServer("relogin");
+      return;
+    }
+    restoreGameState(data.state, greetingLines);
+  }
+
+  function showAuthChoice(){
+    mode = "authChoice";
+    renderRoom("naming");
+  }
+
+  function proceedToNaming(){
+    var stored = loadStoredIdentity();
+    if (!stored){
+      showAuthChoice();
+      return;
+    }
+    avatarName = stored.avatarName;
+    saveToken = stored.saveToken;
+    mode = "auth";
+    renderRoom("naming");
+    respond(["The herald peers at your seal..."]);
+    postWyrmspire("/wyrmspire-resume", {avatar_name: avatarName, save_token: saveToken}).then(function(result){
+      if (result.ok){
+        restoreGameState(result.data.state, ["The herald finds <strong>" + escapeHtml(result.data.avatar_name) + "</strong> in his rolls and waves you back to where you left off."]);
+      } else {
+        avatarName = null;
+        saveToken = null;
+        clearStoredIdentity();
+        showAuthView("login", "Your seal is no longer recognised — please sign in.", stored.avatarName);
+      }
+    });
+  }
+
+  function beginGame(){
+    mode = "checkingContest";
+    renderExits();
+    respond(["You step toward the threshold. Word of the hall's doings, it's said, travels faster than any traveller..."]);
+    checkContestStatus().then(function(completed){
+      if (completed){
+        mode = "contestWonChoice";
+        respond([
+          "...and word reaches you before you've even crossed the threshold: another soul has already claimed the hall's treasure, and the prize stands awarded.",
+          "You may still enter and see the tale through to its end, if you wish — but the prize is no longer yours to win."
+        ]);
+        renderExits();
+      } else {
+        proceedToNaming();
+      }
+    });
+  }
+
+  function beginReAuth(view){
+    reAuthInProgress = true;
+    showAuthView(view || "login", "", avatarName);
+  }
+
+  function finishExit(){
+    respond(["Farewell, traveller. The hall will remember."]);
+    setTimeout(function(){
+      window.location.href = "index.html";
+    }, 1200);
+  }
+
+  function performExitSave(){
+    mode = "saving";
+    respond(["A raven takes wing, bearing your record away..."]);
+    renderExits();
+    if (!avatarName){
+      finishExit();
+      return;
+    }
+    saveProgressToServer("exit").then(function(result){
+      if (result.ok){
+        finishExit();
+      } else if (result.code === "not_authorized" || result.code === "no_identity"){
+        mode = "saveAuthExpired";
+        respond(["The raven finds no one left to receive it — your seal is no longer recognised. Sign in again to keep your record, or leave without saving."]);
+        renderExits();
+      } else {
+        mode = "saveFailed";
+        respond(["The raven returns, your message undelivered. Something has gone amiss."]);
+        renderExits();
+      }
+    });
+  }
+
+  function runCommand(raw){
+    raw = (raw || "").trim();
+    if (!raw) return;
+    var low = raw.toLowerCase();
+
+    if (mode === "authChoice"){
+      if (/^sign in$/.test(low)){
+        showAuthView("login");
+      } else if (/^create account$/.test(low)){
+        showAuthView("signup");
+      } else {
+        respond(["Sign in, or create an account?"]);
+      }
+      return;
+    }
+
+    if (mode === "auth"){
+      respond(["Use the herald's ledger below."]);
+      return;
+    }
+
+    if (mode === "confirmExit"){
+      if (/^(leave|yes|y)$/.test(low)){
+        performExitSave();
+      } else if (/^(stay|no|n|cancel)$/.test(low)){
+        mode = "play";
+        respond(["You decide to stay a while longer."]);
+        renderExits();
+      } else {
+        respond(["Leave, or stay?"]);
+      }
+      return;
+    }
+
+    if (mode === "saving"){
+      respond(["The raven is already away. Wait a moment."]);
+      return;
+    }
+
+    if (mode === "saveFailed"){
+      if (/^(try again|retry)$/.test(low)){
+        performExitSave();
+      } else if (/^(leave anyway)$/.test(low)){
+        window.location.href = "index.html";
+      } else if (/^(stay|no|n|cancel)$/.test(low)){
+        mode = "play";
+        respond(["You decide to stay a while longer."]);
+        renderExits();
+      } else {
+        respond(["Try again, leave anyway, or stay?"]);
+      }
+      return;
+    }
+
+    if (mode === "saveAuthExpired"){
+      if (/^(sign in|sign in|login|log in)$/.test(low)){
+        beginReAuth("login");
+      } else if (/^(leave anyway)$/.test(low)){
+        window.location.href = "index.html";
+      } else if (/^(stay|no|n|cancel)$/.test(low)){
+        mode = "play";
+        respond(["You decide to stay a while longer."]);
+        renderExits();
+      } else {
+        respond(["Sign in, leave anyway, or stay?"]);
+      }
+      return;
+    }
+
+    if (current !== "intro" && mode === "play" && /^(sign in|sign-in|login|log in)$/.test(low)){
+      beginReAuth("login");
+      return;
+    }
+
+    if (current !== "intro" && mode === "play" && /^(sign out|sign-out|logout|log out)$/.test(low)){
+      respond(["A raven takes wing, bearing your record home before you go..."]);
+      saveProgressToServer("exit").then(function(){
+        clearStoredIdentity();
+        respond(["You sign out. The herald's rolls will not remember you until you sign in again."]);
+        setTimeout(function(){
+          window.location.reload();
+        }, 1200);
+      });
+      return;
+    }
+
+    if (current !== "intro" && mode === "play" && /^restart$/.test(low)){
+      restartGame();
+      return;
+    }
+
+    if (current !== "intro" && mode === "play" && /^(exit|quit|leave)$/.test(low)){
+      mode = "confirmExit";
+      if (avatarName){
+        respond(["Continuing will exit you from the game. Your deeds so far are recorded under the name " + escapeHtml(avatarName) + "."]);
+      } else {
+        respond(["Continuing will exit you from the game. This session was never recorded under any name."]);
+      }
+      renderExits();
+      return;
+    }
+
+    if (current === "xyzzy_well" && Object.prototype.hasOwnProperty.call(LOCATION_NAMES, low)){
+      respond(["I don't know what you are talking about."]);
+      return;
+    }
+
+    if (current !== "intro" && current !== "xyzzy_well" && Object.prototype.hasOwnProperty.call(LOCATION_NAMES, low)){
+      turnTo(LOCATION_NAMES[low]);
+      return;
+    }
+
+    if (current === "intro"){
+      if (mode === "contestWonChoice"){
+        if (/^enter anyway$/.test(low)){
+          proceedToNaming();
+        } else if (/^turn back$/.test(low)){
+          window.location.href = "index.html";
+        } else {
+          respond(["Enter anyway, or turn back?"]);
+        }
+        return;
+      }
+      if (mode === "checkingContest"){
+        respond(["The herald is still consulting the rolls. A moment, please."]);
+        return;
+      }
+      if (/^(begin|start)$/.test(low)){
+        beginGame();
+      } else {
+        respond(["Type BEGIN when you are ready, or use the button below."]);
+      }
+      return;
+    }
+
+    if (low === "plugh"){
+      respond(["You wish!"]);
+      return;
+    }
+
+    if (low === "xyzzy"){
+      if (current === "xyzzy_well"){
+        var returnTo = xyzzyReturnRoom || "gate";
+        xyzzyReturnRoom = null;
+        renderRoom(returnTo);
+      } else {
+        xyzzyReturnRoom = current;
+        renderRoom("xyzzy_well");
+      }
+      return;
+    }
+
+    if (/^(help|\?)$/.test(low)){ showHelp(); return; }
+    if (/^(puzzles|status)$/.test(low)){ showPuzzles(); return; }
+    if (/^(?:look|l|look around|(?:examine|x|look at|inspect)\s+(?:the\s+)?room)$/.test(low)){ renderRoom(current); return; }
+    if (/^(inventory|inv|i)$/.test(low)){
+      var heldKeys = Object.keys(inventory).filter(function(k){ return inventory[k]; });
+      var extras = [];
+      if (quillTaken) extras.push("<span class=\"item-quill\">a quill</span>");
+      if (documentTaken) extras.push("<span class=\"item-document\">a document</span>");
+      if (buttonTaken) extras.push("<span class=\"item-button\">a button</span>");
+      if (buckleTaken) extras.push("<span class=\"item-buckle\">a buckle</span>");
+      if (beadTaken) extras.push("<span class=\"item-bead\">a bead</span>");
+      if (spoonTaken) extras.push("<span class=\"item-spoon\">a spoon</span>");
+      if (coinTaken) extras.push("<span class=\"item-coin\">a coin</span>");
+      if (corkscrewTaken) extras.push("<span class=\"item-corkscrew\">a corkscrew</span>");
+      if (diaryTaken) extras.push("<span class=\"item-diary\">a diary</span>");
+      if (bananaTaken) extras.push("<span class=\"item-banana\">a banana</span>");
+      var invLine;
+      if (heldKeys.length === 0){
+        invLine = extras.length ? ("You are carrying " + joinWithAnd(extras)) : "You are carrying nothing of note — not yet";
+      } else if (heldKeys.length === 1){
+        invLine = "You are carrying <span class=\"jewel-found\">one jewel</span>";
+        if (extras.length) invLine += " — and " + joinWithAnd(extras);
+      } else {
+        invLine = "You are carrying <span class=\"jewel-found\">" + numberWord(heldKeys.length) + " jewels</span>";
+        if (extras.length) invLine += " — and " + joinWithAnd(extras);
+      }
+      respond([invLine + "."]);
+      return;
+    }
+    if (low === "back" || low === "return"){
+      if (current === "xyzzy_well"){
+        respond(["There is nowhere to go from here but back the way you came — say XYZZY."]);
+      } else {
+        goBack();
+      }
+      return;
+    }
+    var magpieRevealed = Object.keys(atriumSeen).length >= 5;
+    if (current === "atrium_n" && !solved.magpie && magpieRevealed && /^(?:take|get|grab)\s+(?:the\s+)?jewel$/.test(low)){
+      respond(["The magpie sidles back along the trellis, keeping the same careful distance, jewel still fast in her beak. She is not simply going to let you take it."]);
+      return;
+    }
+    if (/^(take|get|grab)\s+(the\s+)?jewel$/.test(low)){ takeJewel(); return; }
+
+    var giveMatch = low.match(/^(?:give|offer|throw|toss|hand|pass)\s+(?:the\s+)?(\w+)\s+(?:to|at)\s+(?:the\s+)?(?:magpie|bird|her)$/) ||
+                    low.match(/^(?:give|offer|throw|toss|hand|pass)\s+(?:the\s+)?(?:magpie|bird|her)\s+(?:the\s+)?(\w+)$/);
+    if (current === "atrium_n" && giveMatch && !magpieRevealed && !solved.magpie){
+      respond(["There is no magpie here."]);
+      return;
+    }
+    if (current === "atrium_n" && giveMatch){
+      var offeredItem = giveMatch[1];
+      if (solved.magpie){
+        respond(["She is gone, and has no further interest in anything you carry."]);
+      } else if (/^jewels?$/.test(offeredItem)){
+        respond(["No, Fool! You need this!"]);
+      } else if (!OFFERABLE_ITEMS.hasOwnProperty(offeredItem) || !OFFERABLE_ITEMS[offeredItem]()){
+        respond(["You have no such thing to offer."]);
+      } else if (offeredItem === "quill"){
+        quillTaken = false;
+        solved.magpie = true;
+        updateStatus();
+        respond([
+          "The magpie's head cocks, sharp and sudden, the moment she sees the quill. She drops the jewel without ceremony, snatches the feather from your offered hand before you've quite finished offering it, and is gone in a single clattering burst of wings, already far more interested in her new prize than in you.",
+          "<span class=\"system\">— Spell broken: the Atrium — " + remainingLine() + " —</span>",
+          "<span class=\"jewel-found\">The jewel she dropped lies glinting in the dust behind her.</span>"
+        ]);
+      } else {
+        respond(["The magpie regards the " + ITEM_DISPLAY_NAME[offeredItem] + " with evident disdain, and does not so much as shift her grip on the jewel. Whatever she wants, this plainly isn't it."]);
+      }
+      return;
+    }
+
+    var dropMatch = low.match(/^drop\s+(?:the\s+)?(.+)$/);
+    if (dropMatch){
+      var dropNoun = dropMatch[1].trim();
+      if (/^jewels?$/.test(dropNoun)){
+        respond(["No, Fool! You need this!"]);
+        return;
+      }
+      var dropKey = ITEM_NOUN_TO_KEY[dropNoun];
+      if (dropKey){
+        if (!getItemTaken(dropKey)){
+          respond(["You have no " + ITEM_DISPLAY_NAME[dropKey] + " to set down."]);
+        } else {
+          setItemTaken(dropKey, false);
+          itemLocation[dropKey] = current;
+          saveMilestoneIfSignedIn();
+          respond(["You set the " + ITEM_DISPLAY_NAME[dropKey] + " down."]);
+        }
+        return;
+      }
+    }
+
+    var takeQuillMatch = /^(?:take|get|grab)\s+(?:the\s+)?quill$/.test(low);
+    if (current === "gallery" && takeQuillMatch && itemLocation.quill === "gallery"){
+      if (quillTaken){
+        respond(["You already have it."]);
+      } else {
+        quillTaken = true;
+        saveMilestoneIfSignedIn();
+        renderRoom(current);
+        respond(["OK."]);
+      }
+      return;
+    }
+
+    var playMatch = /^play\s+(?:the\s+)?(.+)$/.test(low);
+    if (current === "music_room" && playMatch){
+      respond(["You press a key, pluck a string, whatever seems fitting — and nothing happens beyond the ordinary, dull thud of old wood and older strings. Whatever music once thrived in this room, it is not yours to call forth."]);
+      return;
+    }
+
+    var knockOrOpenDoorMatch = /^(?:open|knock on|knock)\s*(?:the\s+)?door$/.test(low);
+    if (current === "tower_door" && knockOrOpenDoorMatch){
+      respond(["The door already stands open."]);
+      return;
+    }
+
+    var placeJewelMatch = /^(?:place|insert|set|put|fit)\s+(?:a\s+|the\s+next\s+|next\s+|the\s+)?jewel(?:\s+(?:in|into)\s+(?:the\s+)?(?:crown|setting|socket))?$/.test(low);
+    if (current === "king_chamber" && placeJewelMatch){
+      if (solved.finale){
+        respond(["The crown is whole now. There is nothing left to place."]);
+        return;
+      }
+      var held = jewelKeysHeld();
+      if (held.length === 0){
+        respond(["You have no jewel left to place."]);
+        return;
+      }
+      inventory[held[0]] = false;
+      placed[held[0]] = true;
+      jewelsPlaced = JEWEL_KEYS.filter(function(k){ return placed[k]; }).length;
+      var placeLine = jewelsPlaced === 1 ? "The first jewel settles into its place."
+        : (jewelsPlaced === 9 ? "The final jewel finds its home." : "The next jewel settles into its place.");
+      if (jewelsPlaced < 9){
+        respond([placeLine, EMOTION_LINES[jewelsPlaced - 1]]);
+      } else {
+        solved.finale = true;
+        updateStatus();
+        respond([
+          placeLine,
+          "Something far away shrieks mournfully. The King's eyes open.",
+          "He rises — not slowly, not as a man long weakened would rise, but all at once, as though he had merely been waiting — and motions you back with a single raised hand. “Stand aside, Friend. I will take it from here.”",
+          "“By blood and by crown, I reclaim what is mine.” The King raises a royal fist in the air and proclaims with a shout that vibrates the entire chamber, “Begone, foul demon, to the vile pit from which you arose!”",
+          "A heavy oppression that had permeated the entire manor lifts. It simply ceases, the way a held breath ceases once finally released.",
+          "As you and the King dance the dance of victory, the sound of great leathery wings reaches you, faint and then fainter, receding into the night.",
+          "As the dance subsides, the King takes your arm and points to a door, previously unnoticed, set into the chamber's far wall. “Come,” he says. “There is one thing more I would show you.”",
+          "<span class=\"system\">— Spell broken: the Tower — " + remainingLine() + " —</span>"
+        ]);
+      }
+      return;
+    }
+
+    var goToCreekMatch = /^(?:go\s+to|walk\s+to|visit|approach)\s+(?:the\s+)?creek$/.test(low);
+    if (current === "footpath" && goToCreekMatch){
+      respond(["You find nothing remarkable about the creek."]);
+      return;
+    }
+
+    var wishMatch = low.match(/^(?:i\s+)?wish\s+for\s+(?:the\s+|a\s+|an\s+)?(.+)$/) || low.match(/^make\s+a\s+wish\s+for\s+(?:the\s+|a\s+|an\s+)?(.+)$/);
+    if (current === "cellar" && wishMatch){
+      awaitingWish = false;
+      grantWishIfValid(wishMatch[1]);
+      return;
+    }
+    if (current === "cellar" && /^(?:make\s+a\s+wish|wish)$/.test(low)){
+      awaitingWish = true;
+      respond(["Wish for what?"]);
+      return;
+    }
+
+    var examineBottleMatch = low.match(/^(?:examine|x|look at|read|inspect)\s+(?:the\s+)?bottle(?:\s+(\d{3,4}))?$/);
+    if (current === "dining_hall" && examineBottleMatch){
+      var examYear = examineBottleMatch[1];
+      if (!examYear){
+        respond(["“There are vintages here from every year since 1050. Which year are you interested in?”"]);
+      } else if (examYear === "1347"){
+        heldBottleYear = 1347;
+        respond(["As you remove the bottle from the shelf, it emits a tiny tinkling sound."]);
+      } else {
+        respond([WINE_FLAVOR_LINES[Math.floor(Math.random() * WINE_FLAVOR_LINES.length)]]);
+      }
+      return;
+    }
+
+    var bottleActionMatch = low.match(/^(?:open|take|get|grab|break)\s+(?:the\s+)?bottle(?:\s+(\d{3,4}))?$/);
+    if (current === "dining_hall" && bottleActionMatch){
+      var actYear = bottleActionMatch[1] || (heldBottleYear ? String(heldBottleYear) : null);
+      if (!actYear){
+        respond(["Which bottle do you mean?"]);
+      } else if (actYear !== "1347"){
+        respond(["Nothing there."]);
+      } else if (!corkscrewTaken){
+        respond(["“With what?”"]);
+      } else if (wineOpened){
+        respond(["The bottle already stands open, uncorked and waiting."]);
+      } else {
+        wineOpened = true;
+        saveMilestoneIfSignedIn();
+        respond(["The cork gives way with a dry, tired squeak, centuries of pressure finally relieved. Whatever was sealed inside, air reaches it now for the first time in longer than anyone left alive could say."]);
+      }
+      return;
+    }
+
+    var rummageMatch = /^(?:rummage|search)(?:\s+(?:through|in))?\s+(?:the\s+)?(?:utensils?|flatware)?\s*drawer$/.test(low);
+    if (current === "dining_hall" && rummageMatch){
+      if (corkscrewTaken){
+        respond(["The drawer holds nothing else of use now."]);
+      } else if (itemLocation.corkscrew !== "dining_hall"){
+        respond(["The drawer holds nothing else of use now."]);
+      } else {
+        corkscrewRevealed = true;
+        respond(["Among the jumbled flatware, half-buried beneath tarnished forks and spoons, you find a corkscrew."]);
+      }
+      return;
+    }
+
+    var takeCorkscrewMatch = /^(?:take|get|grab)\s+(?:the\s+)?corkscrew$/.test(low);
+    if (current === "dining_hall" && takeCorkscrewMatch && itemLocation.corkscrew === "dining_hall" && corkscrewRevealed){
+      if (corkscrewTaken){ respond(["You already have it."]); }
+      else { corkscrewTaken = true; saveMilestoneIfSignedIn(); renderRoom(current); respond(["OK."]); }
+      return;
+    }
+
+    var pourWineMatch = /^pour\s+(?:out\s+)?(?:the\s+)?(?:bottle|wine)$/.test(low);
+    var drinkWineMatch = /^drink\s+(?:the\s+)?(?:bottle|wine)$/.test(low);
+    if (current === "dining_hall" && (pourWineMatch || drinkWineMatch)){
+      if (!wineOpened){
+        respond(["There is no open bottle here to do that with."]);
+      } else if (solved.wine){
+        respond(["The bottle is empty now."]);
+      } else {
+        solved.wine = true;
+        updateStatus();
+        if (pourWineMatch){
+          respond([
+            "You tip the bottle and let the wine spill out in a slow, dark stream across the stone.",
+            "<span class=\"system\">— Spell broken: the Dining Hall — " + remainingLine() + " —</span>",
+            "<span class=\"jewel-found\">Catching what little light reaches this corner of the room, a jewel rings out as it strikes the floor.</span>"
+          ]);
+        } else {
+          respond([
+            "You raise the bottle and drink. The wine has gone to something closer to vinegar than wine across four centuries uncorked — and before you've even registered the taste, something hard and cold meets your teeth.",
+            "<span class=\"system\">— Spell broken: the Dining Hall — " + remainingLine() + " —</span>",
+            "<span class=\"jewel-found\">You spit, more reflex than decision, and a jewel clatters free across the floor.</span>"
+          ]);
+        }
+      }
+      return;
+    }
+
+    var takeButtonMatch = /^(?:take|get|grab)\s+(?:the\s+)?button$/.test(low);
+    if (current === "churchyard" && takeButtonMatch && itemLocation.button === "churchyard"){
+      if (buttonTaken){ respond(["You already have it."]); }
+      else { buttonTaken = true; saveMilestoneIfSignedIn(); renderRoom(current); respond(["OK."]); }
+      return;
+    }
+
+    var takeBuckleMatch = /^(?:take|get|grab)\s+(?:the\s+)?buckle$/.test(low);
+    if (current === "armory" && takeBuckleMatch && itemLocation.buckle === "armory"){
+      if (buckleTaken){ respond(["You already have it."]); }
+      else { buckleTaken = true; saveMilestoneIfSignedIn(); renderRoom(current); respond(["OK."]); }
+      return;
+    }
+
+    var takeBeadMatch = /^(?:take|get|grab)\s+(?:the\s+)?(?:bead|jade)$/.test(low);
+    if (current === "muster_hall" && takeBeadMatch && itemLocation.bead === "muster_hall"){
+      if (beadTaken){ respond(["You already have it."]); }
+      else { beadTaken = true; saveMilestoneIfSignedIn(); renderRoom(current); respond(["OK."]); }
+      return;
+    }
+
+    var takeSpoonMatch = /^(?:take|get|grab)\s+(?:the\s+)?spoon$/.test(low);
+    if (current === "kitchen" && takeSpoonMatch && itemLocation.spoon === "kitchen"){
+      if (spoonTaken){ respond(["You already have it."]); }
+      else { spoonTaken = true; saveMilestoneIfSignedIn(); renderRoom(current); respond(["OK."]); }
+      return;
+    }
+
+    var takeCoinMatch = /^(?:take|get|grab)\s+(?:the\s+)?coin$/.test(low);
+    if (current === "great_hall" && takeCoinMatch && itemLocation.coin === "great_hall"){
+      if (coinTaken){ respond(["You already have it."]); }
+      else { coinTaken = true; saveMilestoneIfSignedIn(); renderRoom(current); respond(["OK."]); }
+      return;
+    }
+
+    var takeDocumentMatch = /^(?:take|get|grab)\s+(?:the\s+)?(?:document|paper|deed|scroll)$/.test(low);
+    if (current === "gallery" && takeDocumentMatch && itemLocation.document === "gallery"){
+      if (documentTaken){
+        respond(["You already have it."]);
+      } else {
+        documentTaken = true;
+        saveMilestoneIfSignedIn();
+        renderRoom(current);
+        respond(["OK."]);
+      }
+      return;
+    }
+
+    var crowtherMatch = /^(?:take|get|grab|pull|move)\s+(?:the\s+)?crowther(?:'s)?(?:\s+frame)?$/.test(low);
+    if (current === "gallery" && crowtherMatch){
+      if (galleryFrameOpened){
+        respond([diaryTaken
+          ? "The hidden frame still hangs open, the ruined portrait and its corroded nameplate plain to see — the recess beside it empty now."
+          : "The hidden frame already hangs open, the ruined portrait and its corroded nameplate plain to see — the small diary tucked beside it, just as you left it."]);
+      } else {
+        galleryFrameOpened = true;
+        saveMilestoneIfSignedIn();
+        respond([
+          "You reach for the frame, meaning only to lift it and look behind — and find, the moment your hand closes on it, that it is not merely hung but hinged. It swings aside at your touch, and behind it, fitted into a recess cut for exactly this purpose, hangs another frame purposely hidden from view.",
+          "The portrait on that hidden frame has been slashed through, again and again, the face cut with a violence the rest of the gallery's neglect never once matched — as though someone wanted not merely to forget the subject, but to make forgetting impossible to undo.",
+          "Beneath the ruined visage, a nameplate, untouched, hidden as carefully as the man himself — though even here, time or damp or some deliberate hand has not been entirely kind. The first word is perfectly legible: THEODRIC. The second has corroded past any certainty beyond the fact that the last name begins with what appears to be A.",
+          "Tucked into the recess beside the ruined portrait, scarcely larger than your palm, lies a small diary, its leather cover softened by whatever damp has reached this close against the wall."
+        ]);
+      }
+      return;
+    }
+
+    var takeDiaryMatch = /^(?:take|get|grab)\s+(?:the\s+)?diary$/.test(low);
+    if (current === "gallery" && galleryFrameOpened && takeDiaryMatch && itemLocation.diary === "gallery"){
+      if (diaryTaken){
+        respond(["You already have it."]);
+      } else {
+        diaryTaken = true;
+        saveMilestoneIfSignedIn();
+        renderRoom(current);
+        respond(["You lift the diary free of the recess. Lighter than you expected, and no less damp for having waited there so long."]);
+      }
+      return;
+    }
+
+    var takeItemElsewhereMatch = low.match(/^(?:take|get|grab)\s+(?:the\s+)?(quill|document|paper|deed|scroll|button|buckle|bead|jade|spoon|coin|corkscrew|diary|banana)$/);
+    if (takeItemElsewhereMatch){
+      var takeKey = ITEM_NOUN_TO_KEY[takeItemElsewhereMatch[1]];
+      if (getItemTaken(takeKey)){
+        respond(["You already have it."]);
+        return;
+      }
+      if (isItemRevealed(takeKey) && itemLocation[takeKey] === current){
+        setItemTaken(takeKey, true);
+        saveMilestoneIfSignedIn();
+        renderRoom(current);
+        respond(["You pick it up."]);
+        return;
+      }
+    }
+
+    var openDiaryMatch = /^(?:open|read)\s+(?:the\s+)?diary$/.test(low);
+    if (current === "gallery" && galleryFrameOpened && openDiaryMatch){
+      if (!diaryTaken){
+        respond(["You have no diary in hand."]);
+      } else {
+        diaryOpen = true;
+        diaryPage = 0;
+        respond([diaryPageHTML(diaryPage)]);
+      }
+      return;
+    }
+
+    var turnPageMatch = /^(?:(?:turn|flip)(?:\s+to)?\s+(?:the\s+)?(?:next\s+)?page|next\s+page)$/.test(low);
+    var gotoPageMatch = low.match(/^page\s+(\d+)$/);
+    if (current === "gallery" && (turnPageMatch || gotoPageMatch)){
+      if (!diaryOpen){
+        respond(["There is nothing open to turn the page of."]);
+      } else if (gotoPageMatch){
+        var requestedPage = parseInt(gotoPageMatch[1], 10);
+        if (requestedPage < 1 || requestedPage > DIARY_PAGES.length){
+          respond(["The diary has no page " + requestedPage + "."]);
+        } else {
+          diaryPage = requestedPage - 1;
+          respond([diaryPageHTML(diaryPage)]);
+        }
+      } else {
+        diaryPage = (diaryPage + 1) % DIARY_PAGES.length;
+        respond([diaryPageHTML(diaryPage)]);
+      }
+      return;
+    }
+
+    var feelDoorMatch = low.match(/^(?:feel|touch)\s+(?:the\s+)?(?:door|mirror)\s*(\d+)$/);
+    if (current === "mirror_hall" && feelDoorMatch){
+      var feltNum = parseInt(feelDoorMatch[1], 10);
+      if (feltNum < 1 || feltNum > 8){
+        respond(["There is no door numbered that here."]);
+      } else if (feltNum === CORRECT_DOOR){
+        respond(["The glass is warm beneath your palm."]);
+      } else {
+        respond(["The glass of door " + feltNum + " is cold beneath your palm, cold as every other surface in this house has been."]);
+      }
+      return;
+    }
+
+    var openDoorMatch = low.match(/^open\s+(?:the\s+)?(?:door|mirror)\s*(\d+)$/);
+    if (current === "mirror_hall" && openDoorMatch){
+      var openedNum = parseInt(openDoorMatch[1], 10);
+      if (openedNum < 1 || openedNum > 8){
+        respond(["There is no door numbered that here."]);
+      } else {
+        respond(["There is no latch here, no hinge — nothing to open. If you mean to go through that door, you must simply go through."]);
+      }
+      return;
+    }
+
+    var goDoorMatch = low.match(/^(?:go\s+through|through|enter|exit)\s+(?:the\s+)?door\s*(\d+)$/);
+    if (current === "mirror_hall" && goDoorMatch){
+      var chosenDoor = parseInt(goDoorMatch[1], 10);
+      if (chosenDoor < 1 || chosenDoor > 8){
+        respond(["There is no door numbered that here."]);
+      } else if (chosenDoor === CORRECT_DOOR){
+        solved.mirrors = true;
+        updateStatus();
+        turnTo("furnace_room",
+          ["You push through, and for one unsteady instant the glass gives like water rather than breaking like glass — and then you are through."],
+          [
+            "<span class=\"system\">— Spell broken: the Hall of Mirrors — " + remainingLine() + " —</span>",
+            "<span class=\"jewel-found\">A jewel, small and bright, slips loose behind you, ringing once, sharp and clear, against the stone at your feet.</span>"
+          ],
+          true
+        );
+      } else {
+        turnTo("maze_hub", [
+          "The glass gives the same way — water, not glass — and for one instant you believe yourself safely through. Then the air changes, all at once, and you understand, the way you have come to understand so much else in this house, that you have chosen badly."
+        ]);
+      }
+      return;
+    }
+
+    var dialMatch = low.match(/^(?:turn|set|dial|enter|configure|move)\D*(\d{3,4})/);
+    if (current === "churchyard" && dialMatch){
+      var yr = dialMatch[1];
+      if (yr === "1347" && !solved.dial){ dialSolved(); }
+      else if (solved.dial){ respond(["The door already stands open."]); }
+      else { dialWrong(); }
+      return;
+    }
+
+    var pullRingsMatch = /^pull\s+(?:the\s+)?rings?$/.test(low);
+    if (current === "sentinels_hall" && pullRingsMatch){
+      if (solved.helmets){
+        respond(["The rings already hang loose and pulled; the niche behind them stands open."]);
+      } else {
+        respond(["You take hold and pull with everything you have. The ring does not so much as shift. It appears you are just not strong enough."]);
+      }
+      return;
+    }
+
+    var cleanVisorMatch = low.match(/^(?:clean|wipe)\s+(?:the\s+)?(red|blue|green|yellow|black|gold)(?:\s+visor)?$/);
+    if (current === "sentinels_hall" && cleanVisorMatch){
+      awaitingVisorColor = false;
+      cleanVisor(cleanVisorMatch[1]);
+      return;
+    }
+
+    var cleanVisorNoColorMatch = /^(?:clean|wipe)\s+(?:the\s+)?(?:visor|helmet)s?$/.test(low);
+    if (current === "sentinels_hall" && cleanVisorNoColorMatch){
+      if (solved.helmets){ respond(["The niche stands open already. There is nothing left here to clean."]); }
+      else {
+        awaitingVisorColor = true;
+        var remaining = Object.keys(visorClean).filter(function(c){ return !visorClean[c]; });
+        respond(["Which one? Dust-blind still: " + remaining.join(", ") + "."]);
+      }
+      return;
+    }
+
+    var chestMatch = low.match(/^(?:turn|set)\s+dials?\s+to\s+([a-z]+)$/) || low.match(/^turn\s+to\s+([a-z]+)$/) || low.match(/^spell\s+([a-z]+)$/) || low.match(/^dial\s+([a-z]+)$/);
+    if (current === "muster_hall" && chestMatch){
+      var chestWord = chestMatch[1].toUpperCase();
+      if (solved.chest){ respond(["The chest already stands open."]); }
+      else if (chestWord === "COURAGE"){ chestSolved(); }
+      else { chestWrong(); }
+      return;
+    }
+
+    var writeMatch = low.match(/^(?:write|sign)\s+(?:my\s+name\s+as\s+)?(.+)$/);
+    if (current === "gallery" && writeMatch){
+      if (!quillTaken){
+        respond(["With what?"]);
+        return;
+      }
+      var writtenName = writeMatch[1].trim().replace(/[.!]+$/,"").replace(/\s+/g," ");
+      if (solved.document){
+        respond(["The document already bears its name. There is nothing more to write."]);
+      } else if (writtenName === "theodric"){
+        respond(["“THEODRIC who?”"]);
+      } else if (writtenName === "theodric ashgrave"){
+        documentSolved();
+      } else {
+        documentWrong();
+      }
+      return;
+    }
+
+    if (tryExamine(raw)) return;
+
+    // movement
+    var dirWord = null;
+    var goMatch = low.match(/^(?:go\s+)?(n|north|s|south|e|east|w|west|u|up|d|down|in|enter|out|exit|leave)$/);
+    var enterGateMatch = /^(enter gate|through gate|open gate|go through gate)$/.test(low);
+    var enterChapelMatch = /^(enter chapel|through chapel|open chapel door|open door|go through chapel)$/.test(low);
+    var enterServantsDoorMatch = /^(?:enter|go through|through|open)\s+(?:the\s+)?(?:servant'?s?\s+)?door$/.test(low);
+
+    if (enterGateMatch && current === "gate") dirWord = "east";
+    else if (enterChapelMatch && current === "churchyard") dirWord = "east";
+    else if (enterServantsDoorMatch && current === "grounds") dirWord = "east";
+    else if (goMatch) dirWord = DIR_WORDS[goMatch[1]];
+
+    if (dirWord){
+      if (current === "gate" && dirWord === "east"){
+        if (solved.ogre){ turnTo("grounds"); }
+        else { ogreChallenge(); }
+        return;
+      }
+      if (current === "gate" && dirWord === "north"){
+        if (solved.ogre){ turnTo("footpath"); }
+        else { respond(["Whatever waits down that path can wait a little longer. You are not leaving this gate with the ogre still unanswered."]); }
+        return;
+      }
+      if (current === "churchyard" && dirWord === "east"){
+        if (solved.dial){ turnTo("chapel"); }
+        else { respond(["The dial has not been set. The door does not move."]); }
+        return;
+      }
+      if (current === "sentinels_hall" && dirWord === "west"){
+        if (solved.helmets){ turnTo("muster_hall"); }
+        else { respond(["You are leaving dust-blind visors behind. Whatever these six are waiting to do together, they have not yet done it."]); }
+        return;
+      }
+      if (current === "gallery" && dirWord === "north"){
+        if (solved.document){
+          turnTo("mirror_hall", ROOMS.gallery.onEnterExit.north);
+        } else {
+          respond(["Whatever waits beyond that door, you find yourself unwilling to leave this room with its one true task still undone."]);
+        }
+        return;
+      }
+      if (current === "great_hall" && dirWord === "up"){
+        if (allNineJewelsAccountedFor()){
+          turnTo("tower_stair");
+        } else {
+          respond([ROOMS.great_hall.blocked.up]);
+        }
+        return;
+      }
+      if (current === "king_chamber" && dirWord === "up"){
+        if (solved.finale){
+          turnTo("treasure_room");
+        } else {
+          respond([ROOMS.king_chamber.blocked.up]);
+        }
+        return;
+      }
+      if (current === "king_chamber" && dirWord === "down" && !solved.finale){
+        turnTo("tower_door", [
+          "As you turn to leave, a wave of euphoria washes over you, sudden and complete — relief, vindication, the warm conviction that you have done enough and may rightly rest now. It feels earned. It is not. Like everything else this presence has pressed upon you, it is aimed, not felt — a comfort arriving far too conveniently to be trusted."
+        ]);
+        return;
+      }
+      if (current === "atrium_n" && solved.magpie && !inventory.magpie && atriumLeaveWarnings < 2 && (dirWord === "south" || dirWord === "west" || dirWord === "east" || dirWord === "north")){
+        atriumLeaveWarnings++;
+        respond(["Aren't you forgetting something?"]);
+        return;
+      }
+
+      var room = ROOMS[current];
+      if (room.blocked && room.blocked[dirWord]){
+        respond([room.blocked[dirWord]]);
+        return;
+      }
+      if (room.exits && room.exits[dirWord]){
+        var extra = (room.onEnterExit && room.onEnterExit[dirWord]) ? room.onEnterExit[dirWord].slice() : [];
+        var leavingKey = jewelKeyHere();
+        if (room.leaveUnclaimedJewel && leavingKey && !inventory[leavingKey]){
+          extra = extra.concat([room.leaveUnclaimedJewel]);
+        }
+        turnTo(room.exits[dirWord], extra.length ? extra : null);
+        return;
+      }
+      respond(["There is no way to go " + dirWord + " from here."]);
+      return;
+    }
+
+    // riddle answer fallback
+    if (current === "gate" && awaitingOgre){
+      if (/\bfire\b/i.test(low)){ ogreSolved(); }
+      else { ogreWrong(); }
+      return;
+    }
+
+    // "wish for what?" follow-up answer fallback
+    if (current === "cellar" && awaitingWish){
+      awaitingWish = false;
+      grantWishIfValid(raw);
+      return;
+    }
+
+    // "which one?" follow-up color fallback for the sentinels' hall visors
+    var bareVisorColorMatch = low.match(/^(?:the\s+)?(red|blue|green|yellow|black|gold)(?:\s+visor)?$/);
+    if (current === "sentinels_hall" && awaitingVisorColor && bareVisorColorMatch){
+      awaitingVisorColor = false;
+      cleanVisor(bareVisorColorMatch[1]);
+      return;
+    }
+
+    // bare single-word guess fallback for the muster hall's chest dial
+    if (current === "muster_hall" && !solved.chest && /^[a-z]+$/.test(low)){
+      if (low === "courage"){ chestSolved(); }
+      else { chestWrong(); }
+      return;
+    }
+
+    respond(["I know not what you mean."]);
+  }
+
+  form.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    var v = input.value;
+    input.value = "";
+    runCommand(v);
+  });
+
+  window.addEventListener("pagehide", function(){
+    if (mode === "play" && avatarName){
+      saveProgressToServer("pagehide");
+    }
+  });
+
+  function authErrorMessage(code){
+    switch(code){
+      case "invalid_format": return "Names of three to twenty letters, good traveller — numbers, spaces, and a few marks are welcome, but little else.";
+      case "name_rejected": return "The herald's quill simply refuses to write such a name. Choose another.";
+      case "name_taken": return "A soul by that name already walks these halls. Choose another.";
+      case "invalid_email": return "The herald needs a proper address to send word to, should you ever need it.";
+      case "email_taken": return "That email is already recorded under another name.";
+      case "weak_password": return "Choose a password of at least 8 characters that isn't easy to guess.";
+      case "invalid_credentials": return "Name or password not recognised.";
+      case "rate_limited": return "Too many attempts. Wait a moment and try again.";
+      case "invalid_or_expired_token": return "That link is invalid or has expired. Request a new one.";
+      case "network_error": return "The herald's ledger cannot be reached just now. Try again shortly.";
+      default: return "Something has gone amiss. Try again shortly.";
+    }
+  }
+
+  Object.keys(AUTH_FORMS).forEach(function(viewKey){
+    var links = AUTH_FORMS[viewKey].querySelectorAll("[data-auth-view]");
+    for (var i=0;i<links.length;i++){
+      links[i].addEventListener("click", function(ev){
+        ev.preventDefault();
+        showAuthView(ev.target.getAttribute("data-auth-view"));
+      });
+    }
+  });
+
+  authPanel.querySelectorAll(".password-toggle").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var input = btn.previousElementSibling;
+      if (!input) return;
+      var revealed = input.type === "text";
+      input.type = revealed ? "password" : "text";
+      input.classList.toggle("password-revealed", !revealed);
+      btn.textContent = revealed ? "👁" : "🙈";
+      btn.setAttribute("aria-label", revealed ? "Show password" : "Hide password");
+    });
+  });
+
+  AUTH_FORMS.signup.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    if (authBusy) return;
+    var f = ev.target;
+    var name = f.avatar_name.value;
+    var email = f.email.value;
+    var password = f.password.value;
+    var confirm = f.confirm_password.value;
+    var remember = f.remember.checked;
+
+    if (password !== confirm){
+      authMessageEl.textContent = "Passwords do not match.";
+      return;
+    }
+
+    setAuthBusy(true, "The herald dips his quill...");
+    postWyrmspire("/wyrmspire-signup", {avatar_name:name, email:email, password:password}).then(function(result){
+      setAuthBusy(false);
+      if (result.ok){
+        applyAuthSuccess(result.data, remember, ["The herald inscribes <strong>" + escapeHtml(result.data.avatar_name) + "</strong> upon the rolls, and waves you through."]);
+      } else {
+        authMessageEl.textContent = authErrorMessage(result.data.code);
+      }
+    });
+  });
+
+  AUTH_FORMS.login.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    if (authBusy) return;
+    var f = ev.target;
+    var name = f.avatar_name.value;
+    var password = f.password.value;
+    var remember = f.remember.checked;
+
+    setAuthBusy(true, "The herald consults the rolls...");
+    postWyrmspire("/wyrmspire-login", {avatar_name:name, password:password}).then(function(result){
+      setAuthBusy(false);
+      if (result.ok){
+        applyAuthSuccess(result.data, remember, ["Welcome back, <strong>" + escapeHtml(result.data.avatar_name) + "</strong>."]);
+      } else {
+        authMessageEl.textContent = authErrorMessage(result.data.code);
+      }
+    });
+  });
+
+  AUTH_FORMS.forgotName.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    if (authBusy) return;
+    var email = ev.target.email.value;
+    setAuthBusy(true, "The herald checks the rolls...");
+    postWyrmspire("/wyrmspire-forgot-name", {email:email}).then(function(){
+      setAuthBusy(false);
+      authMessageEl.textContent = "If that address is on file, a letter naming your avatar is on its way.";
+    });
+  });
+
+  AUTH_FORMS.forgotPassword.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    if (authBusy) return;
+    var identifier = ev.target.identifier.value;
+    setAuthBusy(true, "The herald checks the rolls...");
+    postWyrmspire("/wyrmspire-forgot-password", {identifier:identifier}).then(function(){
+      setAuthBusy(false);
+      authMessageEl.textContent = "If that name or email is on file, a letter is on its way to the registered address.";
+    });
+  });
+
+  AUTH_FORMS.resetPassword.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    if (authBusy) return;
+    var f = ev.target;
+    var password = f.password.value;
+    var confirm = f.confirm_password.value;
+
+    if (password !== confirm){
+      authMessageEl.textContent = "Passwords do not match.";
+      return;
+    }
+    if (!pendingResetToken){
+      authMessageEl.textContent = "That reset link is missing its token.";
+      return;
+    }
+
+    setAuthBusy(true, "The herald writes it down...");
+    postWyrmspire("/wyrmspire-reset-password", {token:pendingResetToken, password:password}).then(function(result){
+      setAuthBusy(false);
+      if (result.ok){
+        pendingResetToken = null;
+        applyAuthSuccess(result.data, true, ["Your password is reset. Welcome back, <strong>" + escapeHtml(result.data.avatar_name) + "</strong>."]);
+      } else {
+        authMessageEl.textContent = authErrorMessage(result.data.code);
+      }
+    });
+  });
+
+  // boot: show the intro page (or jump straight to a password reset, if we arrived via a reset link)
+  var resetHashMatch = location.hash.match(/^#reset=([A-Za-z0-9_-]{20,64})$/);
+  if (resetHashMatch){
+    pendingResetToken = resetHashMatch[1];
+    history.replaceState(null, "", location.pathname + location.search);
+  }
+
+  updateStatus();
+  turnTo("intro");
+  if (pendingResetToken){
+    renderRoom("naming");
+    showAuthView("resetPassword", "Choose a new password.");
+  }
+  input.focus();
+})();
+</script>
+</body>
+</html>
