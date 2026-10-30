@@ -534,6 +534,7 @@
   ];
   var TOTAL_SPELLS = 10;
   var CORRECT_DOOR = 4;
+  var pirateTrapped = false;
   var buttonTaken = false;
   var buckleTaken = false;
   var beadTaken = false;
@@ -1330,6 +1331,23 @@
         "<span class=\"xyzzy\">THERE IS NO BOTTLE OF WATER HERE.</span>"
       ],
       exits: {}
+    },
+
+    pirate_dungeon: {
+      title: "The Dungeon",
+      desc: [
+        "There is no door here, no window, no seam in the stone to mark where one might have been — only four close walls, a dirt floor, and the dark. Whatever brought you here does not seem inclined to explain itself, or to let you leave.",
+        "You have the strong impression that no amount of searching will ever turn up a way out."
+      ],
+      exits: {},
+      blocked: {
+        north: "There is no way out of here. There never was.",
+        south: "There is no way out of here. There never was.",
+        east: "There is no way out of here. There never was.",
+        west: "There is no way out of here. There never was.",
+        up: "There is no way out of here. There never was.",
+        down: "There is no way out of here. There never was."
+      }
     }
   };
 
@@ -1801,7 +1819,8 @@
     },
     cellar: function(){
       return (solved.well && (inventory.well || placed.well)) ? null : "♪ ♪ Makes no difference who you are. ♪ ♪";
-    }
+    },
+    pirate_dungeon: "There is no help to be had here."
   };
 
   function showHelp(){
@@ -1895,6 +1914,7 @@
       bananaTaken: bananaTaken,
       galleryFrameOpened: galleryFrameOpened,
       corkscrewRevealed: corkscrewRevealed,
+      pirateTrapped: pirateTrapped,
       itemLocation: {
         quill: itemLocation.quill,
         document: itemLocation.document,
@@ -1936,6 +1956,7 @@
     bananaTaken = Boolean(flags.bananaTaken);
     galleryFrameOpened = Boolean(flags.galleryFrameOpened);
     corkscrewRevealed = Boolean(flags.corkscrewRevealed);
+    pirateTrapped = Boolean(flags.pirateTrapped);
     var incomingItemLocation = (flags.itemLocation && typeof flags.itemLocation === "object") ? flags.itemLocation : {};
     Object.keys(ITEM_HOME).forEach(function(key){
       var loc = incomingItemLocation[key];
@@ -1990,9 +2011,59 @@
           clearStoredIdentity();
           return {ok:false, code:"not_authorized"};
         }
-        return {ok: Boolean(data && data.success), code: (data && data.code) || null};
+        return {
+          ok: Boolean(data && data.success),
+          code: (data && data.code) || null,
+          tooFast: Boolean(data && data.too_fast)
+        };
       })
       .catch(function(){ return {ok:false, code:"network_error"}; });
+  }
+
+  // Placing what would be the crown's 9th and final jewel is not committed
+  // locally until the server confirms it — the server alone tracks
+  // accumulated active play time, so it alone decides whether this is a
+  // legitimate finale or a too-fast replay that earns the pirate instead.
+  function attemptFinalPlacement(key){
+    if (key){
+      inventory[key] = false;
+      placed[key] = true;
+      jewelsPlaced = JEWEL_KEYS.filter(function(k){ return placed[k]; }).length;
+      respond(["The final jewel finds its home."]);
+    }
+    solved.finale = true;
+    updateStatus();
+    saveProgressToServer("finale").then(function(result){
+      if (result.ok && !result.tooFast){
+        respond([
+          "Something far away shrieks mournfully. The King's eyes open.",
+          "He rises — not slowly, not as a man long weakened would rise, but all at once, as though he had merely been waiting — and motions you back with a single raised hand. “Stand aside, Friend. I will take it from here.”",
+          "“By blood and by crown, I reclaim what is mine.” The King raises a royal fist in the air and proclaims with a shout that vibrates the entire chamber, “Begone, foul demon, to the vile pit from which you arose!”",
+          "A heavy oppression that had permeated the entire manor lifts. It simply ceases, the way a held breath ceases once finally released.",
+          "As you and the King dance the dance of victory, the sound of great leathery wings reaches you, faint and then fainter, receding into the night.",
+          "As the dance subsides, the King takes your arm and points to a door, previously unnoticed, set into the chamber's far wall. “Come,” he says. “There is one thing more I would show you.”",
+          "<span class=\"system\">— Spell broken: the Tower — " + remainingLine() + " —</span>"
+        ]);
+        maybeShowPrizeClaimPanel();
+        return;
+      }
+
+      solved.finale = false;
+      updateStatus();
+
+      if (result.ok && result.tooFast){
+        pirateTrapped = true;
+        turnTo("pirate_dungeon", [
+          "Before the last note of the setting fades, a shape unfolds itself from a shadow that was, a moment ago, merely a shadow — a crusty, weather-beaten pirate, cutlass in hand, grinning at you as though you were the punchline to a joke only he can hear.",
+          "“Scallywag!” he barks. “There's no place for you in Wyrmspire manor!”",
+          "He seizes you by the collar before you can so much as protest, and the floor of the King's Chamber drops away beneath you both."
+        ]);
+        saveMilestoneIfSignedIn();
+        return;
+      }
+
+      respond(["Something interferes with the telling of this moment — the final setting will not yet take. Try placing the jewel once more."]);
+    });
   }
 
   function copyKnownKeys(target, source, keys){
@@ -2038,6 +2109,7 @@
   }
 
   function resolveResumeRoom(state){
+    if (pirateTrapped) return "pirate_dungeon";
     var roomId = state && state.current_room;
     if (!roomId || !ROOMS[roomId] || roomId === "intro" || roomId === "xyzzy_well"){
       return "gate";
@@ -2365,7 +2437,9 @@
       return;
     }
     if (low === "back" || low === "return"){
-      if (current === "xyzzy_well"){
+      if (current === "pirate_dungeon"){
+        respond(["There is no back from here."]);
+      } else if (current === "xyzzy_well"){
         respond(["There is nowhere to go from here but back the way you came — say XYZZY."]);
       } else {
         goBack();
@@ -2462,31 +2536,31 @@
       }
       var held = jewelKeysHeld();
       if (held.length === 0){
+        if (jewelsPlaced === 9){
+          // The crown is physically complete but the server never
+          // confirmed it (likely a dropped connection) — retry the
+          // confirmation rather than dead-ending the player here.
+          attemptFinalPlacement(null);
+          return;
+        }
         respond(["You have no jewel left to place."]);
+        return;
+      }
+      if (held.length === 1){
+        // This placement would complete the crown — confirm with the
+        // server (which tracks accumulated play time) before committing
+        // to either the victory or the speed-trap branch.
+        attemptFinalPlacement(held[0]);
         return;
       }
       inventory[held[0]] = false;
       placed[held[0]] = true;
       jewelsPlaced = JEWEL_KEYS.filter(function(k){ return placed[k]; }).length;
-      var placeLine = jewelsPlaced === 1 ? "The first jewel settles into its place."
-        : (jewelsPlaced === 9 ? "The final jewel finds its home." : "The next jewel settles into its place.");
-      if (jewelsPlaced < 9){
-        respond([placeLine, EMOTION_LINES[jewelsPlaced - 1]]);
-      } else {
-        solved.finale = true;
-        updateStatus();
-        respond([
-          placeLine,
-          "Something far away shrieks mournfully. The King's eyes open.",
-          "He rises — not slowly, not as a man long weakened would rise, but all at once, as though he had merely been waiting — and motions you back with a single raised hand. “Stand aside, Friend. I will take it from here.”",
-          "“By blood and by crown, I reclaim what is mine.” The King raises a royal fist in the air and proclaims with a shout that vibrates the entire chamber, “Begone, foul demon, to the vile pit from which you arose!”",
-          "A heavy oppression that had permeated the entire manor lifts. It simply ceases, the way a held breath ceases once finally released.",
-          "As you and the King dance the dance of victory, the sound of great leathery wings reaches you, faint and then fainter, receding into the night.",
-          "As the dance subsides, the King takes your arm and points to a door, previously unnoticed, set into the chamber's far wall. “Come,” he says. “There is one thing more I would show you.”",
-          "<span class=\"system\">— Spell broken: the Tower — " + remainingLine() + " —</span>"
-        ]);
-        maybeShowPrizeClaimPanel();
-      }
+      respond([
+        jewelsPlaced === 1 ? "The first jewel settles into its place." : "The next jewel settles into its place.",
+        EMOTION_LINES[jewelsPlaced - 1]
+      ]);
+      saveMilestoneIfSignedIn();
       return;
     }
 
