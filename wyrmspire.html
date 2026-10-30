@@ -3126,6 +3126,12 @@
         mode = "play";
         respond(["Your claim is recorded — " + escapeHtml(selectedPrize) + " will be on its way to you. Thank you for playing Wyrmspire Hall!"]);
         renderExits();
+      } else if (result.data && result.data.code === "already_claimed"){
+        prizeClaimed = true;
+        hidePrizeClaimPanel();
+        mode = "play";
+        respond(["A prize has already been recorded for your account — thank you for playing Wyrmspire Hall!"]);
+        renderExits();
       } else {
         prizeClaimMessageEl.textContent = "Something went wrong recording your claim. Please try again.";
       }
