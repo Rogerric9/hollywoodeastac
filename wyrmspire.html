@@ -1641,10 +1641,12 @@
     return true;
   }
 
+  var OGRE_RIDDLE_TEXT = "<blockquote>“None pass the gate of Wyrmspire unpaid. Answer the riddle carved into every stone of this place, or turn back down the road you came by:\n\nI have no life, yet I can die.\nI have no lungs, yet I hunger for air.\nI cannot drink, for water is my death.\nWhat am I?”</blockquote>";
+
   function ogreChallenge(){
     respond([
       "The ogre's arms uncross. He speaks slowly, the way something speaks when it has said the same words a thousand times and stopped caring whether you understand them.",
-      "<blockquote>“None pass the gate of Wyrmspire unpaid. Answer the riddle carved into every stone of this place, or turn back down the road you came by:\n\nI have no life, yet I can die.\nI have no lungs, yet I hunger for air.\nI cannot drink, for water is my death.\nWhat am I?”</blockquote>",
+      OGRE_RIDDLE_TEXT,
       "“Solve the riddle to pass,” he adds, and waits, arms crossing again, in no apparent hurry."
     ]);
     awaitingOgre = true;
@@ -1663,7 +1665,10 @@
   }
 
   function ogreWrong(){
-    respond(["“Wrong.” The ogre doesn't even blink. “Try again, or don't. I've nowhere else to be.”"]);
+    respond([
+      "“Wrong.” The ogre doesn't even blink. “Try again, or don't. I've nowhere else to be.”",
+      OGRE_RIDDLE_TEXT
+    ]);
   }
 
   function grantWishIfValid(wishedForRaw){
@@ -2409,7 +2414,7 @@
 
     if (/^(help|\?)$/.test(low)){ showHelp(); return; }
     if (/^(?:show|display)\s+riddle$/.test(low)){
-      if (current === "gate" && awaitingOgre){ ogreChallenge(); }
+      if (current === "gate" && awaitingOgre){ respond([OGRE_RIDDLE_TEXT]); }
       else { respond(["There is no riddle to show right now."]); }
       return;
     }
