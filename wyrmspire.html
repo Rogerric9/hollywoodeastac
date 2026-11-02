@@ -2408,6 +2408,11 @@
     }
 
     if (/^(help|\?)$/.test(low)){ showHelp(); return; }
+    if (/^(?:show|display)\s+riddle$/.test(low)){
+      if (current === "gate" && awaitingOgre){ ogreChallenge(); }
+      else { respond(["There is no riddle to show right now."]); }
+      return;
+    }
     if (/^(puzzles|status)$/.test(low)){ showPuzzles(); return; }
     if (/^(?:look|l|look around|(?:examine|x|look at|inspect)\s+(?:the\s+)?room)$/.test(low)){ renderRoom(current); return; }
     if (/^(inventory|inv|i)$/.test(low)){
