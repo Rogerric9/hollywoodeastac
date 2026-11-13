@@ -1300,7 +1300,14 @@
         ],
         "ledger|wine ledger": [
           "Entry after entry, in hands that changed over generations, record wine brought into this cellar — dates, quantities, the occasional terse note on quality."
-        ]
+        ],
+        "drawer|flatware drawer|utensil drawer|utensils drawer|flatware|utensils|silverware|cutlery|forks|knives": function(){
+          if (corkscrewTaken || itemLocation.corkscrew !== "dining_hall"){
+            return ["A shallow drawer, swollen with damp and stiff on its runners. Tarnished forks and knives lie jumbled together inside, blackened with age."];
+          }
+          corkscrewRevealed = true;
+          return ["A shallow drawer, swollen with damp and stiff on its runners. Tarnished forks and knives lie jumbled together inside, blackened with age, and half-buried among them is a corkscrew."];
+        }
       }
     },
 
@@ -2833,7 +2840,11 @@
       return;
     }
 
-    var rummageMatch = /^(?:rummage|search)(?:\s+(?:through|in))?\s+(?:the\s+)?(?:utensils?|flatware)?\s*drawer$/.test(low);
+    // "search drawer", "open the drawer", "look in the flatware drawer",
+    // "rummage through the forks", "dig through the cutlery"...
+    var rummageMatch =
+      /^(?:rummage|search|open|pull\s+open|check|look|peer|dig|root|sort|go|feel|reach)(?:\s+(?:through|in|inside|into|around\s+in))?\s+(?:the\s+)?(?:utensils?|flatware|silverware|cutlery)?\s*drawer$/.test(low) ||
+      /^(?:rummage|search|dig|root|sort|go|look|feel|poke)(?:\s+(?:through|in|among|around\s+in))?\s+(?:the\s+)?(?:flatware|utensils|silverware|cutlery|forks|knives|forks\s+and\s+knives)$/.test(low);
     if (current === "dining_hall" && rummageMatch){
       if (corkscrewTaken){
         respond(["The drawer holds nothing else of use now."]);
@@ -2841,7 +2852,7 @@
         respond(["The drawer holds nothing else of use now."]);
       } else {
         corkscrewRevealed = true;
-        respond(["Among the jumbled flatware, half-buried beneath tarnished forks and spoons, you find a corkscrew."]);
+        respond(["Among the jumbled flatware, half-buried beneath tarnished forks and knives, you find a corkscrew."]);
       }
       return;
     }
