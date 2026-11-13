@@ -283,6 +283,19 @@
     text-transform:uppercase;
     padding:0 4px;
   }
+  #prizeChoiceList{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .prize-loading{ margin:0; font-size:14px; color:var(--muted); }
+  .prize-option-text{ display:flex; flex-direction:column; gap:2px; }
+  .prize-option-name{ font-weight:bold; }
+  .prize-option-desc{ font-size:13px; color:var(--muted); line-height:1.35; }
+  .prize-option-img{
+    width:56px; height:56px; object-fit:cover;
+    border-radius:4px; border:1px solid var(--line); flex:none;
+  }
   .prize-choices label{
     flex-direction:row !important;
     align-items:center;
@@ -475,16 +488,12 @@
       <p>You have broken every spell in Wyrmspire Hall. Choose the prize you would like to claim, and tell us where to send it.</p>
       <fieldset class="prize-choices">
         <legend>Choose your prize</legend>
-        <label><input type="radio" name="selected_prize" value="Prize 1" required /> Prize 1</label>
-        <label><input type="radio" name="selected_prize" value="Prize 2" /> Prize 2</label>
-        <label><input type="radio" name="selected_prize" value="Prize 3" /> Prize 3</label>
-        <label><input type="radio" name="selected_prize" value="Prize 4" /> Prize 4</label>
-        <label><input type="radio" name="selected_prize" value="Prize 5" /> Prize 5</label>
+        <div id="prizeChoiceList"><p class="prize-loading">Loading prizes...</p></div>
       </fieldset>
       <label>Your full name
         <input type="text" name="winner_name" autocomplete="name" minlength="2" maxlength="120" required />
       </label>
-      <label>Mailing address
+      <label id="mailingAddressLabel">Mailing address
         <textarea name="mailing_address" rows="3" maxlength="500" required></textarea>
       </label>
       <button type="submit">Claim Prize</button>
@@ -2179,8 +2188,103 @@
       prizeClaimPanel.hidden = false;
       form.hidden = true;
       prizeClaimMessageEl.textContent = "";
+      loadPrizeChoices();
       renderExits();
     }
+  }
+
+  // The prize list comes from the server: at most five prizes, in the
+  // owner's chosen order. A prize that runs out drops off and the next
+  // one moves up, so the list is fetched fresh each time it's shown.
+  var prizeChoices = [];
+  var prizeChoiceListEl = document.getElementById("prizeChoiceList");
+  var mailingAddressLabel = document.getElementById("mailingAddressLabel");
+  var prizeClaimSubmit = prizeClaimForm.querySelector("button[type=submit]");
+
+  function findPrizeChoice(prizeId){
+    for (var i = 0; i < prizeChoices.length; i++){
+      if (String(prizeChoices[i].prize_id) === String(prizeId)) return prizeChoices[i];
+    }
+    return null;
+  }
+
+  function updateAddressRequirement(){
+    var checked = prizeClaimForm.querySelector("input[name=selected_prize_id]:checked");
+    var choice = checked ? findPrizeChoice(checked.value) : null;
+    var needsAddress = !choice || choice.requires_shipping;
+    mailingAddressLabel.hidden = !needsAddress;
+    prizeClaimForm.mailing_address.required = needsAddress;
+  }
+
+  function renderPrizeChoices(){
+    prizeChoiceListEl.innerHTML = "";
+    if (!prizeChoices.length){
+      var none = document.createElement("p");
+      none.className = "prize-loading";
+      none.textContent = "The prize shelf is being restocked. Please check back soon. Your victory is saved, and you can claim your prize when you return.";
+      prizeChoiceListEl.appendChild(none);
+      prizeClaimSubmit.disabled = true;
+      return;
+    }
+    prizeChoices.forEach(function(choice, index){
+      var label = document.createElement("label");
+      var radio = document.createElement("input");
+      radio.type = "radio";
+      radio.name = "selected_prize_id";
+      radio.value = String(choice.prize_id);
+      if (index === 0) radio.required = true;
+      radio.addEventListener("change", updateAddressRequirement);
+      label.appendChild(radio);
+      if (choice.image_path){
+        var img = document.createElement("img");
+        img.className = "prize-option-img";
+        img.src = choice.image_path;
+        img.alt = "";
+        img.loading = "lazy";
+        label.appendChild(img);
+      }
+      var text = document.createElement("span");
+      text.className = "prize-option-text";
+      var nameEl = document.createElement("span");
+      nameEl.className = "prize-option-name";
+      nameEl.textContent = choice.name;
+      text.appendChild(nameEl);
+      if (choice.description){
+        var descEl = document.createElement("span");
+        descEl.className = "prize-option-desc";
+        descEl.textContent = choice.description;
+        text.appendChild(descEl);
+      }
+      label.appendChild(text);
+      prizeChoiceListEl.appendChild(label);
+    });
+    prizeClaimSubmit.disabled = false;
+    updateAddressRequirement();
+  }
+
+  function loadPrizeChoices(){
+    prizeChoiceListEl.innerHTML = '<p class="prize-loading">Loading prizes...</p>';
+    prizeClaimSubmit.disabled = true;
+    return fetch(API_BASE + "/wyrmspire-prizes")
+      .then(function(res){ return res.json(); })
+      .then(function(data){
+        if (!data || !data.success) throw new Error("load failed");
+        prizeChoices = data.prizes || [];
+        renderPrizeChoices();
+      })
+      .catch(function(){
+        prizeChoices = [];
+        prizeChoiceListEl.innerHTML = "";
+        var err = document.createElement("p");
+        err.className = "prize-loading";
+        err.textContent = "The prizes could not be loaded. ";
+        var retry = document.createElement("button");
+        retry.type = "button";
+        retry.textContent = "Try again";
+        retry.addEventListener("click", loadPrizeChoices);
+        err.appendChild(retry);
+        prizeChoiceListEl.appendChild(err);
+      });
   }
 
   function hidePrizeClaimPanel(){
@@ -3185,12 +3289,12 @@
     ev.preventDefault();
     if (prizeClaimBusy) return;
     var f = ev.target;
-    var selectedPrizeInput = f.querySelector("input[name=selected_prize]:checked");
-    var selectedPrize = selectedPrizeInput ? selectedPrizeInput.value : "";
+    var selectedPrizeInput = f.querySelector("input[name=selected_prize_id]:checked");
+    var selectedChoice = selectedPrizeInput ? findPrizeChoice(selectedPrizeInput.value) : null;
     var winnerName = f.winner_name.value;
-    var mailingAddress = f.mailing_address.value;
+    var mailingAddress = (selectedChoice && !selectedChoice.requires_shipping) ? "" : f.mailing_address.value;
 
-    if (!selectedPrize){
+    if (!selectedChoice){
       prizeClaimMessageEl.textContent = "Please choose a prize.";
       return;
     }
@@ -3200,7 +3304,7 @@
     postWyrmspire("/wyrmspire-claim-prize", {
       avatar_name: avatarName,
       save_token: saveToken,
-      selected_prize: selectedPrize,
+      selected_prize_id: selectedChoice.prize_id,
       winner_name: winnerName,
       mailing_address: mailingAddress
     }).then(function(result){
@@ -3209,8 +3313,15 @@
         prizeClaimed = true;
         hidePrizeClaimPanel();
         mode = "play";
-        respond(["Your claim is recorded — " + escapeHtml(selectedPrize) + " will be on its way to you. Thank you for playing Wyrmspire Hall!"]);
+        var claimedName = (result.data && result.data.prize_name) || selectedChoice.name;
+        var deliveryLine = selectedChoice.requires_shipping
+          ? " will be on its way to you."
+          : " is yours. We'll be in touch by email.";
+        respond(["Your claim is recorded: " + escapeHtml(claimedName) + deliveryLine + " Thank you for playing Wyrmspire Hall!"]);
         renderExits();
+      } else if (result.data && result.data.code === "prize_unavailable"){
+        loadPrizeChoices();
+        prizeClaimMessageEl.textContent = "Another player just claimed the last of that prize. The list has been updated, so please choose again.";
       } else if (result.data && result.data.code === "already_claimed"){
         prizeClaimed = true;
         hidePrizeClaimPanel();
