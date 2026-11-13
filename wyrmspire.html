@@ -493,7 +493,7 @@
       <label>Your full name
         <input type="text" name="winner_name" autocomplete="name" minlength="2" maxlength="120" required />
       </label>
-      <label id="mailingAddressLabel">Mailing address
+      <label>Mailing address
         <textarea name="mailing_address" rows="3" maxlength="500" required></textarea>
       </label>
       <button type="submit">Claim Prize</button>
@@ -2198,7 +2198,6 @@
   // one moves up, so the list is fetched fresh each time it's shown.
   var prizeChoices = [];
   var prizeChoiceListEl = document.getElementById("prizeChoiceList");
-  var mailingAddressLabel = document.getElementById("mailingAddressLabel");
   var prizeClaimSubmit = prizeClaimForm.querySelector("button[type=submit]");
 
   function findPrizeChoice(prizeId){
@@ -2206,14 +2205,6 @@
       if (String(prizeChoices[i].prize_id) === String(prizeId)) return prizeChoices[i];
     }
     return null;
-  }
-
-  function updateAddressRequirement(){
-    var checked = prizeClaimForm.querySelector("input[name=selected_prize_id]:checked");
-    var choice = checked ? findPrizeChoice(checked.value) : null;
-    var needsAddress = !choice || choice.requires_shipping;
-    mailingAddressLabel.hidden = !needsAddress;
-    prizeClaimForm.mailing_address.required = needsAddress;
   }
 
   function renderPrizeChoices(){
@@ -2233,7 +2224,6 @@
       radio.name = "selected_prize_id";
       radio.value = String(choice.prize_id);
       if (index === 0) radio.required = true;
-      radio.addEventListener("change", updateAddressRequirement);
       label.appendChild(radio);
       if (choice.image_path){
         var img = document.createElement("img");
@@ -2259,7 +2249,6 @@
       prizeChoiceListEl.appendChild(label);
     });
     prizeClaimSubmit.disabled = false;
-    updateAddressRequirement();
   }
 
   function loadPrizeChoices(){
@@ -3292,7 +3281,7 @@
     var selectedPrizeInput = f.querySelector("input[name=selected_prize_id]:checked");
     var selectedChoice = selectedPrizeInput ? findPrizeChoice(selectedPrizeInput.value) : null;
     var winnerName = f.winner_name.value;
-    var mailingAddress = (selectedChoice && !selectedChoice.requires_shipping) ? "" : f.mailing_address.value;
+    var mailingAddress = f.mailing_address.value;
 
     if (!selectedChoice){
       prizeClaimMessageEl.textContent = "Please choose a prize.";
@@ -3314,10 +3303,7 @@
         hidePrizeClaimPanel();
         mode = "play";
         var claimedName = (result.data && result.data.prize_name) || selectedChoice.name;
-        var deliveryLine = selectedChoice.requires_shipping
-          ? " will be on its way to you."
-          : " is yours. We'll be in touch by email.";
-        respond(["Your claim is recorded: " + escapeHtml(claimedName) + deliveryLine + " Thank you for playing Wyrmspire Hall!"]);
+        respond(["Your claim is recorded: " + escapeHtml(claimedName) + " will be on its way to you. Thank you for playing Wyrmspire Hall!"]);
         renderExits();
       } else if (result.data && result.data.code === "prize_unavailable"){
         loadPrizeChoices();
