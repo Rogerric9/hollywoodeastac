@@ -267,6 +267,23 @@
     padding-right:11px;
     resize:vertical;
   }
+  #prizeClaimForm input[type="text"]{ padding-right:11px; }
+  #prizeClaimForm select{
+    background:var(--surface);
+    border:1px solid var(--line);
+    color:var(--ink);
+    font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:15px;
+    padding:9px 8px;
+    border-radius:6px;
+    width:100%;
+  }
+  #prizeClaimForm select:focus-visible{ outline:2px solid var(--accent-2); outline-offset:1px; }
+  .address-row{ display:flex; gap:10px; flex-wrap:wrap; }
+  .address-city{ flex:1 1 180px; }
+  .address-state{ flex:0 0 110px; }
+  .address-zip{ flex:0 0 120px; }
+  .address-note{ margin:0; font-size:12px; color:var(--muted); }
   .prize-choices{
     border:1px solid var(--line);
     border-radius:6px;
@@ -493,9 +510,26 @@
       <label>Your full name
         <input type="text" name="winner_name" autocomplete="name" minlength="2" maxlength="120" required />
       </label>
-      <label>Mailing address
-        <textarea name="mailing_address" rows="3" maxlength="500" required></textarea>
+      <label>Street address
+        <input type="text" name="ship_street" autocomplete="address-line1" minlength="3" maxlength="120" required />
       </label>
+      <label>Apt / Suite / Unit (optional)
+        <input type="text" name="ship_unit" autocomplete="address-line2" maxlength="40" />
+      </label>
+      <div class="address-row">
+        <label class="address-city">City
+          <input type="text" name="ship_city" autocomplete="address-level2" minlength="2" maxlength="60" required />
+        </label>
+        <label class="address-state">State
+          <select name="ship_state" autocomplete="address-level1" required>
+            <option value="">Choose...</option>
+          </select>
+        </label>
+        <label class="address-zip">ZIP code
+          <input type="text" name="ship_zip" autocomplete="postal-code" inputmode="numeric" pattern="\d{5}(-\d{4})?" maxlength="10" title="5-digit ZIP code, or ZIP+4" required />
+        </label>
+      </div>
+      <p class="address-note">Prizes ship within the United States only.</p>
       <button type="submit">Claim Prize</button>
     </form>
   </section>
@@ -2200,6 +2234,26 @@
   var prizeChoiceListEl = document.getElementById("prizeChoiceList");
   var prizeClaimSubmit = prizeClaimForm.querySelector("button[type=submit]");
 
+  // Prizes ship within the US only (50 states plus DC).
+  [
+    ["AL","Alabama"],["AK","Alaska"],["AZ","Arizona"],["AR","Arkansas"],["CA","California"],
+    ["CO","Colorado"],["CT","Connecticut"],["DE","Delaware"],["DC","District of Columbia"],
+    ["FL","Florida"],["GA","Georgia"],["HI","Hawaii"],["ID","Idaho"],["IL","Illinois"],
+    ["IN","Indiana"],["IA","Iowa"],["KS","Kansas"],["KY","Kentucky"],["LA","Louisiana"],
+    ["ME","Maine"],["MD","Maryland"],["MA","Massachusetts"],["MI","Michigan"],["MN","Minnesota"],
+    ["MS","Mississippi"],["MO","Missouri"],["MT","Montana"],["NE","Nebraska"],["NV","Nevada"],
+    ["NH","New Hampshire"],["NJ","New Jersey"],["NM","New Mexico"],["NY","New York"],
+    ["NC","North Carolina"],["ND","North Dakota"],["OH","Ohio"],["OK","Oklahoma"],["OR","Oregon"],
+    ["PA","Pennsylvania"],["RI","Rhode Island"],["SC","South Carolina"],["SD","South Dakota"],
+    ["TN","Tennessee"],["TX","Texas"],["UT","Utah"],["VT","Vermont"],["VA","Virginia"],
+    ["WA","Washington"],["WV","West Virginia"],["WI","Wisconsin"],["WY","Wyoming"]
+  ].forEach(function(s){
+    var opt = document.createElement("option");
+    opt.value = s[0];
+    opt.textContent = s[0] + " - " + s[1];
+    prizeClaimForm.ship_state.appendChild(opt);
+  });
+
   function findPrizeChoice(prizeId){
     for (var i = 0; i < prizeChoices.length; i++){
       if (String(prizeChoices[i].prize_id) === String(prizeId)) return prizeChoices[i];
@@ -3281,7 +3335,6 @@
     var selectedPrizeInput = f.querySelector("input[name=selected_prize_id]:checked");
     var selectedChoice = selectedPrizeInput ? findPrizeChoice(selectedPrizeInput.value) : null;
     var winnerName = f.winner_name.value;
-    var mailingAddress = f.mailing_address.value;
 
     if (!selectedChoice){
       prizeClaimMessageEl.textContent = "Please choose a prize.";
@@ -3295,7 +3348,11 @@
       save_token: saveToken,
       selected_prize_id: selectedChoice.prize_id,
       winner_name: winnerName,
-      mailing_address: mailingAddress
+      ship_street: f.ship_street.value,
+      ship_unit: f.ship_unit.value,
+      ship_city: f.ship_city.value,
+      ship_state: f.ship_state.value,
+      ship_zip: f.ship_zip.value
     }).then(function(result){
       prizeClaimBusy = false;
       if (result.ok){
@@ -3305,6 +3362,8 @@
         var claimedName = (result.data && result.data.prize_name) || selectedChoice.name;
         respond(["Your claim is recorded: " + escapeHtml(claimedName) + " will be on its way to you. Thank you for playing Wyrmspire Hall!"]);
         renderExits();
+      } else if (result.data && (result.data.code === "invalid_address" || result.data.code === "invalid_name") && result.data.message){
+        prizeClaimMessageEl.textContent = result.data.message;
       } else if (result.data && result.data.code === "prize_unavailable"){
         loadPrizeChoices();
         prizeClaimMessageEl.textContent = "Another player just claimed the last of that prize. The list has been updated, so please choose again.";
