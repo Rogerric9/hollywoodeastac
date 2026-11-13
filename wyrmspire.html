@@ -1578,6 +1578,9 @@
 
   function currentExits(){
     var list = [];
+    if (mode === "claimPrize"){
+      return [];
+    }
     if (current === "intro"){
       return [{label:"Begin", action:"begin", primary:true}];
     }
@@ -2222,6 +2225,10 @@
       pageEl.hidden = true;
       prizeClaimPanel.hidden = false;
       form.hidden = true;
+      // form#inputBar's display:flex rule overrides the hidden attribute, so
+      // hide the command box, Send button and chip row explicitly.
+      form.style.display = "none";
+      exitsRow.style.display = "none";
       prizeClaimMessageEl.textContent = "";
       loadPrizeChoices();
       renderExits();
@@ -2333,6 +2340,8 @@
 
   function hidePrizeClaimPanel(){
     pageEl.hidden = false;
+    form.style.display = "";
+    exitsRow.style.display = "";
     prizeClaimPanel.hidden = true;
     form.hidden = false;
     prizeClaimMessageEl.textContent = "";
