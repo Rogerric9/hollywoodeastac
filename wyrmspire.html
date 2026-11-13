@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wyrmspire Hall | Hollywood East Autographs &amp; Collectibles</title>
 <meta name="description" content="A text-adventure game from Hollywood East Autographs &amp; Collectibles. Break ten spells, gather nine jewels, and restore the King of Wyrmspire Hall.">
-<meta name="robots" content="noindex, nofollow">
 <link rel="canonical" href="https://hollywoodeastac.com/wyrmspire.html">
 <style>
   :root{
@@ -3361,7 +3360,7 @@
         var claimedName = (result.data && result.data.prize_name) || selectedChoice.name;
         respond(["Your claim is recorded: " + escapeHtml(claimedName) + " will be on its way to you. Thank you for playing Wyrmspire Hall!"]);
         renderExits();
-      } else if (result.data && (result.data.code === "invalid_address" || result.data.code === "invalid_name") && result.data.message){
+      } else if (result.data && (result.data.code === "invalid_address" || result.data.code === "invalid_name" || result.data.code === "address_already_claimed") && result.data.message){
         prizeClaimMessageEl.textContent = result.data.message;
       } else if (result.data && result.data.code === "prize_unavailable"){
         loadPrizeChoices();
