@@ -1193,10 +1193,7 @@
       desc: [
         "You find yourself in a huge chamber. A dry, mineral warmth presses against your skin from everywhere and nowhere in particular, though the room offers nothing else remarkable beyond its heat and its two ways onward — one behind you, one ahead."
       ],
-      exits: { north: "atrium_s" },
-      blocked: {
-        south: "The glass door you came through will not yield again from this side."
-      }
+      exits: { north: "atrium_s", south: "mirror_hall" }
     },
 
     atrium_s: {
@@ -3053,6 +3050,9 @@
       var chosenDoor = parseInt(goDoorMatch[1], 10);
       if (chosenDoor < 1 || chosenDoor > 8){
         respond(["There is no door numbered that here."]);
+      } else if (chosenDoor === CORRECT_DOOR && solved.mirrors){
+        // Already found: just pass through again, no second spell or jewel.
+        turnTo("furnace_room", ["You push through, and the warm glass gives like water, as it did before."]);
       } else if (chosenDoor === CORRECT_DOOR){
         solved.mirrors = true;
         updateStatus();
@@ -3178,6 +3178,16 @@
         } else {
           respond(["Whatever waits beyond that door, you find yourself unwilling to leave this room with its one true task still undone."]);
         }
+        return;
+      }
+      // The true mirror door links the Hall of Mirrors (north) and the
+      // Furnace Room (south) both ways, but only once it has been found.
+      if (current === "furnace_room" && dirWord === "south"){
+        turnTo("mirror_hall", ["The warm glass gives the way it did before, like water rather than glass, and you are back among the mirrors."]);
+        return;
+      }
+      if (current === "mirror_hall" && dirWord === "north" && solved.mirrors){
+        turnTo("furnace_room", ["You step through the warm glass of door " + CORRECT_DOOR + ", and it gives like water, as it did before."]);
         return;
       }
       if (current === "great_hall" && dirWord === "up"){
