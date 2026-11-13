@@ -1871,13 +1871,18 @@
   };
 
   function showHelp(){
+    // In a room with its own hint, Help gives only that hint. Elsewhere it
+    // gives the general overview and the list of commands.
+    var roomHint = ROOM_HELP_HINTS[current];
+    if (typeof roomHint === "function") roomHint = roomHint();
+    if (roomHint){
+      respond(["<span class=\"hint\">" + roomHint + "</span>"]);
+      return;
+    }
     var lines = [
       "Somewhere within Wyrmspire Hall, ten spells wait to be broken. Whoever breaks every one of them earns a share of what sleeps at the heart of the house: each who finishes may choose a prize from the hoard. A full pocket has never once hurt a man in a house like this.",
       "<span class=\"system\">Movement: NORTH/N, SOUTH/S, EAST/E, WEST/W, UP/U, DOWN/D, IN, OUT, BACK.\nLooking: EXAMINE &lt;thing&gt;, READ &lt;thing&gt;.\nOther: TAKE JEWEL, INVENTORY (I), PUZZLES (progress), HELP.\nEach obstacle wants something different — a spoken answer, a dial turned to a number, a word spelled out. Read carefully and experiment. Solving one only reveals its jewel — you still have to take it.</span>"
     ];
-    var roomHint = ROOM_HELP_HINTS[current];
-    if (typeof roomHint === "function") roomHint = roomHint();
-    if (roomHint) lines.push("<span class=\"hint\">" + roomHint + "</span>");
     respond(lines);
   }
 
