@@ -1867,6 +1867,37 @@
     cellar: function(){
       return (solved.well && (inventory.well || placed.well)) ? null : "♪ ♪ Makes no difference who you are. ♪ ♪";
     },
+    // Each hint below goes quiet once its room's spell is broken, so Help
+    // falls back to the general overview there.
+    churchyard: function(){
+      return solved.dial ? null : "The nameless dead keep the combination.";
+    },
+    sentinels_hall: function(){
+      return solved.helmets ? null : "Sentries who cannot see cannot keep watch.";
+    },
+    gallery: function(){
+      return solved.document ? null : "Every signature wants a pen, and a family name.";
+    },
+    mirror_hall: function(){
+      return solved.mirrors ? null : "Your eyes will lie to you here. Your hands will not.";
+    },
+    atrium_n: function(){
+      if (solved.magpie) return null;
+      return Object.keys(atriumSeen).length >= 5
+        ? "Birds of a feather."
+        : "Walk the whole garden before you judge it empty.";
+    },
+    dining_hall: function(){
+      return solved.wine ? null : "A grave year makes a rare vintage.";
+    },
+    king_chamber: function(){
+      return solved.finale ? null : "Stand your ground. The crown is still waiting to be filled.";
+    },
+    maze_hub: "Horace Greeley told you the way out.",
+    maze_nw: "Horace Greeley told you the way out.",
+    maze_ne: "Horace Greeley told you the way out.",
+    maze_se: "Horace Greeley told you the way out.",
+    maze_sw: "Horace Greeley told you the way out.",
     pirate_dungeon: "There is no help to be had here."
   };
 
