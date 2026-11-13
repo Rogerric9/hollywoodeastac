@@ -283,6 +283,7 @@
   .address-state{ flex:0 0 110px; }
   .address-zip{ flex:0 0 120px; }
   .address-note{ margin:0; font-size:12px; color:var(--muted); }
+  .address-note a{ color:var(--accent-2); }
   .prize-choices{
     border:1px solid var(--line);
     border-radius:6px;
@@ -367,6 +368,11 @@
     margin:2px 0 0;
   }
   .auth-switch a{ color:var(--accent-2); }
+  .auth-remember a{ color:var(--accent-2); }
+  .auth-remember.age-confirm{ align-items:flex-start; line-height:1.35; }
+  .auth-remember.age-confirm input{ margin-top:2px; }
+  .rules-link{ font-size:12px; color:var(--muted); }
+  .rules-link a{ color:var(--accent-2); }
 
   form#inputBar{
     display:flex;
@@ -447,6 +453,7 @@
         <span class="password-field"><input type="password" name="confirm_password" autocomplete="new-password" minlength="8" maxlength="128" required /><button type="button" class="password-toggle" aria-label="Show password">👁</button></span>
       </label>
       <label class="auth-remember"><input type="checkbox" name="remember" checked /> Remember me on this device</label>
+      <label class="auth-remember age-confirm"><input type="checkbox" name="age_confirm" required /> <span>I am 13 or older, and I agree to the <a href="wyrmspire-rules.html" target="_blank" rel="noopener">Official Rules</a>. (Players under 18 need a parent's or guardian's permission.)</span></label>
       <button type="submit">Sign the rolls</button>
       <p class="auth-switch">Returning traveller? <a href="#" data-auth-view="login">Sign in</a></p>
     </form>
@@ -524,7 +531,7 @@
           <input type="text" name="ship_zip" autocomplete="postal-code" inputmode="numeric" pattern="\d{5}(-\d{4})?" maxlength="10" title="5-digit ZIP code, or ZIP+4" required />
         </label>
       </div>
-      <p class="address-note">Prizes ship within the United States only.</p>
+      <p class="address-note">Prizes ship within the United States only. By claiming a prize you agree to the <a href="wyrmspire-rules.html" target="_blank" rel="noopener">Official Rules</a>.</p>
       <button type="submit">Claim Prize</button>
     </form>
   </section>
@@ -747,7 +754,8 @@
       desc: [
         "<span class=\"system\">— session resumed —</span>",
         "Wise men say that ten spells — which must be broken, every one — were cast upon Wyrmspire Hall the night its last lord vanished, and that a dragon's hoard can be plundered only by the one who sees it through. Either Fool or Wizard, you have come, as all such men eventually come, to learn which of the two words describes you best.",
-        "Or so the wise men say. What they do not say — perhaps because none of them lived to learn it — is that breaking a spell is only half the work; what its breaking leaves behind must be gathered too, and kept, against a reckoning still to come."
+        "Or so the wise men say. What they do not say — perhaps because none of them lived to learn it — is that breaking a spell is only half the work; what its breaking leaves behind must be gathered too, and kept, against a reckoning still to come.",
+        "<span class=\"rules-link\">Every player who breaks all ten spells may choose a prize. No purchase necessary. <a href=\"wyrmspire-rules.html\" target=\"_blank\" rel=\"noopener\">Official Rules</a></span>"
       ],
       exits: {}
     },
@@ -3284,6 +3292,11 @@
 
     if (password !== confirm){
       authMessageEl.textContent = "Passwords do not match.";
+      return;
+    }
+
+    if (!f.age_confirm.checked){
+      authMessageEl.textContent = "Please confirm you are 13 or older and agree to the Official Rules.";
       return;
     }
 
