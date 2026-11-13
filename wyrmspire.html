@@ -502,7 +502,7 @@
   <section id="prizeClaimPanel" class="auth-panel" hidden>
     <p class="auth-message" id="prizeClaimMessage" aria-live="polite"></p>
     <form id="prizeClaimForm" class="auth-form">
-      <p>You have broken every spell in Wyrmspire Hall. Choose the prize you would like to claim, and tell us where to send it.</p>
+      <p>Congratulations! You have broken every spell in Wyrmspire Hall. Choose the prize you would like to claim, and tell us where to send it.</p>
       <fieldset class="prize-choices">
         <legend>Choose your prize</legend>
         <div id="prizeChoiceList"><p class="prize-loading">Loading prizes...</p></div>
@@ -2219,6 +2219,7 @@
   function maybeShowPrizeClaimPanel(){
     if (solved.finale && !prizeClaimed && mode === "play"){
       mode = "claimPrize";
+      pageEl.hidden = true;
       prizeClaimPanel.hidden = false;
       form.hidden = true;
       prizeClaimMessageEl.textContent = "";
@@ -2331,6 +2332,7 @@
   }
 
   function hidePrizeClaimPanel(){
+    pageEl.hidden = false;
     prizeClaimPanel.hidden = true;
     form.hidden = false;
     prizeClaimMessageEl.textContent = "";
