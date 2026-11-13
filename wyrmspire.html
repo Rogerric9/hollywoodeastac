@@ -2962,8 +2962,13 @@
       return;
     }
 
-    var turnPageMatch = /^(?:(?:turn|flip)(?:\s+to)?\s+(?:the\s+)?(?:next\s+)?page|next\s+page)$/.test(low);
-    var gotoPageMatch = low.match(/^page\s+(\d+)$/);
+    // Next page: "next page", "turn the page", "read the next page", "read page", "next"...
+    var turnPageMatch = /^(?:(?:turn|flip)(?:\s+to)?\s+(?:the\s+)?(?:next\s+)?page|(?:read\s+)?(?:the\s+)?next(?:\s+page)?|read\s+(?:the\s+)?page|continue(?:\s+reading)?|keep\s+reading)$/.test(low);
+    // A specific page: "page 2", "read page 2", "turn to page two", "read diary page 3"...
+    var gotoPageMatch = low.match(/^(?:(?:read|turn\s+to|flip\s+to|go\s+to|open\s+to|skip\s+to)\s+)?(?:the\s+)?(?:diary\s+)?page\s+(\d+|one|two|three|four|five|six|seven|eight|nine|ten)$/);
+    if (gotoPageMatch && !/^\d+$/.test(gotoPageMatch[1])){
+      gotoPageMatch[1] = String(["one","two","three","four","five","six","seven","eight","nine","ten"].indexOf(gotoPageMatch[1]) + 1);
+    }
     if (current === "gallery" && (turnPageMatch || gotoPageMatch)){
       if (!diaryOpen){
         respond(["There is nothing open to turn the page of."]);
