@@ -988,13 +988,19 @@
 
     treasure_room: {
       title: "The Treasure Room",
-      desc: [
-        "The King leads you up, higher still, by stairs you had not noticed on your climb, until a final door gives onto a chamber vaster than any you have yet seen in this house — heaped floor to shadowed ceiling with gold coin, silver plate, loose and set jewels, crowns, chains, goblets beyond counting: the plundered wealth of the manor, and of every village for three days' ride, piled here without order or care, the way only something with no use for beauty would keep it.",
-        "At the chamber's heart, the treasure lies undisturbed around a vast, coiled hollow — a depression shaped for something far larger than any man, its gold still faintly warm, though whatever rested there is gone now, and has been since the sound of wings first reached you.",
-        "The King surveys it all with an expression you cannot quite name, before he turns to you. “This was taken from my people, and from yours, and from a hundred others besides. Take what you can carry, and more. It is the least a king can offer the one who broke his chains.”",
-        "He presses coin and jewel and ancient, gleaming things into your hands — more wealth, in a single armful, than you have held in all your life.",
-        "Word of what has happened here does not stay contained within these walls for long. By whatever means such things travel, it reaches beyond Wyrmspire Hall entirely — to every soul who dared attempt this house alongside you, and to every soul who merely watched and wondered. The spells are broken. The jewels are found. And the name that will be remembered, from this day forward, as the one who broke them, is yours."
-      ],
+      desc: function(){
+        var lines = [
+          "The King leads you up, higher still, by stairs you had not noticed on your climb, until a final door gives onto a chamber vaster than any you have yet seen in this house — heaped floor to shadowed ceiling with gold coin, silver plate, loose and set jewels, crowns, chains, goblets beyond counting: the plundered wealth of the manor, and of every village for three days' ride, piled here without order or care, the way only something with no use for beauty would keep it.",
+          "At the chamber's heart, the treasure lies undisturbed around a vast, coiled hollow — a depression shaped for something far larger than any man, its gold still faintly warm, though whatever rested there is gone now, and has been since the sound of wings first reached you.",
+          "The King surveys it all with an expression you cannot quite name, before he turns to you. “This was taken from my people, and from yours, and from a hundred others besides. Take what you can carry, and more. It is the least a king can offer the one who broke his chains.”",
+          "He presses coin and jewel and ancient, gleaming things into your hands — more wealth, in a single armful, than you have held in all your life.",
+          "Word of what has happened here does not stay contained within these walls for long. By whatever means such things travel, it reaches beyond Wyrmspire Hall entirely — to every soul who dared attempt this house alongside you, and to every soul who merely watched and wondered. The spells are broken. The jewels are found. And the name that will be remembered, from this day forward, as the one who broke them, is yours."
+        ];
+        if (solved.finale && !prizeClaimed){
+          lines.push("<span class=\"system\">Your share of the hoard awaits. When you are ready, type CLAIM PRIZE or use the button below.</span>");
+        }
+        return lines;
+      },
       exits: { down: "king_chamber" }
     },
 
@@ -1615,6 +1621,10 @@
       return [{label:"exit", action:"exit", quiet:true}];
     }
 
+    if (current === "treasure_room" && solved.finale && !prizeClaimed){
+      list.push({label:"claim prize", action:"claim prize", primary:true});
+    }
+
     ["north","south","east","west"].forEach(function(dir){
       list.push({label: dir, action: dir});
     });
@@ -2139,7 +2149,7 @@
           "As the dance subsides, the King takes your arm and points to a door, previously unnoticed, set into the chamber's far wall. “Come,” he says. “There is one thing more I would show you.”",
           "<span class=\"system\">— Spell broken: the Tower — " + remainingLine() + " —</span>"
         ]);
-        maybeShowPrizeClaimPanel();
+        renderExits();
         return;
       }
 
@@ -2236,7 +2246,6 @@
     hideAuthPanel();
     renderStatusPill();
     turnTo(room, greetingLines);
-    maybeShowPrizeClaimPanel();
   }
 
   function showAuthView(view, message, prefillName){
@@ -2263,7 +2272,7 @@
   }
 
   function maybeShowPrizeClaimPanel(){
-    if (solved.finale && !prizeClaimed && mode === "play"){
+    if (solved.finale && !prizeClaimed && mode === "play" && current === "treasure_room"){
       mode = "claimPrize";
       pageEl.hidden = true;
       prizeClaimPanel.hidden = false;
@@ -2607,6 +2616,19 @@
     }
 
     if (/^(help|\?)$/.test(low)){ showHelp(); return; }
+
+    if (current !== "intro" && mode === "play" && /^(?:claim|claim\s+(?:my\s+|your\s+|the\s+|a\s+)?(?:prize|reward|share|treasure)|(?:choose|pick|select)\s+(?:my\s+|a\s+)?prize|prize)$/.test(low)){
+      if (prizeClaimed){
+        respond(["Your prize has already been claimed. Thank you for playing Wyrmspire Hall!"]);
+      } else if (!solved.finale){
+        respond(["There is nothing here to claim. Not yet."]);
+      } else if (current !== "treasure_room"){
+        respond(["Your share of the hoard waits in the Treasure Room, above the King's Chamber."]);
+      } else {
+        maybeShowPrizeClaimPanel();
+      }
+      return;
+    }
     if (/^(?:show|display)\s+riddle$/.test(low)){
       if (current === "gate" && awaitingOgre){ respond([OGRE_RIDDLE_TEXT]); }
       else { respond(["There is no riddle to show right now."]); }
@@ -3450,6 +3472,7 @@
         prizeClaimed = true;
         hidePrizeClaimPanel();
         mode = "play";
+        renderRoom(current);
         var claimedName = (result.data && result.data.prize_name) || selectedChoice.name;
         respond(["Your claim is recorded: " + escapeHtml(claimedName) + " will be on its way to you. Thank you for playing Wyrmspire Hall!"]);
         renderExits();
@@ -3462,6 +3485,7 @@
         prizeClaimed = true;
         hidePrizeClaimPanel();
         mode = "play";
+        renderRoom(current);
         respond(["A prize has already been recorded for your account — thank you for playing Wyrmspire Hall!"]);
         renderExits();
       } else {
