@@ -2844,7 +2844,8 @@
       return;
     }
 
-    var bottleActionMatch = low.match(/^(?:open|uncork|break)\s+(?:the\s+)?bottle(?:\s+(\d{3,4}))?$/);
+    var bottleActionMatch = low.match(/^(?:open|uncork|break)\s+(?:the\s+)?(?:bottle|wine)(?:\s+(\d{3,4}))?(?:\s+with\s+(?:the\s+)?corkscrew)?$/) ||
+                            low.match(/^use\s+(?:the\s+)?corkscrew(?:\s+on\s+(?:the\s+)?(?:bottle|wine)(?:\s+(\d{3,4}))?)?$/);
     if (current === "dining_hall" && bottleActionMatch){
       var actYear = bottleActionMatch[1] || (heldBottleYear ? String(heldBottleYear) : null);
       if (!actYear){
