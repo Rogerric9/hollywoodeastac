@@ -3043,9 +3043,15 @@
       return;
     }
 
-    var feelDoorMatch = low.match(/^(?:feel|touch)\s+(?:the\s+)?(?:door|mirror)\s*(\d+)$/);
+    var DOOR_NUMBER_PATTERN = "(\\d+|one|two|three|four|five|six|seven|eight)";
+
+    function parseDoorNumber(raw){
+      return /^\d+$/.test(raw) ? parseInt(raw, 10) : NUMBER_WORDS.indexOf(raw);
+    }
+
+    var feelDoorMatch = low.match(new RegExp("^(?:feel|touch)\\s+(?:the\\s+)?(?:door|mirror)\\s*" + DOOR_NUMBER_PATTERN + "$"));
     if (current === "mirror_hall" && feelDoorMatch){
-      var feltNum = parseInt(feelDoorMatch[1], 10);
+      var feltNum = parseDoorNumber(feelDoorMatch[1]);
       if (feltNum < 1 || feltNum > 8){
         respond(["There is no door numbered that here."]);
       } else if (feltNum === CORRECT_DOOR){
@@ -3056,9 +3062,9 @@
       return;
     }
 
-    var openDoorMatch = low.match(/^open\s+(?:the\s+)?(?:door|mirror)\s*(\d+)$/);
+    var openDoorMatch = low.match(new RegExp("^open\\s+(?:the\\s+)?(?:door|mirror)\\s*" + DOOR_NUMBER_PATTERN + "$"));
     if (current === "mirror_hall" && openDoorMatch){
-      var openedNum = parseInt(openDoorMatch[1], 10);
+      var openedNum = parseDoorNumber(openDoorMatch[1]);
       if (openedNum < 1 || openedNum > 8){
         respond(["There is no door numbered that here."]);
       } else {
@@ -3067,9 +3073,9 @@
       return;
     }
 
-    var goDoorMatch = low.match(/^(?:go\s+through|through|enter|exit)\s+(?:the\s+)?door\s*(\d+)$/);
+    var goDoorMatch = low.match(new RegExp("^(?:go\\s+through|through|enter|exit)\\s+(?:the\\s+)?(?:door|mirror)?\\s*" + DOOR_NUMBER_PATTERN + "$"));
     if (current === "mirror_hall" && goDoorMatch){
-      var chosenDoor = parseInt(goDoorMatch[1], 10);
+      var chosenDoor = parseDoorNumber(goDoorMatch[1]);
       if (chosenDoor < 1 || chosenDoor > 8){
         respond(["There is no door numbered that here."]);
       } else if (chosenDoor === CORRECT_DOOR && solved.mirrors){
