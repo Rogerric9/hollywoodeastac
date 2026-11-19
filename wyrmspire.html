@@ -147,6 +147,7 @@
   .prose .item-coin{ color:#c87f32; }
   .prose .item-corkscrew{ color:#b5495b; }
   .prose .item-diary{ color:#e0a060; }
+  .prose .item-wine{ color:#7a2048; }
   .prose .item-banana{ color:#d6d26a; }
   .prose .xyzzy{
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -2014,6 +2015,7 @@
       spoonTaken: spoonTaken,
       coinTaken: coinTaken,
       corkscrewTaken: corkscrewTaken,
+      bottleTaken: heldBottleYear === 1347,
       wineOpened: wineOpened,
       diaryTaken: diaryTaken,
       bananaTaken: bananaTaken,
@@ -2056,6 +2058,7 @@
     spoonTaken = Boolean(flags.spoonTaken);
     coinTaken = Boolean(flags.coinTaken);
     corkscrewTaken = Boolean(flags.corkscrewTaken);
+    heldBottleYear = flags.bottleTaken ? 1347 : null;
     wineOpened = Boolean(flags.wineOpened);
     diaryTaken = Boolean(flags.diaryTaken);
     bananaTaken = Boolean(flags.bananaTaken);
@@ -2647,6 +2650,7 @@
       if (spoonTaken) extras.push("<span class=\"item-spoon\">a spoon</span>");
       if (coinTaken) extras.push("<span class=\"item-coin\">a coin</span>");
       if (corkscrewTaken) extras.push("<span class=\"item-corkscrew\">a corkscrew</span>");
+      if (heldBottleYear === 1347) extras.push("<span class=\"item-wine\">" + (wineOpened ? "an uncorked bottle of wine" : "a bottle of wine") + "</span>");
       if (diaryTaken) extras.push("<span class=\"item-diary\">a diary</span>");
       if (bananaTaken) extras.push("<span class=\"item-banana\">a banana</span>");
       var invLine;
