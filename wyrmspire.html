@@ -954,13 +954,16 @@
     king_chamber: {
       title: "The King's Chamber",
       desc: function(){
-        var lines = [
-          "The chamber at the tower's summit is bare but for a single bed, and upon it lies the King — still as stone, his crown resting upon his brow, " + crownSettingsPhrase() + "."
-        ];
-        if (!solved.finale){
-          lines.push("The moment you cross the threshold, a wave of fear crashes over you, and with it, unbidden, words that are not your own sound inside your skull: “You should not be here!”");
+        if (solved.finale){
+          return [
+            "The chamber at the tower's summit holds only a single bed and the King himself, standing now, crown whole upon his brow, every one of its nine settings filled.",
+            "<span class=\"system\">The way up, once barred to you, now stands open.</span>"
+          ];
         }
-        return lines;
+        return [
+          "The chamber at the tower's summit is bare but for a single bed, and upon it lies the King — still as stone, his crown resting upon his brow, " + crownSettingsPhrase() + ".",
+          "The moment you cross the threshold, a wave of fear crashes over you, and with it, unbidden, words that are not your own sound inside your skull: “You should not be here!”"
+        ];
       },
       exits: { down: "tower_door" },
       blocked: {
