@@ -955,7 +955,7 @@
       title: "The King's Chamber",
       desc: function(){
         var lines = [
-          "The chamber at the tower's summit is bare but for a single bed, and upon it lies the King — still as stone, his crown resting upon his brow, its nine settings empty."
+          "The chamber at the tower's summit is bare but for a single bed, and upon it lies the King — still as stone, his crown resting upon his brow, " + crownSettingsPhrase() + "."
         ];
         if (!solved.finale){
           lines.push("The moment you cross the threshold, a wave of fear crashes over you, and with it, unbidden, words that are not your own sound inside your skull: “You should not be here!”");
@@ -971,13 +971,7 @@
           if (solved.finale){
             return ["The King stands now, himself again, the weight of the house's long curse no longer his alone to carry."];
           }
-          var remainingSettings = 9 - jewelsPlaced;
-          var settingsPhrase = remainingSettings === 9
-            ? "its nine settings empty"
-            : (remainingSettings === 1
-              ? "only one setting still empty"
-              : remainingSettings + " of its settings still empty");
-          return ["Prone, still as stone, the King does not stir. His crown rests upon his brow, " + settingsPhrase + "."];
+          return ["Prone, still as stone, the King does not stir. His crown rests upon his brow, " + crownSettingsPhrase() + "."];
         },
         "crown": function(){
           if (solved.finale) return ["Whole now, every setting filled, exactly as it should have been all along."];
@@ -1510,6 +1504,14 @@
   }
   function allNineJewelsAccountedFor(){
     return JEWEL_KEYS.every(function(k){ return inventory[k] || placed[k]; });
+  }
+
+  function crownSettingsPhrase(){
+    var remainingSettings = 9 - jewelsPlaced;
+    if (remainingSettings === 9) return "its nine settings empty";
+    if (remainingSettings === 0) return "every one of its nine settings filled";
+    if (remainingSettings === 1) return "only one setting still empty, the rest filled";
+    return remainingSettings + " of its settings still empty, the rest filled";
   }
 
   function remainingLine(){
