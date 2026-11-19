@@ -4536,6 +4536,20 @@ const inventory = [
     "accepts_offers": false
   },
   {
+    "product_id": "HEA-0328",
+    "type": "autograph",
+    "category": "actor",
+    "category2": "tv",
+    "name": "Clayton Moore - The Lone Ranger - Beckett",
+    "description": "Signed 3x5 index card,  Not inscruibed,",
+    "price": 150.0,
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": "",
+    "accepts_offers": false
+  },
+  {
     "product_id": "HEC-0001",
     "type": "collectible",
     "category": "memorabilia",
@@ -6493,20 +6507,6 @@ const inventory = [
     "quantity_available": 1,
     "shipping_class": "standard",
     "shipping_charge": "",
-    "accepts_offers": false
-  },
-  {
-    "product_id": "HEC-0141",
-    "type": "collectible",
-    "category": "coins and bullion",
-    "category2": "",
-    "name": "Gold Eagle Necklace - Contains 1/10 Oz. American Eagle Gold Coin",
-    "description": "Necklace containing a 1/10 ounce fine gold eagle coin.",
-    "price": 800.0,
-    "status": "",
-    "quantity_available": 1,
-    "shipping_class": "custom",
-    "shipping_charge": 14.95,
     "accepts_offers": false
   },
   {

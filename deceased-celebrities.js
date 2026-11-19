@@ -2380,6 +2380,20 @@ const deceasedCelebrityProducts = [
     "accepts_offers": false
   },
   {
+    "product_id": "HEA-0328",
+    "type": "autograph",
+    "category": "actor",
+    "category2": "tv",
+    "name": "Clayton Moore - The Lone Ranger - Beckett",
+    "description": "Signed 3x5 index card,  Not inscruibed,",
+    "price": 150.0,
+    "status": "",
+    "quantity_available": 1,
+    "shipping_class": "standard",
+    "shipping_charge": "",
+    "accepts_offers": false
+  },
+  {
     "product_id": "HEC-0006",
     "type": "collectible",
     "category": "records",
