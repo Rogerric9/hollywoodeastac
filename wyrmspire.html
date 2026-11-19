@@ -2687,12 +2687,16 @@
 
     var giveMatch = low.match(/^(?:give|offer|throw|toss|hand|pass)\s+(?:the\s+)?(\w+)\s+(?:to|at)\s+(?:the\s+)?(?:magpie|bird|her)$/) ||
                     low.match(/^(?:give|offer|throw|toss|hand|pass)\s+(?:the\s+)?(?:magpie|bird|her)\s+(?:the\s+)?(\w+)$/);
+    // Once the magpie has appeared and is still holding the jewel, DROP item
+    // means the same thing as GIVE item TO BIRD — she's the only thing in
+    // the room that would ever want what you set down.
+    var magpieDropMatch = (current === "atrium_n" && magpieRevealed && !solved.magpie) ? low.match(/^drop\s+(?:the\s+)?(\w+)$/) : null;
     if (current === "atrium_n" && giveMatch && !magpieRevealed && !solved.magpie){
       respond(["There is no magpie here."]);
       return;
     }
-    if (current === "atrium_n" && giveMatch){
-      var offeredItem = giveMatch[1];
+    if (current === "atrium_n" && (giveMatch || magpieDropMatch)){
+      var offeredItem = (giveMatch || magpieDropMatch)[1];
       if (solved.magpie){
         respond(["She is gone, and has no further interest in anything you carry."]);
       } else if (/^jewels?$/.test(offeredItem)){
