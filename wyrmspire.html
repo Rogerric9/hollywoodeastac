@@ -2578,6 +2578,22 @@
       return;
     }
 
+    // Testing aid: instantly mark everything solved and jump to the
+    // Treasure Room, as if the finale had just been reached — lets the
+    // CLAIM PRIZE prompt/button be checked without playing through the
+    // whole game or the real play-time gate. Purely client-side, like
+    // RESTART: never saved to the server, so it can't mark a real
+    // completion or let a prize actually be claimed.
+    if (current !== "intro" && mode === "play" && /^win$/.test(low)){
+      Object.keys(solved).forEach(function(k){ solved[k] = true; });
+      Object.keys(placed).forEach(function(k){ placed[k] = true; });
+      Object.keys(inventory).forEach(function(k){ inventory[k] = false; });
+      jewelsPlaced = 9;
+      renderStatusPill();
+      turnTo("treasure_room");
+      return;
+    }
+
     if (current !== "intro" && mode === "play" && /^(exit|quit|leave)$/.test(low)){
       mode = "confirmExit";
       if (avatarName){
